@@ -158,42 +158,16 @@ discrete trend transform; structured light.}
 \section{本文章节组织形式}
 \chapter{三角模型和摄像机-投影仪系统校正l}
 \section{三角模型}
-如图~\ref{figure:system}所示， 投影仪、 被扫描物体和摄像机呈现三角关系。 这种三角关系在数学上能够用三角模型来描述和计算。
-三角模型如图~\ref{figure:triangle}所示。
+3D重建使用三角测量的方法对物体进行重建，系统中投影仪、被扫描物体和摄像机呈现三角关系，如图~\ref{figure:system}所示。
 \begin{figure}[!ht]
+  % Requires \usepackage{graphicx}
   \centering
-  \includegraphics[width=0.8\textwidth]{triangle.eps}
-  \caption{测量系统的几何位置关系}\label{figure:triangle}
+  \includegraphics[width=0.6\textwidth]{system.eps}
+  \caption{系统结构图}\label{figure:system}
 \end{figure}
 
-这里选择的三围坐标中心为摄像机的光轴和投影仪的光轴的交点O， x轴和摄像机光轴重合， yz平面垂直于摄像机光轴， 以图~\ref{figure:system}
-中物体上一个点J为例， 为了计算其三维信息：
-\begin{eqnarray}\label{eq:model1}
-  X=OA \nonumber \\
-  Y=AB \nonumber \\
-  Z=JB
-\end{eqnarray}
+三角关系在数学上能够用三角模型来描述和计算。
 
-计算的参数如下：
-\begin{eqnarray}\label{eq:model2}
-  X & = & FO-FC+AC \nonumber \\
-  Y & = & BC\times\sin\angle{}ACB \\
-  Z & = & \frac{\Delta\times(FC-BC\times\cos\angle{}ACB+e)\times{}b}{e\times{}height} \nonumber
-\end{eqnarray}
-
-其中：
-\begin{eqnarray}\label{eq:model3}
-  FC & = & FO-(PO+PI)\times\cos{}\angle{}POF-\frac{(PO+PI)\times\sin\angle{}POF}{\tan\angle{}ACB} \nonumber \\
-  BC & = & \frac{a\times(D+e)\times\Delta{}x}
-      {height\times\sin\angle{}ACB\times{}e+\Delta{}x\times\cos\angle{}ACB\times{}a} \nonumber \\
-  AC & = & BC\times\tan\angle{}ACB \nonumber \nonumber \\
-  \angle{}ACB & = & \angle{}POF+\angle{}OIH \\
-  x & = & i-\frac{width}{2} \nonumber \\
-  y & = & j-\frac{height}{2} \nonumber \\
-  width & = & 3872 \text{（摄像机分辨率）}\nonumber \\
-  height & = & 2592 \nonumber
-\end{eqnarray}
-将公式~\ref{eq:model2}和公式~\ref{eq:model3} 代入公式~\ref{eq:model1}即可计算出一个点的三维信息。
 
 \section{摄像头及投影仪校正}
 三维重建的目的是通过被动地测量，或者主动的编解码方式获取被测量物体的三维和纹理等信息，
@@ -359,21 +333,13 @@ void cvCalibrateCamera2( const CvMat* object\_points, const CvMat* image\_points
 
 \section{系统}
 \subsection{架构和流程}
-摄像机和投影仪以一定角度分别对准被扫描物体，实际的系统中，摄像机和投影仪之间的夹角大约为 $17^\circ$\cite{zhou2012adaptive}。
-\begin{figure}[!ht]
-  % Requires \usepackage{graphicx}
-  \centering
-  \includegraphics[width=0.6\textwidth]{system.eps}
-  \caption{系统结构图}\label{figure:system}
-\end{figure}
-
 所使用的设备是：
 \begin{itemize}
   \item 投影仪: Acer H7350D （1920*1080 分辨率）
   \item 摄像机: Nikon D200
 \end{itemize}
 
-整个3D重建的流程表述如下：
+整个3D重建的流程表述如下\cite{zhou2012adaptive}：
 \begin{enumerate}
   \item 投射颜色序列， 并在环境光下抓取图像
   \item 摄像机及投影仪畸变校正

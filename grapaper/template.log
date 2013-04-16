@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.7.9)  17 APR 2013 02:11
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.7.9)  17 APR 2013 02:44
 entering extended mode
 **template.tex
-(E:\Projects\master\grapaper\template.tex
+(C:\Users\zhaodw\Documents\GitHub\master-paper\grapaper\template.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(E:\Projects\master\grapaper\NJUthesis.cls
+(C:\Users\zhaodw\Documents\GitHub\master-paper\grapaper\NJUthesis.cls
 Document Class: NJUthesis 2010/05/14 v0.2d NJUthesisdocument class
 (C:\CTEX\MiKTeX\tex\latex\ctex\ctexbook.cls
 Document Class: ctexbook 2011/03/11 v1.02c ctexbook document class
@@ -578,7 +578,7 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@dimlist=\toks27
 
 (C:\CTEX\MiKTeX\tex\latex\geometry\geometry.cfg)))
-(E:\Projects\master\grapaper\NJUthesis.cfg
+(C:\Users\zhaodw\Documents\GitHub\master-paper\grapaper\NJUthesis.cfg
 File: NJUthesis.cfg 2010/05/14 v0.2d NJUthesisconfiguration file
 \c@algo=\count197
 \c@thm=\count198
@@ -926,7 +926,7 @@ Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 \sf@top=\skip78
 \sf@bottom=\skip79
 )
-(E:\Projects\master\grapaper\template.aux
+(C:\Users\zhaodw\Documents\GitHub\master-paper\grapaper\template.aux
 
 LaTeX Warning: Label `fig:FIG_AC:a' multiply defined.
 
@@ -1045,8 +1045,8 @@ LaTeX Info: Redefining \ref on input line 45.
 LaTeX Info: Redefining \pageref on input line 45.
 LaTeX Info: Redefining \nameref on input line 45.
 
-(E:\Projects\master\grapaper\template.out)
-(E:\Projects\master\grapaper\template.out)
+(C:\Users\zhaodw\Documents\GitHub\master-paper\grapaper\template.out)
+(C:\Users\zhaodw\Documents\GitHub\master-paper\grapaper\template.out)
 \@outlinefile=\write6
 
 *geometry* detected driver: dvipdfm
@@ -1176,40 +1176,41 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 12.05pt
 (hyperref)                replaced by space on input line 136.
 
-(E:\Projects\master\grapaper\template.toc [3
+(C:\Users\zhaodw\Documents\GitHub\master-paper\grapaper\template.toc [3
 
 ])
 \tf@toc=\write7
- [4]
+
+[4]
 第一章
 [1
 
 
 ]
 第二章
-File: figures/triangle.eps Graphic file (type eps)
-<figures/triangle.eps> [2
+File: figures/system.eps Graphic file (type eps)
+<figures/system.eps>
+
+Package xcolor Warning: Incompatible color definition on input line 177.
+
+[2
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 203.
+Package xcolor Warning: Incompatible color definition on input line 210.
 
 [3]
 
-Package xcolor Warning: Incompatible color definition on input line 236.
+Package xcolor Warning: Incompatible color definition on input line 260.
+
+
+Package xcolor Warning: Incompatible color definition on input line 264.
+
+
+Package xcolor Warning: Incompatible color definition on input line 292.
 
 [4]
-
-Package xcolor Warning: Incompatible color definition on input line 286.
-
-
-Package xcolor Warning: Incompatible color definition on input line 290.
-
-
-Package xcolor Warning: Incompatible color definition on input line 318.
-
-[5]
-Overfull \hbox (11.50462pt too wide) in paragraph at lines 338--344
+Overfull \hbox (11.50462pt too wide) in paragraph at lines 312--318
 [][]\OT1/ptm/m/n/12.05 void cv-Cal-i-brate-Cam-er-a2( con-st Cv-Mat* ob-jec-t[]
 points, con-st Cv-Mat* im-age[]points, 
  []
@@ -1217,30 +1218,25 @@ points, con-st Cv-Mat* im-age[]points,
 File: figures/chessboard.eps Graphic file (type eps)
 <figures/chessboard.eps>
 File: figures/chessboard2.eps Graphic file (type eps)
- <figures/chessboard2.eps> [6] [7]
+ <figures/chessboard2.eps> [5] [6]
 第三章
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 338.
 
-Package xcolor Warning: Incompatible color definition on input line 362.
-
-File: figures/system.eps Graphic file (type eps)
-<figures/system.eps>
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 372.
-
- (C:\CTEX\MiKTeX\tex\latex\psnfss\omsptm.fd
+(C:\CTEX\MiKTeX\tex\latex\psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12.05> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 372.
- [8
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 338.
 
-]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 402.
 
+Package xcolor Warning: Incompatible color definition on input line 342.
+
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 368.
 
 (C:\CTEX\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 412.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 378.
 
 
 (C:\CTEX\MiKTeX\tex\latex\psnfss\ot1phv.fd
@@ -1248,15 +1244,17 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
 File: figures/project_background.eps Graphic file (type eps)
  <figures/project_background.eps>
-[9]
+[7
 
-Package xcolor Warning: Incompatible color definition on input line 440.
+]
+
+Package xcolor Warning: Incompatible color definition on input line 406.
+
+[8] [9]
+
+Package xcolor Warning: Incompatible color definition on input line 500.
 
 [10]
-
-Package xcolor Warning: Incompatible color definition on input line 534.
-
-[11]
 File: figures/fig1a.eps Graphic file (type eps)
  <figures/fig1a.eps>
 File: figures/fig1b.eps Graphic file (type eps)
@@ -1267,19 +1265,19 @@ File: figures/fig1d.eps Graphic file (type eps)
 
 <figures/fig1d.eps>
 File: figures/ColorCorrectRatio.eps Graphic file (type eps)
- <figures/ColorCorrectRatio.eps> [12]
+ <figures/ColorCorrectRatio.eps> [11]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 613.
+(hyperref)                removing `math shift' on input line 579.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 613.
+(hyperref)                removing `math shift' on input line 579.
 
 
-Package xcolor Warning: Incompatible color definition on input line 614.
+Package xcolor Warning: Incompatible color definition on input line 580.
 
-[13] [14] [15]
+[12] [13]
 File: figures/retrend1.eps Graphic file (type eps)
  <figures/retrend1.eps>
 File: figures/retrend2.eps Graphic file (type eps)
@@ -1291,28 +1289,28 @@ File: figures/centerOLD.eps Graphic file (type eps)
  <figures/centerOLD.eps>
 File: figures/centerNEW.eps Graphic file (type eps)
  <figures/centerNEW.eps>
+[14]
 
-Package xcolor Warning: Incompatible color definition on input line 780.
-
-
-Package xcolor Warning: Incompatible color definition on input line 782.
-
-[16]
-
-LaTeX Warning: Text page 17 contains only floats.
+LaTeX Warning: Text page 15 contains only floats.
 
 
 Overfull \vbox (0.59511pt too high) has occurred while \output is active []
 
 
-[17]
+[15]
 
-Package xcolor Warning: Incompatible color definition on input line 783.
+Package xcolor Warning: Incompatible color definition on input line 746.
 
 
-Package xcolor Warning: Incompatible color definition on input line 785.
+Package xcolor Warning: Incompatible color definition on input line 748.
 
-[18]
+
+Package xcolor Warning: Incompatible color definition on input line 749.
+
+
+Package xcolor Warning: Incompatible color definition on input line 751.
+
+[16]
 File: figures/IMG_SOURCE.eps Graphic file (type eps)
  <figures/IMG_SOURCE.eps>
 File: figures/IMG_CANNY.eps Graphic file (type eps)
@@ -1330,7 +1328,7 @@ File: figures/MAX.eps Graphic file (type eps)
  <figures/MAX.eps>
 File: figures/WA.eps Graphic file (type eps)
 
-<figures/WA.eps> [19] [20]
+<figures/WA.eps> [17] [18]
 Missing character: There is no ; in font nullfont!
 File: figures/handLight.eps Graphic file (type eps)
  <figures/handLight.eps>
@@ -1345,10 +1343,10 @@ File: figures/HandPolyLight.eps Graphic file (type eps)
 
 <figures/HandPolyLight.eps>
 File: figures/handpoly.eps Graphic file (type eps)
- <figures/handpoly.eps> [21] [22]
+ <figures/handpoly.eps> [19] [20]
 第四章
 File: figures/gray.eps Graphic file (type eps)
-<figures/gray.eps> [23
+<figures/gray.eps> [21
 
 ]
 File: figures/gray_1.eps Graphic file (type eps)
@@ -1375,7 +1373,7 @@ File: figures/gray_9.eps Graphic file (type eps)
 File: figures/gray_10.eps Graphic file (type eps)
  <figures/gray_10.eps>
 File: figures/sweep.eps Graphic file (type eps)
- <figures/sweep.eps> [24] [25]
+ <figures/sweep.eps> [22] [23]
 File: figures/gray_background.eps Graphic file (type eps)
 
 <figures/gray_background.eps>
@@ -1383,14 +1381,14 @@ File: figures/gray_white.eps Graphic file (type eps)
  <figures/gray_white.eps>
 File: figures/gray_valid.eps Graphic file (type eps)
 
-<figures/gray_valid.eps> [26]
+<figures/gray_valid.eps> [24]
 File: figures/gray_6.eps Graphic file (type eps)
  <figures/gray_6.eps>
 File: figures/gray_ex_channel.eps Graphic file (type eps)
 
 <figures/gray_ex_channel.eps>
 File: figures/gray_bw.eps Graphic file (type eps)
- <figures/gray_bw.eps> [27]
+ <figures/gray_bw.eps> [25]
 File: figures/sweep_src.eps Graphic file (type eps)
 
 <figures/sweep_src.eps>
@@ -1414,32 +1412,33 @@ File: figures/gray_project4.eps Graphic file (type eps)
 
 <figures/gray_project4.eps>
 File: figures/gray_result5.eps Graphic file (type eps)
- <figures/gray_result5.eps> [28] [29] [30]
+ <figures/gray_result5.eps> [26] [27] [28]
 第五章
-[31
+[29
 
-] (E:\Projects\master\grapaper\template.bbl [32
+] (C:\Users\zhaodw\Documents\GitHub\master-paper\grapaper\template.bbl
+[30
 
 
-]) [33]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \hskip 12.05pt
-(hyperref)                replaced by space on input line 1220.
-
+]) [31]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 12.05pt
-(hyperref)                replaced by space on input line 1220.
+(hyperref)                replaced by space on input line 1186.
 
-[34
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \hskip 12.05pt
+(hyperref)                replaced by space on input line 1186.
+
+[32
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1228.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1228.
- (E:\Projects\master\grapaper\template.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1228.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1228.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1194.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1194.
+ (C:\Users\zhaodw\Documents\GitHub\master-paper\grapaper\template.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1194.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1194.
 
 
 
@@ -1448,19 +1447,19 @@ Package rerunfilecheck Warning: File `template.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `template.out':
-(rerunfilecheck)             Before: 1725327ECDB9437F6B4CDD1E4BC57FFF;7141
-(rerunfilecheck)             After:  9EAF1FDBBB9442E9FEADC834BE2DA2CC;3252.
+(rerunfilecheck)             Before: 667D310C57B6AAE08BDCC9B922D1E36A;7149
+(rerunfilecheck)             After:  DD336E2E652720A678BB2D4706A71833;3252.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26315 strings out of 495355
- 457117 string characters out of 3183883
- 501662 words of memory out of 3000000
- 28811 multiletter control sequences out of 15000+200000
- 101923 words of font info for 337 fonts, out of 3000000 for 9000
+ 26295 strings out of 495355
+ 457319 string characters out of 3183883
+ 501639 words of memory out of 3000000
+ 28791 multiletter control sequences out of 15000+200000
+ 97763 words of font info for 323 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,14n,55p,25396b,1078s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on template.dvi (41 pages, 270156 bytes).
+Output written on template.dvi (39 pages, 273728 bytes).
