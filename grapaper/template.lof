@@ -1,0 +1,10 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces 系统结构图}}{2}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces DTT. T(n) 代表了 f(n) 的局部趋势. T(n) 的最大值意味着 f(n) 位于上升沿， 而 T(n) 达到最小值意味着 f(n) 位于下降沿， 且 T(n) 最大值的结束点与 f(n) 的峰值点的距离恰为窗口大小 N.}}{6}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces f(n) 和 T(n): 如图， f(n) 有四个符合高斯分布的峰值，各有不同的宽度和高度，在对 f(n) 实施 DTT 变换得到的 T(n) 中， 四个峰值点则对应相同的最大值到最小值的变化模式， 寻找和定位这样的变化模式可以用于回溯寻找峰值位置. }}{7}{figure.2.3}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

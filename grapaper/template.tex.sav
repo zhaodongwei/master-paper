@@ -1,0 +1,1161 @@
+%% Thesis Template of Nanjing University
+%%   for using NJUthesis package with LaTeX2e
+%%
+%% Created by Wenbo Yang <http://solrex.org>
+%% Homepage: http://share.solrex.org/njuthesis/
+%%
+%% $Id: template.tex,v 0.2 2010/05/01 Exp $
+
+\documentclass[dvipdfm, oneside, master]{NJUthesis}
+% 可选参数：
+%   nobackinfo 取消封二页导师签名信息
+%   oneside/twoside 单面/双面打印
+%   phd/master 博士/硕士论文
+% 下面三个选一个：
+% dvipdfm 使用 dvipdfm(x) 生成最终的 PDF 文档 (缺省设置，不建议修改）
+% dvips 使用 dvips 生成最终的 PS 文档
+% pdftex 使用 pdfLaTeX 生成最终的 PDF 文档
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 导言区
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% 小节标题靠左对齐
+\CTEXsetup[format+={\flushleft}]{section}
+
+% 设置链接颜色
+\hypersetup{
+% pdf 属性
+             pdftitle={南京大学电子学院赵东威毕业论文}, %
+            pdfauthor={赵东威}
+}
+
+% 表格
+\usepackage{longtable, multirow}
+% 英文使用 Times 字体
+\usepackage{times}
+% 源代码
+\usepackage{fancyvrb}
+% 自定义列表样式
+\usepackage{enumitem}
+\usepackage{tikz}
+\usepackage{comment}
+\usepackage{subfig}
+
+\begin{document}
+\newcommand{\axises}[4]{%
+    \draw[very thin,color=gray] (-0.2,-0.2) grid (#3 - 0.1,#4 - 0.1);
+    \draw[->, opacity=1] (-0.2,0) -- (#3,0) node[right] {#1};
+    \draw[->, opacity=1] (0,-0.2) -- (0,#4) node[above] {#2};
+    \draw [opacity=1] (0,0) node[below left] {$o$};
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 封面部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% 国家图书馆封面内容字符串
+% 仅博士需要填写并保证模板参数选择了 phd
+\classification{}
+\confidential{}
+\UDC{}
+\titlelinea{南京大学学位论文}
+\titlelineb{~\LaTeX{}~模板}
+\titlelinec{}
+\advisorinfo{南京大学~数学系}
+\chairman{XXX 教授}
+\reviewera{某某某某　副研究员}
+\reviewerb{XXX 教授}
+\reviewerc{XXX 教授}
+\reviewerd{XXX 教授}
+\nlcfootdate{2013~年~5~月~1~日}
+
+% 南大中文封面内容字符串
+\title{基于结构光的3D重建系统}
+\author{赵东威}
+\studentnum{~MG1023041}
+\grade{2010}
+\advisor{都思丹~~教授}
+\major{电路与系统}
+\researchfield{计算机视觉}
+\footdate{2013~年~5~月}
+\submitdate{2013~年~5~月~10~日}
+\defenddate{2013~年~5~月~20~日}
+
+% 英文封面内容字符串
+\englishtitle{3D Reconstruction System Based on Structured Light}
+\englishauthor{Dongwei Zhao}
+\englishadvisor{Professor Sidan Du}
+\englishinstitute{School of Electronic Engineering\\
+ Nanjing University}
+\englishdegree{Master}
+\englishmajor{Circuit System}
+\englishdate{May 2013}
+
+% 制作封面命令
+\maketitle
+
+% 制作英文封面命令
+\makeenglishtitle
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 前言部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter
+
+% 中文摘要
+\begin{abstract}
+
+3D信息采集是近年来计算机视觉领域的热点问题，基于结构光的三角测量方法是
+3D信息采集的重要途径和有效方法。本文建设了可用的具有高可靠性的3D重建系统，
+并从时间序列、one shot两个角度讨论了结构光重建的途径，通过不同的结
+构光颜色编码方式分别予以实现，取得了很好的重建效果。
+
+\keywords{3D重建; 结构光; 编码; 三角测量}
+
+\end{abstract}
+
+% 英文摘要
+\begin{englishabstract}
+
+In one-shot color structured light system, the color of stripe patterns are usually distorted with respect to color crosstalk,
+ambient light and albedo of the scanned objects, leading to mismatch in the correspondence of color stripes between the projected and
+captured images. In this paper, an adaptive color calibration as well as a Discrete Trend Transform algorithm are presented to
+achieve high-resolution 3D reconstructions. The adaptive color calibration, according to the relative albedo in RGB channels, can improve the accuracy of labeling stripe by alleviating the effect of albedo and ambient light while decoding the color.
+Furthermore, the Discrete Trend Transform in M channel makes it effective to detect weak stripes due to the uneven surface or
+reflectance characteristics of the scanned objects. With this approach, the presented system is suitable for scanning the moving objects
+and generating high-resolution 3D reconstructions without the need of dark laboratory environments.
+
+\englishkeywords{three-dimensional image acquisition; adaptive color calibration;
+discrete trend transform; structured light.}
+
+\end{englishabstract}
+
+% 生成目录命令
+\tableofcontents
+
+% 以下两个目录可根据具体情况注释掉
+% 生成表格目录命令
+%\listoftables
+% 生成插图目录命令
+%\listoffigures
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 正文部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+
+\chapter{绪论}
+\section{引言}
+\section{3D重建的技术综述}
+\subsection{被动式非接触重建技术}
+\subsection{主动式非接触重建技术}
+\section{结构光技术综述}
+\subsection{结构光技术的原理}
+\subsection{结构光技术的发展}
+\section{本文章节组织形式}
+
+\chapter{结构光为颜色条纹序列的3D重建}
+\section{三角模型}
+如图~\ref{figure:system}所示， 投影仪、 被扫描物体和摄像机呈现三角关系。 这种三角关系在数学上能够用三角模型来描述和计算。
+三角模型如图~\ref{figure:triangle}所示。
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.8\textwidth]{triangle.eps}
+  \caption{测量系统的几何位置关系}\label{figure:triangle}
+\end{figure}
+
+这里选择的三围坐标中心为摄像机的光轴和投影仪的光轴的交点O， x轴和摄像机光轴重合， yz平面垂直于摄像机光轴， 以图~\ref{figure:system}
+中物体上一个点J为例， 为了计算其三维信息：
+\begin{eqnarray}\label{eq:model1}
+  X=OA \nonumber \\
+  Y=AB \nonumber \\
+  Z=JB
+\end{eqnarray}
+
+计算的参数如下：
+\begin{eqnarray}\label{eq:model2}
+  X & = & FO-FC+AC \nonumber \\
+  Y & = & BC\times\sin\angle{}ACB \\
+  Z & = & \frac{\Delta\times(FC-BC\times\cos\angle{}ACB+e)\times{}b}{e\times{}height} \nonumber
+\end{eqnarray}
+
+其中：
+\begin{eqnarray}\label{eq:model3}
+  FC & = & FO-(PO+PI)\times\cos{}\angle{}POF-\frac{(PO+PI)\times\sin\angle{}POF}{\tan\angle{}ACB} \nonumber \\
+  BC & = & \frac{a\times(D+e)\times\Delta{}x}
+      {height\times\sin\angle{}ACB\times{}e+\Delta{}x\times\cos\angle{}ACB\times{}a} \nonumber \\
+  AC & = & BC\times\tan\angle{}ACB \nonumber \nonumber \\
+  \angle{}ACB & = & \angle{}POF+\angle{}OIH \\
+  x & = & i-\frac{width}{2} \nonumber \\
+  y & = & j-\frac{height}{2} \nonumber \\
+  width & = & 3872 \text{（摄像机分辨率）}\nonumber \\
+  height & = & 2592 \nonumber
+\end{eqnarray}
+将公式~\ref{eq:model2}和公式~\ref{eq:model3} 代入公式~\ref{eq:model1}即可计算出一个点的三维信息。
+
+\section{摄像头及投影仪校正}
+三维重建的目的是通过被动地测量，或者主动的编解码方式获取被测量物体的三维和纹理等信息，
+要达到这样的目的，首先要做的是求取相机的相关参数、对摄像机和投影仪进行畸变校正，从而保证
+测量结果的准确性。
+\subsection{摄像机畸变校正}
+在计算机视觉中，针孔模型\cite{hartley2000multiple}被广泛用于相机模型的描述。模型假设
+物体表面的反射光满足光的直线传播条件，并经过小孔投射在图形平面上，形成物体的倒像，其示意图见图~\ref{fig:nail}，
+图中X为物体，x为物体的倒像，像距和物距分别为f和Z，那么显然有如下关系成立：
+\begin{equation}
+  -x=\frac{f}{Z}X
+\end{equation}
+
+\begin{figure}[!ht]
+\centering
+\begin{tikzpicture}
+  \draw [->,dashed,dash pattern=on 1pt off 1pt] (0,0.5) -- (9.5,0.5);
+  \draw (-1,-2) -- (-1,2) -- (1,3) -- (1,-1) -- cycle;
+  \draw (2,-2) -- (2,2) -- (4,3) -- (4,-1) -- cycle;
+  \draw [->,very thick] (9,0.5) -- (9,2.5);
+  \draw [->,very thick] (0,0.5) -- (0,-0.5);
+  \draw (0,-0.5) -- (9,2.5);
+  \draw [dashed,dash pattern=on 2pt off 2pt] (0, -0.5) -- (0,-3);
+  \draw [dashed,dash pattern=on 2pt off 2pt] (3, 0.5) -- (3,-3);
+  \draw [dashed,dash pattern=on 2pt off 2pt] (9, 0.5) -- (9,-3);
+  \draw [<->,dashed] (0,-2.5) -- (3,-2.5);
+  \draw [<->,dashed] (9,-2.5) -- (3,-2.5);
+  \draw (1.5,-2.5) node[below] {f};
+  \draw (6,-2.5) node[below] {Z};
+  \draw (6.5,0.5) node[below] {光轴};
+  \draw (9,2.5) node[right] {X};
+  \draw (0,-0.5) node[left] {x};
+  \draw (-0.5,3) node {图形平面};
+  \draw (2.5,3) node{针孔平面};
+  \draw (3,0.5) circle (2pt);
+\end{tikzpicture}
+\caption{小孔成像模型}\label{fig:nail}
+\end{figure}
+
+为了简化针孔模型，将成像平面转移到针孔之前，可将针孔模型整理为一种等价形式，如图~\ref{fig:nail2}\cite{bradski2008learning}。
+图中，针孔相当于投影中心，物体Q经过投影中心的光线投射到成像平面上，形成q。
+\begin{figure}[!ht]
+\centering
+\begin{tikzpicture}
+  \draw (0,0.2) node[left] {O};
+  \draw (0,-0.5) node[below] {\text{针孔}};
+  \draw (6,0) node[above] {\text{光轴}};
+  \draw [fill=gray!50!white] (1,-3)node[right]{\text{成像平面}} -- (1,0.3) -- (5,2) -- (5,0.5) -- cycle;
+  \draw[->] (0,-0.5) -- (0,4)node[above]{i};
+  \draw[->] (-1,-0.5) -- (4,2) node[right]{j};
+  \draw (-1,0) -- (1,0);
+  \draw[dashed] (1,0) -- (3,0);
+  \draw[->] (3,0) -- (8,0) node[right] {k};
+  \draw[->,dashed, dash pattern=on 1pt off 1pt] (0,0) -- (8,2) node[above]{$Q=(X,Y,Z)$};
+  \fill (8.03,2) circle(0.05);
+  \fill (4,1) node[below] {q=(x,y,f)} circle(0.05);
+  \draw (3,0) circle(0.05);
+  \draw (3,0) -- (3,-0.5);
+  \draw[<->,dashed,dash pattern=on 1pt off 1pt](0,-0.4) -- (3,-0.4);
+  \draw (1.5,-0.4) node[below]{f}; 
+\end{tikzpicture}
+\caption{针孔模型的等价变换}\label{fig:nail2}
+\end{figure}
+
+图~\ref{fig:nail2}中的针孔即为投影中心，但在实际的相机中，芯片的中心通常不位于光轴上。中心的偏差可以
+引进参数$c_x$和$c_y$来描述，同样引入两个不同的焦距：$f_x$和$f_y$来描述两个方向上的焦距，
+于是将物体Q($X,Y,Z$)和像体q($x,y,f_x,f_y$)的数学关系描述为：
+\begin{eqnarray}\label{eq:inner0}
+  x=X\frac{f_x}{Z}+c_x \nonumber\\
+  y=Y\frac{f_y}{Z}+c_y
+\end{eqnarray}
+将公式~\ref{eq:inner0}使用其次坐标重新表示为：
+\begin{equation}
+  q=MQ
+\end{equation}
+其中，$q=\left[\begin{array}{c}
+x\\
+y\\
+z
+\end{array}\right]$，
+$Q=\left[\begin{array}{c}
+X\\
+Y\\
+Z
+\end{array}\right]$，
+$M=\left[\begin{array}{ccc}
+f_x & 0 & c_x\\
+0 & f_y & c_y\\
+0 & 0 & 1
+\end{array}\right]$。矩阵$M$也被称作摄像机的内矩阵\cite{heikkila1997four}。
+
+虽然摄像机可简化为针孔模型，然而在实际上，真实的针孔无法为在短时间内为曝光收集足够的光线，
+因此在摄像机中使用透镜而非小孔。透镜的使用使得快速曝光成为可能，而其缺点则是引入了透镜的畸变。
+透镜的畸变主要分为两种：径向畸变和切向畸变。
+\subsection{投影仪畸变校正}
+\section{系统}
+\subsection{架构和流程}
+摄像机和投影仪以一定角度分别对准被扫描物体，实际的系统中，摄像机和投影仪之间的夹角大约为 $17^\circ$。
+\begin{figure}[!ht]
+  % Requires \usepackage{graphicx}
+  \centering
+  \includegraphics[width=0.6\textwidth]{system.eps}
+  \caption{系统结构图}\label{figure:system}
+\end{figure}
+
+所使用的设备是：
+\begin{itemize}
+  \item 投影仪: Acer H7350D （1920*1080 分辨率）
+  \item 摄像机: Nikon D200
+\end{itemize}
+
+整个3D重建的流程表述如下：
+\begin{enumerate}
+  \item 投射颜色序列， 并在环境光下抓取图像
+  \item 摄像机及投影仪畸变校正
+  \item 颜色校正， 包括crosstalk校正和反射率校正
+  \item 分离线条并进行峰值定位
+  \item 颜色识别并找出识别出的特征与所投射特征的对应关系
+  \item 计算3D点云信息， 并进行后续处理
+\end{enumerate}
+\subsection{特征投影}
+为了方便地建立投影特征和检测特征之间的对应关系， 本文根据De Bruijn序列来设定线条颜色。
+一个拥有5个元素、3阶的De Bruijn序列为：
+4 4 4 3 4 4 2 4 4 1
+4 4 0 4 3 3 4 3 2 4 3 1 4 3
+0 4 2 3 4 2 2 4 2 1 4 2 0 4
+1 3 4 1 2 4 1 1 4 1 0 4 0 3
+4 0 2 4 0 1 4 0 0 3 3 3 2 3
+3 1 3 3 0 3 2 2 3 2 1 3 2 0
+3 1 2 3 1 1 3 1 0 3 0 2 3 0
+1 3 0 0 2 2 2 1 2 2 0 2 1 1
+2 1 0 2 0 1 2 0 0 1 1 1 0 1
+0 0 0。
+投射的颜色选择见表~\ref{tabular:colorAssignment}， 注意选取的颜色中排除了白色和黄色，排出白色是因为
+线条检测和颜色识别的特殊需要，而排除黄色的原因是， 黄色与人的肤色相近，在对人体扫描时容易引进干扰。
+结合De Bruijn序列和各元素颜色可以生成投影背景，见图~\ref{figure:project_background}。
+\begin{table}[!ht]
+\setbox0\hbox{\verb/\/}%
+\caption{投影颜色选择}
+\label{tabular:colorAssignment}
+\begin{center}
+\begin{tabular}{lll}
+\hline
+\textbf{编码}  & \textbf{颜色$(R,G,B)$} & \textbf{色度}\\
+\hline
+%\texttt{referee}       & initial submission (typeset in one column)\\
+%\hline
+\texttt{0}         & \textsf{$(255,0,0)$} & \textsf{$0^\circ$}\\
+\texttt{1}         & \textsf{$(0,255,0)$} & \textsf{$60^\circ$}\\
+\texttt{2}         & \textsf{$(0,0,255)$} & \textsf{$120^\circ$}\\
+\texttt{3}         & \textsf{$(0,255,255)$}& \textsf{$180^\circ$}\\
+\texttt{4}         & \textsf{$(255,0,255)$}& \textsf{$240^\circ$}\\
+\hline
+\end{tabular}%
+\end{center}
+\end{table}
+
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=\textwidth]{project_background.eps}
+  \caption{投影背景}\label{figure:project_background}
+\end{figure}
+
+\section{crosstalk校正}
+总体上讲， 影响系统稳定性的因素包括以下几个：
+\begin{enumerate}
+  \item 投影仪及摄像机存在的crosstalk现象
+  \item 环境光
+  \item 通常， 物体表面对不同颜色通道具有不同的反射率
+  \item 拍摄到的图像中， 颜色线条的宽度和强度会受到物体表面的崎岖特性的影响
+\end{enumerate}
+
+为了提高系统的鲁棒性， 需要对以上的干扰因素采取措施。 其中的一个方法是进行颜色校正。
+颜色校正包括两步：crosstalk校正消除颜色通道间的crosstalk现象；反射率校正以使个颜色通道的反射率出在相同水平
+
+认为颜色系统的模型为公式~\ref{eq:color_model}\cite{caspi1998range}：
+
+%%%%%%%%%C=AKP+O%%%%%%%%%%%%%%
+\begin{equation}
+\underbrace{\left[
+  \begin{array}{c}
+    c^{r} \\
+    c^{g} \\
+    c^{b} \\
+  \end{array}
+\right]}_{I_c} = \underbrace{\left[
+  \begin{array}{ccc}
+x_{rr} & x_{rg} & x_{rb} \\
+x_{gr} & x_{gg} & x_{gb} \\
+x_{br} & x_{bg} & x_{bb} \\
+  \end{array}
+\right]}_{X} \underbrace{\left[
+  \begin{array}{ccc}
+a^{r} & 0     & 0\\
+0     & a^{g} & 0\\
+0     & 0     & a^{b} \\
+  \end{array}
+\right]}_{A} ( \underbrace{\left[
+  \begin{array}{c}
+p^r\\
+p^g\\
+p^b \\
+  \end{array}
+\right]}_{I_p} + \underbrace{ \left[
+  \begin{array}{c}
+o^r\\
+o^g\\
+o^b\\
+  \end{array}
+\right]}_{O} ) \label{eq:color_model}
+\end{equation}
+这里的$X$矩阵为crosstalk矩阵，可以在暗室环境中通过投影 RGB 三幅纯色图至纯白色物体并计算拍摄到图片的颜色误差得到。
+矩阵$A$为各颜色通道的反射率。
+\section{相对反射率校正}
+\subsection{相对反射率对观测的影响}
+公式~\ref{eq:color_model}中的矩阵$A$为反射率矩阵，经过简单转换，可以得到：
+\begin{equation}
+\label{eq:ra} A = \left[
+\begin{array}{ccc}
+a^r  &  0                  & 0   \\
+0    & \alpha a^r   & 0   \\
+0    &  0                  & \beta a^r
+\end{array}
+\right] =a^r  \left[
+\begin{array}{ccc}
+1  &  0                  & 0   \\
+0    & \alpha    & 0   \\
+0    &  0                & \beta
+\end{array}
+\right]
+\end{equation}
+公式~\ref{eq:ra}中的$\alpha$、$\beta$分别为G通道、B通道相对R通道的相对反射率， $a^r$代表R通道的反射率。
+为了进行颜色校正，对公式\ref{eq:color_model}进行转换，并将公式~\ref{eq:ra}代入得到：
+\begin{eqnarray}
+\label{eq:calibrated}
+% \nonumber to remove numbering (before each equation)
+  I_{p} + O &=& \tilde{A}^{-1} X^{-1} I_{c} \\ \nonumber
+   &=& {a^{-r}} {\left[
+\begin{array}{ccc}
+1  &  0                  & 0   \\
+0    & \tilde{\alpha}    & 0   \\
+0    &  0                & \tilde{\beta}
+\end{array}
+\right]}^{-1}{X^{-1}}I_{c}
+\end{eqnarray}
+公式~\ref{eq:calibrated}中的$\tilde{A}$ 由 $\tilde{\alpha}$、$\tilde{\beta}$组成， 前者是$A$的近似估计， 而后者分别是
+G、 B通道相对于R通道的相对反射率估计。 下文介绍$\tilde{\alpha}$、$\tilde{\beta}$的计算方法。
+
+令$I_a$代表经过crosstalk校正和相对反射率校正后的颜色值，可以得到：
+\begin{eqnarray}
+\label{eq:calibrated1}
+% \nonumber to remove numbering (before each equation)
+  I_{a} &=& a^r (I_p + O) \\ \nonumber
+    &=& {\left[
+\begin{array}{ccc}
+1  &  0                  & 0   \\
+0    & \tilde{\alpha}    & 0   \\
+0    &  0                & \tilde{\beta}
+\end{array}
+\right]}^{-1}{X^{-1}}I_{c}
+\end{eqnarray}
+观察公式~\ref{eq:calibrated1}得到，经过crosstalk校正和相对反射率校正的颜色$I_a$由3部分组成：
+\begin{itemize}
+  \item 投影颜色$I_p$
+  \item 环境光 $O$
+  \item R通道反射率$a^r$
+\end{itemize}
+
+$I_a$中虽然仍保留有环境光和R通道的反射率这两个干扰因素， 但已经排除了crosstalk现象和不同反射率的影响。 $I_a$也是作为特征检测的直接输入。 在特种检测中， 更多的策略被采用以消除环境光和$a^r$对线条检测和颜色识别的影响。
+而为了计算$I_a$， 不仅需要进行crosstalk校正， 还要进行相对的反射率校正。 实际系统中， EMD(Earth Mover Distance)\cite{rubner2000earth}方法被用来分析颜色直方图并估算相对反射率。
+
+\subsection{相对反射率的计算}
+$\tilde{\alpha}$的计算方法是， 首先建立Ｒ通道和Ｇ通道各自的直方图，进而在直方图之间建立流动矩阵。通过流动矩阵的
+特性可以实现相对反射率的估计。
+
+考虑$H^r$ 代表R通道的直方图，如下：
+\begin{equation}
+\label{eq:H}
+H^r=\{(H^r_1,W^r_1),(H^r_2,W^r_2),\cdots,(H^r_n,W^r_n)\}
+\end{equation}
+其中，$H^r_i(1\le{}i\le{}n)$直方图的灰度值， $W^r_i(1\le{}i\le{}n)$是对应灰度的值。 假设r、g和b分别代表红、绿和蓝通道，
+为了匹配$H^r$，$H^g$被转换为$H^{g'}$， 并且其转换过程可表示为流矩阵的形式: $\mathbf{f}={f_{ij}(1\le{}i\le{}n,1\le{}j\le{}n)}$。
+f可通过最小化公式~\ref{eq:cost}的目标函数求得。
+\begin{equation}\label{eq:cost}
+cost(H^g,H^r)=\sum_{i=1}^{n}{\sum_{j=1}^{n}{|j-i|f_{ij}}}
+\end{equation}
+这里的$f_{ij}$代表从$H^g_i$到$H^r_j$的流， $|j - i|$ 代表流动距离。 上述目标函数的约束为公式~\ref{eq:cons1}到公式~\ref{eq:cons4}。
+\begin{equation}\label{eq:cons1}
+f_{ij}\ge{0} \textrm{ for } 1\le{}i\le{}n,1\le{}j\le{}n
+\end{equation}
+\begin{equation}
+\sum_{i=1}^{n}{f_{ij}}\le{}W^r_j,1\le{}j\le{}n
+\end{equation}
+\begin{equation}
+\sum_{j=1}^{n}{f_{ij}}\le{}W^g_i,1\le{}j\le{}n
+\end{equation}
+计算流矩阵的目标函数可以表示为：
+\begin{equation}\label{eq:cons4}
+\sum_{i=1}^{n}{\sum_{j=1}^{n}{f_{ij}}}=\min(\sum_{i=1}^{n}{W^g_i},\sum_{j=1}^{n}{W^r_j})
+\end{equation}
+流矩阵$\mathbf{f}$中， $f_{ij}$代表从i灰度级搬移到j灰度级的像素个数。于是相对反射率估算公式为：
+\begin{equation} \label{eq:ratio}
+%\tilde{\alpha}=\frac{\sum_{i=1}^{n}{\sum_{j=1}^{n}{(f_{ij}i}})}{\sum_{i=1}^{n}{\sum_{j=1}^{n}{(f_{ij}j)}}}
+\tilde{\alpha}(i)=\frac{(\sum_{j=1}^nf_{ij})i}{\sum_{i=1}^n\sum_{j=1}^n(f_{ij}j)}
+ ,1\leq i \leq n,1\leq j \leq n
+\end{equation}
+B通道的相对反射率可通过相似的过程求得。
+\subsection{反射率校正的结果}
+反射率校正的目的是通过使得RGB通道的反射率处于相同水平。图~\ref{FIG_AC}中，(a)(b)分别是反射率前后的图片，
+(c)(d)是对应的各通道直方图。可以清晰看到，(a)中颜色不鲜艳、不明朗，对应的直方图中，R通道具有比G，B通道更高的
+亮度。而经过反射率校正后，(d)中的RGB通道的亮度分布基本相似。
+\begin{figure}[!ht]
+  \centering
+  \subfloat[]{
+    \label{fig:FIG_AC:a} %% label for first subfigure
+    \includegraphics[width=2.5in]{fig1a.eps}}
+  \vspace{0in}
+  \subfloat[]{
+    \label{fig:FIG_AC:b} %% label for second subfigure
+    \includegraphics[width=2.5in]{fig1b.eps}}
+  \hfill \\
+  \subfloat[]{
+    \label{fig:FIG_AC:c} %% label for second subfigure
+    \includegraphics[width=2.5in]{fig1c.eps}}
+  \vspace{0in}
+  \subfloat[]{
+    \label{fig:FIG_AC:d} %% label for second subfigure
+    \includegraphics[width=2.5in]{fig1d.eps}}
+   \caption{反射率校正的结果. (a) 加照了结构光的脸部模型, (b) 反射率校正后的图像, (c),
+(a)的直方图, (d), (b)的直方图.} \label{FIG_AC}
+\end{figure}
+
+由于校正了颜色的畸变，反射率校正同样提高了颜色的识别精度。图~\ref{fig:colorClassify}对比了反射率校正前后的
+颜色识别准确率，经过反射率校正，颜色识别的准确率提高了16.18\%。
+\begin{figure}[!ht]
+  % Requires \usepackage{graphicx}
+  \centering
+  \includegraphics[width=4.0in]{ColorCorrectRatio.eps}
+  \caption{颜色校正前后的颜色识别准确性比较.}
+  \label{fig:colorClassify}
+\end{figure}
+
+\section{特征识别}
+crosstalk校正和反射率校正的目的是校正所拍摄图片的颜色畸变， 以便更准切地检测到所投影特征。为了能够提高检测颜色线条的
+召回率和准确率， 本文定义了两个概念：$M$ 通道和离散趋势变换。
+
+$M$通道将R、 G、 B三个通道融合为一个通道， 避免了处理的复杂性， 结合投射颜色序列的特殊性， 最大限度地保留了原始线条的
+特性， 同时具有一定的去背景光干扰的能力。离散趋势变换将线条的变化特性转换为易检测的形式， 提高了线条检测的成功率。
+\subsection{$M$ 通道定义}
+$M$通道被定义为当前像素下， R、G、B三个通道的最大值与最小值之差， 如公式~\ref{eq:Mchannel}。
+\begin{equation}
+\label{eq:Mchannel}
+M_{ij}=\max{(C^r_{ij},C^g_{ij},C^b_{ij})}-\min{(C^r_{ij},C^g_{ij},C^b_{ij})}
+\end{equation}
+这里的$C_{ij}$是公式~\ref{eq:calibrated1}中$I_a$图像中的像素值， 即颜色校正后的像素值。 接下来的处理如中心线查找和峰值定位都是基于
+$M$通道进行的。 $M$通道的定义形式决定了其具有排除环境光干扰的能力，其证明见公式~\ref{eq:Cij}和公式~\ref{eq:Mij}。
+
+根据公式~\ref{eq:calibrated1}， $C_{ij}$具有如下形式：
+\renewcommand{\arraystretch}{1.3}
+\begin{equation}
+\label{eq:Cij} \left[
+\begin{array}{c}
+C^r_{ij} \\
+C^g_{ij} \\
+C^b_{ij}
+\end{array}
+\right] = a^r \left[
+\begin{array}{c}
+p^r_{ij}+o^r_{ij} \\
+p^g_{ij}+o^g_{ij} \\
+p^b_{ij}+o^b_{ij}
+\end{array}
+\right]
+\end{equation}
+将公式~\ref{eq:Cij}代入公式~\ref{eq:Mchannel}， 并认为环境光主要有白色光组成，
+即$o^r_{ij}\approx{}o^g_{ij}\approx{}o^b_{ij}$， 可以得到：
+\begin{eqnarray}
+\label{eq:Mij} M_{ij} & = & a^r\max{ \left[
+\begin{array}{c}
+p^r_{ij}+o^r_{ij} \\
+p^g_{ij}+o^g_{ij} \\
+p^b_{ij}+o^b_{ij}
+\end{array}
+\right] } - a^r\min{ \left[
+\begin{array}{c}
+p^r_{ij}+o^r_{ij} \\
+p^g_{ij}+o^g_{ij} \\
+p^b_{ij}+o^b_{ij}
+\end{array}
+\right]}
+\nonumber \\
+& = & a^r \max{ \left[
+\begin{array}{c}
+p^r_{ij} \\
+p^g_{ij} \\
+p^b_{ij}
+\end{array}
+\right] } - a^r\min{ \left[
+\begin{array}{c}
+p^r_{ij} \\
+p^g_{ij} \\
+p^b_{ij}
+\end{array}
+\right] }
+\nonumber \\
+& = & a^r\max{ \left[
+\begin{array}{c}
+p^r_{ij} \\
+p^g_{ij} \\
+p^b_{ij}
+\end{array}
+\right]}
+\end{eqnarray}
+注意公式~\ref{eq:Mij}中存在如下关系：
+\begin{equation}
+    \min({[p^r_{ij}\hspace{10pt}p^g_{ij}\hspace{10pt}p^b_{ij}]}^T) = 0
+\end{equation}
+这是因为， 所投射的各颜色中， 至少存在一个为 0 的通道。 具体可参看表~\ref{tabular:colorAssignment}。
+
+可见， $M$ 通道只和两个因素相关：
+\begin{itemize}
+  \item 投影颜色$I_p$
+  \item R通道反射率$a^r$
+\end{itemize}
+$M$通道与环境光 $O$ 无关。
+
+\subsection{离散趋势变换}
+在$M$通道的基础上， 为了进一步排除R通道反射率对中心线查找的影响， 本文提出离散趋势变换(DTT)的概念。
+离散趋势变换被定义为如下形式：
+\begin{equation}\label{eq:LTM}
+T_{ij}=\sum_{k=h+1}^{j+N}{\sum_{h=j}^{j+N-1}{sign(M_{ik}-M_{ih})}}
+\end{equation}
+
+\renewcommand{\arraystretch}{1}
+\begin{equation}
+\label{eq:sign} sign(a)= \left\{
+\begin{array}{lc}
+1  & a > 0 \\
+0  & a = 0 \\
+-1 & a < 0
+\end{array}
+\right.
+\end{equation}
+其中的$N$为窗口大小， 实际应用中窗口大小可设定线条平均宽度的一半。 考虑窗口大小远小于图像尺寸的实际因素，
+则以下条件近似成立： $a^r_{ik}\approx{}a^r_{ih}$。 此近似条件可以理解为， 在物体表面上， 相近的点具有接近的反射率。 将这个近似条件代入公式~\ref{eq:LTM}， 可以得到如下推演：
+\renewcommand{\arraystretch}{1.3}
+\begin{eqnarray}
+\label{eq:sign1} \lefteqn{sign(M_{ik}-M_{ih}) } \nonumber\\
+& = & sign(a_{ik}^r\max\left[
+\begin{array}{c}
+p^r_{ik} \\
+p^g_{ik} \\
+p^b_{ik}
+\end{array}
+\right] - a_{ih}^r\max\left[
+\begin{array}{c}
+p^r_{ih} \\
+p^g_{ih} \\
+p^b_{ih}
+\end{array}
+\right]
+) \nonumber\\
+& = & sign(\max( \mathbf{p}_{ik} ) - \max(
+\mathbf{p}_{ih} ) ]
+\end{eqnarray}
+最终， $M$通道的离散趋势变换被表示为：
+\begin{equation}
+\label{eq:LTM1}
+T_{ij}=\sum_{k=h+1}^{j+N}{\sum_{h=j}^{j+N-1}{sign(\max(\mathbf{p}_{ik})-\max(\mathbf{p}_{ih}))}}
+\end{equation}
+公式 (\ref{eq:LTM1}) 表达的DDT有如下性质:
+\begin{itemize}
+\item 在 $M$ 通道的上升沿, $T$ 达到最大值 $\frac{N(N+1)}{2}$.
+\item 在 $M$ 通道的下降沿, $T$ 到达最小值 $-\frac{N(N+1)}{2}$.
+\item 在非单调区间，$T$ 的值位于最大值和最小值之间.
+\end{itemize}
+\begin{figure}[!ht]
+  % Requires \usepackage{graphicx}
+  \centering
+  \includegraphics[width=0.7\textwidth]{retrend1.eps}
+  \caption{DTT. T(n) 代表了 f(n) 的局部趋势. T(n) 的最大值意味着 f(n) 位于上升沿， 而 T(n) 达到最小值意味着 f(n) 位于下降沿， 且 T(n) 最大值的结束点与 f(n) 的峰值点的距离恰为窗口大小 N.}\label{figure:1}
+\end{figure}
+
+\begin{figure}[!ht]
+  % Requires \usepackage{graphicx}
+  \centering
+  \includegraphics[width=0.7\textwidth]{retrend2.eps}
+  \caption{f(n) 和 T(n): 如图， f(n) 有四个符合高斯分布的峰值，各有不同的宽度和高度，在对 f(n) 实施 DTT 变换得到的 T(n) 中， 四个峰值点则对应相同的最大值到最小值的变化模式， 寻找和定位这样的变化模式可以用于回溯寻找峰值位置. }\label{figure:trendshow}
+\end{figure}
+
+DTT的另外一个重要作用是能够很好地检测出微弱线条。在实际采样的照片中，在物体表面起伏坡度较大的地方，由于投射线条被拉扯，
+常常导致拍摄到的线条起伏较为平坦，不管是亮度还是M通道都缺少较高的峰值。DTT能够天然地处理这种情况。这是因为，DTT将线条的
+先递增、后递减趋势直接变化为最大值最小值模式，最大值最小值模式只与线条的变化趋势有关，与线条的绝对亮度无关。图~\ref{fig:segmentation}
+对比了使用自适应阈值二值化方法和DTT方法分离的线条结果，显然，在坡度较大的物体边缘区域，DTT方法检测除了绝大部分线条，而自适应阈值的二
+值化方法的检测结果则存在不少漏检及断点。
+\begin{figure}[!ht]
+  \centering
+  \subfloat[]{
+    \label{fig:FIG_AC:a} %% label for first subfigure
+    \includegraphics[width=3in]{handLightLocal.eps}}
+  \\
+  \subfloat[]{
+    \label{fig:FIG_AC:b} %% label for second subfigure
+    \includegraphics[height=2in]{centerOLD.eps}}
+  \subfloat[]{
+    \label{fig:FIG_AC:c} %% label for second subfigure
+    \includegraphics[height=2in]{centerNEW.eps}}
+   \caption{线条检测的结果对比. (a) 原图像, (b) 自适应阈值二值化方法检测的线条, (c)使用DTT检测到的线条.}\label{fig:segmentation}
+\end{figure}
+
+\subsection{峰值定位}
+
+在使用DTT的方法定位线条后， 还需要确定线条的峰值位置以用于三维点云的计算。峰值定位的方法有多种，
+现列举如下。
+\begin{itemize}
+  \item \textbf{最大值方法} Jordi\cite{OptimisedDeBruijn} 使用线条中具有最大值得像素位置作为峰值位置， 为了便于对比结果， 将此方法
+  简记为 MAX。
+  \item \textbf{中心点方法} Thomas等\cite{GraphCut} 则使用线条的中心位置作为峰值位置， 记吃方法为 MID。
+  \item \textbf{加权平均法} Zhiqiang等\cite{CompositeColorfulStripes} 使用的峰值位置计算方法为， 在整个线条区域
+  之中， 以各像素点的亮度为权重， 对各像素的位置求取加权平均值作为峰值位置， 记此方法为 WA。
+  \item \textbf{概率法} Fechteler等\cite{ColorClassification} 则结合亮度、 线条现状等因素， 构建抛物线模型并计算峰值位置， 记此方法为 PA。
+\end{itemize}
+
+本文确定峰值的方法不同于以上方法， 其主要的步骤是， 在M通道和使用DTT方法确定的线条区域的基础上， 寻找线条区域中
+M通道值高于峰值一定比例的像素点， 并对这些点加权计算均值以作为峰值， 本文的方法记为 MMWA， 可表述为公式~\ref{eq:Iestimated}。
+\begin{equation}
+\label{eq:Iestimated} I_{estimated}=
+\frac{\sum{I_i\cdot{}M_{i}}}{\sum{I_i}},\textrm{ for } M_i \ge
+\alpha{}M_{max}
+\end{equation}
+
+在实际应用中， $\alpha$选取的值为 0.6。 图~\ref{figure:peak} 对比了各方法得到的峰值位置对比。
+\begin{figure}[!ht]
+  % Requires \usepackage{graphicx}
+  \centering
+  \subfloat[]{
+  \includegraphics[width=0.4\textwidth,totalheight=4cm]{IMG_SOURCE.eps}}%\hspace{0.01\textwidth}
+  \subfloat[]{
+  \includegraphics[width=0.4\textwidth,totalheight=4cm]{IMG_CANNY.eps}}\\
+\subfloat[]{
+  \includegraphics[width=0.24\textwidth,totalheight=4cm]{CANNY.eps}}\hspace{0.015\textwidth}
+  \subfloat[]{
+  \includegraphics[width=0.24\textwidth,totalheight=4cm]{MMWA.eps}}\hspace{0.015\textwidth}
+    \subfloat[]{
+  \includegraphics[width=0.24\textwidth,totalheight=4cm]{PM.eps}} \\
+  \subfloat[]{
+  \includegraphics[width=0.24\textwidth,totalheight=4cm]{MID.eps}}\hspace{0.015\textwidth}
+  \subfloat[]{
+  \includegraphics[width=0.24\textwidth,totalheight=4cm]{MAX.eps}}\hspace{0.015\textwidth}
+    \subfloat[]{
+  \includegraphics[width=0.24\textwidth,totalheight=4cm]{WA.eps}}
+  \caption{以不同方法定位的峰值. (a)多面体. (b)线条区域. (c)放大的线条区域. (d)MMWA. (e)PA. (f)MID. (g)MAX. (h)WA}\label{figure:peak}
+ % \end{center}
+\end{figure}
+
+\section{颜色提取}
+为了进一步解码， 还需要对探测到的线条进行颜色识别。 从公式~\ref{eq:calibrated1}可知， 即使在crosstalk和相对反射率校正后得到的图像中， 仍然保留有环境光和R通道反射率的影响。以简单的RGB颜色空间对颜色识别难以做到对
+上述干扰因素的免疫性。为了解决这个问题， 本文中的颜色识别是在hue空间中计算色度来进行的。
+
+假设某像素点具有(R,G,B)三个通道值， 且满足$R\ge{}G\ge{}B$， 那么这个点的色度表达为：
+\begin{equation}\label{eq:hue}
+  h=60^{o}\cdot\frac{G-B}{R-B}
+\end{equation}
+将公式~\ref{eq:Mij}代入公式~\ref{eq:hue}， 那么得到：
+\begin{eqnarray}\label{eq:huv}
+h & = & \frac{C^g-C^b}{C^r-C^b}\cdot \frac{\pi}{3} \nonumber \\
+  & = & \frac{a^r(p^g+o^g)-a^r(p^b+o^b)}{a^r(p^r+o^r)-a^r(p^b+o^b)} \cdot \frac{\pi}{3} \nonumber \\
+  & = & \frac{p^g-p^b}{p^r-p^b} \cdot \frac{\pi}{3}
+\end{eqnarray}
+由公式~\ref{eq:huv}计算得到的色度与各干扰因素均无关， 有效地提高了颜色识别的准确性。
+
+\section{建立检测特征及投射特征间的对应关系}
+完成线条检测、峰值定位和颜色识别等特征识别的步骤后，还要建立检测出特征及所投射特征间的对应关系以代入三角模型并计算三维点云。
+实际中这一步是采用动态规划匹配色度的方法实现的。
+
+假设$A_i,1\in[1,N]$代表投射线条序列的色度值，$B_j,j\in[1,M]$代表检测出线条序列的色度值，分两步进行$A_i$,$B_j$的匹配：
+\begin{enumerate}
+  \item 建立$C_{ij}(1\in[1,N],j\in[1,M])$矩阵和$P_{ij}(1\in[1,N],j\in[1,M])$路径矩阵，建立方法为：
+  \begin{equation}\label{eq:cmatrix}
+    C_{ij}=\max(C_{i(j-1)},C_{(i-1)j},C_{(i-1)(j-1)}+cost_{ij})
+  \end{equation}
+  \begin{equation}\label{eq:pmatrix}
+    P_{ij}=\left\{
+    \begin{array}{ll}
+      \nwarrow & C_{ij}=C_{(i-1)(j-1)}+cost_{ij} \\
+      \uparrow & C_{ij}=C_{(i-1)j} \\
+      \longleftarrow & C_{ij}=C_{i(j-1)}
+    \end{array}
+    \right.
+  \end{equation}
+  \item 从元素$P_{MN}$开始，沿着箭头跟踪$P$矩阵，其路径中的''$\nwarrow$''对应$A_i$,$B_j$的一个匹配，''$\uparrow$''表示
+  $B_j$中缺失元素，即漏检线条，''$\longleftarrow$''表示$B_j$中多出元素，即多检出了线条。
+\end{enumerate}
+
+公式~\ref{eq:cmatrix}和公式~\ref{eq:pmatrix}中的$cost_{ij}$是实现正确匹配的关键，为了鼓励连续的匹配，实际使用的
+$cost_{ij}$为：
+\begin{equation}
+  cost_{ij}=match(A_{i-1},B_{j-1})+match(A_i,B_j)+match(A_{i+1},B_{j+1})
+\end{equation}
+\begin{equation}
+  match(A_i,B_j)=\left\{
+  \begin{array}{lll}
+  10 &  & |A_i-B_j|\le{}20 \\
+    0 &  & |A_i-B_j|\ge{}40 \\
+  10\times\frac{40-|A_i-B_j|}{20} &  & \text{else}\\
+  \end{array}
+  \right.
+\end{equation}
+将$match(A_i,B_j)$表示为图形为：
+\begin{figure}[!ht]
+\centering
+  \begin{tikzpicture}
+    \axises{$|A_i-B_j|$}{$match(A_i,B_j)$}{7}{4};
+    \draw[very thick,color=blue] (0,3) -- (2,3) -- (4,0) -- (6.5,0);
+    \draw (0,3) node[left] {10};
+    \draw (2,0) node[below] {20};
+    \draw (4,0) node[below] {40};
+  \end{tikzpicture}
+  \caption{$match(A_i,B_j)$的图形表示}
+\end{figure}
+\section{重建结果}
+本系统的输出结果是3D点云，由于采用了颜色校正、DTT等改进方法，系统能够在非暗室的环境中正常工作，具有良好的对环境光抗干扰性能。
+图~\ref{FIG_Example}展示了多面体、
+手部和脸部的图像采集环境和重建结果，即使存在环境光，系统也能够利用算法针对性地排除干扰，从而正确地检测特征并计算出三维点云。系统的
+另一个特点是分辨率高，图~\ref{FIG_Example}(b)(d)分别有85687和75371个三维点。
+\begin{figure}[!ht]
+  \centering
+  \subfloat[]{
+    \label{fig:FIG_Example:a} %% label for first subfigure
+    \includegraphics[width=2.5in]{handLight.eps}}
+  \vspace{0in}
+  \subfloat[]{
+    \label{fig:FIG_Example:b} %% label for second subfigure
+    \includegraphics[width=2.5in]{hand.eps}}
+  \hfill \\
+  \subfloat[]{
+    \label{fig:FIG_Example:c} %% label for second subfigure
+    \includegraphics[width=2.5in]{faceLight4.eps}}
+  \vspace{0in}
+  \subfloat[]{
+    \label{fig:FIG_Example:d} %% label for second subfigure
+    \includegraphics[width=2.5in]{result_face_pc.eps}}
+  \hfill \\
+    \subfloat[]{
+    \label{fig:FIG_Example:e} %% label for third subfigure
+    \includegraphics[width=2.5in]{HandPolyLight.eps}}
+  \vspace{0in}
+  \subfloat[]{
+    \label{fig:FIG_Example:f} %% label for third subfigure
+    \includegraphics[width=2.5in]{handpoly.eps}}
+
+   \caption{重建结果:
+(a) 手, (c) 脸, (e) 手和多面体. (b) 手的重建表面, (d) 脸的重建表面 (f) 手与多面体的重建表面.}
+\label{FIG_Example}
+\end{figure}
+
+\chapter{结构光为格雷码投影光栅的3D重建}
+格雷码投影光栅是时间编码方式的3D重建，相比于空间编码，时间编码方式具有分辨率高、测量误差小的特点。
+结构光为格雷码投影光栅的3D重建同样采用三角模型，系统架构与之前所述类似，此处不再重复。总体的处理步骤是：
+\begin{enumerate}
+  \item 投影光栅并采集图像
+  \item 图像处理并提取有效区域
+  \item 解码并建立对应关系
+  \item 计算点的三维坐标
+\end{enumerate}
+\section{特征投影}
+通常CCD摄像机镜头上有增透膜，增透膜的作用是减少光在进入镜头时的反射，增加进入镜头的光强。
+因为人眼对偏绿的颜色敏感，大多数镜头都选择增强绿光的入射，因为采用厚度为绿光波长一半的增透膜。
+这样就造成由CCD摄像机获取图像时颜色的不均匀性，所以系统使用的结构光采用绿色。
+
+经验证，绿色比红色光等其他光在相同条件下得到的点云噪点更少且正确点更多。
+\subsection{格雷码光栅}
+格雷码在任意两个相邻的数之间转换时，只有一个数位发生变化。这个特性使得其码值最多有一位被误判，且任意位被误判引起的误差只有
+一位。同时，由于格雷码较之二进制码器明暗光间隔要高出一倍，可有效减少明暗光线间的相互干扰。
+
+以三幅二进制格雷码为例， 如图~\ref{figure:gray}所示：
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.8\textwidth]{gray.eps}
+  \caption{格雷码投影光栅}\label{figure:gray}
+\end{figure}
+
+格雷码与十进制、二进制码的转换表如表~\ref{tabular:gray2bin}。
+\begin{table}[!ht]
+%\setbox0\hbox{\verb/\/}%
+\caption{格雷码与实际值、二进制码的对应关系}
+\label{tabular:gray2bin}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+  \hline
+  \textbf{十进制}  & \textbf{格雷码} & \textbf{二进制码}\\
+  \hline
+  \texttt{0}         & 000 & 000 \\ \hline
+  \texttt{1}         & 001 & 001 \\ \hline
+  \texttt{2}         & 011 & 010 \\ \hline
+  \texttt{3}         & 010 & 011 \\ \hline
+  \texttt{4}         & 110 & 100 \\ \hline
+  \texttt{5}         & 111 & 101 \\ \hline
+  \texttt{6}         & 101 & 110 \\ \hline
+  \texttt{7}         & 100 & 111 \\
+  \hline
+\end{tabular}%
+\end{center}
+\end{table}
+
+格雷码的生成可采用递归方式实现。假如想要生成n位格雷码，则可先将n-1位格雷码的$2^{n-1}$个编码列出，而后再以从后向前的
+顺序，重新列出这n-1位格格雷码，形成形成$2^n$个序列，每个序列的长度为$n-1$。最后在前$2^{n-1}$个序列的最前补0，在后$2^{n-1}$
+个序列的最前补1，这样就完成了n位格雷码的生成。分别设定格雷码中0和1代表的颜色，并从高位向低位依次递进，形成n幅$2^{n}$位的格雷码
+编码的光栅图案并投射至被扫描物体表面。拍摄到加照格雷码光栅的物体在图~\ref{fig:gray_project}中体现，从图中我们看到，后三幅的格雷码
+光栅亮度转换频繁，尤其是最后一幅，亮区和暗区只占1个像素，这导致在实际处理中很难准确区分亮区和暗区。
+
+\begin{figure}[!ht]
+\centering
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_1.eps}
+  }
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_2.eps}
+  }
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_3.eps}
+  } \\
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_4.eps}
+  }
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_5.eps}
+  }
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_6.eps}
+  } \\
+    \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_7.eps}
+  }
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_8.eps}
+  }
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_9.eps}
+  }\\
+    \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_10.eps}
+  }
+  \caption{投射了格雷码光栅的物体}\label{fig:gray_project}
+\end{figure}
+
+\subsection{位移码图}
+
+在实际的系统中，除了格雷码光栅还使用了位移码光栅作为补充。这是因为，当格雷码转换频率较高时，明暗光线间隔很近，
+其相互间干扰已不可避免和忽略，导致在
+识别光亮区和黑暗区的处理中引入误差。为了解决这个问题，实际的系统只使用明暗间隔较大的若干幅格雷码光栅，
+由此引起的分辨率缺失采用位移码标注。如，10幅格雷码光栅的分辨率为1024，而7幅格雷码光栅的分辨率为128，
+额外投射宽度为8的位移码可以填补损失的分辨率。宽度为8的位移码如图~\ref{figure:move}所示。
+\begin{figure}[!ht]
+  \centering
+  \includegraphics[width=0.8\textwidth]{sweep.eps}
+  \caption{位移码图}\label{figure:move}
+\end{figure}
+\section{编码图像的处理}
+\subsection{有效区域的选择}
+实际上，以结构光为基础的3维重建可能会存在测量死角，即结构光无法照射到或照相机无法捕捉的区域，其示意图如图~\ref{fig:dead}。
+
+\begin{figure}[!ht]
+  \centering
+  \begin{tikzpicture}
+    \draw[thick] (0,0) -- (3,0) -- (3,1) -- (4,1) -- (4,0) -- (7,0);
+    \draw[thick] (1.5,6) rectangle (2.5,5);
+    \draw[thick] (4.5,6) rectangle (5.5,5);
+    \draw (1.5,5.5) node[left] {\text{投影仪}};
+    \draw (5.5,5.5) node[right] {\text{摄像机}};
+    \draw (0,0) node[below] {\text{物体表面}};
+    \draw (2,5) -- (4.5,0);
+    \draw (2,5) -- (6,0);
+    \draw (2,5) -- (1,0);
+    \draw (5,5) -- (6,0);
+    \draw (5,5) -- (1,0);
+    \draw (5,5) -- (2.5,0);
+    \draw[very thick] (4,1) -- (4,0) -- (4.5,0);
+    \draw[very thick] (2.5,0) -- (3,0) -- (3,1);
+    \draw (2.5,0) node[below] {A};
+    \draw (3,1) node[left] {B};
+    \draw (4.5,0) node[below] {D};
+    \draw (4,1) node[right] {C};
+  \end{tikzpicture}
+  \caption{测量死角的示意图}\label{fig:dead}
+\end{figure}
+
+在图~\ref{fig:dead}中，物体表面的AB和CD部分为测量死角，其中AB部分是因为摄像机无法捕捉到，CD部分表面则是因为投影仪无法照射到。
+
+死角的存在会在解码图像引入干扰，应事先予以标记并在解码和计算点云时排除此部分。方法在投射格雷码光栅之前投射全亮的投射光，
+并通过二值化的方法检测出有效区域。图~\ref{fig:gray_valid}中，(a)是在无任何投影下的拍摄图像，(b)是投射全屏光时拍摄的图像，(c)是
+提取的有效区域。
+\begin{figure}[!ht]
+\centering
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_background.eps}
+  }
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_white.eps}
+  }
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_valid.eps}
+  }
+  \caption{有效区域提取}\label{fig:gray_valid}
+\end{figure}
+\subsection{解码格雷码光栅}
+在加照格雷码光栅之前， 需要让摄像机记录在无任何光照条件下的环境图像， 记为$I_{background}$。 在 $t$ 时刻拍摄到的加照格雷码光栅的图像记为 $I_{gray}$， 那么处理方式步骤可列为：
+\begin{enumerate}
+  \item 计算 $I_{sub}=I_{gray}-I_{background}$
+  \item 合并$I_{sub}$的R，G，B通道为单一通道，记为$I_{channel}$
+
+     假设投射光的颜色为(R, G, B)， 那么:
+     \begin{equation}
+       I_{channel} = \frac{R}{R+G+B}\cdot{}I_{sub}^R+\frac{G}{R+G+B}\cdot{}I_{sub}^G+\frac{B}{R+G+B}\cdot{}I_{sub}^B
+     \end{equation}
+  \item 二值化$I_{channel}$
+\end{enumerate}
+  \begin{figure}[!ht]
+  \centering
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_6.eps}}
+  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_ex_channel.eps}}
+    \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_bw.eps}}
+  \caption{(a),一幅加照了格雷码光栅的物体 (b),合并为单通道 (c),二值化的结果} \label{figure:gray_process}
+\end{figure}
+
+图~\ref{figure:gray_process}展示了编码图像的处理过程，(a)是摄像机拍摄到的图像，(b)是将(a)从RGB转换为灰度图后得到的
+图像，(c)是二值化(b)得到的处理结果。
+
+实际上，二值化图像是准确解码的关键。将一幅图像二值化的方法有多种，大致可分为全局阈值法和局部阈值法，而阈值的选择至关重要。
+全局阈值法是指，选取单一的阈值，适用于整幅图像并二值化，典型的算法包括直方图变换法，OTSU法(大律法)。全局阈值法虽然简单但
+却不能表现图像的细节。而局部阈值法是指，将图像按照某种规则划分为若干部分，在各部分之内选取阈值并适用于此部分以二值化。相比之下，
+局部阈值法虽然没有从根本上解决这个缺陷，但较全局阈值法能将细节表现地更好，系统中采用的是局部阈值法。
+
+\subsection{解码位移图码光栅}
+解码位移图码图像同样需要$I_{background}$， 处理步骤为：
+\begin{enumerate}
+  \item 计算 $I_{sub}=I_{move}-I_{background}$
+  \item 合并$I_{sub}$的R，G，B通道为单一通道，记为$I_{channel}$
+
+     假设投射光的颜色为(R, G, B)， 那么:
+     \begin{equation}
+       I_{channel} = \frac{R}{R+G+B}\cdot{}I_{sub}^R+\frac{G}{R+G+B}\cdot{}I_{sub}^G+\frac{B}{R+G+B}\cdot{}I_{sub}^B
+     \end{equation}
+  \item 用类似颜色条纹序列中的峰值定位方法定位$I_{channel}$中的峰值
+\end{enumerate}
+\begin{figure}[!ht]
+\centering
+  \subfloat[]{
+    \includegraphics[width=0.8\textwidth]{sweep_src.eps}
+  }\\
+  \subfloat[]{
+    \includegraphics[width=0.8\textwidth]{sweep_line.eps}
+  }
+  \caption{位移码图像的处理 (a),拍摄到的源图像 (b),检测出的线条}\label{fig:sweep}
+\end{figure}
+\section{重建结果}
+重建的结果如图：
+\begin{figure}[!ht]
+\centering
+\subfloat[]{
+    \includegraphics[width=0.4\textwidth]{gray_project.eps}}
+\subfloat[]{
+    \includegraphics[width=0.4\textwidth]{gray_result3.eps}} \\
+\subfloat[]{
+    \includegraphics[width=0.4\textwidth]{gray_white.eps}}
+\subfloat[]{
+    \includegraphics[width=0.4\textwidth]{gray_result.eps}} \\
+\subfloat[]{
+    \includegraphics[width=0.4\textwidth]{gray_project3.eps}}
+\subfloat[]{
+    \includegraphics[width=0.4\textwidth]{gray_result4.eps}} \\
+\subfloat[]{
+    \includegraphics[width=0.4\textwidth]{gray_project4.eps}}
+\subfloat[]{
+    \includegraphics[width=0.4\textwidth]{gray_result5.eps}}
+  \caption{重建结果}\label{fig:gray_result}
+\end{figure}
+
+\chapter{结束语}
+\section{总结}
+\section{创新点}
+\section{展望}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% 附件部分
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+
+% 参考文献
+% 使用 BibTeX，不使用 BibTeX 时注释掉下面一句。
+\bibliography{template}
+
+% 不使用 BibTeX
+%\begin{thebibliography}{2}
+%
+%\bibitem{deng:01a}
+%{邓建松,~彭冉冉,~陈长松}.
+%\newblock {\em \LaTeXe{}~科技排版指南}.
+%\newblock 科学出版社,~书号:~7-03-009239-2/TP.1516, 北京, 2001.
+%
+%\bibitem{wang:00a}
+%王磊.
+%\newblock {\em \LaTeXe{}~插图指南}.
+%\newblock 2000.
+%\end{thebibliography}
+
+% 本章可以删去
+\begin{comment}
+\Nchapter{简历与科研成果}
+
+\noindent {\heiti 基本情况}
+\vspace{1ex}
+
+\noindent 赵东威，男，汉族，1987~年~12~月出生，江苏省连云港人。
+
+\vspace{2ex}
+\noindent {\heiti 教育背景}
+
+\begin{description}[labelindent=0em, leftmargin=8em, style=sameline]
+
+\item[2010.9～2013.6] 南京大学电子学院嵌入式软件研发实验室 \hfill 硕士
+
+\item[2006.9～2010.6] 南京大学电子学院 \hfill 本科
+
+\end{description}
+
+% 发表文章目录
+\vspace{5ex}
+\begin{Publications}{2}
+
+\item Zhou, Yu; Zhao, Dongwei; Yu, Yao; Yuan, Jie; Du, Sidan. 2012. ``Adaptive Color Calibration Based One-Shot Structured Light System.'' Sensors 12, no. 8: 10947-10963.
+
+\item Dongwei Zhao; Yu Zhou; Yao Yu; Sidan Du; ``A Novel Peak Detection Method of Structured Light Stripes for 3D Reconstruction'' Intelligent Human-Machine Systems and Cybernetics (IHMSC), 2011 International Conference on , vol.2, no., pp.43-46, 26-27 Aug. 2011 doi: 10.1109/IHMSC.2011.81
+
+\end{Publications}
+
+\vspace{4ex}
+\noindent {\heiti 攻读硕士学位期间参与的科研课题}
+
+\begin{enumerate}[label=\arabic*., labelindent=0em, leftmargin=*]
+
+\item ``基于结构光的3D重建''
+（课题年限~2010.9～2011.9），负责算法设计和实现。
+
+\item ``智能教学机器人''
+（课题年限~2009.11～2010.7），负责软件开发和实现。
+
+\end{enumerate}
+\end{comment}
+
+  % 致谢
+\begin{thanks}
+\vskip 18pt
+
+感谢都思丹老师、周余老师、于耀老师的指导和帮助。
+
+\end{thanks}
+
+
+\end{document}
