@@ -436,7 +436,7 @@ cvCalibrateCamera2函数的输出包括定标点的世界坐标和图像坐标，输出则包含内参数矩阵
 $Q_w$和$q_p$的坐标对应关系，并据此完成投影仪的定标。
 
 \section{三维信息的计算}
-
+基于投影仪-摄像机的三维重建系统可简化为如下模型：
 \begin{figure}[!ht]
 \centering
 \begin{tikzpicture}
@@ -454,7 +454,39 @@ $Q_w$和$q_p$的坐标对应关系，并据此完成投影仪的定标。
 \end{tikzpicture}
 \caption{三角测量的简化模型}
 \end{figure}
+经过定标，投影仪的光心$q_1$、摄像机光心$q_2$在世界坐标系下的坐标均为已知。摄像机光线与投影仪光线相交于物体
+表面上的p点，方向向量分别为$v_1$和$v_2$。容易推断得到如下关系：
+\begin{eqnarray}
+  p=q_1+\lambda_1\cdot{}v_1 \nonumber \\
+  p=q_2+\lambda_2\cdot{}v_2
+\end{eqnarray}
+根据以上的两式可以计算出$\lambda_1,\lambda_2$，进而计算出p在世界坐标系的坐标。
 
+在实际的情况中，摄像机光线与投影仪光线并不一定会相交，这种情况下上述两式无法解出。
+解决办法是，求出$\lambda_1,\lambda_2$，使得如下的目标函数最小：
+\begin{equation}
+  \|(q_2+\lambda_2v_2)-(q_1+\lambda_1v_1)\|^2
+\end{equation}
+求解可得：
+\begin{equation}
+  \left(
+  \begin{array}{c}
+  \lambda_1\\
+  \lambda_2
+  \end{array}
+  \right)=\left(
+  \begin{array}{cc}
+  \|v_1\|^2 & -v_1^tv_2 \\
+  -v_2^tv_1 & \|v_2\|^2
+  \end{array}
+  \right)
+  \left(
+  \begin{array}{c}
+  v_1^t(q_2-q_1)\\
+  v_2^t(q_1-q_2)
+  \end{array}
+  \right)
+\end{equation}
 \chapter{结构光为颜色条纹序列的3D重建}
 \section{系统}
 \subsection{架构和流程}
