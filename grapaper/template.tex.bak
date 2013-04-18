@@ -156,54 +156,87 @@ discrete trend transform; structured light.}
 \subsection{结构光技术的原理}
 \subsection{结构光技术的发展}
 \section{本文章节组织形式}
-\section{三角模型}
-如图~\ref{figure:system}所示， 投影仪、 被扫描物体和摄像机呈现三角关系。 这种三角关系在数学上能够用三角模型来描述和计算。
-三角模型如图~\ref{figure:triangle}所示。
+\chapter{投影仪-摄像机系统校正}
+投影仪-摄像机系统常用作三维重建系统，示意图见图~\ref{figure:system}，其优点是设备价格低廉，容易获取并安装。
+在系统中，为了实现测量，需要事先对摄像机和投影仪进行定标。
 \begin{figure}[!ht]
+  % Requires \usepackage{graphicx}
   \centering
-  \includegraphics[width=0.8\textwidth]{triangle.eps}
-  \caption{测量系统的几何位置关系}\label{figure:triangle}
+  \includegraphics[width=0.6\textwidth]{system.eps}
+  \caption{系统结构图}\label{figure:system}
 \end{figure}
+\section{摄像机模型及定标}
+\subsection{坐标系的定义}
+对于相机模型的描述一般需要三个坐标系：世界坐标系、相机坐标系和成像平面参考系。其中世界
+坐标系是在真实的环境中选取的坐标系，可以任意设置。世界坐标系选定后，物体和摄像机就拥有世界坐标系的坐标。
+在接下来对坐标的描述和转换中，本文用$Q_w=[X_w\quad{}Y_w\quad{}Z_w]^T$来表示世界坐标系的一点。
 
-这里选择的三围坐标中心为摄像机的光轴和投影仪的光轴的交点O， x轴和摄像机光轴重合， yz平面垂直于摄像机光轴， 以图~\ref{figure:system}
-中物体上一个点J为例， 为了计算其三维信息：
-\begin{eqnarray}\label{eq:model1}
-  X=OA \nonumber \\
-  Y=AB \nonumber \\
-  Z=JB
-\end{eqnarray}
+摄像机是一个独立的成像系统，其成像的模型则需要用相机坐标系来描述。在相机坐标系中，坐标原点是
+摄像机的光心，Z轴垂直于焦平面向外，X轴和Y轴平行于焦平面。对于相机坐标系中的一点，本文用
+$Q_c=[X_c\quad{}Y_c\quad{}Z_c]^T$予以描述。
 
-计算的参数如下：
-\begin{eqnarray}\label{eq:model2}
-  X & = & FO-FC+AC \nonumber \\
-  Y & = & BC\times\sin\angle{}ACB \\
-  Z & = & \frac{\Delta\times(FC-BC\times\cos\angle{}ACB+e)\times{}b}{e\times{}height} \nonumber
-\end{eqnarray}
+成像平面参考系建立于摄像机的成像平面上，其坐标原点是相机坐标系Z轴与成像平面的交点，这一点也被称为
+摄像机的主点。理想情况下，主点应当位于成像平面的中心位置，而实际上，由于制作工艺等问题，成像平面的中心常
+偏离于主点，本文用$(c_x,c_y)$来描述偏差程度，用$q=[x\quad{}y]^T$描述成像平面参考系的点。
+\subsection{世界坐标系到相机坐标系的转换}
+讲世界坐标系的点$Q_w=[X_w\quad{}Y_w\quad{}Z_w]^T$转换为相机坐标系$Q_c=[X_c\quad{}Y_c\quad{}Z_c]^T$的过程可以分为以下两步：
+\begin{enumerate}
+  \item \textbf{旋转操作} 旋转世界坐标系，使得三个轴分别与相机参考系的X、Y、Z轴平行并且反向一致
+  \item \textbf{旋转操作} 平移操作 平移世界坐标系，使得世界坐标系的原点与相机坐标系的原点相重合
+\end{enumerate}
 
-其中：
-\begin{eqnarray}\label{eq:model3}
-  FC & = & FO-(PO+PI)\times\cos{}\angle{}POF-\frac{(PO+PI)\times\sin\angle{}POF}{\tan\angle{}ACB} \nonumber \\
-  BC & = & \frac{a\times(D+e)\times\Delta{}x}
-      {height\times\sin\angle{}ACB\times{}e+\Delta{}x\times\cos\angle{}ACB\times{}a} \nonumber \\
-  AC & = & BC\times\tan\angle{}ACB \nonumber \nonumber \\
-  \angle{}ACB & = & \angle{}POF+\angle{}OIH \\
-  x & = & i-\frac{width}{2} \nonumber \\
-  y & = & j-\frac{height}{2} \nonumber \\
-  width & = & 3872 \text{（摄像机分辨率）}\nonumber \\
-  height & = & 2592 \nonumber
-\end{eqnarray}
-将公式~\ref{eq:model2}和公式~\ref{eq:model3} 代入公式~\ref{eq:model1}即可计算出一个点的三维信息。
-
-\section{摄像头及投影仪校正}
-三维重建的目的是通过被动地测量，或者主动的编解码方式获取被测量物体的三维和纹理等信息，
-要达到这样的目的，首先要做的是求取相机的相关参数、对摄像机和投影仪进行畸变校正，从而保证
-测量结果的准确性。
-\subsection{摄像机畸变校正}
+定义旋转矩阵$R$来描述旋转操作，定义平移矩阵$T$来描述平移操作，世界坐标系的坐标与相机坐标系的坐标
+则有如下关系：
+\begin{equation}
+  Q_c=R\cdot{}Q_w+T
+\end{equation}
+其中，R是大小为$3\times3$的正交矩阵：
+\begin{equation}
+  R=\left[
+  \begin{array}{ccc}
+    r_{11} & r_{12} & r_{13} \\
+    r_{21} & r_{22} & r_{23} \\
+    r_{31} & r_{32} & r_{33}
+  \end{array}
+  \right]
+\end{equation}
+T为$3\times1$大小的矩阵：
+\begin{equation}
+  T=[t_1\quad t_2\quad t_3]^T
+\end{equation}
+将从世界坐标系转换到相机坐标系的过程表示为齐次形式：
+\begin{equation}
+\left[
+ \begin{array}{c}
+ X_c\\
+ Y_c\\
+ Z_c\\
+ 1
+ \end{array}
+ \right]
+ =\left[
+ \begin{array}{cc}
+ R & T\\
+ 0 & 1
+ \end{array}
+ \right]
+ \left[
+  \begin{array}{c}
+ X_w\\
+ Y_w\\
+ Z_w\\
+ 1
+ \end{array}
+ \right]
+\end{equation}
+矩阵R和T构成了摄像机的外参数，表面世界坐标系和相机坐标系的相对位置关系。
+\subsection{相机坐标系到成像平面参考系的转换}
+在考虑从相机坐标系转换为成像平面参考系之前，这里先介绍摄像机的模型。
 在计算机视觉中，针孔模型\cite{hartley2000multiple}被广泛用于相机模型的描述。模型假设
 物体表面的反射光满足光的直线传播条件，并经过小孔投射在图形平面上，形成物体的倒像，其示意图见图~\ref{fig:nail}，
-图中X为物体，x为物体的倒像，像距和物距分别为f和Z，那么显然有如下关系成立：
+图中X为物体，x为物体的倒像，像距和物距分别为f和$Z_c$，那么显然有如下关系成立：
 \begin{equation}
-  -x=\frac{f}{Z}X
+  -x=\frac{f}{Z_c}X
 \end{equation}
 
 \begin{figure}[!ht]
@@ -221,7 +254,7 @@ discrete trend transform; structured light.}
   \draw [<->,dashed] (0,-2.5) -- (3,-2.5);
   \draw [<->,dashed] (9,-2.5) -- (3,-2.5);
   \draw (1.5,-2.5) node[below] {f};
-  \draw (6,-2.5) node[below] {Z};
+  \draw (6,-2.5) node[below] {$Z_c$};
   \draw (6.5,0.5) node[below] {光轴};
   \draw (9,2.5) node[right] {X};
   \draw (0,-0.5) node[left] {x};
@@ -233,7 +266,7 @@ discrete trend transform; structured light.}
 \end{figure}
 
 为了简化针孔模型，将成像平面转移到针孔之前，可将针孔模型整理为一种等价形式，如图~\ref{fig:nail2}\cite{bradski2008learning}。
-图中，针孔相当于投影中心，物体Q经过投影中心的光线投射到成像平面上，形成q。
+图中，针孔相当于投影中心，物体$Q_c$经过投影中心的光线投射到成像平面上，形成q。
 \begin{figure}[!ht]
 \centering
 \begin{tikzpicture}
@@ -246,7 +279,7 @@ discrete trend transform; structured light.}
   \draw (-1,0) -- (1,0);
   \draw[dashed] (1,0) -- (3,0);
   \draw[->] (3,0) -- (8,0) node[right] {k};
-  \draw[->,dashed, dash pattern=on 1pt off 1pt] (0,0) -- (8,2) node[above]{$Q=(X,Y,Z)$};
+  \draw[->,dashed, dash pattern=on 1pt off 1pt] (0,0) -- (8,2) node[above]{$Q_c=(X_c,Y_c,Z_c)$};
   \fill (8.03,2) circle(0.05);
   \fill (4,1) node[below] {q=(x,y,f)} circle(0.05);
   \draw (3,0) circle(0.05);
@@ -259,31 +292,32 @@ discrete trend transform; structured light.}
 
 图~\ref{fig:nail2}中的针孔即为投影中心，但在实际的相机中，芯片的中心通常不位于光轴上。中心的偏差可以
 引进参数$c_x$和$c_y$来描述，同样引入两个不同的焦距：$f_x$和$f_y$来描述两个方向上的焦距，
-于是将物体Q($X,Y,Z$)和像体q($x,y,f_x,f_y$)的数学关系描述为：
+于是将物体$Q_c(X_c,Y_c,Z_c)$和像体q($x,y,f_x,f_y$)的数学关系描述为：
 \begin{eqnarray}\label{eq:inner0}
-  x=X\frac{f_x}{Z}+c_x \nonumber\\
-  y=Y\frac{f_y}{Z}+c_y
+  x=X\frac{f_x}{Z_c}+c_x \nonumber\\
+  y=Y\frac{f_y}{Z_c}+c_y
 \end{eqnarray}
 将公式~\ref{eq:inner0}使用其次坐标重新表示为：
 \begin{equation}
-  q=MQ
+  q=MQ_c
 \end{equation}
 其中，$q=\left[\begin{array}{c}
 x\\
 y\\
 z
 \end{array}\right]$，
-$Q=\left[\begin{array}{c}
-X\\
-Y\\
-Z
+$Q_c=\left[\begin{array}{c}
+X_c\\
+Y_c\\
+Z_c
 \end{array}\right]$，
 $M=\left[\begin{array}{ccc}
 f_x & 0 & c_x\\
 0 & f_y & c_y\\
 0 & 0 & 1
-\end{array}\right]$。矩阵$M$也被称作摄像机的内矩阵\cite{heikkila1997four}。
-
+\end{array}\right]$。矩阵$M$包含相机内部参数的描述，故也被称作摄像机的内矩阵\cite{heikkila1997four}。
+对摄像机定标的过程就是求得相机内参数与外参数的过程。
+\subsection{摄像机畸变}
 虽然摄像机可简化为针孔模型，然而在实际上，真实的针孔无法为在短时间内为曝光收集足够的光线，
 因此在摄像机中使用透镜而非小孔。透镜的使用使得快速曝光成为可能，而其缺点则是引入了透镜的畸变。
 透镜的畸变主要分为两种：径向畸变和切向畸变\cite{fryer1986lens}。径向畸变是由透镜形状引起，而切向畸变则由摄相机的组装过程引起。
@@ -293,8 +327,8 @@ f_x & 0 & c_x\\
 周围的泰勒级数展开来描述，通常只取前两项或三项就足够了。假设$(x_{corrected},y_{corrected})$表示由
 点$(x,y)$校正后的位置，那么有如下公式：
 \begin{eqnarray}
-  x_{corrected}=x(1+k_1r^2+k_2r^4+k_3r^6) \nonumber\\
-  y_{corrected}=y(1+k_1r^2+k_2r^4+k_3r^6)
+  x_{corrected}=x(1+k_1r^2+k_2r^4) \nonumber\\
+  y_{corrected}=y(1+k_1r^2+k_2r^4)
 \end{eqnarray}
 注意上式中没有出现r的奇次方项，这是由畸变程度$\Delta{}r$是$r$级数展开这个关系决定的。
 \begin{figure}[!ht]
@@ -332,8 +366,26 @@ f_x & 0 & c_x\\
 \caption{摄像机结构，感光元件与透镜不平行}\label{fig:qiex}
 \end{figure}
 
-本系统使用棋盘格作为定标物，调用openCV摄像机校正函数实现摄像机校正。openCV计算畸变参数的函数为:
+\subsection{摄像机定标}
+摄像机定标的目标是求得摄像机的内参数、外参数和畸变的校正参数，分为内部参数(包括$f_x,f_y,c_x,c_y,k1,k2,p1,p2$)和
+外部参数(包括$R,T$)。本系统使用棋盘格作为定标物，调用openCV摄像机校正函数实现摄像机定标。
+\begin{figure}[!ht]
+\centering
+  \subfloat[]{
+    \includegraphics[width=0.42\textwidth]{chessboard_src.eps}
+  }
+   \subfloat[]{
+    \includegraphics[width=0.44\textwidth]{chessboard_src2.eps}
+  }
+  \caption{(a),棋盘格作为定标板 (b), 定标板上找到的角点}\label{fig:chessboard_src}
+\end{figure}
 
+本文的定标板如图~\ref{fig:chessboard_src}(a)所示，一幅图像中共有$7\times7$个角点，即每两个深色方块的接触点。
+每个方块的边长为3cm，将左上角的第一个角点设定为世界坐标系的原点，X轴和Y轴平行于定标板，Z轴垂直于定标板向外。
+根据角点的相对关系，很容易确定定标板上每个角点的世界坐标系坐标。图~\ref{fig:chessboard_src}(b)中是从摄像机
+拍摄到图像中检测到的角点，其在图像中的位置可以确定成像平面坐标系的坐标，由此建立世界坐标系和成像平面坐标系的
+多个点对，并以此计算相机的内外参数。本文中这些参数的计算是调用openCV的cvCalibrateCamera2函数实现的。\\
+openCV计算畸变参数的函数为:\\
 void cvCalibrateCamera2( const CvMat* object\_points, const CvMat* image\_points,\\
 \mbox{\hspace{5.2cm}}const CvMat* point\_counts, CvSize image\_size,\\
 \mbox{\hspace{5.2cm}}CvMat* intrinsic\_matrix, CvMat* distortion\_coeffs,\\
@@ -341,38 +393,110 @@ void cvCalibrateCamera2( const CvMat* object\_points, const CvMat* image\_points
 \mbox{\hspace{5.2cm}}CvMat* translation\_vectors=NULL,\\
 \mbox{\hspace{5.2cm}}int flags=0 );
 
-畸变校正的效果见图~\ref{fig:chessboard}。
+cvCalibrateCamera2函数的输出包括定标点的世界坐标和图像坐标，输出则包含内参数矩阵$M$、畸变系数($k_1,k_2,p_1,p_2$)、
+外参数中的旋转矩阵R和平移矩阵T等。函数cvInitUndistortMap和函数cvRemap可用于对径向畸变和切向畸变的校正。内参数矩阵和
+外参数矩阵描述了世界坐标系和成像平面参考系之间的转换关系。
+\section{投影仪定标}
+摄像机定标后要进行投影仪定标。因为投影仪模型可以认为是相机模型的逆过程，即将2D图像映射为3D光线的过程，所以其
+定标过程与相机定标方法类似，同样需要在世界坐标系和投影图像平面参考系之间建立多个点对。投影图像平面参考系中点的坐标
+已知，而世界坐标系中点的坐标则需要借助已定标的照相机完成。
+\begin{figure}[!ht]
+  \centering
+  \begin{tikzpicture}
+    \draw[fill=yellow!50!white] (0,0) rectangle (5,5);
+    \draw[fill=white] (0.2,0.2) rectangle (0.6,0.6);
+    \draw[fill=black] (0.2,0.2) rectangle (0.4,0.4);
+    \draw[fill=black] (0.4,0.4) rectangle (0.6,0.6);
+    
+    \draw[fill=black] (0.2,4.4) rectangle (0.6,4.8);
+    \draw[fill=white] (0.2,4.4) rectangle (0.4,4.6);
+    \draw[fill=white] (0.4,4.6) rectangle (0.6,4.8);
+    
+    \draw[fill=white] (4.4,4.4) rectangle (4.8,4.8);
+    \draw[fill=black] (4.4,4.4) rectangle (4.6,4.6);
+    \draw[fill=black] (4.6,4.6) rectangle (4.8,4.8);
+    
+    \draw[fill=white] (4.4,0.2) rectangle (4.8,0.6);
+    \draw[fill=black] (4.4,0.2) rectangle (4.6,0.4);
+    \draw[fill=black] (4.6,0.4) rectangle (4.8,0.6);
+  \end{tikzpicture}
+  \caption{投影仪校正的定标板}
+\end{figure}
+
+定标板四周的四个角点经过摄像机检测以确定定标板的位置，而后将投影图像投射至定标板：
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth]{pc.eps}
+  \caption{投影仪投射定标图像后的定标板}\label{fig:pc}
+\end{figure}
+
+在图~\ref{fig:pc}中，摄像机拍摄到投射了定标图像的定标板，并检测到一个角点$q_c$，
+根据已经定标的相机坐标系和成像平面参考系可推出世界坐标系中三维点$Q_w$的坐标，
+而在设计投影图像时可知投影图像中角点$q_p$在投影图像平面参考系的坐标，由此建立
+$Q_w$和$q_p$的坐标对应关系，并据此完成投影仪的定标。
+
+\section{三维信息的计算}
+基于投影仪-摄像机的三维重建系统可简化为如下模型：
 \begin{figure}[!ht]
 \centering
-  \subfloat[]{
-    \includegraphics[width=0.4\textwidth]{chessboard.eps}
-  }
-   \subfloat[]{
-    \includegraphics[width=0.4\textwidth]{chessboard2.eps}
-  }
-  \caption{(a),畸变校正前的棋盘格 (b), 畸变校正后的图像及找到的角点}\label{fig:chessboard}
+\begin{tikzpicture}
+  \draw [smooth cycle,thick, fill=yellow!50!white] plot coordinates {(2,2) (2.3,3)
+   (2,4) (2.6,4.2) (2.4,5) (2.8,5.45) (3,5.5) (3.2,5.45) (3.6,5) (3.4,4.2) (4,4) (3.8,3) (4,2)};
+\draw [color=blue,thick] (0,0) -- (3,3) -- (6,0);
+\draw [fill=red] (0,0) circle (0.1) node[below] {\text{投影仪光心}$q_1$};
+\draw [fill=red] (6,0) circle (0.1) node[below] {\text{摄像机光心}$q_2$};
+\draw [fill=red] (3,3) circle (0.1) node[above] {\text{交汇点}$p$};
+\draw [very thick,->,color=red] (0,0) -- (1,1) node[left]{$v_1$};
+\draw [very thick,->,color=red] (6,0) -- (5,1) node[right]{$v_2$};
+\draw (3,5.5) node[above]{\text{被扫描物体}};
+\draw (0,1.5) node{\text{投影仪光线}};
+\draw (6,1.5) node{\text{摄像机光线}};
+\end{tikzpicture}
+\caption{三角测量的简化模型}
 \end{figure}
-\subsection{投影仪畸变校正}
+经过定标，投影仪的光心$q_1$、摄像机光心$q_2$在世界坐标系下的坐标均为已知。摄像机光线与投影仪光线相交于物体
+表面上的p点，方向向量分别为$v_1$和$v_2$。容易推断得到如下关系：
+\begin{eqnarray}
+  p=q_1+\lambda_1\cdot{}v_1 \nonumber \\
+  p=q_2+\lambda_2\cdot{}v_2
+\end{eqnarray}
+根据以上的两式可以计算出$\lambda_1,\lambda_2$，进而计算出p在世界坐标系的坐标。
 
+在实际的情况中，摄像机光线与投影仪光线并不一定会相交，这种情况下上述两式无法解出。
+解决办法是，求出$\lambda_1,\lambda_2$，使得如下的目标函数最小：
+\begin{equation}
+  \|(q_2+\lambda_2v_2)-(q_1+\lambda_1v_1)\|^2
+\end{equation}
+求解可得：
+\begin{equation}
+  \left(
+  \begin{array}{c}
+  \lambda_1\\
+  \lambda_2
+  \end{array}
+  \right)=\left(
+  \begin{array}{cc}
+  \|v_1\|^2 & -v_1^tv_2 \\
+  -v_2^tv_1 & \|v_2\|^2
+  \end{array}
+  \right)
+  \left(
+  \begin{array}{c}
+  v_1^t(q_2-q_1)\\
+  v_2^t(q_1-q_2)
+  \end{array}
+  \right)
+\end{equation}
 \chapter{结构光为颜色条纹序列的3D重建}
-
 \section{系统}
 \subsection{架构和流程}
-摄像机和投影仪以一定角度分别对准被扫描物体，实际的系统中，摄像机和投影仪之间的夹角大约为 $17^\circ$\cite{zhou2012adaptive}。
-\begin{figure}[!ht]
-  % Requires \usepackage{graphicx}
-  \centering
-  \includegraphics[width=0.6\textwidth]{system.eps}
-  \caption{系统结构图}\label{figure:system}
-\end{figure}
-
 所使用的设备是：
 \begin{itemize}
   \item 投影仪: Acer H7350D （1920*1080 分辨率）
   \item 摄像机: Nikon D200
 \end{itemize}
 
-整个3D重建的流程表述如下：
+整个3D重建的流程表述如下\cite{zhou2012adaptive}：
 \begin{enumerate}
   \item 投射颜色序列， 并在环境光下抓取图像
   \item 摄像机及投影仪畸变校正
