@@ -108,7 +108,7 @@
 \begin{abstract}
 
 3D信息采集是近年来计算机视觉领域的热点问题，基于结构光的三角测量方法是
-3D信息采集的重要途径和有效方法。本文建设了可用的具有高可靠性的3D重建系统，
+3D信息采集的重要途径和有效方法。本文建设了可用的具有高可靠性的3D 重建系统，
 并从时间序列、one shot两个角度讨论了结构光重建的途径，通过不同的结
 构光颜色编码方式分别予以实现，取得了很好的重建效果。
 
@@ -149,9 +149,32 @@ discrete trend transform; structured light.}
 
 \chapter{绪论}
 \section{引言}
+近年来，3D重建的技术收到越来越多的关注。经过多年的研究和发展，3D重建已经发展出了不少的方法，
+主要包括立体成像、飞行时间法(TOF)和结构光法等。
 \section{3D重建的技术综述}
 \subsection{被动式非接触重建技术}
 \subsection{主动式非接触重建技术}
+\begin{enumerate}
+\item \textbf{立体成像} 
+\item \textbf{TOF} 
+\begin{figure}[!ht]
+\centering
+\begin{tikzpicture}
+  \draw [fill=orange](4,0) rectangle (4.2,3);
+  \foreach \x in {-1,1,...,7} 
+    \draw [fill=blue!50!white] (0.5*\x,3.6-0.3*\x) circle (0.2);
+  \foreach \x in {0,2,...,6}
+    \draw [fill=blue] (0.5*\x,3.6-0.3*\x) circle (0.2);
+  \draw [fill=orange](4,0) rectangle (4.2,3);
+  \foreach \x in {3,5}
+    \draw [fill=green!50!white] (0.5*\x,-0.6+0.3*\x) circle (0.2);
+  \foreach \x in {4,6}
+    \draw [fill=green] (0.5*\x,-0.6+0.3*\x) circle (0.2);
+\end{tikzpicture}
+\caption{TOF}
+\end{figure}
+\item \textbf{结构光} 
+\end{enumerate}
 \section{结构光技术综述}
 \subsection{结构光技术的原理}
 \subsection{结构光技术的发展}
@@ -381,7 +404,7 @@ f_x & 0 & c_x\\
 \end{figure}
 
 本文的定标板如图~\ref{fig:chessboard_src}(a)所示，一幅图像中共有$7\times7$个角点，即每两个深色方块的接触点。
-每个方块的边长为3cm，将左上角的第一个角点设定为世界坐标系的原点，X轴和Y轴平行于定标板，Z轴垂直于定标板向外。
+每个方块的边长为3cm，将左上角的第一个角点设定为世界坐标系的原点，X 轴和Y轴平行于定标板，Z轴垂直于定标板向外。
 根据角点的相对关系，很容易确定定标板上每个角点的世界坐标系坐标。图~\ref{fig:chessboard_src}(b)中是从摄像机
 拍摄到图像中检测到的角点，其在图像中的位置可以确定成像平面坐标系的坐标，由此建立世界坐标系和成像平面坐标系的
 多个点对，并以此计算相机的内外参数。本文中这些参数的计算是调用openCV的cvCalibrateCamera2函数实现的。\\
@@ -407,18 +430,18 @@ cvCalibrateCamera2函数的输出包括定标点的世界坐标和图像坐标，输出则包含内参数矩阵
     \draw[fill=white] (0.2,0.2) rectangle (0.6,0.6);
     \draw[fill=black] (0.2,0.2) rectangle (0.4,0.4);
     \draw[fill=black] (0.4,0.4) rectangle (0.6,0.6);
-    
+
     \draw[fill=black] (0.2,4.4) rectangle (0.6,4.8);
     \draw[fill=white] (0.2,4.4) rectangle (0.4,4.6);
     \draw[fill=white] (0.4,4.6) rectangle (0.6,4.8);
-    
+
     \draw[fill=white] (4.4,4.4) rectangle (4.8,4.8);
     \draw[fill=black] (4.4,4.4) rectangle (4.6,4.6);
     \draw[fill=black] (4.6,4.6) rectangle (4.8,4.8);
-    
-    \draw[fill=white] (4.4,0.2) rectangle (4.8,0.6);
-    \draw[fill=black] (4.4,0.2) rectangle (4.6,0.4);
-    \draw[fill=black] (4.6,0.4) rectangle (4.8,0.6);
+
+    \draw[fill=black] (4.4,0.2) rectangle (4.8,0.6);
+    \draw[fill=white] (4.4,0.2) rectangle (4.6,0.4);
+    \draw[fill=white] (4.6,0.4) rectangle (4.8,0.6);
   \end{tikzpicture}
   \caption{投影仪校正的定标板}
 \end{figure}
@@ -506,7 +529,7 @@ $Q_w$和$q_p$的坐标对应关系，并据此完成投影仪的定标。
   \item 计算3D点云信息， 并进行后续处理
 \end{enumerate}
 \subsection{特征投影}
-为了方便地建立投影特征和检测特征之间的对应关系， 本文根据De Bruijn序列来设定线条颜色。
+为了方便地建立投影特征和检测特征之间的对应关系， 本文根据De Bruijn 序列来设定线条颜色。
 一个拥有5个元素、3阶的De Bruijn序列为：
 4 4 4 3 4 4 2 4 4 1
 4 4 0 4 3 3 4 3 2 4 3 1 4 3
@@ -1009,7 +1032,7 @@ $cost_{ij}$为：
 本系统的输出结果是3D点云，由于采用了颜色校正、DTT等改进方法，系统能够在非暗室的环境中正常工作，具有良好的对环境光抗干扰性能。
 图~\ref{FIG_Example}展示了多面体、
 手部和脸部的图像采集环境和重建结果，即使存在环境光，系统也能够利用算法针对性地排除干扰，从而正确地检测特征并计算出三维点云。系统的
-另一个特点是分辨率高，图~\ref{FIG_Example}(b)(d)分别有85687和75371个三维点。
+另一个特点是分辨率高，图~\ref{FIG_Example}(b)(d)分别有85687和75371 个三维点。
 \begin{figure}[!ht]
   \centering
   \subfloat[]{
@@ -1090,9 +1113,9 @@ $cost_{ij}$为：
 \end{center}
 \end{table}
 
-格雷码的生成可采用递归方式实现。假如想要生成n位格雷码，则可先将n-1位格雷码的$2^{n-1}$个编码列出，而后再以从后向前的
+格雷码的生成可采用递归方式实现。假如想要生成n位格雷码，则可先将n-1 位格雷码的$2^{n-1}$个编码列出，而后再以从后向前的
 顺序，重新列出这n-1位格格雷码，形成形成$2^n$个序列，每个序列的长度为$n-1$。最后在前$2^{n-1}$个序列的最前补0，在后$2^{n-1}$
-个序列的最前补1，这样就完成了n位格雷码的生成。分别设定格雷码中0和1代表的颜色，并从高位向低位依次递进，形成n幅$2^{n}$位的格雷码
+个序列的最前补1，这样就完成了n位格雷码的生成。分别设定格雷码中0和1 代表的颜色，并从高位向低位依次递进，形成n幅$2^{n}$位的格雷码
 编码的光栅图案并投射至被扫描物体表面。拍摄到加照格雷码光栅的物体在图~\ref{fig:gray_project}中体现，从图中我们看到，后三幅的格雷码
 光栅亮度转换频繁，尤其是最后一幅，亮区和暗区只占1个像素，这导致在实际处理中很难准确区分亮区和暗区。
 

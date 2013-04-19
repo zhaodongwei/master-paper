@@ -16,36 +16,36 @@
 \contentsline {subsection}{\numberline {2.1.3}相机坐标系到成像平面参考系的转换}{4}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}摄像机畸变}{5}{subsection.2.1.4}
 \contentsline {subsection}{\numberline {2.1.5}摄像机定标}{6}{subsection.2.1.5}
-\contentsline {section}{\numberline {2.2}投影仪定标}{7}{section.2.2}
+\contentsline {section}{\numberline {2.2}投影仪定标}{8}{section.2.2}
 \contentsline {section}{\numberline {2.3}三维信息的计算}{9}{section.2.3}
-\contentsline {chapter}{\numberline {第三章\hspace {0.3em}}结构光为颜色条纹序列的3D重建}{10}{chapter.3}
-\contentsline {section}{\numberline {3.1}系统}{10}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}架构和流程}{10}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}特征投影}{10}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}crosstalk校正}{11}{section.3.2}
-\contentsline {section}{\numberline {3.3}相对反射率校正}{12}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}相对反射率对观测的影响}{12}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}相对反射率的计算}{13}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}反射率校正的结果}{14}{subsection.3.3.3}
-\contentsline {section}{\numberline {3.4}特征识别}{15}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}$M$ 通道定义}{15}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}离散趋势变换}{16}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}峰值定位}{19}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}颜色提取}{20}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}建立检测特征及投射特征间的对应关系}{20}{subsection.3.4.5}
-\contentsline {section}{\numberline {3.5}重建结果}{22}{section.3.5}
-\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}结构光为格雷码投影光栅的3D重建}{24}{chapter.4}
-\contentsline {section}{\numberline {4.1}特征投影}{24}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}格雷码光栅}{24}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}位移码图}{25}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}编码图像的处理}{27}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}有效区域的选择}{27}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}解码格雷码光栅}{28}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}解码位移图码光栅}{29}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}重建结果}{29}{section.4.3}
-\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}结束语}{32}{chapter.5}
-\contentsline {section}{\numberline {5.1}总结}{32}{section.5.1}
-\contentsline {section}{\numberline {5.2}创新点}{32}{section.5.2}
-\contentsline {section}{\numberline {5.3}展望}{32}{section.5.3}
-\contentsline {chapter}{参考文献}{33}{chapter*.31}
-\contentsline {chapter}{致\CTEX@spaceChar \CTEX@spaceChar 谢}{35}{chapter*.32}
+\contentsline {chapter}{\numberline {第三章\hspace {0.3em}}结构光为颜色条纹序列的3D重建}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}系统}{11}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}架构和流程}{11}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}特征投影}{11}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}crosstalk校正}{12}{section.3.2}
+\contentsline {section}{\numberline {3.3}相对反射率校正}{13}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}相对反射率对观测的影响}{13}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}相对反射率的计算}{14}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}反射率校正的结果}{15}{subsection.3.3.3}
+\contentsline {section}{\numberline {3.4}特征识别}{16}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}$M$ 通道定义}{16}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}离散趋势变换}{17}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}峰值定位}{20}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}颜色提取}{21}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}建立检测特征及投射特征间的对应关系}{21}{subsection.3.4.5}
+\contentsline {section}{\numberline {3.5}重建结果}{23}{section.3.5}
+\contentsline {chapter}{\numberline {第四章\hspace {0.3em}}结构光为格雷码投影光栅的3D重建}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}特征投影}{25}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}格雷码光栅}{25}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}位移码图}{26}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}编码图像的处理}{28}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}有效区域的选择}{28}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}解码格雷码光栅}{29}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}解码位移图码光栅}{30}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}重建结果}{30}{section.4.3}
+\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}结束语}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}总结}{33}{section.5.1}
+\contentsline {section}{\numberline {5.2}创新点}{33}{section.5.2}
+\contentsline {section}{\numberline {5.3}展望}{33}{section.5.3}
+\contentsline {chapter}{参考文献}{34}{chapter*.32}
+\contentsline {chapter}{致\CTEX@spaceChar \CTEX@spaceChar 谢}{36}{chapter*.33}
