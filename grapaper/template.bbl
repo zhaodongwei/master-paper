@@ -1,4 +1,4 @@
-\begin{thebibliography}{13}
+\begin{thebibliography}{16}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -82,6 +82,12 @@
   retrieval}.
 \newblock \bibinfo{journal}{International Journal of Computer Vision}
   \bibinfo{volume}{40}, \bibinfo{pages}{99--121}.
+%Type = Article
+\bibitem[{Schaller(1997)}]{schaller1997moore}
+\bibinfo{author}{Schaller, R.R.}, \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{Moore's law: past, present and future}.
+\newblock \bibinfo{journal}{Spectrum, IEEE} \bibinfo{volume}{34},
+  \bibinfo{pages}{52--59}.
 %Type = Inproceedings
 \bibitem[{Wei 等(2010)Wei, Jiang 和~ Ji}]{CompositeColorfulStripes}
 \bibinfo{author}{Wei, Z.}, \bibinfo{author}{Jiang, S.}, \bibinfo{author}{Ji,
@@ -90,6 +96,12 @@
   composite colorful stripes}, in: \bibinfo{booktitle}{Advanced Computer Theory
   and Engineering (ICACTE), 2010 3rd International Conference on}, pp.
   \bibinfo{pages}{V6--123 --V6--125}.
+%Type = Article
+\bibitem[{Zhang(2000)}]{zhang2000flexible}
+\bibinfo{author}{Zhang, Z.}, \bibinfo{year}{2000}.
+\newblock \bibinfo{title}{A flexible new technique for camera calibration}.
+\newblock \bibinfo{journal}{Pattern Analysis and Machine Intelligence, IEEE
+  Transactions on} \bibinfo{volume}{22}, \bibinfo{pages}{1330--1334}.
 %Type = Inproceedings
 \bibitem[{Zhao 等(2011)Zhao, Zhou, Yu 和~ Du}]{zhao2011novel}
 \bibinfo{author}{Zhao, D.}, \bibinfo{author}{Zhou, Y.}, \bibinfo{author}{Yu,
@@ -107,5 +119,13 @@
   light system}.
 \newblock \bibinfo{journal}{Sensors} \bibinfo{volume}{12},
   \bibinfo{pages}{10947--10963}.
+%Type = Incollection
+\bibitem[{Zou 等(2012)Zou, Zhou, Yu 和~ Du}]{zou2012novel}
+\bibinfo{author}{Zou, R.}, \bibinfo{author}{Zhou, Y.}, \bibinfo{author}{Yu,
+  Y.}, \bibinfo{author}{Du, S.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{A novel locally adaptive dynamic programming approach
+  for color structured light system}, in: \bibinfo{booktitle}{Advances in
+  Visual Computing}. \bibinfo{publisher}{Springer}, pp.
+  \bibinfo{pages}{372--381}.
 
 \end{thebibliography}

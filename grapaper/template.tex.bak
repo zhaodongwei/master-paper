@@ -149,8 +149,12 @@ discrete trend transform; structured light.}
 
 \chapter{绪论}
 \section{引言}
-近年来，3D重建的技术收到越来越多的关注。经过多年的研究和发展，3D重建已经发展出了不少的方法，
-主要包括立体成像、飞行时间法(TOF)和结构光法等。
+3D重建是一个被关注很久，很重要的技术。作为3D信息采集的重要手段，其在很多领域具有广泛的应用，在医学领域，医生可以用CT设备扫描人体内部结构，在文物保护领域，工作人员可以用3D重建进行逆向工程，对珍贵文物建模，在影视领域，3D重建被广泛应用于虚拟角色的生成，在计算机视觉领域，3D 信息的采集是决策和模式识别的重要信息源。
+
+例外一个例子是，3D打印技术越来越人所熟知，医生可以用它打印关节，航天员可以在太空中随时打印需要的部件，据说国内某型号的隐形飞机就使用了3D 打印的零部件。3D 打印的设备变得越来越为人所接受。
+而3D模型的建立通常有两种方法，一种是计算机辅助设计（CAD），另一种是对已有物体进行扫描并建立模型。前者的优点是制作精细，缺点是需要事先设计模型各组成部分比例，需要熟练的操作工人，开发周期长，而后者则基于对已有物体三维信息的采集和处理，并在此基础上建立模型，与3D打印形成很好的配合。
+
+上世纪，摩尔定律\cite{schaller1997moore}见证了计算芯片的飞速发展，计算机的计算能力也得到了极大提升，这也为3D信息的采集和处理提供了很好的计算资源保证。
 \section{3D重建的技术综述}
 \subsection{被动式非接触重建技术}
 \subsection{主动式非接触重建技术}
@@ -425,7 +429,7 @@ f_x & 0 & c_x\\
 根据角点的相对关系，很容易确定定标板上每个角点的世界坐标系坐标。图~\ref{fig:chessboard_srcs}是校正摄像机所使用
 的9幅定标图像，图中彩色点是从摄像机
 拍摄到图像中检测到的角点，其在图像中的位置可以确定成像平面坐标系的坐标，由此建立世界坐标系和成像平面坐标系的
-多个点对，并以此计算相机的内外参数。本文中这些参数的计算是调用openCV的cvCalibrateCamera2函数实现的。\\
+多个点对，并以此计算相机的内外参数。本文中这些参数的计算是调用openCV库中的cvCalibrateCamera2函数实现。\\
 openCV计算畸变参数的函数为:\\
 void cvCalibrateCamera2( const CvMat* object\_points, const CvMat* image\_points,\\
 \mbox{\hspace{5.2cm}}const CvMat* point\_counts, CvSize image\_size,\\
@@ -434,9 +438,9 @@ void cvCalibrateCamera2( const CvMat* object\_points, const CvMat* image\_points
 \mbox{\hspace{5.2cm}}CvMat* translation\_vectors=NULL,\\
 \mbox{\hspace{5.2cm}}int flags=0 );
 
-cvCalibrateCamera2函数的输出包括定标点的世界坐标和图像坐标，输出则包含内参数矩阵$M$、畸变系数($k_1,k_2,p_1,p_2$)、
-外参数中的旋转矩阵R和平移矩阵T等。函数cvInitUndistortMap和函数cvRemap可用于对径向畸变和切向畸变的校正。内参数矩阵和
-外参数矩阵描述了世界坐标系和成像平面参考系之间的转换关系。
+cvCalibrateCamera2函数l依据张正友提出的算法\cite{zhang2000flexible}，以角点在世界坐标系和成像平面参考系中的坐标对为输入，输出则包含内参数矩阵$M$、 畸变系数($k_1,k_2,p_1,p_2$) 以及
+外参数的旋转矩阵R和平移矩阵T。内参数矩阵和
+外参数矩阵描述了世界坐标系和摄像机成像平面参考系之间的转换关系，而畸变系数可用于对摄像机拍摄图像进行的畸变校正。在openCV库中，畸变校正可通过调用函数cvUndistort2、函数cvInitUndistortMap和函数cvRemap 实现。
 \section{投影仪定标}
 摄像机定标后要进行投影仪定标。因为投影仪模型可以认为是相机模型的逆过程，即将2D图像映射为3D光线的过程，所以其
 定标过程与相机定标方法类似，同样需要在世界坐标系和投影图像平面参考系之间建立多个点对。投影图像平面参考系中点的坐标
@@ -446,13 +450,30 @@ cvCalibrateCamera2函数的输出包括定标点的世界坐标和图像坐标，输出则包含内参数矩阵
 \begin{figure}[!ht]
   \centering
     \includegraphics[width=0.8\textwidth]{pc.eps}
-  \caption{投影仪投射定标图像后的定标板}\label{fig:pc}
+  \caption{投影仪定标中3D点与2D点的对应关系}\label{fig:pc}
 \end{figure}
 
 在图~\ref{fig:pc}中，摄像机拍摄到投射了定标图像的定标板，并检测到一个角点$q_c$，
 根据已经定标的相机坐标系和成像平面参考系可推出世界坐标系中三维点$Q_w$的坐标，
 而在设计投影图像时可知投影图像中角点$q_p$在投影图像平面参考系的坐标，由此建立
 $Q_w$和$q_p$的坐标对应关系，并据此完成投影仪的定标。
+
+总的来看，将摄像机定标和投影仪定标可表述为以下流程：
+\begin{enumerate}
+  \item 架设摄像机、投影仪，并将其焦距调整合适，将定标板置于摄像机和投影仪视野下。
+  \item 摄像机拍摄定标板图像(记为$I_c$)并检测角点，
+  并匹配和记录角点在图像中的坐标、在世界坐标系的坐标，如定标板上角点未被全部检测出则重新拍摄图像，直至全部角点被检测出。
+  \item 保持定标板不动，投影仪投射投影仪定标图像，见图~\ref{fig:pro-cam}。
+  \item 摄像机拍摄图像(记为$I_p$)，并减去背景$I_c$，提取投影图像的角点，记录角点在所拍摄图像中的位置，如角点未被全部检测出则重新拍摄$I_p$。
+  \item 适度改变定标板位置和角度。
+  \item 重复步骤2-5共9次，调用cvCalibrateCamera2函数处理步骤2得到的角点坐标对，计算摄像机内外参数，完成摄像机定标
+  \item 根据摄像机参数计算投影图像角点的三维信息，建立投影图像角点在世界坐标系下和投影图像下的坐标对，同样调用cvCalibrateCamera2函数计算投影仪内外参数，完成投影仪定标。
+\end{enumerate}
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth]{pro-cam.eps}
+  \caption{投影仪投射定标图像后的定标板}\label{fig:pro-cam}
+\end{figure}
 
 \section{三维信息的计算}
 基于投影仪-摄像机的三维重建系统可简化为如下模型：
@@ -1232,7 +1253,7 @@ $cost_{ij}$为：
   \caption{(a),一幅加照了格雷码光栅的物体 (b),合并为单通道 (c),二值化的结果} \label{figure:gray_process}
 \end{figure}
 
-图~\ref{figure:gray_process}展示了编码图像的处理过程，(a)是摄像机拍摄到的图像，(b)是将(a)从RGB转换为灰度图后得到的
+图~\ref{figure:gray_process}展示了l编码图像的处理过程，(a)是摄像机拍摄到的图像，(b)是将(a)从RGB转换为灰度图后得到的
 图像，(c)是二值化(b)得到的处理结果。
 
 实际上，二值化图像是准确解码的关键。将一幅图像二值化的方法有多种，大致可分为全局阈值法和局部阈值法，而阈值的选择至关重要。

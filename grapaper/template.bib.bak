@@ -12,7 +12,7 @@ note = "",
 issn = "0262-8856",
 doi = "DOI: 10.1016/j.imavis.2005.05.007",
 url = "http://www.sciencedirect.com/science/article/B6V09-4GSTP9R-1/2/b1386def33c43cca4daaa85999003685",
-author = "Jordi Pagès and Joaquim Salvi and Christophe Collewet and Josep Forest",
+author = "Jordi Page and Joaquim Salvi and Christophe Collewet and Josep Forest",
 keywords = "Shape acquisition",
 keywords = "Active stereo",
 keywords = "Coded structured light"
@@ -103,6 +103,60 @@ ISSN={1751-9632},}
 @article{2055106,
 author = {D. C. Brown},
 title = {{Decentering distortion of lenses}},
+pages={444--462},
 year = {1966},
 masid = {2055106}
+}
+
+@article{fryer1986lens,
+  title={Lens distortion for close-range photogrammetry},
+  author={Fryer, John G and Brown, Duane C},
+  journal={Photogrammetric engineering and remote sensing},
+  volume={52},
+  number={1},
+  pages={51--58},
+  year={1986}
+}
+
+@article{zhou2012adaptive,
+  title={Adaptive Color Calibration Based One-Shot Structured Light System},
+  author={Zhou, Yu and Zhao, Dongwei and Yu, Yao and Yuan, Jie and Du, Sidan},
+  journal={Sensors},
+  volume={12},
+  number={8},
+  pages={10947--10963},
+  year={2012},
+  publisher={Molecular Diversity Preservation International}
+}
+
+@inproceedings{zhao2011novel,
+  title={A novel peak detection method of structured light stripes for 3d reconstruction},
+  author={Zhao, Dongwei and Zhou, Yu and Yu, Yao and Du, Sidan},
+  booktitle={Intelligent Human-Machine Systems and Cybernetics (IHMSC), 2011 International Conference on},
+  volume={2},
+  pages={43--46},
+  year={2011},
+  organization={IEEE}
+}
+
+@article{zhang2000flexible,
+  title={A flexible new technique for camera calibration},
+  author={Zhang, Zhengyou},
+  journal={Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  volume={22},
+  number={11},
+  pages={1330--1334},
+  year={2000},
+  publisher={IEEE}
+}
+
+@article{schaller1997moore,
+  title={Moore's law: past, present and future},
+  author={Schaller, Robert R},
+  journal={Spectrum, IEEE},
+  volume={34},
+  number={6},
+  pages={52--59},
+  year={1997},
+  publisher={IEEE}
 }
