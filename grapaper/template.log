@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=latex 2013.3.29)  19 APR 2013 22:45
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=latex 2013.3.29)  20 APR 2013 21:15
 entering extended mode
 **template.tex
 (D:\Projects\master-paper\grapaper\template.tex
@@ -1092,25 +1092,28 @@ File: figures/4.eps Graphic file (type eps)
 File: figures/9.eps Graphic file (type eps)
  <figures/9.eps> [6] [7]
 File: figures/pc.eps Graphic file (type eps)
- <figures/pc.eps> [8] [9] [10]
+ <figures/pc.eps>
+File: figures/pro-cam.eps Graphic file (type eps)
+ <figures/pro-cam.eps>
+[8] [9] [10]
 ตฺศýีย
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 536.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 519.
 
 (F:\softwares\CTEX\MiKTeX\tex\latex\psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12.05> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 536.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 519.
 
 
-Package xcolor Warning: Incompatible color definition on input line 540.
+Package xcolor Warning: Incompatible color definition on input line 523.
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 566.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 549.
 
 (F:\softwares\CTEX\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 576.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 559.
 
 
 (F:\softwares\CTEX\MiKTeX\tex\latex\psnfss\ot1phv.fd
@@ -1122,11 +1125,11 @@ File: figures/project_background.eps Graphic file (type eps)
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 604.
+Package xcolor Warning: Incompatible color definition on input line 587.
 
 [12] [13]
 
-Package xcolor Warning: Incompatible color definition on input line 698.
+Package xcolor Warning: Incompatible color definition on input line 681.
 
 [14]
 File: figures/fig1a.eps Graphic file (type eps)
@@ -1142,14 +1145,14 @@ File: figures/ColorCorrectRatio.eps Graphic file (type eps)
  <figures/ColorCorrectRatio.eps> [15]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 777.
+(hyperref)                removing `math shift' on input line 760.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 777.
+(hyperref)                removing `math shift' on input line 760.
 
 
-Package xcolor Warning: Incompatible color definition on input line 778.
+Package xcolor Warning: Incompatible color definition on input line 761.
 
 [16] [17]
 File: figures/retrend1.eps Graphic file (type eps)
@@ -1173,16 +1176,16 @@ Overfull \vbox (0.59511pt too high) has occurred while \output is active []
 
 [19]
 
-Package xcolor Warning: Incompatible color definition on input line 944.
+Package xcolor Warning: Incompatible color definition on input line 927.
 
 
-Package xcolor Warning: Incompatible color definition on input line 946.
+Package xcolor Warning: Incompatible color definition on input line 929.
 
 
-Package xcolor Warning: Incompatible color definition on input line 947.
+Package xcolor Warning: Incompatible color definition on input line 930.
 
 
-Package xcolor Warning: Incompatible color definition on input line 949.
+Package xcolor Warning: Incompatible color definition on input line 932.
 
 [20]
 File: figures/IMG_SOURCE.eps Graphic file (type eps)
@@ -1297,20 +1300,20 @@ File: figures/gray_result5.eps Graphic file (type eps)
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 12.05pt
-(hyperref)                replaced by space on input line 1384.
+(hyperref)                replaced by space on input line 1367.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 12.05pt
-(hyperref)                replaced by space on input line 1384.
+(hyperref)                replaced by space on input line 1367.
 
 [36
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1392.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1392.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1375.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1375.
  (D:\Projects\master-paper\grapaper\template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1392.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1375.
 
 
 Package rerunfilecheck Warning: File `template.out' has changed.
@@ -1318,19 +1321,19 @@ Package rerunfilecheck Warning: File `template.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `template.out':
-(rerunfilecheck)             Before: 5AC2BE52FC9C12DD2CC6F13176B84368;7834
+(rerunfilecheck)             Before: A37F02325AE29462AAB3EBE19675B290;7834
 (rerunfilecheck)             After:  2B6BDCB5D5596B06749F8BC669DE4AD3;3554.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21638 strings out of 495363
- 382120 string characters out of 3183486
+ 21637 strings out of 495363
+ 382095 string characters out of 3183486
  424915 words of memory out of 3000000
- 24151 multiletter control sequences out of 15000+200000
+ 24149 multiletter control sequences out of 15000+200000
  98359 words of font info for 325 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,14n,55p,26355b,1054s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on template.dvi (43 pages, 283200 bytes).
+Output written on template.dvi (43 pages, 278484 bytes).

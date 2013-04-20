@@ -441,40 +441,23 @@ cvCalibrateCamera2函数的输出包括定标点的世界坐标和图像坐标，输出则包含内参数矩阵
 摄像机定标后要进行投影仪定标。因为投影仪模型可以认为是相机模型的逆过程，即将2D图像映射为3D光线的过程，所以其
 定标过程与相机定标方法类似，同样需要在世界坐标系和投影图像平面参考系之间建立多个点对。投影图像平面参考系中点的坐标
 已知，而世界坐标系中点的坐标则需要借助已定标的照相机完成。
-\begin{figure}[!ht]
-  \centering
-  \begin{tikzpicture}
-    \draw[fill=yellow!50!white] (0,0) rectangle (5,5);
-    \draw[fill=white] (0.2,0.2) rectangle (0.6,0.6);
-    \draw[fill=black] (0.2,0.2) rectangle (0.4,0.4);
-    \draw[fill=black] (0.4,0.4) rectangle (0.6,0.6);
-
-    \draw[fill=black] (0.2,4.4) rectangle (0.6,4.8);
-    \draw[fill=white] (0.2,4.4) rectangle (0.4,4.6);
-    \draw[fill=white] (0.4,4.6) rectangle (0.6,4.8);
-
-    \draw[fill=white] (4.4,4.4) rectangle (4.8,4.8);
-    \draw[fill=black] (4.4,4.4) rectangle (4.6,4.6);
-    \draw[fill=black] (4.6,4.6) rectangle (4.8,4.8);
-
-    \draw[fill=black] (4.4,0.2) rectangle (4.8,0.6);
-    \draw[fill=white] (4.4,0.2) rectangle (4.6,0.4);
-    \draw[fill=white] (4.6,0.4) rectangle (4.8,0.6);
-  \end{tikzpicture}
-  \caption{投影仪校正的定标板}
-\end{figure}
 
 定标板四周的四个角点经过摄像机检测以确定定标板的位置，而后将投影图像投射至定标板：
 \begin{figure}[!ht]
   \centering
     \includegraphics[width=0.8\textwidth]{pc.eps}
-  \caption{投影仪投射定标图像后的定标板}\label{fig:pc}
+  \caption{投影仪定标中3D点与2D点的对应关系}\label{fig:pc}
 \end{figure}
 
 在图~\ref{fig:pc}中，摄像机拍摄到投射了定标图像的定标板，并检测到一个角点$q_c$，
 根据已经定标的相机坐标系和成像平面参考系可推出世界坐标系中三维点$Q_w$的坐标，
 而在设计投影图像时可知投影图像中角点$q_p$在投影图像平面参考系的坐标，由此建立
 $Q_w$和$q_p$的坐标对应关系，并据此完成投影仪的定标。
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.8\textwidth]{pro-cam.eps}
+  \caption{投影仪投射定标图像后的定标板}\label{fig:pro-cam}
+\end{figure}
 
 \section{三维信息的计算}
 基于投影仪-摄像机的三维重建系统可简化为如下模型：

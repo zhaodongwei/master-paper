@@ -155,13 +155,13 @@ discrete trend transform; structured light.}
 \subsection{被动式非接触重建技术}
 \subsection{主动式非接触重建技术}
 \begin{enumerate}
-\item \textbf{立体成像} 
-\item \textbf{TOF} 
+\item \textbf{立体成像}
+\item \textbf{TOF}
 \begin{figure}[!ht]
 \centering
 \begin{tikzpicture}
   \draw [fill=orange](4,0) rectangle (4.2,3);
-  \foreach \x in {-1,1,...,7} 
+  \foreach \x in {-1,1,...,7}
     \draw [fill=blue!50!white] (0.5*\x,3.6-0.3*\x) circle (0.2);
   \foreach \x in {0,2,...,6}
     \draw [fill=blue] (0.5*\x,3.6-0.3*\x) circle (0.2);
@@ -173,7 +173,7 @@ discrete trend transform; structured light.}
 \end{tikzpicture}
 \caption{TOF}
 \end{figure}
-\item \textbf{结构光} 
+\item \textbf{结构光}
 \end{enumerate}
 \section{结构光技术综述}
 \subsection{结构光技术的原理}
@@ -394,18 +394,36 @@ f_x & 0 & c_x\\
 外部参数(包括$R,T$)。本系统使用棋盘格作为定标物，调用openCV摄像机校正函数实现摄像机定标。
 \begin{figure}[!ht]
 \centering
-  \subfloat[]{
-    \includegraphics[width=0.42\textwidth]{chessboard_src.eps}
-  }
-   \subfloat[]{
-    \includegraphics[width=0.44\textwidth]{chessboard_src2.eps}
-  }
-  \caption{(a),棋盘格作为定标板 (b), 定标板上找到的角点}\label{fig:chessboard_src}
+    \includegraphics[width=0.7\textwidth]{chessboard_src.eps}
+    \caption{棋盘格作为定标板} \label{fig:chessboard_src}
 \end{figure}
 
-本文的定标板如图~\ref{fig:chessboard_src}(a)所示，一幅图像中共有$7\times7$个角点，即每两个深色方块的接触点。
+\begin{figure}[!ht]
+\centering
+    \subfloat[]{
+    \includegraphics[width=0.32\textwidth]{1.eps}}
+    \subfloat[]{
+    \includegraphics[width=0.32\textwidth]{6.eps}}
+    \subfloat[]{
+    \includegraphics[width=0.32\textwidth]{3.eps}}\\
+    \subfloat[]{
+    \includegraphics[width=0.32\textwidth]{8.eps}}
+    \subfloat[]{
+    \includegraphics[width=0.32\textwidth]{5.eps}}
+    \subfloat[]{
+    \includegraphics[width=0.32\textwidth]{2.eps}}\\
+    \subfloat[]{
+    \includegraphics[width=0.32\textwidth]{7.eps}}
+    \subfloat[]{
+    \includegraphics[width=0.32\textwidth]{4.eps}}
+    \subfloat[]{
+    \includegraphics[width=0.32\textwidth]{9.eps}}
+  \caption{棋盘格中找到的角点}\label{fig:chessboard_srcs}
+\end{figure}
+本文的定标板如图~\ref{fig:chessboard_src}所示，一幅图像中共有$7\times7$个角点，即每两个深色方块的接触点。
 每个方块的边长为3cm，将左上角的第一个角点设定为世界坐标系的原点，X 轴和Y轴平行于定标板，Z轴垂直于定标板向外。
-根据角点的相对关系，很容易确定定标板上每个角点的世界坐标系坐标。图~\ref{fig:chessboard_src}(b)中是从摄像机
+根据角点的相对关系，很容易确定定标板上每个角点的世界坐标系坐标。图~\ref{fig:chessboard_srcs}是校正摄像机所使用
+的9幅定标图像，图中彩色点是从摄像机
 拍摄到图像中检测到的角点，其在图像中的位置可以确定成像平面坐标系的坐标，由此建立世界坐标系和成像平面坐标系的
 多个点对，并以此计算相机的内外参数。本文中这些参数的计算是调用openCV的cvCalibrateCamera2函数实现的。\\
 openCV计算畸变参数的函数为:\\
@@ -423,28 +441,6 @@ cvCalibrateCamera2函数的输出包括定标点的世界坐标和图像坐标，输出则包含内参数矩阵
 摄像机定标后要进行投影仪定标。因为投影仪模型可以认为是相机模型的逆过程，即将2D图像映射为3D光线的过程，所以其
 定标过程与相机定标方法类似，同样需要在世界坐标系和投影图像平面参考系之间建立多个点对。投影图像平面参考系中点的坐标
 已知，而世界坐标系中点的坐标则需要借助已定标的照相机完成。
-\begin{figure}[!ht]
-  \centering
-  \begin{tikzpicture}
-    \draw[fill=yellow!50!white] (0,0) rectangle (5,5);
-    \draw[fill=white] (0.2,0.2) rectangle (0.6,0.6);
-    \draw[fill=black] (0.2,0.2) rectangle (0.4,0.4);
-    \draw[fill=black] (0.4,0.4) rectangle (0.6,0.6);
-
-    \draw[fill=black] (0.2,4.4) rectangle (0.6,4.8);
-    \draw[fill=white] (0.2,4.4) rectangle (0.4,4.6);
-    \draw[fill=white] (0.4,4.6) rectangle (0.6,4.8);
-
-    \draw[fill=white] (4.4,4.4) rectangle (4.8,4.8);
-    \draw[fill=black] (4.4,4.4) rectangle (4.6,4.6);
-    \draw[fill=black] (4.6,4.6) rectangle (4.8,4.8);
-
-    \draw[fill=black] (4.4,0.2) rectangle (4.8,0.6);
-    \draw[fill=white] (4.4,0.2) rectangle (4.6,0.4);
-    \draw[fill=white] (4.6,0.4) rectangle (4.8,0.6);
-  \end{tikzpicture}
-  \caption{投影仪校正的定标板}
-\end{figure}
 
 定标板四周的四个角点经过摄像机检测以确定定标板的位置，而后将投影图像投射至定标板：
 \begin{figure}[!ht]
