@@ -325,7 +325,7 @@ TÎª$3\times1$´óÐ¡µÄ¾ØÕó£º
   y=Y\frac{f_y}{Z_c}+c_y
 \end{eqnarray}
 ½«¹«Ê½~\ref{eq:inner0}Ê¹ÓÃÆä´Î×ø±êÖØÐÂ±íÊ¾Îª£º
-\begin{equation}
+\begin{equation}\label{eq:camera2ccd}
   q=MQ_c
 \end{equation}
 ÆäÖÐ£¬$q=\left[\begin{array}{c}
@@ -342,16 +342,19 @@ $M=\left[\begin{array}{ccc}
 f_x & 0 & c_x\\
 0 & f_y & c_y\\
 0 & 0 & 1
-\end{array}\right]$¡£¾ØÕó$M$°üº¬Ïà»úÄÚ²¿²ÎÊýµÄÃèÊö£¬¹ÊÒ²±»³Æ×÷ÉãÏñ»úµÄÄÚ¾ØÕó\cite{heikkila1997four}¡£
+\end{array}\right]$¡£
+
+¹«Ê½~\ref{eq:camera2ccd}±íÃ÷ÁË´ÓÏà»ú×ø±êÏµµ½³ÉÏñÆ½Ãæ²Î¿¼ÏµµÄ×ª»»¹ý³Ì£¬¾ØÕó$M$°üº¬Ïà»úÄÚ²¿²ÎÊýµÄÃèÊö£¬
+¹ÊÒ²±»³Æ×÷ÉãÏñ»úµÄÄÚ¾ØÕó\cite{heikkila1997four}¡£
 ¶ÔÉãÏñ»ú¶¨±êµÄ¹ý³Ì¾ÍÊÇÇóµÃÏà»úÄÚ²ÎÊýÓëÍâ²ÎÊýµÄ¹ý³Ì¡£
 \subsection{ÉãÏñ»ú»û±ä}
 ËäÈ»ÉãÏñ»ú¿É¼ò»¯ÎªÕë¿×Ä£ÐÍ£¬È»¶øÔÚÊµ¼ÊÉÏ£¬ÕæÊµµÄÕë¿×ÎÞ·¨ÎªÔÚ¶ÌÊ±¼äÄÚÎªÆØ¹âÊÕ¼¯×ã¹»µÄ¹âÏß£¬
 Òò´ËÔÚÉãÏñ»úÖÐÊ¹ÓÃÍ¸¾µ¶ø·ÇÐ¡¿×¡£Í¸¾µµÄÊ¹ÓÃÊ¹µÃ¿ìËÙÆØ¹â³ÉÎª¿ÉÄÜ£¬¶øÆäÈ±µãÔòÊÇÒýÈëÁËÍ¸¾µµÄ»û±ä¡£
 Í¸¾µµÄ»û±äÖ÷Òª·ÖÎªÁ½ÖÖ£º¾¶Ïò»û±äºÍÇÐÏò»û±ä\cite{fryer1986lens}¡£¾¶Ïò»û±äÊÇÓÉÍ¸¾µÐÎ×´ÒýÆð£¬¶øÇÐÏò»û±äÔòÓÉÉãÏà»úµÄ×é×°¹ý³ÌÒýÆð¡£
 
-¾¶Ïò»û±ä·ÖÎªÍ²ÐÎ»û±äºÍÕíÐÎ»û±ä£¬ÔÚ¹âÑ§ÖÐÐÄµÄ»û±ä³Ì¶ÈÎª0£¬Ëæ×ÅÏë¸Ð¹âÔª¼þµÄ±ßÔµÒÆ¶¯£¬
-»û±ä³Ì¶ÈÔ½ÏÔÖø£¬²Î¼ûÍ¼~\ref{fig:tongx}¡£ÔÚÊµ¼ÊÖÐ£¬ÕâÑùµÄ»û±ä±È½ÏÐ¡£¬¿ÉÒÔÀûÓÃ¹âÑ§ÖÐÐÄ($r=0$)Î»ÖÃ
-ÖÜÎ§µÄÌ©ÀÕ¼¶ÊýÕ¹¿ªÀ´ÃèÊö£¬Í¨³£Ö»È¡Ç°Á½Ïî»òÈýÏî¾Í×ã¹»ÁË¡£¼ÙÉè$(x_{corrected},y_{corrected})$±íÊ¾ÓÉ
+¾¶Ïò»û±ä·ÖÎªÍ²ÐÎ»û±äºÍÕíÐÎ»û±ä£¬ÔÚ¹âÑ§ÖÐÐÄµÄ»û±ä³Ì¶ÈÎª0£¬Ô½Íù¸Ð¹âÔª¼þµÄ±ßÔµÒÆ¶¯£¬
+»û±ä³Ì¶ÈÔ½ÏÔÖø£¬²Î¼ûÍ¼~\ref{fig:tongx}¡£Í¨³££¬ÓëÕû·ùÍ¼Æ¬Ïà±È£¬ÕâÑùµÄ»û±ä³Ì¶È±È½ÏÐ¡£¬¿ÉÀûÓÃ¹âÑ§ÖÐÐÄ($r=0$)Î»ÖÃ
+ÖÜÎ§µÄÌ©ÀÕ¼¶ÊýÕ¹¿ªÀ´½üËÆÃèÊö£¬Í¨³£Ö»È¡Ç°Á½Ïî»òÈýÏî¾Í×ã¹»ÁË¡£¼ÙÉè$(x_{corrected},y_{corrected})$±íÊ¾ÓÉ
 µã$(x,y)$Ð£ÕýºóµÄÎ»ÖÃ£¬ÄÇÃ´ÓÐÈçÏÂ¹«Ê½£º
 \begin{eqnarray}
   x_{corrected}=x(1+k_1r^2+k_2r^4) \nonumber\\
@@ -463,16 +466,17 @@ $Q_w$ºÍ$q_p$µÄ×ø±ê¶ÔÓ¦¹ØÏµ£¬²¢¾Ý´ËÍê³ÉÍ¶Ó°ÒÇµÄ¶¨±ê¡£
   \item ¼ÜÉèÉãÏñ»ú¡¢Í¶Ó°ÒÇ£¬²¢½«Æä½¹¾àµ÷ÕûºÏÊÊ£¬½«¶¨±ê°åÖÃÓÚÉãÏñ»úºÍÍ¶Ó°ÒÇÊÓÒ°ÏÂ¡£
   \item ÉãÏñ»úÅÄÉã¶¨±ê°åÍ¼Ïñ(¼ÇÎª$I_c$)²¢¼ì²â½Çµã£¬
   ²¢Æ¥ÅäºÍ¼ÇÂ¼½ÇµãÔÚÍ¼ÏñÖÐµÄ×ø±ê¡¢ÔÚÊÀ½ç×ø±êÏµµÄ×ø±ê£¬Èç¶¨±ê°åÉÏ½ÇµãÎ´±»È«²¿¼ì²â³öÔòÖØÐÂÅÄÉãÍ¼Ïñ£¬Ö±ÖÁÈ«²¿½Çµã±»¼ì²â³ö¡£
-  \item ±£³Ö¶¨±ê°å²»¶¯£¬Í¶Ó°ÒÇÍ¶ÉäÍ¶Ó°ÒÇ¶¨±êÍ¼Ïñ£¬¼ûÍ¼~\ref{fig:pro-cam}¡£
-  \item ÉãÏñ»úÅÄÉãÍ¼Ïñ(¼ÇÎª$I_p$)£¬²¢¼õÈ¥±³¾°$I_c$£¬ÌáÈ¡Í¶Ó°Í¼ÏñµÄ½Çµã£¬¼ÇÂ¼½ÇµãÔÚËùÅÄÉãÍ¼ÏñÖÐµÄÎ»ÖÃ£¬Èç½ÇµãÎ´±»È«²¿¼ì²â³öÔòÖØÐÂÅÄÉã$I_p$¡£
+  \item ¶¨±ê°å²»¶¯£¬ÔÚÆä±íÃæÆÌÉè°×Ö½£¬Í¶Ó°ÒÇÍ¶ÉäÍ¶Ó°ÒÇ¶¨±êÍ¼Ïñ£¬¼ûÍ¼~\ref{fig:pro-cam}¡£
+  \item ÉãÏñ»úÅÄÉãÍ¼Ïñ(¼ÇÎª$I_p$)ÌáÈ¡Í¶Ó°Í¼ÏñµÄ½Çµã£¬¼ÇÂ¼½ÇµãÔÚËùÅÄÉãÍ¼ÏñÖÐµÄÎ»ÖÃ£¬Èç½ÇµãÎ´±»È«²¿¼ì²â³öÔòÖØÐÂÅÄÉã$I_p$¡£
   \item ÊÊ¶È¸Ä±ä¶¨±ê°åÎ»ÖÃºÍ½Ç¶È¡£
   \item ÖØ¸´²½Öè2-5¹²9´Î£¬µ÷ÓÃcvCalibrateCamera2º¯Êý´¦Àí²½Öè2µÃµ½µÄ½Çµã×ø±ê¶Ô£¬¼ÆËãÉãÏñ»úÄÚÍâ²ÎÊý£¬Íê³ÉÉãÏñ»ú¶¨±ê
-  \item ¸ù¾ÝÉãÏñ»ú²ÎÊý¼ÆËãÍ¶Ó°Í¼Ïñ½ÇµãµÄÈýÎ¬ÐÅÏ¢£¬½¨Á¢Í¶Ó°Í¼Ïñ½ÇµãÔÚÊÀ½ç×ø±êÏµÏÂºÍÍ¶Ó°Í¼ÏñÏÂµÄ×ø±ê¶Ô£¬Í¬Ñùµ÷ÓÃcvCalibrateCamera2º¯Êý¼ÆËãÍ¶Ó°ÒÇÄÚÍâ²ÎÊý£¬Íê³ÉÍ¶Ó°ÒÇ¶¨±ê¡£
+  \item ¸ù¾ÝÉãÏñ»ú²ÎÊý¼ÆËãÍ¶Ó°Í¼Ïñ½ÇµãµÄÈýÎ¬ÐÅÏ¢£¬
+      ½¨Á¢Í¶Ó°Í¼Ïñ½ÇµãÔÚÊÀ½ç×ø±êÏµÏÂºÍÍ¶Ó°Í¼ÏñÏÂµÄ×ø±ê¶Ô£¬Í¬Ñùµ÷ÓÃcvCalibrateCamera2º¯Êý¼ÆËãÍ¶Ó°ÒÇÄÚÍâ²ÎÊý£¬Íê³ÉÍ¶Ó°ÒÇ¶¨±ê¡£
 \end{enumerate}
 \begin{figure}[!ht]
   \centering
-    \includegraphics[width=0.8\textwidth]{pro-cam.eps}
-  \caption{Í¶Ó°ÒÇÍ¶Éä¶¨±êÍ¼ÏñºóµÄ¶¨±ê°å}\label{fig:pro-cam}
+    \includegraphics[width=0.8\textwidth]{pro.eps}
+  \caption{Í¶Ó°ÒÇÍ¶Éä¶¨±êÍ¼ÏñºóµÄ¶¨±ê°å¼°ÕÒµ½µÄ½Çµã}\label{fig:pro-cam}
 \end{figure}
 
 \section{ÈýÎ¬ÐÅÏ¢µÄ¼ÆËã}
@@ -509,25 +513,31 @@ $Q_w$ºÍ$q_p$µÄ×ø±ê¶ÔÓ¦¹ØÏµ£¬²¢¾Ý´ËÍê³ÉÍ¶Ó°ÒÇµÄ¶¨±ê¡£
 \end{equation}
 Çó½â¿ÉµÃ£º
 \begin{equation}
-  \left(
+  \left[
   \begin{array}{c}
   \lambda_1\\
   \lambda_2
   \end{array}
-  \right)=\left(
+  \right]=\left[
   \begin{array}{cc}
   \|v_1\|^2 & -v_1^tv_2 \\
   -v_2^tv_1 & \|v_2\|^2
   \end{array}
-  \right)
-  \left(
+  \right]
+  \left[
   \begin{array}{c}
   v_1^t(q_2-q_1)\\
   v_2^t(q_1-q_2)
   \end{array}
-  \right)
+  \right]
 \end{equation}
 \chapter{½á¹¹¹âÎªÑÕÉ«ÌõÎÆÐòÁÐµÄ3DÖØ½¨}
+±¾ÕÂ½éÉÜÒÔDe BurijnÐòÁÐÎª±àÂëÑÕÉ«ÌõÎÆ×÷Îª½á¹¹¹âµÄ3DÖØ½¨·½·¨£¬ÄÜ¹»ÊµÏÖÔÚ»·¾³¹âÏÂ
+¶ÔÎïÌåµÄ3DÉ¨Ãè¡£±¾ÎÄÔÚ´ËÏµÍ³ÖÐÌá³öÁË½Ï¶àµÄ´´ÐÂµã£¬°üÀ¨Ìá³ö¶Ô±»É¨ÃèÎïÌå±íÃæµÄ·´ÉäÂÊÐ£Õý·½·¨¡¢
+Ìá³ö¾Ö²¿Ç÷ÊÆ±ä»»µÄ¸ÅÄî²¢ÓÃÓÚÏßÌõ¼ì²â¡¢·åÖµ¶¨Î»·½·¨ÒÔ¼°¸Ä½ø¶¯Ì¬¹æ»®µÄcostº¯Êý²¢ÓÃÒÔ½¨Á¢Í¶Éä
+ÌØÕ÷ºÍ±»¼ì²âÌØÕ÷¼äµÄ¶ÔÓ¦¹ØÏµ½¨Á¢µÈ¡£ÒÔÉÏµÄ´´ÐÂ·½·¨Ê¹µÃÏµÍ³¾ß±¸Ò»¶¨¶Ô»·¾³¹âºÍ±»É¨ÃèÎïÌå±íÃæÑÕÉ«µÄ¿¹¸ÉÈÅÄÜÁ¦£¬
+ºÜºÃµØÀ©Õ¹ÁËÏµÍ³µÄÊÊÓÃ·¶Î§¡£Í¬Ê±Ëù²ÉÓÃµÄ¸ß·Ö±æÂÊÍ¶Ó°ÒÇÒ²Ê¹3DÖØ½¨¾ßÓÐºÜ¸ßµÄ·Ö±æÂÊ£¬ÀýÈç
+ÖØ½¨ºóÒ»·ùÈËÁ³µÄµãÔÆ°üº¬ÁË¶à´ï75371¸öÈýÎ¬µã¡£
 \section{ÏµÍ³}
 \subsection{¼Ü¹¹ºÍÁ÷³Ì}
 ËùÊ¹ÓÃµÄÉè±¸ÊÇ£º
@@ -768,18 +778,18 @@ BÍ¨µÀµÄÏà¶Ô·´ÉäÂÊ¿ÉÍ¨¹ýÏàËÆµÄ¹ý³ÌÇóµÃ¡£
 \end{figure}
 
 \section{ÌØÕ÷Ê¶±ð}
-crosstalkÐ£ÕýºÍ·´ÉäÂÊÐ£ÕýµÄÄ¿µÄÊÇÐ£ÕýËùÅÄÉãÍ¼Æ¬µÄÑÕÉ«»û±ä£¬ ÒÔ±ã¸ü×¼ÇÐµØ¼ì²âµ½ËùÍ¶Ó°ÌØÕ÷¡£ÎªÁËÄÜ¹»Ìá¸ß¼ì²âÑÕÉ«ÏßÌõµÄ
-ÕÙ»ØÂÊºÍ×¼È·ÂÊ£¬ ±¾ÎÄ¶¨ÒåÁËÁ½¸ö¸ÅÄî£º$M$ Í¨µÀºÍÀëÉ¢Ç÷ÊÆ±ä»»¡£
-
-$M$Í¨µÀ½«R¡¢ G¡¢ BÈý¸öÍ¨µÀÈÚºÏÎªÒ»¸öÍ¨µÀ£¬ ±ÜÃâÁË´¦ÀíµÄ¸´ÔÓÐÔ£¬ ½áºÏÍ¶ÉäÑÕÉ«ÐòÁÐµÄÌØÊâÐÔ£¬ ×î´óÏÞ¶ÈµØ±£ÁôÁËÔ­Ê¼ÏßÌõµÄ
-ÌØÐÔ£¬ Í¬Ê±¾ßÓÐÒ»¶¨µÄÈ¥±³¾°¹â¸ÉÈÅµÄÄÜÁ¦¡£ÀëÉ¢Ç÷ÊÆ±ä»»½«ÏßÌõµÄ±ä»¯ÌØÐÔ×ª»»ÎªÒ×¼ì²âµÄÐÎÊ½£¬ Ìá¸ßÁËÏßÌõ¼ì²âµÄ³É¹¦ÂÊ¡£
+crosstalkÐ£ÕýºÍ·´ÉäÂÊÐ£ÕýµÄÄ¿µÄÊÇÐ£ÕýËùÅÄÉãÍ¼Æ¬µÄÑÕÉ«»û±ä£¬ÒÔ±ã¸ü×¼ÇÐµØ¼ì²âµ½ËùÍ¶Ó°ÌØÕ÷£ºÏßÌõÎ»ÖÃ¼°ÆäÑÕÉ«¡£
+ÎªÁËÄÜ¹»Ìá¸ß¼ì²âÑÕÉ«ÏßÌõµÄ
+ÕÙ»ØÂÊºÍ×¼È·ÂÊ£¬±¾ÎÄÒýÈëÁËÁËÁ½¸ö¸ÅÄî£º$M$ Í¨µÀºÍÀëÉ¢Ç÷ÊÆ±ä»»¡£
+$M$Í¨µÀÊÇÖ¸½«R¡¢G¡¢BÈý¸öÍ¨µÀÈÚºÏÎªÒ»¸öÍ¨µÀ£¬±ÜÃâÁË·Ö±ð´¦ÀíR¡¢G¡¢BÈý¸öÍ¨µÀµÄ¸´ÔÓÐÔ£¬Í¬Ê±½áºÏËùÍ¶ÉäÑÕÉ«ÐòÁÐµÄÌØÊâÐÔ£¬ ×î´óÏÞ¶ÈµØ±£ÁôÁËÔ­Ê¼ÏßÌõµÄ
+ÌØÕ÷£¬ÁíÍâ£¬$M$Í¨µÀµÄ¶¨ÒåÒ²Ê¹Æä¾ßÓÐÒ»¶¨È¥±³¾°¹â¸ÉÈÅµÄÄÜÁ¦¡£ÀëÉ¢Ç÷ÊÆ±ä»»½«$M$Í¨µÀÖÐÏßÌõµÄ±ä»¯ÌØÐÔ×ª»»Îª¸üÒ×¼ì²âµÄÐÎÊ½£¬ ºÜ´ó³Ì¶ÈÉÏÌá¸ßÁËÏßÌõ¼ì²â³É¹¦ÂÊ¡£
 \subsection{$M$ Í¨µÀ¶¨Òå}
 $M$Í¨µÀ±»¶¨ÒåÎªµ±Ç°ÏñËØÏÂ£¬ R¡¢G¡¢BÈý¸öÍ¨µÀµÄ×î´óÖµÓë×îÐ¡ÖµÖ®²î£¬ Èç¹«Ê½~\ref{eq:Mchannel}\cite{zhao2011novel}¡£
 \begin{equation}
 \label{eq:Mchannel}
 M_{ij}=\max{(C^r_{ij},C^g_{ij},C^b_{ij})}-\min{(C^r_{ij},C^g_{ij},C^b_{ij})}
 \end{equation}
-ÕâÀïµÄ$C_{ij}$ÊÇ¹«Ê½~\ref{eq:calibrated1}ÖÐ$I_a$Í¼ÏñÖÐµÄÏñËØÖµ£¬ ¼´ÑÕÉ«Ð£ÕýºóµÄÏñËØÖµ¡£ ½ÓÏÂÀ´µÄ´¦ÀíÈçÖÐÐÄÏß²éÕÒºÍ·åÖµ¶¨Î»¶¼ÊÇ»ùÓÚ
+ÕâÀïµÄ$C_{ij}$ÊÇ¹«Ê½~\ref{eq:calibrated1}ÖÐ$I_a$Í¼ÏñÖÐµÄÏñËØÖµ£¬¼´ÑÕÉ«Ð£ÕýºóµÄÏñËØÖµ¡£½ÓÏÂÀ´µÄ´¦ÀíÈçÖÐÐÄÏß²éÕÒºÍ·åÖµ¶¨Î»¶¼ÊÇ»ùÓÚ
 $M$Í¨µÀ½øÐÐµÄ¡£ $M$Í¨µÀµÄ¶¨ÒåÐÎÊ½¾ö¶¨ÁËÆä¾ßÓÐÅÅ³ý»·¾³¹â¸ÉÈÅµÄÄÜÁ¦£¬ÆäÖ¤Ã÷¼û¹«Ê½~\ref{eq:Cij}ºÍ¹«Ê½~\ref{eq:Mij}¡£
 
 ¸ù¾Ý¹«Ê½~\ref{eq:calibrated1}£¬ $C_{ij}$¾ßÓÐÈçÏÂÐÎÊ½£º
@@ -842,9 +852,18 @@ p^b_{ij}
 \begin{equation}
     \min({[p^r_{ij}\hspace{10pt}p^g_{ij}\hspace{10pt}p^b_{ij}]}^T) = 0
 \end{equation}
-ÕâÊÇÒòÎª£¬ ËùÍ¶ÉäµÄ¸÷ÑÕÉ«ÖÐ£¬ ÖÁÉÙ´æÔÚÒ»¸öÎª 0 µÄÍ¨µÀ¡£ ¾ßÌå¿É²Î¿´±í~\ref{tabular:colorAssignment}¡£
-
-¿É¼û£¬ $M$ Í¨µÀÖ»ºÍÁ½¸öÒòËØÏà¹Ø£º
+ÕâÊÇÒòÎª£¬ËùÍ¶ÉäµÄ¸÷ÑÕÉ«µÄR¡¢G¡¢BÈý¸öÍ¨µÀÖ®ÖÐÖÐ£¬ÖÁÉÙ´æÔÚÒ»¸öÎª 0 µÄÍ¨µÀ¡£¾ßÌå¿É²Î¿´±í~\ref{tabular:colorAssignment}¡£
+\begin{figure}[!ht]
+\centering
+\subfloat[]{
+    \includegraphics[width=0.4\textwidth]{de_src.eps}
+}
+\subfloat[]{
+    \includegraphics[width=0.4\textwidth]{de_m.eps}
+}
+\caption{(a) ¼ÓÕÕÁË¹âÕ¤µÄÊÖ\quad()(b)½«(a)×ª»»ºóµÃµ½µÄMÍ¨µÀÍ¼}\label{fig:de_m}
+\end{figure}
+´ÓÒÔÉÏµÄÍÆÑÝ¿É¼û£¬$M$ Í¨µÀÖ»ºÍÁ½¸öÒòËØÏà¹Ø£º
 \begin{itemize}
   \item Í¶Ó°ÑÕÉ«$I_p$
   \item RÍ¨µÀ·´ÉäÂÊ$a^r$
@@ -852,7 +871,7 @@ p^b_{ij}
 $M$Í¨µÀÓë»·¾³¹â $O$ ÎÞ¹Ø¡£
 
 \subsection{ÀëÉ¢Ç÷ÊÆ±ä»»}
-ÔÚ$M$Í¨µÀµÄ»ù´¡ÉÏ£¬ ÎªÁË½øÒ»²½ÅÅ³ýRÍ¨µÀ·´ÉäÂÊ¶ÔÖÐÐÄÏß²éÕÒµÄÓ°Ïì£¬ ±¾ÎÄÌá³öÀëÉ¢Ç÷ÊÆ±ä»»(DTT)µÄ¸ÅÄî¡£
+ÔÚ$M$Í¨µÀµÄ»ù´¡ÉÏ£¬ÎªÁË½øÒ»²½ÅÅ³ýRÍ¨µÀ·´ÉäÂÊ¶ÔÖÐÐÄÏß²éÕÒµÄÓ°Ïì£¬±¾ÎÄÌá³öÀëÉ¢Ç÷ÊÆ±ä»»(DTT)µÄ¸ÅÄî¡£
 ÀëÉ¢Ç÷ÊÆ±ä»»±»¶¨ÒåÎªÈçÏÂÐÎÊ½£º
 \begin{equation}\label{eq:LTM}
 T_{ij}=\sum_{k=h+1}^{j+N}{\sum_{h=j}^{j+N-1}{sign(M_{ik}-M_{ih})}}
@@ -915,10 +934,15 @@ T_{ij}=\sum_{k=h+1}^{j+N}{\sum_{h=j}^{j+N-1}{sign(\max(\mathbf{p}_{ik})-\max(\ma
   \caption{f(n) ºÍ T(n): ÈçÍ¼£¬ f(n) ÓÐËÄ¸ö·ûºÏ¸ßË¹·Ö²¼µÄ·åÖµ£¬¸÷ÓÐ²»Í¬µÄ¿í¶ÈºÍ¸ß¶È£¬ÔÚ¶Ô f(n) ÊµÊ© DTT ±ä»»µÃµ½µÄ T(n) ÖÐ£¬ ËÄ¸ö·åÖµµãÔò¶ÔÓ¦ÏàÍ¬µÄ×î´óÖµµ½×îÐ¡ÖµµÄ±ä»¯Ä£Ê½£¬ Ñ°ÕÒºÍ¶¨Î»ÕâÑùµÄ±ä»¯Ä£Ê½¿ÉÒÔÓÃÓÚ»ØËÝÑ°ÕÒ·åÖµÎ»ÖÃ. }\label{figure:trendshow}
 \end{figure}
 
-DTTµÄÁíÍâÒ»¸öÖØÒª×÷ÓÃÊÇÄÜ¹»ºÜºÃµØ¼ì²â³öÎ¢ÈõÏßÌõ¡£ÔÚÊµ¼Ê²ÉÑùµÄÕÕÆ¬ÖÐ£¬ÔÚÎïÌå±íÃæÆð·üÆÂ¶È½Ï´óµÄµØ·½£¬ÓÉÓÚÍ¶ÉäÏßÌõ±»À­³¶£¬
-³£³£µ¼ÖÂÅÄÉãµ½µÄÏßÌõÆð·ü½ÏÎªÆ½Ì¹£¬²»¹ÜÊÇÁÁ¶È»¹ÊÇMÍ¨µÀ¶¼È±ÉÙ½Ï¸ßµÄ·åÖµ¡£DTTÄÜ¹»ÌìÈ»µØ´¦ÀíÕâÖÖÇé¿ö¡£ÕâÊÇÒòÎª£¬DTT½«ÏßÌõµÄ
-ÏÈµÝÔö¡¢ºóµÝ¼õÇ÷ÊÆÖ±½Ó±ä»¯Îª×î´óÖµ×îÐ¡ÖµÄ£Ê½£¬×î´óÖµ×îÐ¡ÖµÄ£Ê½Ö»ÓëÏßÌõµÄ±ä»¯Ç÷ÊÆÓÐ¹Ø£¬ÓëÏßÌõµÄ¾ø¶ÔÁÁ¶ÈÎÞ¹Ø¡£Í¼~\ref{fig:segmentation}
-¶Ô±ÈÁËÊ¹ÓÃ×ÔÊÊÓ¦ãÐÖµ¶þÖµ»¯·½·¨ºÍDTT·½·¨·ÖÀëµÄÏßÌõ½á¹û£¬ÏÔÈ»£¬ÔÚÆÂ¶È½Ï´óµÄÎïÌå±ßÔµÇøÓò£¬DTT·½·¨¼ì²â³ýÁË¾ø´ó²¿·ÖÏßÌõ£¬¶ø×ÔÊÊÓ¦ãÐÖµµÄ¶þ
+DTTµÄÁíÍâÒ»¸öÖØÒª×÷ÓÃÊÇÄÜ¹»ºÜºÃµØ¼ì²â³öÎ¢ÈõÏßÌõ¡£ÔÚÊµ¼Ê²ÉÑùµÄÕÕÆ¬ÖÐ£¬ÔÚÎïÌå±ßÔµ»ò±íÃæÆð·üÆÂ¶È½Ï´óµÄµØ·½£¬
+ÓÉÓÚÍ¶ÉäÏßÌõ±»Ð±ÏòÀ­³¶£¬ÏßÌõ±ä¿í£¬
+µ¼ÖÂÓÉÍ¶ÉäÏßÌõËùÒýÆðµÄÁÁ¶ÈÆð·ü±ä»¯½ÏÐ¡£¬Ê¹ÓÃ´«Í³µÄÒÔÁÁ¶È×÷ÎªÅÐ¶Ï±ê×¼·½·¨ºÜÄÑÔÚ±³¾°ÖÐ¼ì²âµ½ÕâÐ©Î¢ÈõÏßÌõ¡£È»¶ø¿ÉÏë¶øÖª£¬
+ÎïÌå±íÃæµÄ3DÐÅÏ¢ÔÚÆð·ü½Ï´óÇøÓò×îÎª¼¯ÖÐ£¬ËùÒÔÈçºÎ½«ÏßÌõ¼ì²â×¼È·¼«ÎªÖØÒª£¬Ö±½Ó¹ØÏµµ½3DÖØ½¨µÄÐ§¹û¡£
+DTTÖ®ËùÒÔÄÜ¹»ºÜºÃµØ´¦ÀíÕâÖÖÇé¿öÊÇÒòÎª£¬DTT½ö¹Ø×¢ÁÁ¶ÈµÄ±ä»¯Ç÷ÊÆ¶ø²»¹Ø×¢ÁÁ¶ÈµÄ¾ø¶ÔÖµ£¬¼´Í¨¹ý±ä»»£¬DTT½«ÏßÌõµÄ
+ÏÈµÝÔö¡¢ºóµÝ¼õÇ÷ÊÆ×ª»»Îª\textbf{×î´óÖµ-×îÐ¡ÖµÄ£Ê½}£¬¶ø×î´óÖµ-×îÐ¡ÖµÄ£Ê½Ö»ÓëÏßÌõµÄ±ä»¯Ç÷ÊÆÓÐ¹Ø£¬ÓëÏßÌõµÄ¾ø¶ÔÁÁ¶ÈÎÞ¹Ø¡£
+Í¼~\ref{fig:segmentation}
+¶Ô±ÈÁËÊ¹ÓÃ×ÔÊÊÓ¦ãÐÖµ¶þÖµ»¯·½·¨ºÍDTT·½·¨·ÖÀëµÄÏßÌõ½á¹û£¬
+ÏÔÈ»£¬ÔÚÆÂ¶È½Ï´óµÄÎïÌå±ßÔµÇøÓò£¬DTT·½·¨¼ì²â³ýÁË¾ø´ó²¿·ÖÏßÌõ£¬¶ø×ÔÊÊÓ¦ãÐÖµµÄ¶þ
 Öµ»¯·½·¨µÄ¼ì²â½á¹ûÔò´æÔÚ²»ÉÙÂ©¼ì¼°¶Ïµã¡£
 \begin{figure}[!ht]
   \centering
@@ -937,26 +961,29 @@ DTTµÄÁíÍâÒ»¸öÖØÒª×÷ÓÃÊÇÄÜ¹»ºÜºÃµØ¼ì²â³öÎ¢ÈõÏßÌõ¡£ÔÚÊµ¼Ê²ÉÑùµÄÕÕÆ¬ÖÐ£¬ÔÚÎïÌå±íÃæÆ
 
 \subsection{·åÖµ¶¨Î»}
 
-ÔÚÊ¹ÓÃDTTµÄ·½·¨¶¨Î»ÏßÌõºó£¬ »¹ÐèÒªÈ·¶¨ÏßÌõµÄ·åÖµÎ»ÖÃÒÔÓÃÓÚÈýÎ¬µãÔÆµÄ¼ÆËã¡£·åÖµ¶¨Î»µÄ·½·¨ÓÐ¶àÖÖ£¬
-ÏÖÁÐ¾ÙÈçÏÂ¡£
+ÔÚÊ¹ÓÃDTTµÄ·½·¨¶¨Î»ÏßÌõºó£¬ »¹ÐèÒªÈ·¶¨ÏßÌõµÄ·åÖµÎ»ÖÃÒÔÓÃÓÚÈýÎ¬µãÔÆµÄ¼ÆËã¡£·åÖµ¶¨Î»µÄ·½·¨ÓÐ¶àÖÖ£¬Ò»Ð©ÊÇ¾«È·µ½
+ÏñËØ£¬ÁíÒ»Ð©ÊÇ¾«È·µ½ÑÇÏñËØ£¬ÏÖÁÐ¾ÙÖ÷ÒªµÄ·½·¨ÈçÏÂ¡£
 \begin{itemize}
   \item \textbf{×î´óÖµ·½·¨} Jordi\cite{OptimisedDeBruijn} Ê¹ÓÃÏßÌõÖÐ¾ßÓÐ×î´óÖµµÃÏñËØÎ»ÖÃ×÷Îª·åÖµÎ»ÖÃ£¬ ÎªÁË±ãÓÚ¶Ô±È½á¹û£¬ ½«´Ë·½·¨
   ¼ò¼ÇÎª MAX¡£
-  \item \textbf{ÖÐÐÄµã·½·¨} ThomasµÈ\cite{GraphCut} ÔòÊ¹ÓÃÏßÌõµÄÖÐÐÄÎ»ÖÃ×÷Îª·åÖµÎ»ÖÃ£¬ ¼Ç³Ô·½·¨Îª MID¡£
-  \item \textbf{¼ÓÈ¨Æ½¾ù·¨} ZhiqiangµÈ\cite{CompositeColorfulStripes} Ê¹ÓÃµÄ·åÖµÎ»ÖÃ¼ÆËã·½·¨Îª£¬ ÔÚÕû¸öÏßÌõÇøÓò
-  Ö®ÖÐ£¬ ÒÔ¸÷ÏñËØµãµÄÁÁ¶ÈÎªÈ¨ÖØ£¬ ¶Ô¸÷ÏñËØµÄÎ»ÖÃÇóÈ¡¼ÓÈ¨Æ½¾ùÖµ×÷Îª·åÖµÎ»ÖÃ£¬ ¼Ç´Ë·½·¨Îª WA¡£
-  \item \textbf{¸ÅÂÊ·¨} FechtelerµÈ\cite{ColorClassification} Ôò½áºÏÁÁ¶È¡¢ ÏßÌõÏÖ×´µÈÒòËØ£¬ ¹¹½¨Å×ÎïÏßÄ£ÐÍ²¢¼ÆËã·åÖµÎ»ÖÃ£¬ ¼Ç´Ë·½·¨Îª PA¡£
+  \item \textbf{ÖÐÐÄµã·½·¨} ThomasµÈ\cite{GraphCut} ÔòÊ¹ÓÃÏßÌõµÄÖÐÐÄÎ»ÖÃ×÷Îª·åÖµÎ»ÖÃ£¬ ¼Ç´Ë·½·¨Îª MID¡£
+  \item \textbf{¼ÓÈ¨Æ½¾ù·¨} ZhiqiangµÈ\cite{CompositeColorfulStripes} Ê¹ÓÃµÄ·åÖµÎ»ÖÃ¼ÆËã·½·¨Îª£¬ÔÚÕû¸öÏßÌõÇøÓò
+  Ö®ÖÐ£¬ÒÔ¸÷ÏñËØµãµÄÁÁ¶ÈÎªÈ¨ÖØ£¬¶Ô¸÷ÏñËØµÄÎ»ÖÃÇóÈ¡¼ÓÈ¨Æ½¾ùÖµ²¢×÷Îª·åÖµÎ»ÖÃ£¬ ¼Ç´Ë·½·¨Îª WA¡£
+  \item \textbf{¸ÅÂÊ·¨} FechtelerµÈ\cite{ColorClassification} Ôò½áºÏÁÁ¶È¡¢ÏßÌõÐÎ×´µÈÒòËØ£¬¹¹½¨Å×ÎïÏßÄ£ÐÍ²¢¼ÆËã·åÖµÎ»ÖÃ£¬ ¼Ç´Ë·½·¨Îª PA¡£
 \end{itemize}
 
-±¾ÎÄÈ·¶¨·åÖµµÄ·½·¨²»Í¬ÓÚÒÔÉÏ·½·¨£¬ ÆäÖ÷ÒªµÄ²½ÖèÊÇ£¬ ÔÚMÍ¨µÀºÍÊ¹ÓÃDTT·½·¨È·¶¨µÄÏßÌõÇøÓòµÄ»ù´¡ÉÏ£¬ Ñ°ÕÒÏßÌõÇøÓòÖÐ
-MÍ¨µÀÖµ¸ßÓÚ·åÖµÒ»¶¨±ÈÀýµÄÏñËØµã£¬ ²¢¶ÔÕâÐ©µã¼ÓÈ¨¼ÆËã¾ùÖµÒÔ×÷Îª·åÖµ£¬ ±¾ÎÄµÄ·½·¨¼ÇÎª MMWA£¬ ¿É±íÊöÎª¹«Ê½~\ref{eq:Iestimated}¡£
+±¾ÎÄ¼ÆËã·åÖµµÄ·½·¨²»Í¬ÓÚÒÔÉÏ£¬ÆäÖ÷ÒªµÄ²½ÖèÊÇ£¬ÔÚMÍ¨µÀºÍÊ¹ÓÃDTT·½·¨È·¶¨µÄÏßÌõÇøÓòµÄ»ù´¡ÉÏ£¬Ñ°ÕÒÏßÌõÇøÓòÖÐ
+MÍ¨µÀÖµ¸ßÓÚ·åÖµÒ»¶¨±ÈÀýµÄÏñËØµã£¬²¢¶ÔÕâÐ©µã¼ÓÈ¨¼ÆËã¾ùÖµÒÔ×÷Îª·åÖµÎ»ÖÃ£¬±¾ÎÄµÄ·½·¨¼ÇÎª MMWA£¬ ¿É±íÊöÎª¹«Ê½~\ref{eq:Iestimated}¡£
+±¾·½·¨ÓëÒÔÉÏ·½·¨µÄÇø±ðÊÇ£¬Ê×ÏÈ¹«Ê½~\ref{eq:Iestimated}²¢²»ÒÔÁÁ¶ÈÖ±½Ó×÷ÎªÈ¨ÖØ£¬¶øÊÇÊ¹ÓÃ´ËÏñËØµãµÄ$M$Í¨µÀÖµ£¬ÁíÍâ£¬
+´Ë·½·¨ÅÅ³ýÁËÏßÌõÍâÎ§¸üÈÝÒ×ÊÜÔëÉùÓ°ÏìµÄµã¡£
 \begin{equation}
 \label{eq:Iestimated} I_{estimated}=
 \frac{\sum{I_i\cdot{}M_{i}}}{\sum{I_i}},\textrm{ for } M_i \ge
 \alpha{}M_{max}
 \end{equation}
 
-ÔÚÊµ¼ÊÓ¦ÓÃÖÐ£¬ $\alpha$Ñ¡È¡µÄÖµÎª 0.6¡£ Í¼~\ref{figure:peak} ¶Ô±ÈÁË¸÷·½·¨µÃµ½µÄ·åÖµÎ»ÖÃ¶Ô±È¡£
+ÔÚÊµ¼ÊÏµÍ³ÖÐ£¬$\alpha$Ñ¡È¡µÄÖµÎª 0.6¡£Í¼~\ref{figure:peak} ¶Ô±ÈÁË¸÷·½·¨µÃµ½µÄ·åÖµÎ»ÖÃ¶Ô±È¡£
+¿ÉÒÔ¿´µ½×î´óÖµ·½·¨È·¶¨µÄ·åÖµÎ»ÖÃÆð·ü×î´ó£¬±¾ÎÄ·½·¨¼ì²âµÄ·åÖµÔòÆ½Ë³µÃ¶à¡£
 \begin{figure}[!ht]
   % Requires \usepackage{graphicx}
   \centering
@@ -981,8 +1008,9 @@ MÍ¨µÀÖµ¸ßÓÚ·åÖµÒ»¶¨±ÈÀýµÄÏñËØµã£¬ ²¢¶ÔÕâÐ©µã¼ÓÈ¨¼ÆËã¾ùÖµÒÔ×÷Îª·åÖµ£¬ ±¾ÎÄµÄ·½·¨¼
 \end{figure}
 
 \subsection{ÑÕÉ«ÌáÈ¡}
-ÎªÁË½øÒ»²½½âÂë£¬ »¹ÐèÒª¶ÔÌ½²âµ½µÄÏßÌõ½øÐÐÑÕÉ«Ê¶±ð¡£ ´Ó¹«Ê½~\ref{eq:calibrated1}¿ÉÖª£¬ ¼´Ê¹ÔÚcrosstalkºÍÏà¶Ô·´ÉäÂÊÐ£ÕýºóµÃµ½µÄÍ¼ÏñÖÐ£¬ ÈÔÈ»±£ÁôÓÐ»·¾³¹âºÍRÍ¨µÀ·´ÉäÂÊµÄÓ°Ïì¡£ÒÔ¼òµ¥µÄRGBÑÕÉ«¿Õ¼ä¶ÔÑÕÉ«Ê¶±ðÄÑÒÔ×öµ½¶Ô
-ÉÏÊö¸ÉÈÅÒòËØµÄÃâÒßÐÔ¡£ÎªÁË½â¾öÕâ¸öÎÊÌâ£¬ ±¾ÎÄÖÐµÄÑÕÉ«Ê¶±ðÊÇÔÚhue¿Õ¼äÖÐ¼ÆËãÉ«¶ÈÀ´½øÐÐµÄ¡£
+ÏßÌõÑÕÉ«Ê¶±ðÊÇÌØÕ÷Ê¶±ðµÄÁíÒ»¸öÖØÒª²¿·Ö£¬ÑÕÉ«Ê¶±ðµÄ×¼È·ÂÊÖ±½ÓÓ°ÏìÌØÕ÷Ê¶±ðµÄ×¼È·ÂÊ¡£´Ó¹«Ê½~\ref{eq:calibrated1}¿ÉÖª£¬ Ô­Ê¼Í¼Ïñ¼´Ê¹¾­¹ýcrosstalkºÍÏà¶Ô·´ÉäÂÊÐ£Õý£¬ÈÔÈ»±£ÁôÓÐ»·¾³¹âºÍRÍ¨µÀ·´ÉäÂÊµÄÓ°Ïì¡£ÒÔ¼òµ¥µÄRGBÑÕÉ«¿Õ¼ä¶ÔÑÕÉ«Ê¶±ðÄÑÒÔ×öµ½¶Ô
+ÉÏÊö¸ÉÈÅÒòËØµÄÃâÒßÐÔ¡£ÎªÁË½â¾öÕâ¸öÎÊÌâ£¬±¾ÎÄ½«ÒÑ¼ì²âµ½ÏßÌõÎ»ÖÃµÄR¡¢G¡¢BÖµ×ª»¯ÎªÉ«¶È£¬²¢ÔÚhsv¿Õ¼ä·Ö±ðÓë5¸öËùÍ¸ÉäÑÕÉ«µÄ
+É«¶ÈÏà±È½Ï£¬ÈôÓëÄ³¸öÍ¶ÉäÑÕÉ«µÄÉ«¶ÈÏà²î×îÐ¡ÇÒ²îÖµÔÚãÐÖµÖ®ÄÚÔòÅÐ¶¨ÏßÌõÑÕÉ«Îª´ËÍ¶ÉäÑÕÉ«¡£
 
 ¼ÙÉèÄ³ÏñËØµã¾ßÓÐ(R,G,B)Èý¸öÍ¨µÀÖµ£¬ ÇÒÂú×ã$R\ge{}G\ge{}B$£¬ ÄÇÃ´Õâ¸öµãµÄÉ«¶È±í´ïÎª£º
 \begin{equation}\label{eq:hue}
@@ -994,11 +1022,17 @@ h & = & \frac{C^g-C^b}{C^r-C^b}\cdot \frac{\pi}{3} \nonumber \\
   & = & \frac{a^r(p^g+o^g)-a^r(p^b+o^b)}{a^r(p^r+o^r)-a^r(p^b+o^b)} \cdot \frac{\pi}{3} \nonumber \\
   & = & \frac{p^g-p^b}{p^r-p^b} \cdot \frac{\pi}{3}
 \end{eqnarray}
-ÓÉ¹«Ê½~\ref{eq:huv}¼ÆËãµÃµ½µÄÉ«¶ÈÓë¸÷¸ÉÈÅÒòËØ¾ùÎÞ¹Ø£¬ ÓÐÐ§µØÌá¸ßÁËÑÕÉ«Ê¶±ðµÄ×¼È·ÐÔ¡£
+ÓÉ¹«Ê½~\ref{eq:huv}¼ÆËãµÃµ½µÄÉ«¶ÈÓë¸÷¸ÉÈÅÒòËØ¾ùÎÞ¹Ø£¬ÓÐÐ§Ìá¸ßÁËÑÕÉ«Ê¶±ðµÄ×¼È·ÐÔ£¬Í¼~\ref{fig:de_m}(a)ÖÐ
+Ê³Ö¸²¿·ÖµÄÑÕÉ«Ê¶±ðÐ§¹ûÍ¼¼ûÍ¼~\ref{fig:de_color}¡£
+\begin{figure}[!ht]
+\centering
+    \includegraphics[scale=0.5]{de_color.eps}
+\caption{Ê³Ö¸²¿·ÖµÄÏßÌõÑÕÉ«Ê¶±ð½á¹û}\label{fig:de_color}
+\end{figure}
 
 \subsection{½¨Á¢¼ì²âÌØÕ÷¼°Í¶ÉäÌØÕ÷¼äµÄ¶ÔÓ¦¹ØÏµ}
 Íê³ÉÏßÌõ¼ì²â¡¢·åÖµ¶¨Î»ºÍÑÕÉ«Ê¶±ðµÈÌØÕ÷Ê¶±ðµÄ²½Öèºó£¬»¹Òª½¨Á¢¼ì²â³öÌØÕ÷¼°ËùÍ¶ÉäÌØÕ÷¼äµÄ¶ÔÓ¦¹ØÏµÒÔ´úÈëÈý½ÇÄ£ÐÍ²¢¼ÆËãÈýÎ¬µãÔÆ¡£
-Êµ¼ÊÖÐÕâÒ»²½ÊÇ²ÉÓÃ¶¯Ì¬¹æ»®Æ¥ÅäÉ«¶ÈµÄ·½·¨ÊµÏÖµÄ¡£
+Êµ¼ÊÖÐÕâÒ»²½ÊÇ²ÉÓÃ¶¯Ì¬¹æ»®Æ¥ÅäÉ«¶ÈµÄ·½·¨ÊµÏÖ£¬×ÞÈóµÈ\cite{zou2012novel}ÔòÌá³öÁË¸ÅÂÊÄ£ÐÍÒÔÇó½â¸ÅÂÊÄ£ÐÍ¡£
 
 ¼ÙÉè$A_i,1\in[1,N]$´ú±íÍ¶ÉäÏßÌõÐòÁÐµÄÉ«¶ÈÖµ£¬$B_j,j\in[1,M]$´ú±í¼ì²â³öÏßÌõÐòÁÐµÄÉ«¶ÈÖµ£¬·ÖÁ½²½½øÐÐ$A_i$,$B_j$µÄÆ¥Åä£º
 \begin{enumerate}
@@ -1015,11 +1049,12 @@ h & = & \frac{C^g-C^b}{C^r-C^b}\cdot \frac{\pi}{3} \nonumber \\
     \end{array}
     \right.
   \end{equation}
-  \item ´ÓÔªËØ$P_{MN}$¿ªÊ¼£¬ÑØ×Å¼ýÍ·¸ú×Ù$P$¾ØÕó£¬ÆäÂ·¾¶ÖÐµÄ''$\nwarrow$''¶ÔÓ¦$A_i$,$B_j$µÄÒ»¸öÆ¥Åä£¬''$\uparrow$''±íÊ¾
-  $B_j$ÖÐÈ±Ê§ÔªËØ£¬¼´Â©¼ìÏßÌõ£¬''$\longleftarrow$''±íÊ¾$B_j$ÖÐ¶à³öÔªËØ£¬¼´¶à¼ì³öÁËÏßÌõ¡£
+  \item ´ÓÔªËØ$P_{MN}$¿ªÊ¼£¬ÑØ×Å¼ýÍ·¸ú×Ù$P$¾ØÕó£¬ÆäÂ·¾¶ÖÐµÄ``$\nwarrow$''¶ÔÓ¦$A_i$,$B_j$µÄÒ»¸öÆ¥Åä£¬``$\uparrow$''±íÊ¾
+  $B_j$ÖÐÈ±Ê§ÔªËØ£¬¼´Â©¼ìÏßÌõ£¬``$\longleftarrow$''±íÊ¾$B_j$ÖÐ¶à³öÔªËØ£¬¼´¶à¼ì³öÁËÏßÌõ¡£
 \end{enumerate}
 
-¹«Ê½~\ref{eq:cmatrix}ºÍ¹«Ê½~\ref{eq:pmatrix}ÖÐµÄ$cost_{ij}$ÊÇÊµÏÖÕýÈ·Æ¥ÅäµÄ¹Ø¼ü£¬ÎªÁË¹ÄÀøÁ¬ÐøµÄÆ¥Åä£¬Êµ¼ÊÊ¹ÓÃµÄ
+¹«Ê½~\ref{eq:cmatrix}ºÍ¹«Ê½~\ref{eq:pmatrix}ÖÐµÄ$cost_{ij}$ÊÇÊµÏÖÕýÈ·Æ¥ÅäµÄ¹Ø¼ü£¬ÎªÁË¹ÄÀøÁ¬ÐøµÄÆ¥Åä£¬±¾ÎÄÊ¹ÓÃÁ¬ÐøÈý¸ùÏßÌõ
+µÄÆ¥Åä³Ì¶È×÷ÎªcostÖµ£¬±íÊ¾Îª¹«Ê½Îª£º
 $cost_{ij}$Îª£º
 \begin{equation}
   cost_{ij}=match(A_{i-1},B_{j-1})+match(A_i,B_j)+match(A_{i+1},B_{j+1})
@@ -1303,7 +1338,7 @@ $cost_{ij}$Îª£º
     \includegraphics[width=0.4\textwidth]{gray_project4.eps}}
 \subfloat[]{
     \includegraphics[width=0.4\textwidth]{gray_result5.eps}}
-  \caption{ÖØ½¨½á¹û}\label{fig:gray_result}
+  \caption{ÖØ½¨½á¹û£¬×ó²àÍ¼Îª³¡¾°Í¼£¬ÓÒ²àÎªÖØ½¨µÄµãÔÆ}\label{fig:gray_result}
 \end{figure}
 
 \chapter{½áÊøÓï}
