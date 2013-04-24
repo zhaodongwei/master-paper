@@ -1,4 +1,4 @@
-\begin{thebibliography}{16}
+\begin{thebibliography}{17}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -6,6 +6,12 @@
 \providecommand{\eprint}[2][]{\url{#2}}
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Besl(1988)}]{besl1988active}
+\bibinfo{author}{Besl, P.J.}, \bibinfo{year}{1988}.
+\newblock \bibinfo{title}{Active, optical range imaging sensors}.
+\newblock \bibinfo{journal}{Machine vision and applications}
+  \bibinfo{volume}{1}, \bibinfo{pages}{127--152}.
 %Type = Book
 \bibitem[{Bradski 和~ Kaehler(2008)}]{bradski2008learning}
 \bibinfo{author}{Bradski, G.}, \bibinfo{author}{Kaehler, A.},
@@ -83,11 +89,14 @@
 \newblock \bibinfo{journal}{International Journal of Computer Vision}
   \bibinfo{volume}{40}, \bibinfo{pages}{99--121}.
 %Type = Article
-\bibitem[{Schaller(1997)}]{schaller1997moore}
-\bibinfo{author}{Schaller, R.R.}, \bibinfo{year}{1997}.
-\newblock \bibinfo{title}{Moore's law: past, present and future}.
-\newblock \bibinfo{journal}{Spectrum, IEEE} \bibinfo{volume}{34},
-  \bibinfo{pages}{52--59}.
+\bibitem[{Sansoni 等(2009)Sansoni, Trebeschi 和~ Docchio}]{sansoni2009state}
+\bibinfo{author}{Sansoni, G.}, \bibinfo{author}{Trebeschi, M.},
+  \bibinfo{author}{Docchio, F.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{State-of-the-art and applications of 3d imaging
+  sensors in industry, cultural heritage, medicine, and criminal
+  investigation}.
+\newblock \bibinfo{journal}{Sensors} \bibinfo{volume}{9},
+  \bibinfo{pages}{568--601}.
 %Type = Inproceedings
 \bibitem[{Wei 等(2010)Wei, Jiang 和~ Ji}]{CompositeColorfulStripes}
 \bibinfo{author}{Wei, Z.}, \bibinfo{author}{Jiang, S.}, \bibinfo{author}{Ji,

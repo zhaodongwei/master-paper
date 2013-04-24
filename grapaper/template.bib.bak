@@ -160,3 +160,23 @@ masid = {2055106}
   year={1997},
   publisher={IEEE}
 }
+
+@incollection{zou2012novel,
+  title={A Novel Locally Adaptive Dynamic Programming Approach for Color Structured Light System},
+  author={Zou, Run and Zhou, Yu and Yu, Yao and Du, Sidan},
+  booktitle={Advances in Visual Computing},
+  pages={372--381},
+  year={2012},
+  publisher={Springer}
+}
+
+@article{besl1988active,
+  title={Active, optical range imaging sensors},
+  author={Besl, Paul J},
+  journal={Machine vision and applications},
+  volume={1},
+  number={2},
+  pages={127--152},
+  year={1988},
+  publisher={Springer}
+}

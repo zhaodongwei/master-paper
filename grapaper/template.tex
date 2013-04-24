@@ -119,13 +119,16 @@
 % 英文摘要
 \begin{englishabstract}
 
-In one-shot color structured light system, the color of stripe patterns are usually distorted with respect to color crosstalk,
-ambient light and albedo of the scanned objects, leading to mismatch in the correspondence of color stripes between the projected and
-captured images. In this paper, an adaptive color calibration as well as a Discrete Trend Transform algorithm are presented to
-achieve high-resolution 3D reconstructions. The adaptive color calibration, according to the relative albedo in RGB channels, can improve the accuracy of labeling stripe by alleviating the effect of albedo and ambient light while decoding the color.
-Furthermore, the Discrete Trend Transform in M channel makes it effective to detect weak stripes due to the uneven surface or
-reflectance characteristics of the scanned objects. With this approach, the presented system is suitable for scanning the moving objects
-and generating high-resolution 3D reconstructions without the need of dark laboratory environments.
+In the last decade, 3D shape acquisition has received more and more considerable research interests. Since the concept been proposed, people have developed some groups of techniques
+to achieve 3D shape acquisition, some important methods include stereo vision, TOF(Time Of Flight) and structured light\cite{sansoni2009state}.
+Among those methods, one of the main advantages of structured light
+techniques is that it needs less and easier image processing, meanwhile, it can derive high accuracy in the 3D reconstruction result\cite{OptimisedDeBruijn}.
+ Based on triangle principle, Structured light techniques take three steps to fulfill final result. The first step is to project some designed patterns onto the surface of the scanned
+objects. After that, a camera is controlled to capture the scene and send the pictures to computer for further processes. In the second step, algorithms are applied to establish the correspondence between designed patterns and patterns detected in the captured images. In the final step, 3D coordinates of the object surface are calculated from the correspondence established in the second step within the calibrated triangle model.
+
+In the review of the development history of structured light techniques, the first appeared technique is the time-multiplexing techniques, which is also called multi-shots techniques because multi pattern are projected onto the surface and multi images are taken. Actually there are both advantages and disadvantages using this method. Advantages include high accuracy and resolution and the disadvantage is that its scanning speed is slow. To achieve high resolution and scanning speed at the same time, one-shot structured light system is developed. In one-shot structured light system, there are three vital processes which would effect final reconstruction result, which includes projected patterns, detection of pattern in captured image and the establishment of correspondence between projected and captured patterns. Recently, more and more efforts have been made to generate higher quality result, which makes this method very useful in industry design and cultural heritage protection.
+
+In this paper, we have build a structure light system and this system uses two methods: colored stripe and Gay code as structure light, which belongs to one-shot structured light technique and time-multiplexing technique. To achieve a better reconstruction result, we propose an adaptive color calibration method, and a Discrete Trend Transform (DTT) algorithm to detect patterns. In this system, dark laboratory environments is not needed to derive high-resolution 3D point cloud. 
 
 \englishkeywords{three-dimensional image acquisition; adaptive color calibration;
 discrete trend transform; structured light.}
@@ -149,36 +152,51 @@ discrete trend transform; structured light.}
 
 \chapter{绪论}
 \section{引言}
-3D重建是一个被关注很久，很重要的技术。作为3D信息采集的重要手段，其在很多领域具有广泛的应用，在医学领域，医生可以用CT设备扫描人体内部结构，在文物保护领域，工作人员可以用3D重建进行逆向工程，对珍贵文物建模，在影视领域，3D重建被广泛应用于虚拟角色的生成，在计算机视觉领域，3D 信息的采集是决策和模式识别的重要信息源。
+人类生活在一个由三维的空间和时间组成的四维立体空间中，我们的眼睛不仅能感知周围事物的色彩光泽，还能够通过双目立体视觉的方式感知立体空间。在科技不发达的古代和近代，人们缺少描述和记录三维时间的方式，只能通过画画、照相、电影等行为以二维的方式记录周围的世界。随着
+计算机的发明和极快的普及，互联网和计算能力的快速增长深刻地影响人们的生产生活方式，其中尤以3D技术的影响最为突出。三维数字化技术使人们有能力对现实三维世界的认识和表达回归到原始的直观、立体的境界。在现代化的21世纪，3D的概念已然充斥着虚拟的世界，也在深刻影响着现实的世界。从3D游戏、动画到计算机辅助制造、3D打印、医学成像、自动驾驶汽车等，都包含着3D技术的应用。如果现在的世界不能称为3D 世界，那么可以预想的是，不久的未来3D技术的应用将会更加普及。
 
-例外一个例子是，3D打印技术越来越人所熟知，医生可以用它打印关节，航天员可以在太空中随时打印需要的部件，据说国内某型号的隐形飞机就使用了3D 打印的零部件。3D 打印的设备变得越来越为人所接受。
-而3D模型的建立通常有两种方法，一种是计算机辅助设计（CAD），另一种是对已有物体进行扫描并建立模型。前者的优点是制作精细，缺点是需要事先设计模型各组成部分比例，需要熟练的操作工人，开发周期长，而后者则基于对已有物体三维信息的采集和处理，并在此基础上建立模型，与3D打印形成很好的配合。
+3D技术包含一系列的过程，包括采集、处理、识别等，而这其中3D信息的采集技术是基础，所采集的3D信息可用于进一步处理和转化进而为提供有意义的信息或为决策提供基础。可以说，3D 信息的采集技术直接影响着3D技术应用范畴。
 
-上世纪，摩尔定律\cite{schaller1997moore}见证了计算芯片的飞速发展，计算机的计算能力也得到了极大提升，这也为3D信息的采集和处理提供了很好的计算资源保证。
+3D重建是3D信息的采集的一个重要手段，其重要的应用包括文物保护、医疗、机器人导航、模型生成、计算机视觉等。当然我们可以用计算机辅助设计（CAD）来建立三维模型，其优点是制作精细，但缺点是需要事先设计模型各组成部分比例，需要熟练的操作工人，开发周期长。而3D重建则基于对已有物体三维信息的采集和处理，并在此基础上建立模型，在时间成本和真实感上具有很大优势，例如人脸模型就广泛用于电影角色创建、计算机游戏外科手术、视频会议和虚拟现实等方法，对于一些需求则必须通过3D 重建实现，如历史文物保护等。
+
+另一方面，3D打印有越来越普及的趋势。3D打印设备已经实现了产品化，其价格随着时间的推移则也越来越为普通大众接受，可以预计的是，3D 打印的风行也必将推动3D 重建技术的进一步普及和发展。而就3D重建本身来看，其实现不需要太过复杂或精密的设备，只需要简单的家用设备即可完成，甚至一种名为通过聚焦的重建方法(shape from focus)只需要一台可变焦摄像机即可。本文通过使用一台家用摄像机和一台家用投影仪，使用结构光的方法完成了3D 重建系统，结构光分为颜色序列的结构光和基于格雷码的光栅。
 \section{3D重建的技术综述}
-\subsection{被动式非接触重建技术}
-\subsection{主动式非接触重建技术}
+从3D重建的概念被提出到目前为止，有多种技术被提出用于重建，主要可分为接触测量和非接触测量两大类。
 \begin{enumerate}
-\item \textbf{立体成像}
-\item \textbf{TOF}
-\begin{figure}[!ht]
+  \item \textbf{接触测量法} 
+  
+  此方法中，利用传感触头与被测物体的表面相接触并直接测量本点的深度信息。直接测量法的原理相当简单，且具有分辨率高，不受物体表面颜色、透明度等非形状因素干扰的优点。但其缺点是，传感触头与物体的直接接触则会一定程度地导致物体的轻微形变从而影响测量的精度，这也使得本方法不合适用于珍贵物品或极易形变物体的重建。
+  \item \textbf{非接触测量法} 
+  
+  顾名思义，非接触测量法在测量中不产生与被测量物体直接的物理接触（但可能会有光或声的接触），只通过算法对被测量物体反射的声或光信息进行计算以识别物体的表面形状特性。没有物理接触可以保证对被测物体不会产生伤害，这个因素保证了非接触测量法的可使用范围要比接触测量法要更为广泛。
+\end{enumerate}
+
+非接触测量法是3D测量的重要部分，其中主要的方法包含如下：
+\begin{enumerate}
+\item\textbf{立体成像}
+
+  \item\textbf{飞行时间法}
+  \begin{figure}[!ht]
 \centering
 \begin{tikzpicture}
-  \draw [fill=orange](4,0) rectangle (4.2,3);
+  \draw [->, very thick] (0.5,4)node[right]{\text{投射调制光}} -- (1.5,3.4);
+  \draw [fill=gray!50!white](4,0) rectangle (4.2,3);
   \foreach \x in {-1,1,...,7}
-    \draw [fill=blue!50!white] (0.5*\x,3.6-0.3*\x) circle (0.2);
+    \draw [fill=gray!50!white] (0.5*\x,3.6-0.3*\x) circle (0.2);
   \foreach \x in {0,2,...,6}
-    \draw [fill=blue] (0.5*\x,3.6-0.3*\x) circle (0.2);
+    \draw [fill=gray] (0.5*\x,3.6-0.3*\x) circle (0.2);
   \draw [fill=orange](4,0) rectangle (4.2,3);
   \foreach \x in {3,5}
-    \draw [fill=green!50!white] (0.5*\x,-0.6+0.3*\x) circle (0.2);
+    \draw [fill=gray!50!white] (0.5*\x,-0.6+0.3*\x) circle (0.2);
   \foreach \x in {4,6}
-    \draw [fill=green] (0.5*\x,-0.6+0.3*\x) circle (0.2);
+    \draw [fill=gray] (0.5*\x,-0.6+0.3*\x) circle (0.2);
+    \draw [->, very thick] (3,1) -- (2,0.4)node[below]{\text{接收调制光}};
 \end{tikzpicture}
 \caption{TOF}
 \end{figure}
-\item \textbf{结构光}
+  \item \textbf{结构光法}\cite{besl1988active}
 \end{enumerate}
+
 \section{结构光技术综述}
 \subsection{结构光技术的原理}
 \subsection{结构光技术的发展}
