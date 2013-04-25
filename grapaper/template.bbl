@@ -1,4 +1,4 @@
-\begin{thebibliography}{17}
+\begin{thebibliography}{20}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname url\endcsname\relax
   \def\url#1{\texttt{#1}}\fi
@@ -71,6 +71,14 @@
   for real-time range acquisition}, in: \bibinfo{booktitle}{3D Data Processing,
   Visualization and Transmission, 2004. 3DPVT 2004. Proceedings. 2nd
   International Symposium on}, pp. \bibinfo{pages}{413 -- 421}.
+%Type = Inproceedings
+\bibitem[{Mishra 和~ Chandwani(1993)}]{320548}
+\bibinfo{author}{Mishra, D.K.}, \bibinfo{author}{Chandwani, M.},
+  \bibinfo{year}{1993}.
+\newblock \bibinfo{title}{Ccd camera based automatic dimension measurement and
+  reproduction of 3-d objects}, in: \bibinfo{booktitle}{TENCON '93.
+  Proceedings. Computer, Communication, Control and Power Engineering.1993 IEEE
+  Region 10 Conference on}, pp. \bibinfo{pages}{530--533 vol.4}.
 %Type = Article
 \bibitem[{Page 等(2005)Page, Salvi, Collewet 和~ Forest}]{OptimisedDeBruijn}
 \bibinfo{author}{Page, J.}, \bibinfo{author}{Salvi, J.},
@@ -89,6 +97,14 @@
 \newblock \bibinfo{journal}{International Journal of Computer Vision}
   \bibinfo{volume}{40}, \bibinfo{pages}{99--121}.
 %Type = Article
+\bibitem[{Salvi 等(2004)Salvi, Pages 和~ Batlle}]{salvi2004pattern}
+\bibinfo{author}{Salvi, J.}, \bibinfo{author}{Pages, J.},
+  \bibinfo{author}{Batlle, J.}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{Pattern codification strategies in structured light
+  systems}.
+\newblock \bibinfo{journal}{Pattern Recognition} \bibinfo{volume}{37},
+  \bibinfo{pages}{827--849}.
+%Type = Article
 \bibitem[{Sansoni 等(2009)Sansoni, Trebeschi 和~ Docchio}]{sansoni2009state}
 \bibinfo{author}{Sansoni, G.}, \bibinfo{author}{Trebeschi, M.},
   \bibinfo{author}{Docchio, F.}, \bibinfo{year}{2009}.
@@ -105,6 +121,14 @@
   composite colorful stripes}, in: \bibinfo{booktitle}{Advanced Computer Theory
   and Engineering (ICACTE), 2010 3rd International Conference on}, pp.
   \bibinfo{pages}{V6--123 --V6--125}.
+%Type = Article
+\bibitem[{Will 和~ Pennington(1972)}]{will1972grid}
+\bibinfo{author}{Will, P.M.}, \bibinfo{author}{Pennington, K.S.},
+  \bibinfo{year}{1972}.
+\newblock \bibinfo{title}{Grid coding: A preprocessing technique for robot and
+  machine vision}.
+\newblock \bibinfo{journal}{Artificial Intelligence} \bibinfo{volume}{2},
+  \bibinfo{pages}{319--329}.
 %Type = Article
 \bibitem[{Zhang(2000)}]{zhang2000flexible}
 \bibinfo{author}{Zhang, Z.}, \bibinfo{year}{2000}.

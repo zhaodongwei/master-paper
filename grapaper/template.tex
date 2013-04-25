@@ -128,7 +128,7 @@ objects. After that, a camera is controlled to capture the scene and send the pi
 
 In the review of the development history of structured light techniques, the first appeared technique is the time-multiplexing techniques, which is also called multi-shots techniques because multi pattern are projected onto the surface and multi images are taken. Actually there are both advantages and disadvantages using this method. Advantages include high accuracy and resolution and the disadvantage is that its scanning speed is slow. To achieve high resolution and scanning speed at the same time, one-shot structured light system is developed. In one-shot structured light system, there are three vital processes which would effect final reconstruction result, which includes projected patterns, detection of pattern in captured image and the establishment of correspondence between projected and captured patterns. Recently, more and more efforts have been made to generate higher quality result, which makes this method very useful in industry design and cultural heritage protection.
 
-In this paper, we have build a structure light system and this system uses two methods: colored stripe and Gay code as structure light, which belongs to one-shot structured light technique and time-multiplexing technique. To achieve a better reconstruction result, we propose an adaptive color calibration method, and a Discrete Trend Transform (DTT) algorithm to detect patterns. In this system, dark laboratory environments is not needed to derive high-resolution 3D point cloud. 
+In this paper, we have build a structure light system and this system uses two methods: colored stripe and Gay code as structure light, which belongs to one-shot structured light technique and time-multiplexing technique. To achieve a better reconstruction result, we propose an adaptive color calibration method, and a Discrete Trend Transform (DTT) algorithm to detect patterns. In this system, dark laboratory environments is not needed to derive high-resolution 3D point cloud.
 
 \englishkeywords{three-dimensional image acquisition; adaptive color calibration;
 discrete trend transform; structured light.}
@@ -163,19 +163,28 @@ discrete trend transform; structured light.}
 \section{3D重建的技术综述}
 从3D重建的概念被提出到目前为止，有多种技术被提出用于重建，主要可分为接触测量和非接触测量两大类。
 \begin{enumerate}
-  \item \textbf{接触测量法} 
-  
-  此方法中，利用传感触头与被测物体的表面相接触并直接测量本点的深度信息。直接测量法的原理相当简单，且具有分辨率高，不受物体表面颜色、透明度等非形状因素干扰的优点。但其缺点是，传感触头与物体的直接接触则会一定程度地导致物体的轻微形变从而影响测量的精度，这也使得本方法不合适用于珍贵物品或极易形变物体的重建。
-  \item \textbf{非接触测量法} 
-  
-  顾名思义，非接触测量法在测量中不产生与被测量物体直接的物理接触（但可能会有光或声的接触），只通过算法对被测量物体反射的声或光信息进行计算以识别物体的表面形状特性。没有物理接触可以保证对被测物体不会产生伤害，这个因素保证了非接触测量法的可使用范围要比接触测量法要更为广泛。
-\end{enumerate}
+  \item \textbf{接触测量法}
 
+  此方法中，利用传感触头与被测物体的表面相接触并直接测量本点的深度信息。直接测量法的原理相当简单，且具有分辨率高，不受物体表面颜色、透明度等非形状因素干扰的优点。但其缺点是，传感触头与物体的直接接触则会一定程度地导致物体的轻微形变从而影响测量的精度，这也使得本方法不合适用于珍贵物品或极易形变物体的重建。
+  \item \textbf{非接触测量法}
+
+  顾名思义，非接触测量法在测量中不产生与被测量物体直接的物理接触（但可能会有光或声的接触），只通过算法对被测量物体反射的声或光信息进行计算以识别物体的表面形状特性。没有物理接触可以保证对被测物体不会产生伤害，这个因素保证了非接触测量法的可使用范围要比接触测量法要更为广泛。
 非接触测量法是3D测量的重要部分，其中主要的方法包含如下：
 \begin{enumerate}
-\item\textbf{立体成像}
+  \item[]\textbf{立体成像}
+人类的眼睛是天然的立体成像系统，两只眼睛在水平方向有一段差距，这段差距使得我们在观察三维物体左右眼产生视察，大脑在接收到双眼图像时检测视察并计算感知到物体的距离，从而产生立体的感受。
 
-  \item\textbf{飞行时间法}
+立体成像\cite{320548}采用与人眼一样的原理，它利用两台或多台摄像机对物体从不同角度进行拍照并交由计算机
+处理并建立对应关系，再结合三角测量的原理就可以将探测得到的位置偏差转换为物体表面的三维坐标信息，
+从而实现从二维空间到三维空间的转换。此方法的优点包括设备简单，
+只需两台或多台家用摄像机即可，成本很低，且在测量中不与物体产生
+直接接触，但其缺点是要求被测物体有足够的特征点以便能够进行识别，故
+对于光滑物体其效果并不太好。
+
+  \item[]\textbf{飞行时间法}
+  飞行时间法(TOF)又被成为雷达测距，其过程是想被测物体发出经调制的激光信号，经反射后由探头接收到，
+  利用相移特性计算被测物体表面到测量仪器的距离。这种方法的优点是不受物体表面颜色或环境光的干扰，
+  但其要求精密的信号处理过程，对时间精度要求很高。
   \begin{figure}[!ht]
 \centering
 \begin{tikzpicture}
@@ -185,22 +194,47 @@ discrete trend transform; structured light.}
     \draw [fill=gray!50!white] (0.5*\x,3.6-0.3*\x) circle (0.2);
   \foreach \x in {0,2,...,6}
     \draw [fill=gray] (0.5*\x,3.6-0.3*\x) circle (0.2);
-  \draw [fill=orange](4,0) rectangle (4.2,3);
+  \draw [fill=gray!50!white](4,0) rectangle (4.2,3);
   \foreach \x in {3,5}
     \draw [fill=gray!50!white] (0.5*\x,-0.6+0.3*\x) circle (0.2);
   \foreach \x in {4,6}
     \draw [fill=gray] (0.5*\x,-0.6+0.3*\x) circle (0.2);
-    \draw [->, very thick] (3,1) -- (2,0.4)node[below]{\text{接收调制光}};
+    \draw [->,very thick] (3,0.8) -- (2,0.11) node[below]{\text{接收调制光}};
 \end{tikzpicture}
-\caption{TOF}
+\caption{飞行时间法}
 \end{figure}
-  \item \textbf{结构光法}\cite{besl1988active}
+  \item[] \textbf{结构光法}
+  结构光法\cite{besl1988active}同样利用三角测量的原理，利用投影仪投射结构化的特征图形，并在摄像机拍摄的图像中检测
+  相应特征并与所投射图像中的特征建立相应关系，随后利用三角模型计算物体表面的距离信息。该方法原理简单，
+  成本低廉，可用家用摄像机和投影仪实现。结构光
+  有多种选择，包括点、线和栅格图像等。结构光的选择是基于结构光的3D重建系统的基础。
 \end{enumerate}
 
-\section{结构光技术综述}
-\subsection{结构光技术的原理}
-\subsection{结构光技术的发展}
-\section{本文章节组织形式}
+\end{enumerate}
+\section{结构光技术综述}   
+基于结构光的3D重建系统是获取物体表面3D特性的重要方法，而其中，结构光的选择对精度、鲁棒性等因素有着
+深刻的影响。最先被提出的结构光是点结构光\cite{will1972grid}，后来发展出了线结构光，很大地提升了
+处理速度。到目前为止，发展出的结构光包括：基于二进制码、格雷码的时间编码结构光，基于M-arrays、De Bruijn
+序列等空间编码的结构光，Salvi等在
+\cite{salvi2004pattern}
+中对各种形式的结构光进行了比较。
+
+\section{本文的主要工作和研究内容}
+本文实现了一个基于结构光的3D重建系统，并实现了Gray码为结构光和使用De Bruijn序列颜色条纹为结构光的两种方法。
+本文提出了一系列的创新点用于调高系统对物体表面颜色和环境光的抗干扰能力，有效地提高了系统的鲁棒性和拓宽了系统
+的适用范围。
+
+第一章：对一些常用的3D重建方法进行了介绍，并介绍了结构光的原理和发展。
+
+第二章：本章重点分析和实现了摄像机和投影仪的校正和定标，为精确实现3D测量提供准确的三角模型。
+
+第三章：介绍了采用以De Bruijn序列编码的颜色条纹为结构光的3D重建系统，对其中的重点步骤如颜色校正、颜色线条
+查找、线条颜色识别等步骤进行了重点说明。本章提出的创新点实现了高分辨率的3D重建系统，
+并具有对环境光等干扰因素不敏感的特性。
+
+第四章：介绍了采用格雷码光栅加相移图像的3D重建系统，对重点步骤提出了新的方法。
+
+第五章：对本文所使用的方法进行总结，并讨论了进一步的改进方法。
 \chapter{投影仪-摄像机系统校正}
 投影仪-摄像机系统常用作三维重建系统，示意图见图~\ref{figure:system}，其优点是设备价格低廉，容易获取并安装。
 在系统中，为了实现测量，需要事先对摄像机和投影仪进行定标。
@@ -799,7 +833,7 @@ B通道的相对反射率可通过相似的过程求得，这里不再叙述。
 crosstalk校正和反射率校正的目的是校正所拍摄图片的颜色畸变，以便更准切地检测到所投影特征：线条位置及其颜色。
 为了能够提高检测颜色线条的
 召回率和准确率，本文引入了了两个概念：$M$ 通道和离散趋势变换。
-$M$通道是指将R、G、B三个通道融合为一个通道，避免了分别处理R、G、B三个通道的复杂性，同时结合所投射颜色序列的特殊性， 最大限度地保留了原始线条的
+$M$通道是指将R、G、B三个通道融合为一个通道，避免了分别处理R、G、B 三个通道的复杂性，同时结合所投射颜色序列的特殊性， 最大限度地保留了原始线条的
 特征，另外，$M$通道的定义也使其具有一定去背景光干扰的能力。离散趋势变换将$M$通道中线条的变化特性转换为更易检测的形式， 很大程度上提高了线条检测成功率。
 \subsection{$M$ 通道定义}
 $M$通道被定义为当前像素下， R、G、B三个通道的最大值与最小值之差， 如公式~\ref{eq:Mchannel}\cite{zhao2011novel}。
