@@ -14,6 +14,7 @@
 \contentsline {subsection}{\numberline {2.1.5}摄像机定标}{10}{subsection.2.1.5}
 \contentsline {section}{\numberline {2.2}投影仪定标}{11}{section.2.2}
 \contentsline {section}{\numberline {2.3}三维信息的计算}{13}{section.2.3}
+\contentsline {section}{\numberline {2.4}本章总结}{14}{section.2.4}
 \contentsline {chapter}{\numberline {第三章\hspace {0.3em}}结构光为颜色条纹序列的3D重建}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}系统}{15}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}架构和流程}{15}{subsection.3.1.1}
@@ -30,6 +31,7 @@
 \contentsline {subsection}{\numberline {3.4.4}颜色提取}{27}{subsection.3.4.4}
 \contentsline {subsection}{\numberline {3.4.5}建立检测特征及投射特征间的对应关系}{27}{subsection.3.4.5}
 \contentsline {section}{\numberline {3.5}重建结果}{28}{section.3.5}
+\contentsline {section}{\numberline {3.6}本章总结}{29}{section.3.6}
 \contentsline {chapter}{\numberline {第四章\hspace {0.3em}}结构光为格雷码投影光栅的3D重建}{31}{chapter.4}
 \contentsline {section}{\numberline {4.1}特征投影}{31}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}格雷码光栅}{31}{subsection.4.1.1}
@@ -39,6 +41,7 @@
 \contentsline {subsection}{\numberline {4.2.2}解码格雷码光栅}{35}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}解码位移图码光栅}{36}{subsection.4.2.3}
 \contentsline {section}{\numberline {4.3}重建结果}{36}{section.4.3}
+\contentsline {section}{\numberline {4.4}本章总结}{36}{section.4.4}
 \contentsline {chapter}{\numberline {第五章\hspace {0.3em}}结束语}{39}{chapter.5}
 \contentsline {section}{\numberline {5.1}总结}{39}{section.5.1}
 \contentsline {section}{\numberline {5.2}创新点}{39}{section.5.2}
