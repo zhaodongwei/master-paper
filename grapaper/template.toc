@@ -38,17 +38,17 @@
 \contentsline {subsection}{\numberline {4.1.2}位移码图}{32}{subsection.4.1.2}
 \contentsline {section}{\numberline {4.2}编码图像的处理}{34}{section.4.2}
 \contentsline {subsection}{\numberline {4.2.1}有效区域的选择}{34}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}解码格雷码光栅}{35}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}解码位移图码光栅}{36}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}重建结果}{36}{section.4.3}
-\contentsline {section}{\numberline {4.4}本章总结}{36}{section.4.4}
-\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{39}{chapter.5}
-\contentsline {section}{\numberline {5.1}研究总结}{39}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}摄像机-投影仪系统定标}{39}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}结构光选择和设计}{39}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}特征识别}{39}{subsection.5.1.3}
-\contentsline {section}{\numberline {5.2}展望}{40}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}3D点云的处理}{40}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}实现实时重建}{40}{subsection.5.2.2}
-\contentsline {chapter}{参考文献}{41}{chapter*.34}
-\contentsline {chapter}{致\CTEX@spaceChar \CTEX@spaceChar 谢}{44}{chapter*.35}
+\contentsline {subsection}{\numberline {4.2.2}解码位移图码光栅}{35}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}解码格雷码光栅}{35}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}重建结果}{38}{section.4.3}
+\contentsline {section}{\numberline {4.4}本章总结}{39}{section.4.4}
+\contentsline {chapter}{\numberline {第五章\hspace {0.3em}}总结和展望}{41}{chapter.5}
+\contentsline {section}{\numberline {5.1}研究总结}{41}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}摄像机-投影仪系统定标}{41}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}结构光选择和设计}{41}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}特征识别}{41}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}展望}{42}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}3D点云的处理}{42}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}实现实时重建}{42}{subsection.5.2.2}
+\contentsline {chapter}{参考文献}{43}{chapter*.37}
+\contentsline {chapter}{致\CTEX@spaceChar \CTEX@spaceChar 谢}{46}{chapter*.38}

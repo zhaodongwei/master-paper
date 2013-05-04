@@ -40,8 +40,8 @@
 \BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 位移码图}{section.4.1}% 40
 \BOOKMARK [1][-]{section.4.2}{4.2 编码图像的处理}{chapter.4}% 41
 \BOOKMARK [2][-]{subsection.4.2.1}{4.2.1 有效区域的选择}{section.4.2}% 42
-\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 解码格雷码光栅}{section.4.2}% 43
-\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 解码位移图码光栅}{section.4.2}% 44
+\BOOKMARK [2][-]{subsection.4.2.2}{4.2.2 解码位移图码光栅}{section.4.2}% 43
+\BOOKMARK [2][-]{subsection.4.2.3}{4.2.3 解码格雷码光栅}{section.4.2}% 44
 \BOOKMARK [1][-]{section.4.3}{4.3 重建结果}{chapter.4}% 45
 \BOOKMARK [1][-]{section.4.4}{4.4 本章总结}{chapter.4}% 46
 \BOOKMARK [0][-]{chapter.5}{第五章 \040总结和展望}{}% 47
@@ -52,5 +52,5 @@
 \BOOKMARK [1][-]{section.5.2}{5.2 展望}{chapter.5}% 52
 \BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 3D点云的处理}{section.5.2}% 53
 \BOOKMARK [2][-]{subsection.5.2.2}{5.2.2 实现实时重建}{section.5.2}% 54
-\BOOKMARK [0][-]{chapter*.34}{参考文献}{}% 55
-\BOOKMARK [0][-]{chapter*.35}{致 \040谢}{}% 56
+\BOOKMARK [0][-]{chapter*.37}{参考文献}{}% 55
+\BOOKMARK [0][-]{chapter*.38}{致 \040谢}{}% 56

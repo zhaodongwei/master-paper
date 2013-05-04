@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.7.9)  4 MAY 2013 18:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.7.9)  5 MAY 2013 04:21
 entering extended mode
 **template.tex
 (E:\Projects\master\master-paper\grapaper\template.tex
@@ -928,22 +928,7 @@ Package: ltcaption 2011/09/12 v1.3 longtable captions (AR)
 )
 (E:\Projects\master\master-paper\grapaper\template.aux
 
-LaTeX Warning: Label `fig:FIG_AC:a' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:FIG_AC:a' multiply defined.
-
-
-LaTeX Warning: Label `fig:FIG_AC:b' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:FIG_AC:b' multiply defined.
-
-
-LaTeX Warning: Label `fig:FIG_AC:c' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:FIG_AC:c' multiply defined.
+LaTeX Warning: Label `fig:gray_result' multiply defined.
 
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
@@ -1213,14 +1198,14 @@ File: figures/system.eps Graphic file (type eps)
 
 ]
 Overfull \hbox (31.95322pt too wide) in paragraph at lines 266--268
-[][]\C19/rm/m/n/12.05/45 ˘ \C19/rm/m/n/12.05/55 ≠ \C19/rm/m/n/12.05/46 . \C19/r
-m/m/n/12.05/65 ã \C19/rm/m/n/12.05/37 I \C19/rm/m/n/12.05/59 X \C19/rm/m/n/12.0
-5/40  :$\OML/cmm/m/it/12.05 Q[] \OT1/cmr/m/n/12.05 = [\OML/cmm/m/it/12.05 X[] 
-[]Y[] []Z[]\OT1/cmr/m/n/12.05 ][]$\C19/rm/m/n/12.05/65 = \C19/rm/m/n/12.05/44 Ü
- \C19/rm/m/n/12.05/58 è \C19/rm/m/n/12.05/59 É \C19/rm/m/n/12.05/44 ≈ \C19/rm/m
-/n/12.05/65 ã \C19/rm/m/n/12.05/37 I \C19/rm/m/n/12.05/59 X$\OML/cmm/m/it/12.05
- Q[] \OT1/cmr/m/n/12.05 = [\OML/cmm/m/it/12.05 X[] []Y[] []Z[]\OT1/cmr/m/n/12.0
-5 ][]$\C19/rm/m/n/12.05/40 
+[]\C19/rm/m/n/12.05/45 ˘ \C19/rm/m/n/12.05/55 ≠ \C19/rm/m/n/12.05/46 . \C19/rm/
+m/n/12.05/65 ã \C19/rm/m/n/12.05/37 I \C19/rm/m/n/12.05/59 X \C19/rm/m/n/12.05/
+40  :$\OML/cmm/m/it/12.05 Q[] \OT1/cmr/m/n/12.05 = [\OML/cmm/m/it/12.05 X[] []
+Y[] []Z[]\OT1/cmr/m/n/12.05 ][]$\C19/rm/m/n/12.05/65 = \C19/rm/m/n/12.05/44 Ü \
+C19/rm/m/n/12.05/58 è \C19/rm/m/n/12.05/59 É \C19/rm/m/n/12.05/44 ≈ \C19/rm/m/n
+/12.05/65 ã \C19/rm/m/n/12.05/37 I \C19/rm/m/n/12.05/59 X$\OML/cmm/m/it/12.05 Q
+[] \OT1/cmr/m/n/12.05 = [\OML/cmm/m/it/12.05 X[] []Y[] []Z[]\OT1/cmr/m/n/12.05 
+][]$\C19/rm/m/n/12.05/40 
  []
 
 
@@ -1444,66 +1429,81 @@ File: figures/gray_white.eps Graphic file (type eps)
 File: figures/gray_valid.eps Graphic file (type eps)
 
 <figures/gray_valid.eps> [34]
-File: figures/gray_6.eps Graphic file (type eps)
- <figures/gray_6.eps>
-File: figures/gray_ex_channel.eps Graphic file (type eps)
-
-<figures/gray_ex_channel.eps>
-File: figures/gray_bw.eps Graphic file (type eps)
- <figures/gray_bw.eps> [35]
 File: figures/sweep_src.eps Graphic file (type eps)
-
-<figures/sweep_src.eps>
+ <figures/sweep_src.eps>
 File: figures/sweep_line.eps Graphic file (type eps)
  <figures/sweep_line.eps>
-File: figures/gray_project.eps Graphic file (type eps)
- <figures/gray_project.eps>
-File: figures/gray_result3.eps Graphic file (type eps)
+File: figures/gray_6.eps Graphic file (type eps)
 
-<figures/gray_result3.eps>
+<figures/gray_6.eps>
+File: figures/gray_ex_channel.eps Graphic file (type eps)
+ <figures/gray_ex_channel.eps> [35] [36]
+File: figures/edge2.eps Graphic file (type eps)
+
+<figures/edge2.eps>
+File: figures/edge.eps Graphic file (type eps)
+ <figures/edge.eps> [37]
+runsystem(gnuplot template.exp.gnuplot)...executed.
+
+runsystem(gnuplot template.exp.gnuplot)...executed.
+
+runsystem(gnuplot template.exp.gnuplot)...executed.
+
+File: figures/edge3.eps Graphic file (type eps)
+ <figures/edge3.eps>
+File: figures/gray_project.eps Graphic file (type eps)
+
+<figures/gray_project.eps>
+File: figures/gray_result3.eps Graphic file (type eps)
+ <figures/gray_result3.eps>
 File: figures/gray_white.eps Graphic file (type eps)
  <figures/gray_white.eps>
 File: figures/gray_result.eps Graphic file (type eps)
- <figures/gray_result.eps>
+
+<figures/gray_result.eps>
 File: figures/gray_project3.eps Graphic file (type eps)
-
-<figures/gray_project3.eps>
+ <figures/gray_project3.eps>
 File: figures/gray_result4.eps Graphic file (type eps)
- <figures/gray_result4.eps>
+
+<figures/gray_result4.eps>
 File: figures/gray_project4.eps Graphic file (type eps)
-
-<figures/gray_project4.eps>
+ <figures/gray_project4.eps>
 File: figures/gray_result5.eps Graphic file (type eps)
- <figures/gray_result5.eps> [36] [37] [38]
+
+<figures/gray_result5.eps>
+
+LaTeX Warning: Float too large for page by 0.92264pt on input line 1469.
+
+[38] [39] [40]
 µ⁄ŒÂ’¬
-[39
+[41
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 1437.
+Package xcolor Warning: Incompatible color definition on input line 1501.
 
-[40] (E:\Projects\master\master-paper\grapaper\template.bbl [41
+[42] (E:\Projects\master\master-paper\grapaper\template.bbl [43
 
 
-]) [42] [43]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \hskip 12.05pt
-(hyperref)                replaced by space on input line 1511.
-
+]) [44] [45]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 12.05pt
-(hyperref)                replaced by space on input line 1511.
+(hyperref)                replaced by space on input line 1575.
 
-[44
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \hskip 12.05pt
+(hyperref)                replaced by space on input line 1575.
+
+[46
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1526.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1526.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1590.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1590.
  (E:\Projects\master\master-paper\grapaper\template.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1526.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1526.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1590.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1590.
 
 
 
@@ -1512,19 +1512,19 @@ Package rerunfilecheck Warning: File `template.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `template.out':
-(rerunfilecheck)             Before: 5F13F19D7F3C16EC56F71420EEE63CE4;8257
-(rerunfilecheck)             After:  CE8AEFB37DA637549293EBCF94D8CA0C;3750.
+(rerunfilecheck)             Before: 567D987259AD967BDE07E762EE032ABF;8257
+(rerunfilecheck)             After:  2AC425EC01D9501FBEC5C4C58106B8D4;3750.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26629 strings out of 495355
- 463278 string characters out of 3183883
- 503513 words of memory out of 3000000
- 29111 multiletter control sequences out of 15000+200000
+ 26736 strings out of 495355
+ 465336 string characters out of 3183883
+ 505416 words of memory out of 3000000
+ 29213 multiletter control sequences out of 15000+200000
  99550 words of font info for 329 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,14n,55p,26355b,1083s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,14n,55p,26355b,1087s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on template.dvi (52 pages, 357944 bytes).
+Output written on template.dvi (54 pages, 352300 bytes).

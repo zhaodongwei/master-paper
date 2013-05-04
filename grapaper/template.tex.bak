@@ -932,7 +932,7 @@ $M$通道与环境光 $O$ 无关。
 
 \subsection{离散趋势变换}
 在$M$通道的基础上，为了进一步排除R通道反射率对中心线查找的影响，本文提出离散趋势变换(DTT)的概念。
-离散趋势变换被定义为如下形式：
+离散趋势变换被定义为如下形式\cite{onoz2003power}：
 \begin{equation}\label{eq:LTM}
 T_{ij}=\sum_{k=h+1}^{j+N}{\sum_{h=j}^{j+N-1}{sign(M_{ik}-M_{ih})}}
 \end{equation}
@@ -1021,7 +1021,7 @@ DTT之所以能够很好地处理这种情况是因为，DTT仅关注亮度的变化趋势而不关注亮度的绝对
 
 \subsection{峰值定位}
 
-在使用DTT的方法定位线条后，还需要确定线条的峰值位置以用于三维点云的计算。峰值定位的方法有多种，一些是精确到
+在使用DTT的方法定位线条后，还需要确定线条的峰值位置以用于三维点云的计算。峰值定位的方法有多种\cite{fisher1996comparison}，一些是精确到
 像素，另一些是精确到亚像素，现列举主要的方法如下。
 \begin{itemize}
   \item \textbf{最大值方法} Jordi\cite{OptimisedDeBruijn} 使用线条中具有最大值得像素位置作为峰值位置， 为了便于对比结果， 将此方法
@@ -1274,8 +1274,8 @@ $cost_{ij}$为：
 在实际的系统中，除了格雷码光栅还使用了位移码光栅作为补充。这是因为，当格雷码转换频率较高时，明暗光线间隔很近，
 其相互间干扰已不可避免和忽略，导致在
 识别光亮区和黑暗区的处理中引入误差。为了解决这个问题，实际的系统只使用明暗间隔较大的若干幅格雷码光栅，
-由此引起的分辨率缺失采用位移码标注。如，10幅格雷码光栅的分辨率为1024，而7幅格雷码光栅的分辨率为128，
-额外投射宽度为8的位移码可以填补损失的分辨率。宽度为8的位移码如图~\ref{figure:move}所示。
+由此引起的分辨率缺失采用位移码标注。如在本文中采用的格雷码共10幅，理论上最高分辨率为1024，但变化频率最高的3幅处理起来相当困难，于是只采用7 幅格雷码光栅。7幅格雷码光栅的最小变化单元为8像素，于是分辨率下降为原来的八分之一，为128。
+此时在格雷码光栅每个最小的变化单元之内分时8次，额外投射8条位移码以可以填补损失的分辨率，最终的水平分辨率为1024。宽度为8的位移码如图~\ref{figure:move} 所示。
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=0.8\textwidth]{sweep.eps}
@@ -1328,42 +1328,12 @@ $cost_{ij}$为：
   }
   \caption{有效区域提取}\label{fig:gray_valid}
 \end{figure}
-\subsection{解码格雷码光栅}
-在加照格雷码光栅之前， 需要让摄像机记录在无任何光照条件下的环境图像， 记为$I_{background}$。 在 $t$ 时刻拍摄到的加照格雷码光栅的图像记为 $I_{gray}$， 那么处理方式步骤可列为：
-\begin{enumerate}
-  \item 计算 $I_{sub}=I_{gray}-I_{background}$
-  \item 合并$I_{sub}$的R，G，B通道为单一通道，记为$I_{channel}$
-
-     假设投射光的颜色为(R, G, B)， 那么:
-     \begin{equation}
-       I_{channel} = \frac{R}{R+G+B}\cdot{}I_{sub}^R+\frac{G}{R+G+B}\cdot{}I_{sub}^G+\frac{B}{R+G+B}\cdot{}I_{sub}^B
-     \end{equation}
-  \item 二值化$I_{channel}$
-\end{enumerate}
-  \begin{figure}[!ht]
-  \centering
-  \subfloat[]{
-  \includegraphics[width=0.3\textwidth]{gray_6.eps}}
-  \subfloat[]{
-  \includegraphics[width=0.3\textwidth]{gray_ex_channel.eps}}
-    \subfloat[]{
-  \includegraphics[width=0.3\textwidth]{gray_bw.eps}}
-  \caption{(a),一幅加照了格雷码光栅的物体 (b),合并为单通道 (c),二值化的结果} \label{figure:gray_process}
-\end{figure}
-
-图~\ref{figure:gray_process}展示了l编码图像的处理过程，(a)是摄像机拍摄到的图像，(b)是将(a)从RGB转换为灰度图后得到的
-图像，(c)是二值化(b)得到的处理结果。
-
-实际上，二值化图像是准确解码的关键。将一幅图像二值化的方法有多种，大致可分为全局阈值法和局部阈值法，而阈值的选择至关重要。
-全局阈值法是指，选取单一的阈值，适用于整幅图像并二值化，典型的算法包括直方图变换法，OTSU法(大律法)。全局阈值法虽然简单但
-却不能表现图像的细节。而局部阈值法是指，将图像按照某种规则划分为若干部分，在各部分之内选取阈值并适用于此部分以二值化。相比之下，
-局部阈值法虽然没有从根本上解决这个缺陷，但较全局阈值法能将细节表现地更好，系统中采用的是局部阈值法。
 
 \subsection{解码位移图码光栅}
-解码位移图码图像同样需要$I_{background}$， 处理步骤为：
+在解析格雷码光栅之前，本文先解码位移图码。在加照格雷码光栅之前，需要让摄像机记录在无任何光照条件下的环境图像， 记为$I_{background}$。提取位移图码的处理步骤可表示为：
 \begin{enumerate}
   \item 计算 $I_{sub}=I_{move}-I_{background}$
-  \item 合并$I_{sub}$的R，G，B通道为单一通道，记为$I_{channel}$
+  \item 按照原投射光中各通道的比例将$I_{sub}$中的R，G，B通道合并为单一通道，记为$I_{channel}$
 
      假设投射光的颜色为(R, G, B)， 那么:
      \begin{equation}
@@ -1374,13 +1344,106 @@ $cost_{ij}$为：
 \begin{figure}[!ht]
 \centering
   \subfloat[]{
-    \includegraphics[width=0.8\textwidth]{sweep_src.eps}
+    \includegraphics[width=0.7\textwidth]{sweep_src.eps}
   }\\
   \subfloat[]{
-    \includegraphics[width=0.8\textwidth]{sweep_line.eps}
+    \includegraphics[width=0.7\textwidth]{sweep_line.eps}
   }
   \caption{位移码图像的处理 (a),拍摄到的源图像 (b),检测出的线条}\label{fig:sweep}
 \end{figure}
+位移图码的解析对点云的精确程度有很大影响，本处采用与颜色条纹序列中的峰值定位方法一样的算法可达到亚像素的精度。另一方面，
+接下来的格雷码光栅的解析则需要用到位移图码信息。
+\subsection{解码格雷码光栅}
+在 $t$ 时刻拍摄到的加照格雷码光栅的图像记为 $I_{gray}$，那么处理方式步骤可列为：
+\begin{enumerate}
+  \item 计算 $I_{sub}=I_{gray}-I_{background}$
+  \item 合并$I_{sub}$的R，G，B通道为单一通道，记为$I_{channel}$
+
+     假设投射光的颜色为(R, G, B)， 那么:
+     \begin{equation}
+       I_{channel} = \frac{R}{R+G+B}\cdot{}I_{sub}^R+\frac{G}{R+G+B}\cdot{}I_{sub}^G+\frac{B}{R+G+B}\cdot{}I_{sub}^B
+     \end{equation}
+\end{enumerate}
+  \begin{figure}[!ht]
+  \centering
+  \subfloat[]{
+  \includegraphics[width=0.4\textwidth]{gray_6.eps}}
+  \subfloat[]{
+  \includegraphics[width=0.4\textwidth]{gray_ex_channel.eps}}
+   % \subfloat[]{
+  %\includegraphics[width=0.3\textwidth]{gray_bw.eps}}
+  \caption{(a),一幅加照了格雷码光栅的物体 (b),合并为单通道} \label{figure:gray_process}
+\end{figure}
+
+图~\ref{figure:gray_process}展示了l编码图像的处理过程，(a)是摄像机拍摄到的图像，(b)是将(a)从RGB转换为灰度图后得到的
+图像。
+
+实际上，二值化图像是准确解码的关键。将一幅图像二值化的方法有多种，大致可分为全局阈值法和局部阈值法，而阈值的选择至关重要。
+全局阈值法是指，选取单一的阈值，适用于整幅图像并二值化，典型的算法包括直方图变换法，OTSU法(大律法)。全局阈值法虽然简单但
+却不能表现图像的细节。而局部阈值法是指，将图像按照某种规则划分为若干部分，在各部分之内选取阈值并适用于此部分以二值化。相比之下，局部阈值法虽然没有从根本上解决这个缺陷，但较全局阈值法能将细节表现地更好。
+
+另一方面，在本系统中，稍加推理便可知道，格雷码光栅的边缘应当位于第8条位移码和相邻格雷码光栅变化单元的第1条位移码之间，也就是说，检测得到的位移码位置对格雷码光栅的边缘位置添加了约束和指导，光栅边缘的确定需要考虑光栅亮度的变化，也需要考虑位移码的约束条件。本文采用概率的方式综合考虑这两个因素并最终确定边缘位置，具体可表述为：
+\begin{enumerate}
+  \item 使用局部阈值法二值化$I_{channel}$，并初步确定边缘的大致位置，见图~\ref{fig:two_lines}(b)。假设被确定的边缘位置为t，那么按照高斯衰减，与t 相邻的位置i可能为边缘的概率可表示为：
+     \begin{equation}\label{eq:one_edge}
+      p_t(i)=e^{\left(\frac{i-t}{c_1}\right)^2}
+      \end{equation}
+      此处的$c_1$选择为1。
+  \item 确定i附近第8条位移码和相邻格雷码光栅变化单元的第1条位移码的位置，见图~\ref{fig:two_lines}(a)，分别记为l和h，l和h为边缘位置提供了限制因素，在此约束条件下，位置i可能为边缘的概率可表示为：
+      \begin{equation}\label{eq:two_line}
+      p_c(i)=e^{\left(\frac{2i-l-h}{2c_2}\right)^2}
+      \end{equation}
+      此处的$c_z$设定为$\frac{h-l}{1}$，即l和h相距越远$p_c(i)$越平缓，反之则越陡峭。
+  \item 结合上述两个因素，位置i最终可能为真正边界的概率为：
+  \begin{equation}\label{eq:edge}
+      p(i)=p_t(i)\cdot{}p_c(i)=e^{\left(\frac{i-t}{c_1}\right)^2}\cdot{}e^{\left(\frac{2i-l-h}{2c_2}\right)^2}
+      \end{equation}
+      最终，取$p(i)$最大值处的i作为格雷码光栅的最终边缘位置。
+\end{enumerate}
+\begin{figure}[!ht]
+\centering
+\subfloat[]{
+\includegraphics[width=0.6\textwidth]{edge2.jpg}
+}\\
+\subfloat[]{
+\includegraphics[width=0.6\textwidth]{edge.jpg}
+}
+\cacption{(a)两条相邻的边界位移码线条 (b)阈值分割得到的边缘线，可见二者有时候并不能符合得很好}
+\label{fig:two_lines}
+\end{figure}
+
+图~\ref{fig:two_lines}(a)是两条相邻的边界位移码线条，理想情况下格雷码光栅的边缘应位于线条之间，按照式~\label{eq:two_line}将其转化为图~\label{fig:fig}(a)。图~\ref{fig:two_lines}(b)是二值化得到的边界位置，按照式~\label{eq:one_edge} 将其转化为图~\label{fig:fig}(b)，最终式~\label{eq:edge}合并得到图~\label{fig:fig}(c)并取其最大位置为格雷码光栅的边界，效果见图~\ref{fig:edge_result}。
+
+\begin{figure}[!ht]
+\centering
+\begin{tikzpicture}
+  \draw [->] (-0.1,0) node[below]{0} -- (6,0) node[below]{i};
+  \draw [->] (0,-0.1) -- (0,2) node[left] {$p_t$};
+  \draw [color=blue,domain=0:6,thick,smooth] plot[id=exp] function{2*exp(-(x-3)*(x-3))};
+ %\draw [color=blue,domain=0:5,thick] plot (\x,{2*exp(-(\x-3)*(\x-3))});
+
+  \draw [->] (-0.1,2.5) node[below]{0} -- (6,2.5) node[below]{i};
+  \draw [->] (0,2.4) -- (0,4.4) node[left] {$p_c$};
+  \draw [color=blue,domain=0:6,thick,smooth] plot[id=exp] function{2*exp(-(x-2.5)*(x-2.5)*2)+2.5};
+ % \draw [color=blue,domain=6:11,step=0.001] plot (\x, {2*exp(-(\x-7.7)*(\x-7.7)*4)});
+
+ \draw [->] (-0.1,-2.5) node[below]{0} -- (6,-2.5) node[below]{i};
+  \draw [->] (0,-2.6) -- (0,-0.5) node[left] {$p$};
+  \draw [color=blue,domain=0:6,thick,smooth] plot[id=exp] function{(2*exp(-(x-3)*(x-3)))*(exp(-(x-2.5)*(x-2.5)*2))-2.5};
+
+  \draw[dashed] (2.5,-2.7) -- (2.5, 5);
+  \draw[dashed] (3,-2.7) -- (3, 5);
+\end{tikzpicture}
+\caption{(a),$p_c$ (b),$p_t$ (c),p}\label{fig:fig}
+\end{figure}
+
+\begin{figure}[!ht]
+\centering
+\includegraphics[width=0.6\textwidth]{edge3.jpg}
+\cacption{格雷码光栅的边界}
+\label{fig:edge_result}
+\end{figure}
+
 \section{重建结果}
 重建的结果如图：
 \begin{figure}[!ht]
@@ -1411,18 +1474,18 @@ $cost_{ij}$为：
 \section{研究总结}
 本文主要的研究内容包括：摄像机-投影仪系统定标、结构光的选择、结构光特征识别等方法，提出了$M$通道、离散趋势变换和格雷码光栅边缘识别等概念和方法，具体总结为如下：
 
-\subsection{摄像机-投影仪系统定标} 
-  
+\subsection{摄像机-投影仪系统定标}
+
   对摄像机-投影仪系统进行定标是实现精确3D重建的前提。本文分析了摄像机的成像模型和畸变原因，推导了坐标系转换关系，并使用棋盘格作为定标板而确立了摄像机定标过程。本文将投影仪视作逆成像系统，并利用摄像机定标参数实现了投影仪的定标。
 
 \subsection{结构光选择和设计}
-  
+
   本文选择两类结构光实现3D重建：时间编码的格雷码光栅和空间编码的De Bruijn序列编码颜色条纹。在De Bruijn序列编码条纹的颜色选择中，本文选择在色度空间中分布较为离散的5种颜色作为编码颜色以便线条检测和颜色识别。在格雷码光栅中又结合相移条纹的方法实现了高分辨率的3D重建。
-  
+
 \subsection{特征识别}
-  
+
   在特征识别方面本文作了较多创新。对颜色条纹结构光方法，本文提出了颜色校正方法、颜色线条检测方法和颜色识别等方法。在颜色校正中，本文利用EMD实现了反射率校正，避免了物体表面颜色对颜色线条的影响。在线条检测中，本文提出了$M$通道以融合R、G、B通道，提出了离散趋势变换(DTT)实现了线条的识别。在对应点建立之中，本文使用动态规划方法，并设计了特殊的cost函数，实现了被检测出特征与投射特征之间的对应关系建立。最后，本文将线条的颜色识别放在色度空间之中进行，避免了环境光的干扰。
-  
+
   在基于格雷码光栅的系统中，本文提出了基于自适应阈值和概率的方法确定格雷码光栅的边缘，实现了很好的重建结果。
 
 \section{展望}
@@ -1432,10 +1495,10 @@ $cost_{ij}$为：
 
   本系统的直接输出是物体表面的3D点云，在后续的研究之中，还可以通过Delaunay三角化的方法将点云转化为表面。更进一步地，
   可以将物体表面的实际纹理覆盖于包面之上，使得重建结果更加鲜明和立体化。
-  
+
   另一方面，本系统一次3D重建输出的结果是从某一个角度观测到的物体表面，要想得到$360^\circ$的全景点云则需要从不同角度重建
   并拼接。目前可以使用多台设备同时从不同角度对物体进行重建，也可以利用单设备和云台转动物体并多次重建并实现拼接。前者速度快但所需成本较高，后者成本低但需进行多次重建。点云拼接可利用Besl和Mckay\cite{besl1992method}提出的ICP算法实现。
-  
+
 \subsection{实现实时重建}
 
   本文所使用的空间编码的结构光只需要拍摄一幅图像即可实现3D重建，可考虑使用并行处理的方式加速处理比较耗时的环节，如离散趋势变换、动态规划、点云计算，并最终实现实时的3D 重建。实时的3D重建对移动物体具有很大意义。
@@ -1511,8 +1574,15 @@ $cost_{ij}$为：
 \begin{thanks}
 \vskip 18pt
 
-感谢都思丹老师、周余老师、于耀老师的指导和帮助。
+本文的研究内容是在我的导师都思丹老师、周余老师、于耀老师的悉心指导和帮助下完成的。在整个研究生学习期间，我的导师
+为我提供了卓越、轻松友好的学习研究环境，并在思想、研究等方面给予了很多的关怀和指引，使得我对生活和人生的认识和理解得到极大提升。导师严谨的治学态度和颇具前瞻性的眼光对我产生了深刻影响，是我在今后工作生活中的榜样，谨想导师致以崇高敬意！
 
+周余老师、于耀老师很关心我的学习和科研，每次与周余老师、于耀老师的讨论都其送而富有创意并都能够获益很深。我印象最深的是周余老师
+、于耀老师曾带领我去上海参观Intel嵌入式设计大赛，看到了全国各地大学生创作的作品，极大地开阔了眼界和见识。周余老师儒雅富有思想，于耀老师博学刻苦，两位老师对我帮助很大，感谢你们！
+
+感谢王自强老师、彭成磊老师等我的授业恩师！
+
+还要感谢任结、宋宇、王研的相伴，感谢刑天威、陆桂亮、邹润等师弟师妹，正是你们使得实验室冲吗朝气和欢乐！感谢王大千、黄锋、杨瑜、许斌锋等师兄，你们同样对我帮助很大！
 \end{thanks}
 
 
