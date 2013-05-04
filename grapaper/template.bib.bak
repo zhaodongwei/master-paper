@@ -200,3 +200,34 @@ number={0},
 pages={530-533 vol.4},
 keywords={CCD image sensors;computer vision;computerised numerical control;edge detection;machine tools;solid modelling;spatial variables measurement;3D object reproduction;CCD camera;CNC machines;automatic dimension measurement;computer graphics;digitization;edge detection;image acquisition;machine tools;surface filling;vision based measurement system;Automatic control;Charge coupled devices;Charge-coupled image sensors;Computer numerical control;Computer vision;Control systems;Filling;Image storage;Machine tools;Machine vision},
 doi={10.1109/TENCON.1993.320548},}
+
+@article{salvi2004pattern,
+  title={Pattern codification strategies in structured light systems},
+  author={Salvi, Joaquim and Pages, Jordi and Batlle, Joan},
+  journal={Pattern Recognition},
+  volume={37},
+  number={4},
+  pages={827--849},
+  year={2004},
+  publisher={Elsevier}
+}
+
+@article{will1972grid,
+  title={Grid coding: A preprocessing technique for robot and machine vision},
+  author={Will, Peter M. and Pennington, Keith S},
+  journal={Artificial Intelligence},
+  volume={2},
+  number={3},
+  pages={319--329},
+  year={1972},
+  publisher={Elsevier}
+}
+
+@inproceedings{besl1992method,
+  title={Method for registration of 3-D shapes},
+  author={Besl, Paul J and McKay, Neil D},
+  booktitle={Robotics-DL tentative},
+  pages={586--606},
+  year={1992},
+  organization={International Society for Optics and Photonics}
+}

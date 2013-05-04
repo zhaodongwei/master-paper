@@ -42,6 +42,13 @@
 \usepackage{comment}
 \usepackage{subfig}
 
+\newenvironment{packed_enum}{
+\begin{enumerate}
+  \setlength{\itemsep}{1pt}
+  \setlength{\parskip}{0pt}
+  \setlength{\parsep}{0pt}
+}{\end{enumerate}}
+
 \begin{document}
 \newcommand{\axises}[4]{%
     \draw[very thin,color=gray] (-0.2,-0.2) grid (#3 - 0.1,#4 - 0.1);
@@ -107,10 +114,10 @@
 % 中文摘要
 \begin{abstract}
 
-3D信息采集是近年来计算机视觉领域的热点问题，基于结构光的三角测量方法是
-3D信息采集的重要途径和有效方法。本文建设了可用的具有高可靠性的3D 重建系统，
-并从时间序列、one shot两个角度讨论了结构光重建的途径，通过不同的结
-构光颜色编码方式分别予以实现，取得了很好的重建效果。
+3D信息采集是计算机视觉领域的热点问题，在医疗、文物保护以及机器人导航领域有着广泛应用，近年来也受到了越来越多的研究关注。长久以来，研究人员提出了多种方法用于3D信息采集，包括立体成像、激光雷达、3D 重建等。在这其中，
+3D重建方法不需要专用设备，同时具有图像处理简单、重建结果的分辨率高等特点而受到重视。
+
+本文实现了基于投影仪-摄像机三角测量系统的3D重建。首先通过摄像机定标和投影仪定标获得摄像机和投影仪之间的几何关系，建立了三角测量的硬件环境和几何基础。其次利用两种结构光进行3D重建，一种结构光是格雷码加相移编码方式。这种结构光编码方式属于时间编码，需要投射多幅结构光并拍摄多幅图像，故适用于静止物体的重建，其优点是能够得到高分辨率的重建结果。另一种结构光是基于De Bruijn序列编码的颜色条纹，采用这种结构光的重建只需拍摄一幅图像即可实现，重建时间短，适用于动态物体的重建，但相对于第一种方法，本方法要求的编码解码处理较为复杂，需要先进的编解码技术才能够达到理想的重建结果。本文对编解码技术的投射颜色选择、颜色校正、线条检测、峰值定位和颜色识别进行了创新，提出了有效的方法并提升了特征检测的准确率，得到了很好的重建效果。对基于格雷码加相移编码方式的陈重建中，本文提出了对格雷码光栅边境进行准确定位的方法，提升了重建的效果。
 
 \keywords{3D重建; 结构光; 编码; 三角测量}
 
@@ -119,16 +126,16 @@
 % 英文摘要
 \begin{englishabstract}
 
-In the last decade, 3D shape acquisition has received more and more considerable research interests. Since the concept been proposed, people have developed some groups of techniques
-to achieve 3D shape acquisition, some important methods include stereo vision, TOF(Time Of Flight) and structured light\cite{sansoni2009state}.
+In the last decade, 3D shape acquisition has received more and more considerable research interests. Since the moment when the concept of 3D reconstruction was proposed, researchers have developed some groups of techniques
+to achieve 3D shape acquisition, some important methods include  and structured light\cite{sansoni2009state}, stereo vision and TOF(Time Of Flight).
 Among those methods, one of the main advantages of structured light
-techniques is that it needs less and easier image processing, meanwhile, it can derive high accuracy in the 3D reconstruction result\cite{OptimisedDeBruijn}.
- Based on triangle principle, Structured light techniques take three steps to fulfill final result. The first step is to project some designed patterns onto the surface of the scanned
-objects. After that, a camera is controlled to capture the scene and send the pictures to computer for further processes. In the second step, algorithms are applied to establish the correspondence between designed patterns and patterns detected in the captured images. In the final step, 3D coordinates of the object surface are calculated from the correspondence established in the second step within the calibrated triangle model.
+based techniques is that it requires less and easier image processing, meanwhile, it can derive high accuracy in the 3D reconstruction result\cite{OptimisedDeBruijn}.
+ Based on the math of triangle principle, structured light based techniques take three steps to fulfill final result. The first step is to project some designed coding patterns onto the surface of the scanned
+objects. After that, a camera (or more) is controlled to capture the scene and send the pictures to computer for further processing. In the second step, algorithms detect the coding patterns in the captured image and establish the correspondence with projected patterns. In the final step, 3D coordinates of the object surface are calculated from the correspondence established in the second step within the calibrated triangle model.
 
-In the review of the development history of structured light techniques, the first appeared technique is the time-multiplexing techniques, which is also called multi-shots techniques because multi pattern are projected onto the surface and multi images are taken. Actually there are both advantages and disadvantages using this method. Advantages include high accuracy and resolution and the disadvantage is that its scanning speed is slow. To achieve high resolution and scanning speed at the same time, one-shot structured light system is developed. In one-shot structured light system, there are three vital processes which would effect final reconstruction result, which includes projected patterns, detection of pattern in captured image and the establishment of correspondence between projected and captured patterns. Recently, more and more efforts have been made to generate higher quality result, which makes this method very useful in industry design and cultural heritage protection.
+In the review of the development history of structured light techniques, the first appeared techniques are the time-multiplexing techniques, which are also called multi-shots techniques because multi patterns are projected onto the surface and multi images are taken. Actually there are both advantages and disadvantages using this method. Advantages include high accuracy and resolution and the disadvantage is that the scanning speed is slow. After that, one-shot structured light system is developed to achieve high resolution within a short time. In one-shot structured light system, there are three key processes which would effect final reconstruction result, which includes the choose of projected patterns, detection of pattern in captured image and the algorithms applied to establishment of correspondence between captured and projected patterns. Recently, more and more efforts have been made in order to generate higher quality result, which makes this method widely used in industry design and cultural heritage protection.
 
-In this paper, we have build a structure light system and this system uses two methods: colored stripe and Gay code as structure light, which belongs to one-shot structured light technique and time-multiplexing technique. To achieve a better reconstruction result, we propose an adaptive color calibration method, and a Discrete Trend Transform (DTT) algorithm to detect patterns. In this system, dark laboratory environments is not needed to derive high-resolution 3D point cloud.
+In this paper, we have build a structure light system and this system uses two methods: De Bruijn code based colored stripe and Gay code as structure light, which belongs to one-shot structured light technique and time-multiplexing technique. To achieve a better reconstruction result using colored stripes, we propose an adaptive color calibration method, and a Discrete Trend Transform (DTT) algorithm to detect patterns. And we proposed a method to detect the edge of Gray code structured light edge. In this system, dark laboratory environments is not needed to derive high-resolution 3D point cloud.
 
 \englishkeywords{three-dimensional image acquisition; adaptive color calibration;
 discrete trend transform; structured light.}
@@ -161,16 +168,15 @@ discrete trend transform; structured light.}
 
 另一方面，3D打印有越来越普及的趋势。3D打印设备已经实现了产品化，其价格随着时间的推移则也越来越为普通大众接受，可以预计的是，3D 打印的风行也必将推动3D 重建技术的进一步普及和发展。而就3D重建本身来看，其实现不需要太过复杂或精密的设备，只需要简单的家用设备即可完成，甚至一种名为通过聚焦的重建方法(shape from focus)只需要一台可变焦摄像机即可。本文通过使用一台家用摄像机和一台家用投影仪，使用结构光的方法完成了3D 重建系统，结构光分为颜色序列的结构光和基于格雷码的光栅。
 \section{3D重建的技术综述}
-从3D重建的概念被提出到目前为止，有多种技术被提出用于重建，主要可分为接触测量和非接触测量两大类。
-\begin{enumerate}
-  \item \textbf{接触测量法}
+从3D重建的概念被提出到目前为止，有多种技术被提出用于重建，主要可分为接触测量和非接触测量两大类。\\
+\textbf{1 接触测量法}
 
-  此方法中，利用传感触头与被测物体的表面相接触并直接测量本点的深度信息。直接测量法的原理相当简单，且具有分辨率高，不受物体表面颜色、透明度等非形状因素干扰的优点。但其缺点是，传感触头与物体的直接接触则会一定程度地导致物体的轻微形变从而影响测量的精度，这也使得本方法不合适用于珍贵物品或极易形变物体的重建。
-  \item \textbf{非接触测量法}
+  此方法中，利用传感触头与被测物体的表面相接触并直接测量本点的深度信息。直接测量法的原理相当简单，且具有分辨率高，不受物体表面颜色、透明度等非形状因素干扰的优点。但其缺点是，传感触头与物体的直接接触则会一定程度地导致物体的轻微形变从而影响测量的精度，这也使得本方法不合适用于珍贵物品或极易形变物体的重建。\\
+\textbf{2 非接触测量法}
 
   顾名思义，非接触测量法在测量中不产生与被测量物体直接的物理接触（但可能会有光或声的接触），只通过算法对被测量物体反射的声或光信息进行计算以识别物体的表面形状特性。没有物理接触可以保证对被测物体不会产生伤害，这个因素保证了非接触测量法的可使用范围要比接触测量法要更为广泛。
 非接触测量法是3D测量的重要部分，其中主要的方法包含如下：
-\begin{enumerate}
+\begin{description}
   \item[]\textbf{立体成像}
 人类的眼睛是天然的立体成像系统，两只眼睛在水平方向有一段差距，这段差距使得我们在观察三维物体左右眼产生视察，大脑在接收到双眼图像时检测视察并计算感知到物体的距离，从而产生立体的感受。
 
@@ -208,9 +214,8 @@ discrete trend transform; structured light.}
   相应特征并与所投射图像中的特征建立相应关系，随后利用三角模型计算物体表面的距离信息。该方法原理简单，
   成本低廉，可用家用摄像机和投影仪实现。结构光
   有多种选择，包括点、线和栅格图像等。结构光的选择是基于结构光的3D重建系统的基础。
-\end{enumerate}
+\end{description}
 
-\end{enumerate}
 \section{结构光技术综述}
 基于结构光的3D重建系统是获取物体表面3D特性的重要方法，而其中，结构光的选择对精度、鲁棒性等因素有着
 深刻的影响。最先被提出的结构光是点结构光\cite{will1972grid}，后来发展出了线结构光，很大地提升了
@@ -1170,7 +1175,10 @@ $cost_{ij}$为：
 (a) 手, (c) 脸, (e) 手和多面体. (b) 手的重建表面, (d) 脸的重建表面 (f) 手与多面体的重建表面.}
 \label{FIG_Example}
 \end{figure}
-
+\section{本章总结}
+本章实现了一种基于De Bruijn
+序列编码颜色序列作为结构光的3D重建方法，介绍了一般的流程并在关键处理步骤中，如颜色校正、线条识别、峰值定位和颜色识别等方面进行了
+创新，提出了DTT等概念用于特征识别，使得系统在线条检测、定位和颜色识别等方面能够取得精确的结果，同时也克服了结构光方法易受环境光干扰的缺点，使重建系统即使在环境光下很好的工作，不需要暗室环境，很大程度上提升了重建系统的使用范围。
 \chapter{结构光为格雷码投影光栅的3D重建}
 格雷码投影光栅是时间编码方式的3D重建，相比于空间编码，时间编码方式具有分辨率高、测量误差小的特点。
 结构光为格雷码投影光栅的3D重建同样采用三角模型，系统架构与之前所述类似，此处不再重复。总体的处理步骤是：
@@ -1395,12 +1403,42 @@ $cost_{ij}$为：
     \includegraphics[width=0.4\textwidth]{gray_result5.eps}}
   \caption{重建结果，左侧图为场景图，右侧为重建的点云}\label{fig:gray_result}
 \end{figure}
+\section{本章总结}
+本章介绍了基于格雷码光栅的3D重建方法。系统结合格雷码光栅和相移线条，并在格雷码光栅的边缘识别等方法进行了创新，提出了
+基于概率的边缘识别方法，取得了理想的重建效果。
+\chapter{总结和展望}
+本文首先对3D重建的原理和结构光技术进行了研究分析和总结，在综合考虑重建所需时间和重建精度等因素后选择基于格雷码光栅的重建方法和基于De Bruijn序列编码条纹的结构光方法实现了3D重建前者属于时间编码而后者属于空间编码。在实际使用中可综合考虑，灵活选择使用方法。
+\section{研究总结}
+本文主要的研究内容包括：摄像机-投影仪系统定标、结构光的选择、结构光特征识别等方法，提出了$M$通道、离散趋势变换和格雷码光栅边缘识别等概念和方法，具体总结为如下：
 
-\chapter{结束语}
-\section{总结}
-\section{创新点}
+\subsection{摄像机-投影仪系统定标} 
+  
+  对摄像机-投影仪系统进行定标是实现精确3D重建的前提。本文分析了摄像机的成像模型和畸变原因，推导了坐标系转换关系，并使用棋盘格作为定标板而确立了摄像机定标过程。本文将投影仪视作逆成像系统，并利用摄像机定标参数实现了投影仪的定标。
+
+\subsection{结构光选择和设计}
+  
+  本文选择两类结构光实现3D重建：时间编码的格雷码光栅和空间编码的De Bruijn序列编码颜色条纹。在De Bruijn序列编码条纹的颜色选择中，本文选择在色度空间中分布较为离散的5种颜色作为编码颜色以便线条检测和颜色识别。在格雷码光栅中又结合相移条纹的方法实现了高分辨率的3D重建。
+  
+\subsection{特征识别}
+  
+  在特征识别方面本文作了较多创新。对颜色条纹结构光方法，本文提出了颜色校正方法、颜色线条检测方法和颜色识别等方法。在颜色校正中，本文利用EMD实现了反射率校正，避免了物体表面颜色对颜色线条的影响。在线条检测中，本文提出了$M$通道以融合R、G、B通道，提出了离散趋势变换(DTT)实现了线条的识别。在对应点建立之中，本文使用动态规划方法，并设计了特殊的cost函数，实现了被检测出特征与投射特征之间的对应关系建立。最后，本文将线条的颜色识别放在色度空间之中进行，避免了环境光的干扰。
+  
+  在基于格雷码光栅的系统中，本文提出了基于自适应阈值和概率的方法确定格雷码光栅的边缘，实现了很好的重建结果。
+
 \section{展望}
+本文利用两种方法，实现了具有适用范围广、鲁棒性高的3D重建系统。在后续的研究中，在以下的方面还可以继续深入探究。
 
+\subsection{3D点云的处理}
+
+  本系统的直接输出是物体表面的3D点云，在后续的研究之中，还可以通过Delaunay三角化的方法将点云转化为表面。更进一步地，
+  可以将物体表面的实际纹理覆盖于包面之上，使得重建结果更加鲜明和立体化。
+  
+  另一方面，本系统一次3D重建输出的结果是从某一个角度观测到的物体表面，要想得到$360^\circ$的全景点云则需要从不同角度重建
+  并拼接。目前可以使用多台设备同时从不同角度对物体进行重建，也可以利用单设备和云台转动物体并多次重建并实现拼接。前者速度快但所需成本较高，后者成本低但需进行多次重建。点云拼接可利用Besl和Mckay\cite{besl1992method}提出的ICP算法实现。
+  
+\subsection{实现实时重建}
+
+  本文所使用的空间编码的结构光只需要拍摄一幅图像即可实现3D重建，可考虑使用并行处理的方式加速处理比较耗时的环节，如离散趋势变换、动态规划、点云计算，并最终实现实时的3D 重建。实时的3D重建对移动物体具有很大意义。
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 附件部分
