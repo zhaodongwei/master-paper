@@ -1,0 +1,59 @@
+\input{Section/Setup}
+
+\begin{document}
+
+\begin{CJK*}{GBK}{song}
+
+\AtBeginSection[] {
+    \begin{frame}<beamer>
+    \frametitle{3D重建}
+        \AppendLogo
+        \small
+        \tableofcontents
+        %\tableofcontents[currentsection,currentsubsection]
+    \end{frame}
+}
+
+\title{基于结构光的3D重建}
+\author{赵东威}
+
+\institute[NERD]{南京大学 电子学院\\ 电路与系统}
+
+\date{\tiny 2013年5月20日}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \MyLogo{-24}{20}{6cm}
+    \MyLogo{104}{20}{6cm}
+    \begin{columns}
+        \column{.2\textwidth}
+        \column{.6\textwidth}
+            \titlepage
+        \column{.2\textwidth}
+    \end{columns}
+\end{frame}
+
+%\date{\initclock 五月22日，2010 \ \  \tdhours \ : \tdminutes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\showsection{1}
+\input{Section/00Intro}
+\def\showsection{2}
+\input{Section/01Cali}
+\def\showsection{3}
+\input{Section/02Stripe}
+\def\showsection{4}
+\input{Section/03Gray}
+\def\showsection{5}
+\input{Section/04Con}
+
+\end{CJK*}
+\end{document}
+
+
+
+
+
+
+
+

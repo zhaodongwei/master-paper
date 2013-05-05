@@ -1,0 +1,58 @@
+\input{Section/Setup}
+
+\begin{document}
+\begin{CJK*}{GBK}{song}
+
+\AtBeginSection[] {
+    \begin{frame}<beamer>
+    \frametitle{AR学习小结}
+        \AppendLogo
+        \small
+        \tableofcontents
+        %\tableofcontents[currentsection,currentsubsection]
+    \end{frame}
+}
+
+\title{AR based on SIFT}
+\author{RenJie}
+
+\institute[NERD]{NERD\\DEE\\NJU}
+
+\date{\tiny 2011年9月13日}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+    \MyLogo{-24}{20}{6cm}
+    \MyLogo{104}{20}{6cm}
+    \begin{columns}
+        \column{.2\textwidth}
+        \column{.6\textwidth}
+            \titlepage
+        \column{.2\textwidth}
+    \end{columns}
+\end{frame}
+
+%\date{\initclock 五月22日，2010 \ \  \tdhours \ : \tdminutes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\showsection{1}
+\input{Section/00Feature}
+\def\showsection{2}
+\input{Section/01MatchRANSAC}
+\def\showsection{3}
+\input{Section/02Transform}
+\def\showsection{4}
+\input{Section/03OpenglShow}
+\def\showsection{5}
+\input{Section/04Next}
+
+\end{CJK*}
+\end{document}
+
+
+
+
+
+
+
+

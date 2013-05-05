@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.20pt}
+\beamer@sectionintoc {1}{初步介绍}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{技术挑战}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{方法分类}{8}{0}{1}

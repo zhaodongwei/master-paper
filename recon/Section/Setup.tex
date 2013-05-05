@@ -1,0 +1,161 @@
+\RequirePackage{float}
+
+%\documentclass[CJK, handout]{beamer}
+\documentclass[CJK]{beamer}
+\usepackage{CJK}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{times}
+\usepackage{amsfonts}
+\usepackage{cite}
+\usepackage{comment}
+\usepackage{amsmath}
+\usepackage[tight,footnotesize]{subfigure}
+\usepackage{amssymb}
+\usepackage{setspace}%
+\usepackage{graphicx}
+%\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{amsthm, amssymb}
+\usepackage{hyperref}% 定理类环境宏包，其中 amsmath 选项用来兼容 AMS LaTeX 的宏包
+\usepackage{epstopdf} %将eps转化为pdf
+\usepackage[boxed,linesnumbered]{algorithm2e}  % 算法的宏包，注意宏包兼容性，先后顺序为float、hyperref、algorithm(2e)，否则无法生成算法列表
+%\usepackage[font=Times,timeinterval=10, timeduration=2.0, timedeath=0, fillcolorwarningsecond=white!60!yellow, timewarningfirst=50,timewarningsecond=80]{tdclock}
+\usepackage{tikz}
+\usepackage{indentfirst} %设置首段首行缩进
+
+\mode<presentation> {
+ % 设置背景
+% \setbeamertemplate{background canvas}[vertical shading][bottom=white!255,top=blue!10]
+
+ % 设置block的特征
+ \setbeamertemplate{blocks}[rounded][shadow=true]
+
+ % 设置主题
+\usetheme{Szeged}%
+% \usetheme{Boadilla} % 详细下边框
+% \usetheme{default}
+% \usetheme{Goettingen} % 右边条
+% \usetheme{Hannover} % 左边条
+%  \usetheme{JuanLesPins} %三无
+% \usetheme{Luebeck} %简约 方框
+% \usetheme{Madrid} % 详细下边框
+% \usetheme{Marburg} % 深色右边栏
+
+ % 设置footline显示页码，但是由于warsaw本身已经定义了一个footline，所以这个定义就会覆盖warsaw的定义。另一方面说明，slides的每一部分都是可以自己定制的。
+ % \setbeamertemplate{footline}[frame number]
+
+ % 设置覆盖的效果，透明
+ \setbeamercovered{transparent}
+%  \useoutertheme{smoothbars} %一行
+ % \useoutertheme{miniframes} %多行
+%\useoutertheme{infolines} %没东西
+ %\useoutertheme{shadow}         % 分割成两栏 多个横条
+%\useoutertheme{split}         % 分割成两栏
+\useoutertheme[footline=institutetitleauthor]{tree} %树状，但只有当前页
+% \useoutertheme[footline=institutetitleauthor]{sidebar} %左边有个章节列表
+
+
+ %\useinnertheme{rectangles} %方块
+ %\useinnertheme{rounded} %圆球
+ \useinnertheme{circles} %
+ \setbeamersize{mini frame size=.12cm,mini frame offset=.05cm}
+ \usefonttheme[onlysmall]{structurebold}
+
+% \usecolortheme{beetle} % 灰蓝 深沉
+% \usecolortheme{albatross} % 深蓝
+% \usecolortheme{beaver} % 白红
+% \usecolortheme{crane} % 橘黄，温暖
+% \usecolortheme{dolphin} % 白 蓝 深蓝 黑 明快
+% \usecolortheme{default} % 白 蓝 深蓝 黑 明快
+% \usecolortheme{dove} % 纯白
+% \usecolortheme{fly} % 纯灰
+% \usecolortheme{lily} % 白 蓝 深蓝 黑 明快
+% \usecolortheme{seagull} % 灰白
+%% \usecolortheme{seahorse} % 浅蓝 白 干净
+% \usecolortheme{sidebartab} % 白 蓝 深蓝 黑 明快
+\usecolortheme{whale} % 主白 深蓝 浅蓝框
+% \usecolortheme{wolverine}
+
+ \usefonttheme{professionalfonts}
+% \usefonttheme{structureitalicserif}
+% \usefonttheme{structuresmallcapsserif}
+% \usefonttheme{structurebold}
+% \usefonttheme{serif}
+
+
+ % 设置数学公式的字体
+ \usefonttheme[onlymath]{serif}
+
+
+}
+
+%\setlength{\parindent}{2em}
+
+
+\graphicspath{{./}{Figures/}}
+
+\newtheorem{prf}{证明}
+\newcommand{\hc}{blue}
+
+\usepackage[absolute,overlay]{textpos}
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{1mm}
+
+\newtheorem{dfn}{定义}
+
+\newcommand{\MyLogo}[3]{%
+\begin{textblock}{14}(#1, #2)
+  \includegraphics[height=#3]{Logo.eps}
+\end{textblock}
+}
+
+\newcommand{\AppendLogo}{%
+%\MyLogo{107}{72}{1.5cm}
+% \MyLogo{-5}{72}{1.5cm}
+ \MyLogo{118}{77}{1.2cm}
+% \MyLogo{-5}{20}{1.5cm}
+}
+
+\newcommand{\divider}{%
+\begin{figure}
+\includegraphics[width=\textwidth]{line.jpg}\\
+\end{figure}
+}
+
+\newcommand{\axises}[4]{%
+    \draw[very thin,color=gray] (-0.2,-0.2) grid (#3 - 0.1,#4 - 0.1);
+    \draw[->, opacity=1] (-0.2,0) -- (#3,0) node[right] {#1};
+    \draw[->, opacity=1] (0,-0.2) -- (0,#4) node[above] {#2};
+    \draw [opacity=1] (0,0) node[below left] {$o$};
+}
+
+\newcommand{\drawrule}[7]{%
+    \draw [<->,red,thick] (#1, #2) -- (#3, #4) node [above,midway] {#7};
+}
+
+\newcommand{\warn}[1]{%
+    \textcolor[rgb]{1.00,0.00,0.00}{#1}
+}
+
+\newcommand{\highlight}[1]{%
+    \textcolor[rgb]{0.00,0.00,1.00}{#1}
+}
+
+\newcommand{\highlightb}[1]{%
+    \textcolor[rgb]{0.00,1.00,0.00}{#1}
+}
+
+
+% 设置用acrobat打开就会全屏显示
+% \hypersetup{pdfpagemode=FullScreen}
+
+% 设置logo
+% If you have a file called "university-logo-filename.xxx", where xxx
+% is a graphic format that can be processed by latex or pdflatex,
+% resp., then you can add a logo as follows:
+
+%\pgfdeclareimage[height=0.5cm]{university-logo}{pku_logo}
+% \logo{\pgfuseimage{university-logo}}
+
+%\logo{\includegraphics[height=1.5cm]{euler.jpg}}

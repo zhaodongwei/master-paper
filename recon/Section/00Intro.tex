@@ -1,0 +1,63 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%Analysis Model of Multicast Routing
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{初步介绍}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{技术挑战}
+\begin{frame}   \frametitle{技术挑战}
+\begin{itemize}
+  \item<1-> 物体形状复杂，高精度高灵敏度来获取凹陷，处理遮挡
+  \item<2-> 物体种类和材料多样，表面性质各异
+  \item<3-> 自动选择重建方法
+  \item<4-> 语义3D识别
+  \item<5-> 重建尺度范围大
+\end{itemize}
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{方法分类}
+\begin{frame}   \frametitle{方法分类}
+    \begin{itemize}
+      \item<1-> 主动方法：光源受特别控制，帮助获取3维信息
+      \item<2-> 被动方法：光源没有特别控制，只是影响图像质量
+      \item<3-> 单观察点：只有一个视角
+      \item<4-> 多观察点：多视角
+    \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{主动方法}
+    三角测量
+    \begin{figure}
+      \includegraphics[width=.5\textwidth]{triangulation}\\
+    \end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{主动方法}
+    一种简单的情况
+     \begin{figure}
+      \includegraphics[width=.7\textwidth]{active}\\
+    \end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{被动方法}
+Stereo
+    \begin{figure}
+      \includegraphics[width=.5\textwidth]{passive}\\
+    \end{figure}
+%Structure-from-Motion：单相机，多图像，自标定
+\end{frame}
+
+\begin{frame}\frametitle{其他方法}
+    \begin{itemize}
+      \item<1-> Time-of-Flight
+      \item<1-> Shape-from-Shading
+      \item<1-> Shape-from-Silhouettes
+      \item<1-> 混合：Shape-from-Silhouettes 和 stereo
+    \end{itemize}
+\end{frame}
+
+\begin{frame}\frametitle{Shape-from-Silhouettes}
+    \begin{figure}
+      \includegraphics[width=.8\textwidth]{sfh}\\
+    \end{figure}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

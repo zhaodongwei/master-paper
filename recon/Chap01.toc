@@ -1,0 +1,16 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{SIFT Feature}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{SIFT特征简介}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{检测尺度空间极值点}{4}{0}{1}
+\beamer@subsectionintoc {1}{3}{精确定位极值点}{8}{0}{1}
+\beamer@subsectionintoc {1}{4}{方向参数}{12}{0}{1}
+\beamer@subsectionintoc {1}{5}{特征描述子}{14}{0}{1}
+\beamer@subsectionintoc {1}{6}{提取SIFT特征示例}{16}{0}{1}
+\beamer@sectionintoc {2}{Match RANSAC}{17}{0}{2}
+\beamer@subsectionintoc {2}{1}{build KDTree}{18}{0}{2}
+\beamer@subsectionintoc {2}{2}{BBF（最优节点优先算法）}{19}{0}{2}
+\beamer@subsectionintoc {2}{3}{RANSAC筛选}{20}{0}{2}
+\beamer@subsectionintoc {2}{4}{匹配示例}{23}{0}{2}
+\beamer@sectionintoc {3}{Coordinate transformation}{24}{0}{3}
+\beamer@sectionintoc {4}{Opengl Show}{27}{0}{4}
+\beamer@sectionintoc {5}{Next}{30}{0}{5}
