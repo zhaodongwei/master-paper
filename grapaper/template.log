@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.7.9)  5 MAY 2013 04:21
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.7.9)  8 MAY 2013 00:54
 entering extended mode
 **template.tex
 (E:\Projects\master\master-paper\grapaper\template.tex
@@ -1148,14 +1148,7 @@ Package CJKpunct Info: punctuation spaces for family 'zhsong' do not exist. Use
  [1
 
 
-]
-
-Package xcolor Warning: Incompatible color definition on input line 130.
-
-
-Package xcolor Warning: Incompatible color definition on input line 132.
-
-[2
+] [2
 
 ] [3]
 
@@ -1174,6 +1167,9 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 \tf@toc=\write7
  [5]
 µ⁄“ª’¬
+
+Package xcolor Warning: Incompatible color definition on input line 169.
+
 [1
 
 
@@ -1181,15 +1177,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 Package xcolor Warning: Incompatible color definition on input line 183.
 
-
-Package xcolor Warning: Incompatible color definition on input line 213.
-
 [2]
 
-Package xcolor Warning: Incompatible color definition on input line 221.
+Package xcolor Warning: Incompatible color definition on input line 215.
 
 
-Package xcolor Warning: Incompatible color definition on input line 224.
+Package xcolor Warning: Incompatible color definition on input line 222.
+
+
+Package xcolor Warning: Incompatible color definition on input line 225.
 
 [3] [4]
 µ⁄∂˛’¬
@@ -1197,34 +1193,34 @@ File: figures/system.eps Graphic file (type eps)
 <figures/system.eps> [5
 
 ]
-Overfull \hbox (31.95322pt too wide) in paragraph at lines 266--268
+Overfull \hbox (26.04866pt too wide) in paragraph at lines 267--269
 []\C19/rm/m/n/12.05/45 ˘ \C19/rm/m/n/12.05/55 ≠ \C19/rm/m/n/12.05/46 . \C19/rm/
 m/n/12.05/65 ã \C19/rm/m/n/12.05/37 I \C19/rm/m/n/12.05/59 X \C19/rm/m/n/12.05/
-40  :$\OML/cmm/m/it/12.05 Q[] \OT1/cmr/m/n/12.05 = [\OML/cmm/m/it/12.05 X[] []
-Y[] []Z[]\OT1/cmr/m/n/12.05 ][]$\C19/rm/m/n/12.05/65 = \C19/rm/m/n/12.05/44 Ü \
-C19/rm/m/n/12.05/58 è \C19/rm/m/n/12.05/59 É \C19/rm/m/n/12.05/44 ≈ \C19/rm/m/n
-/12.05/65 ã \C19/rm/m/n/12.05/37 I \C19/rm/m/n/12.05/59 X$\OML/cmm/m/it/12.05 Q
-[] \OT1/cmr/m/n/12.05 = [\OML/cmm/m/it/12.05 X[] []Y[] []Z[]\OT1/cmr/m/n/12.05 
-][]$\C19/rm/m/n/12.05/40 
+40  : $\OML/cmm/m/it/12.05 Q[] \OT1/cmr/m/n/12.05 = [\OML/cmm/m/it/12.05 X[] [
+]Y[] []Z[]\OT1/cmr/m/n/12.05 ][]$ \C19/rm/m/n/12.05/65 = \C19/rm/m/n/12.05/44 Ü
+ \C19/rm/m/n/12.05/58 è \C19/rm/m/n/12.05/59 É \C19/rm/m/n/12.05/44 ≈ \C19/rm/m
+/n/12.05/65 ã \C19/rm/m/n/12.05/37 I \C19/rm/m/n/12.05/59 X $\OML/cmm/m/it/12.0
+5 Q[] \OT1/cmr/m/n/12.05 = [\OML/cmm/m/it/12.05 X[] []Y[] []Z[]\OT1/cmr/m/n/12.
+05 ][]$
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 319.
+Package xcolor Warning: Incompatible color definition on input line 320.
 
 [6]
 
-Package xcolor Warning: Incompatible color definition on input line 352.
+Package xcolor Warning: Incompatible color definition on input line 353.
 
 [7]
 
-Package xcolor Warning: Incompatible color definition on input line 405.
+Package xcolor Warning: Incompatible color definition on input line 406.
 
 
-Package xcolor Warning: Incompatible color definition on input line 410.
+Package xcolor Warning: Incompatible color definition on input line 411.
 
 [8]
 
-Package xcolor Warning: Incompatible color definition on input line 438.
+Package xcolor Warning: Incompatible color definition on input line 439.
 
 File: figures/chessboard_src.eps Graphic file (type eps)
 <figures/chessboard_src.eps> [9]
@@ -1249,7 +1245,7 @@ File: figures/4.eps Graphic file (type eps)
 File: figures/9.eps Graphic file (type eps)
  <figures/9.eps>
 
-Package xcolor Warning: Incompatible color definition on input line 501.
+Package xcolor Warning: Incompatible color definition on input line 502.
 
 [10] [11]
 File: figures/pc.eps Graphic file (type eps)
@@ -1257,23 +1253,23 @@ File: figures/pc.eps Graphic file (type eps)
 File: figures/pro.eps Graphic file (type eps)
  <figures/pro.eps> [13] [14]
 µ⁄»˝’¬
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 605.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 606.
 
 (C:\CTEX\MiKTeX\tex\latex\psnfss\omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12.05> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 605.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 606.
 
 
-Package xcolor Warning: Incompatible color definition on input line 609.
+Package xcolor Warning: Incompatible color definition on input line 610.
 
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 635.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 636.
 
 (C:\CTEX\MiKTeX\tex\latex\psnfss\ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 645.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 646.
 
 
 (C:\CTEX\MiKTeX\tex\latex\psnfss\ot1phv.fd
@@ -1285,11 +1281,11 @@ File: figures/project_background.eps Graphic file (type eps)
 
 <figures/project_background.eps> [16]
 
-Package xcolor Warning: Incompatible color definition on input line 673.
+Package xcolor Warning: Incompatible color definition on input line 674.
 
 [17]
 
-Package xcolor Warning: Incompatible color definition on input line 767.
+Package xcolor Warning: Incompatible color definition on input line 768.
 
 [18]
 File: figures/fig1a.eps Graphic file (type eps)
@@ -1302,25 +1298,25 @@ File: figures/fig1d.eps Graphic file (type eps)
 
 <figures/fig1d.eps>
 File: figures/ColorCorrectRatio.eps Graphic file (type eps)
- <figures/ColorCorrectRatio.eps>
+ <figures/ColorCorrectRatio.eps> [19]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 846.
+(hyperref)                removing `math shift' on input line 847.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 846.
+(hyperref)                removing `math shift' on input line 847.
 
 
-Package xcolor Warning: Incompatible color definition on input line 847.
+Package xcolor Warning: Incompatible color definition on input line 848.
 
-[19] [20]
+[20] [21]
 File: figures/de_src.eps Graphic file (type eps)
  <figures/de_src.eps>
 File: figures/de_m.eps Graphic file (type eps)
- <figures/de_m.eps> [21]
+ <figures/de_m.eps>
 
-Package xcolor Warning: Incompatible color definition on input line 935.
+Package xcolor Warning: Incompatible color definition on input line 936.
 
 [22]
 File: figures/retrend1.eps Graphic file (type eps)
@@ -1336,24 +1332,23 @@ File: figures/centerNEW.eps Graphic file (type eps)
  <figures/centerNEW.eps>
 [23]
 
-Package xcolor Warning: Incompatible color definition on input line 1024.
+Package xcolor Warning: Incompatible color definition on input line 1025.
 
 
-Package xcolor Warning: Incompatible color definition on input line 1027.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1029.
-
-
-Package xcolor Warning: Incompatible color definition on input line 1030.
+Package xcolor Warning: Incompatible color definition on input line 1028.
 
 [24]
 
-Package xcolor Warning: Incompatible color definition on input line 1032.
+Package xcolor Warning: Incompatible color definition on input line 1030.
 
-[25]
+
+Package xcolor Warning: Incompatible color definition on input line 1031.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1033.
+
 File: figures/IMG_SOURCE.eps Graphic file (type eps)
- <figures/IMG_SOURCE.eps>
+<figures/IMG_SOURCE.eps>
 File: figures/IMG_CANNY.eps Graphic file (type eps)
  <figures/IMG_CANNY.eps>
 File: figures/CANNY.eps Graphic file (type eps)
@@ -1369,13 +1364,13 @@ File: figures/MAX.eps Graphic file (type eps)
  <figures/MAX.eps>
 File: figures/WA.eps Graphic file (type eps)
 
-<figures/WA.eps> [26]
+<figures/WA.eps> [25] [26] [27]
 File: figures/de_color.eps Graphic file (type eps)
  <figures/de_color.eps>
 
-Package xcolor Warning: Incompatible color definition on input line 1095.
+Package xcolor Warning: Incompatible color definition on input line 1096.
 
-[27]
+[28]
 Missing character: There is no ; in font nullfont!
 File: figures/handLight.eps Graphic file (type eps)
  <figures/handLight.eps>
@@ -1390,10 +1385,10 @@ File: figures/HandPolyLight.eps Graphic file (type eps)
  <figures/HandPolyLight.eps>
 File: figures/handpoly.eps Graphic file (type eps)
 
-<figures/handpoly.eps> [28] [29] [30]
+<figures/handpoly.eps> [29] [30] [31]
 µ⁄Àƒ’¬
 File: figures/gray.eps Graphic file (type eps)
-<figures/gray.eps> [31
+<figures/gray.eps> [32
 
 ]
 File: figures/gray_1.eps Graphic file (type eps)
@@ -1420,7 +1415,7 @@ File: figures/gray_9.eps Graphic file (type eps)
 File: figures/gray_10.eps Graphic file (type eps)
  <figures/gray_10.eps>
 File: figures/sweep.eps Graphic file (type eps)
- <figures/sweep.eps> [32] [33]
+ <figures/sweep.eps> [33] [34]
 File: figures/gray_background.eps Graphic file (type eps)
 
 <figures/gray_background.eps>
@@ -1428,7 +1423,7 @@ File: figures/gray_white.eps Graphic file (type eps)
  <figures/gray_white.eps>
 File: figures/gray_valid.eps Graphic file (type eps)
 
-<figures/gray_valid.eps> [34]
+<figures/gray_valid.eps> [35]
 File: figures/sweep_src.eps Graphic file (type eps)
  <figures/sweep_src.eps>
 File: figures/sweep_line.eps Graphic file (type eps)
@@ -1437,12 +1432,12 @@ File: figures/gray_6.eps Graphic file (type eps)
 
 <figures/gray_6.eps>
 File: figures/gray_ex_channel.eps Graphic file (type eps)
- <figures/gray_ex_channel.eps> [35] [36]
+ <figures/gray_ex_channel.eps> [36] [37]
 File: figures/edge2.eps Graphic file (type eps)
 
 <figures/edge2.eps>
 File: figures/edge.eps Graphic file (type eps)
- <figures/edge.eps> [37]
+ <figures/edge.eps> [38]
 runsystem(gnuplot template.exp.gnuplot)...executed.
 
 runsystem(gnuplot template.exp.gnuplot)...executed.
@@ -1470,33 +1465,29 @@ File: figures/gray_project4.eps Graphic file (type eps)
  <figures/gray_project4.eps>
 File: figures/gray_result5.eps Graphic file (type eps)
 
-<figures/gray_result5.eps>
-
-LaTeX Warning: Float too large for page by 0.92264pt on input line 1469.
-
-[38] [39] [40]
+<figures/gray_result5.eps> [39] [40] [41]
 µ⁄ŒÂ’¬
-[41
+[42
 
 ]
 
 Package xcolor Warning: Incompatible color definition on input line 1501.
 
-[42] (E:\Projects\master\master-paper\grapaper\template.bbl [43
+[43] (E:\Projects\master\master-paper\grapaper\template.bbl [44
 
 
-]) [44] [45]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \hskip 12.05pt
-(hyperref)                replaced by space on input line 1575.
-
+]) [45] [46]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 12.05pt
 (hyperref)                replaced by space on input line 1575.
 
-[46
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \hskip 12.05pt
+(hyperref)                replaced by space on input line 1575.
+
+[47
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1590.
@@ -1512,19 +1503,19 @@ Package rerunfilecheck Warning: File `template.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `template.out':
-(rerunfilecheck)             Before: 567D987259AD967BDE07E762EE032ABF;8257
-(rerunfilecheck)             After:  2AC425EC01D9501FBEC5C4C58106B8D4;3750.
+(rerunfilecheck)             Before: 3D0A1638C853FC1A5FDB221ACF653D1D;8281
+(rerunfilecheck)             After:  B0E32C67B9315DB62802D7D1FE1C405E;3753.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26736 strings out of 495355
- 465336 string characters out of 3183883
- 505416 words of memory out of 3000000
- 29213 multiletter control sequences out of 15000+200000
- 99550 words of font info for 329 fonts, out of 3000000 for 9000
+ 26735 strings out of 495355
+ 465304 string characters out of 3183883
+ 507615 words of memory out of 3000000
+ 29211 multiletter control sequences out of 15000+200000
+ 99848 words of font info for 330 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 56i,14n,55p,26355b,1087s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,14n,55p,26355b,1086s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on template.dvi (54 pages, 352300 bytes).
+Output written on template.dvi (55 pages, 355500 bytes).

@@ -114,12 +114,12 @@
 % ÖÐÎÄÕªÒª
 \begin{abstract}
 
-3DÐÅÏ¢²É¼¯ÊÇ¼ÆËã»úÊÓ¾õÁìÓòµÄÈÈµãÎÊÌâ£¬ÔÚÒ½ÁÆ¡¢ÎÄÎï±£»¤ÒÔ¼°»úÆ÷ÈËµ¼º½ÁìÓòÓÐ×Å¹ã·ºÓ¦ÓÃ£¬½üÄêÀ´Ò²ÊÜµ½ÁËÔ½À´Ô½¶àµÄÑÐ¾¿¹Ø×¢¡£³¤¾ÃÒÔÀ´£¬ÑÐ¾¿ÈËÔ±Ìá³öÁË¶àÖÖ·½·¨ÓÃÓÚ3DÐÅÏ¢²É¼¯£¬°üÀ¨Á¢Ìå³ÉÏñ¡¢¼¤¹âÀ×´ï¡¢3D ÖØ½¨µÈ¡£ÔÚÕâÆäÖÐ£¬
+3D~ÐÅÏ¢²É¼¯ÊÇ¼ÆËã»úÊÓ¾õÁìÓòµÄÈÈµãÎÊÌâ£¬ÔÚÒ½ÁÆ¡¢ÎÄÎï±£»¤ÒÔ¼°»úÆ÷ÈËµ¼º½ÁìÓòÓÐ×Å¹ã·ºÓ¦ÓÃ£¬½üÄêÀ´ÊÜµ½ÁËÔ½À´Ô½¶àµÄÑÐ¾¿¹Ø×¢¡£×Ô´Ó±»¹Ø×¢ÒÔÀ´£¬ÑÐ¾¿ÈËÔ±Ìá³öÁË¶àÖÖ·½·¨ÓÃÓÚ~3D~ÐÅÏ¢²É¼¯£¬°üÀ¨Á¢Ìå³ÉÏñ¡¢¼¤¹âÀ×´ï¡¢3D~ÖØ½¨µÈ¡£ÔÚÕâÆäÖÐ£¬
 3DÖØ½¨·½·¨²»ÐèÒª×¨ÓÃÉè±¸£¬Í¬Ê±¾ßÓÐÍ¼Ïñ´¦Àí¼òµ¥¡¢ÖØ½¨½á¹ûµÄ·Ö±æÂÊ¸ßµÈÌØµã¶øÊÜµ½ÖØÊÓ¡£
 
-±¾ÎÄÊµÏÖÁË»ùÓÚÍ¶Ó°ÒÇ-ÉãÏñ»úÈý½Ç²âÁ¿ÏµÍ³µÄ3DÖØ½¨¡£Ê×ÏÈÍ¨¹ýÉãÏñ»ú¶¨±êºÍÍ¶Ó°ÒÇ¶¨±ê»ñµÃÉãÏñ»úºÍÍ¶Ó°ÒÇÖ®¼äµÄ¼¸ºÎ¹ØÏµ£¬½¨Á¢ÁËÈý½Ç²âÁ¿µÄÓ²¼þ»·¾³ºÍ¼¸ºÎ»ù´¡¡£Æä´ÎÀûÓÃÁ½ÖÖ½á¹¹¹â½øÐÐ3DÖØ½¨£¬Ò»ÖÖ½á¹¹¹âÊÇ¸ñÀ×Âë¼ÓÏàÒÆ±àÂë·½Ê½¡£ÕâÖÖ½á¹¹¹â±àÂë·½Ê½ÊôÓÚÊ±¼ä±àÂë£¬ÐèÒªÍ¶Éä¶à·ù½á¹¹¹â²¢ÅÄÉã¶à·ùÍ¼Ïñ£¬¹ÊÊÊÓÃÓÚ¾²Ö¹ÎïÌåµÄÖØ½¨£¬ÆäÓÅµãÊÇÄÜ¹»µÃµ½¸ß·Ö±æÂÊµÄÖØ½¨½á¹û¡£ÁíÒ»ÖÖ½á¹¹¹âÊÇ»ùÓÚDe BruijnÐòÁÐ±àÂëµÄÑÕÉ«ÌõÎÆ£¬²ÉÓÃÕâÖÖ½á¹¹¹âµÄÖØ½¨Ö»ÐèÅÄÉãÒ»·ùÍ¼Ïñ¼´¿ÉÊµÏÖ£¬ÖØ½¨Ê±¼ä¶Ì£¬ÊÊÓÃÓÚ¶¯Ì¬ÎïÌåµÄÖØ½¨£¬µ«Ïà¶ÔÓÚµÚÒ»ÖÖ·½·¨£¬±¾·½·¨ÒªÇóµÄ±àÂë½âÂë´¦Àí½ÏÎª¸´ÔÓ£¬ÐèÒªÏÈ½øµÄ±à½âÂë¼¼Êõ²ÅÄÜ¹»´ïµ½ÀíÏëµÄÖØ½¨½á¹û¡£±¾ÎÄ¶Ô±à½âÂë¼¼ÊõµÄÍ¶ÉäÑÕÉ«Ñ¡Ôñ¡¢ÑÕÉ«Ð£Õý¡¢ÏßÌõ¼ì²â¡¢·åÖµ¶¨Î»ºÍÑÕÉ«Ê¶±ð½øÐÐÁË´´ÐÂ£¬Ìá³öÁËÓÐÐ§µÄ·½·¨²¢ÌáÉýÁËÌØÕ÷¼ì²âµÄ×¼È·ÂÊ£¬µÃµ½ÁËºÜºÃµÄÖØ½¨Ð§¹û¡£¶Ô»ùÓÚ¸ñÀ×Âë¼ÓÏàÒÆ±àÂë·½Ê½µÄ³ÂÖØ½¨ÖÐ£¬±¾ÎÄÌá³öÁË¶Ô¸ñÀ×Âë¹âÕ¤±ß¾³½øÐÐ×¼È·¶¨Î»µÄ·½·¨£¬ÌáÉýÁËÖØ½¨µÄÐ§¹û¡£
+±¾ÎÄÊµÏÖÁË»ùÓÚÍ¶Ó°ÒÇ-ÉãÏñ»úÈý½Ç²âÁ¿ÏµÍ³µÄ~3D~ÖØ½¨¡£Ê×ÏÈÍ¨¹ýÉãÏñ»ú¶¨±êºÍÍ¶Ó°ÒÇ¶¨±ê»ñµÃÉãÏñ»úºÍÍ¶Ó°ÒÇÖ®¼äµÄ¼¸ºÎ¹ØÏµ£¬½¨Á¢Èý½Ç²âÁ¿µÄÓ²¼þ»·¾³ºÍ¼¸ºÎ»ù´¡¡£Æä´ÎÀûÓÃÁ½ÖÖ½á¹¹¹â½øÐÐ~3D~ÖØ½¨£¬Ò»ÖÖ½á¹¹¹âÊÇ¸ñÀ×Âë¼ÓÏàÒÆ±àÂë·½Ê½¡£ÕâÖÖ½á¹¹¹â±àÂë·½Ê½ÊôÓÚÊ±¼ä±àÂë£¬ÐèÍ¶Éä¶à·ù½á¹¹¹â²¢¼ÇÂ¼¶à·ùÍ¼Ïñ£¬¹ÊÊÊÓÃÓÚ¾²Ö¹ÎïÌåµÄÖØ½¨£¬ÆäÓÅµãÊÇÄÜ¹»µÃµ½¸ß·Ö±æÂÊµÄÖØ½¨½á¹û¡£ÁíÒ»ÖÖ½á¹¹¹âÊÇ»ùÓÚ~De Bruijn~ ÐòÁÐ±àÂëµÄÑÕÉ«ÌõÎÆ£¬ÕâÖÖ±àÂë·½·¨ÊôÓÚ¿Õ¼ä±àÂë£¬²ÉÓÃÕâÖÖ½á¹¹¹âµÄÖØ½¨Ö»ÐèÅÄÉãÒ»·ùÍ¼Ïñ¼´¿ÉÊµÏÖ£¬¾ßÓÐÖØ½¨Ê±¼ä¶Ì¡¢ÖØ½¨Ð§¹ûºÃµÄÓÅµã¡£ÓÉÓÚÖ»ÐèÒª¼ÇÂ¼Ò»·ùÍ¼Ïñ£¬´Ë·½·¨ÊÊÓÃÓÚ¶¯Ì¬ÎïÌåµÄÖØ½¨£¬¶øÏà¶ÔÓÚµÚÒ»ÖÖ·½·¨£¬´Ë·½·¨ÒªÇóµÄ±àÂë½âÂë´¦Àí½ÏÎªÑÏ¸ñ£¬ÐèÒªÏÈ½øµÄ±à½âÂë¼¼Êõ²ÅÄÜ¹»´ïµ½ÀíÏëµÄÖØ½¨½á¹û¡£±¾ÎÄ¶Ô¿Õ¼ä±àÂëµÄ½á¹¹¹âÖØ½¨ÏµÍ³ÔÚ±à½âÂë¼¼Êõ·½·¨½øÐÐÁË¶àÏî´´ÐÂ£¬°üÀ¨Í¶ÉäÑÕÉ«Ñ¡Ôñ¡¢ÑÕÉ«Ð£Õý¡¢ÏßÌõ¼ì²â¡¢·åÖµ¶¨Î»ºÍÑÕÉ«Ê¶±ðµÈ£¬Ìá³öÁËÓÐÐ§µÄ·½·¨²¢ÌáÉýÁËÌØÕ÷¼ì²âµÄ×¼È·ÂÊ£¬È¡µÃµ½ÁËºÜºÃµÄÖØ½¨Ð§¹û¡£¶Ô»ùÓÚ¸ñÀ×Âë¼ÓÏàÒÆ±àÂë·½Ê½µÄÖØ½¨£¬±¾ÎÄÌá³öÁË¶Ô¸ñÀ×Âë¹âÕ¤±ß¾³½øÐÐ×¼È·¶¨Î»µÄ·½·¨£¬ÌáÉýÁËÖØ½¨µÄÐ§¹û¡£
 
-\keywords{3DÖØ½¨; ½á¹¹¹â; ±àÂë; Èý½Ç²âÁ¿}
+\keywords{3D~ÖØ½¨; Èý½Ç²âÁ¿; ½á¹¹¹â; ¿Õ¼ä±àÂë; Ê±¼ä±àÂë}
 
 \end{abstract}
 
@@ -127,9 +127,9 @@
 \begin{englishabstract}
 
 In the last decade, 3D shape acquisition has received more and more considerable research interests. Since the moment when the concept of 3D reconstruction was proposed, researchers have developed some groups of techniques
-to achieve 3D shape acquisition, some important methods include  and structured light\cite{sansoni2009state}, stereo vision and TOF(Time Of Flight).
+to achieve 3D shape acquisition, some important methods include and structured light, stereo vision and TOF(Time Of Flight).
 Among those methods, one of the main advantages of structured light
-based techniques is that it requires less and easier image processing, meanwhile, it can derive high accuracy in the 3D reconstruction result\cite{OptimisedDeBruijn}.
+based techniques is that it requires less and easier image processing, meanwhile, it can derive high accuracy in the 3D reconstruction result.
  Based on the math of triangle principle, structured light based techniques take three steps to fulfill final result. The first step is to project some designed coding patterns onto the surface of the scanned
 objects. After that, a camera (or more) is controlled to capture the scene and send the pictures to computer for further processing. In the second step, algorithms detect the coding patterns in the captured image and establish the correspondence with projected patterns. In the final step, 3D coordinates of the object surface are calculated from the correspondence established in the second step within the calibrated triangle model.
 
@@ -137,8 +137,8 @@ In the review of the development history of structured light techniques, the fir
 
 In this paper, we have build a structure light system and this system uses two methods: De Bruijn code based colored stripe and Gay code as structure light, which belongs to one-shot structured light technique and time-multiplexing technique. To achieve a better reconstruction result using colored stripes, we propose an adaptive color calibration method, and a Discrete Trend Transform (DTT) algorithm to detect patterns. And we proposed a method to detect the edge of Gray code structured light edge. In this system, dark laboratory environments is not needed to derive high-resolution 3D point cloud.
 
-\englishkeywords{three-dimensional image acquisition; adaptive color calibration;
-discrete trend transform; structured light.}
+\englishkeywords{3D Reconstruction; structured light;
+De Bruijn sequence; Gray code.}
 
 \end{englishabstract}
 
@@ -160,22 +160,22 @@ discrete trend transform; structured light.}
 \chapter{Ð÷ÂÛ}
 \section{ÒýÑÔ}
 ÈËÀàÉú»îÔÚÒ»¸öÓÉÈýÎ¬µÄ¿Õ¼äºÍÊ±¼ä×é³ÉµÄËÄÎ¬Á¢Ìå¿Õ¼äÖÐ£¬ÎÒÃÇµÄÑÛ¾¦²»½öÄÜ¸ÐÖªÖÜÎ§ÊÂÎïµÄÉ«²Ê¹âÔó£¬»¹ÄÜ¹»Í¨¹ýË«Ä¿Á¢ÌåÊÓ¾õµÄ·½Ê½¸ÐÖªÁ¢Ìå¿Õ¼ä¡£ÔÚ¿Æ¼¼²»·¢´ïµÄ¹Å´úºÍ½ü´ú£¬ÈËÃÇÈ±ÉÙÃèÊöºÍ¼ÇÂ¼ÈýÎ¬Ê±¼äµÄ·½Ê½£¬Ö»ÄÜÍ¨¹ý»­»­¡¢ÕÕÏà¡¢µçÓ°µÈÐÐÎªÒÔ¶þÎ¬µÄ·½Ê½¼ÇÂ¼ÖÜÎ§µÄÊÀ½ç¡£Ëæ×Å
-¼ÆËã»úµÄ·¢Ã÷ºÍ¼«¿ìµÄÆÕ¼°£¬»¥ÁªÍøºÍ¼ÆËãÄÜÁ¦µÄ¿ìËÙÔö³¤Éî¿ÌµØÓ°ÏìÈËÃÇµÄÉú²úÉú»î·½Ê½£¬ÆäÖÐÓÈÒÔ3D¼¼ÊõµÄÓ°Ïì×îÎªÍ»³ö¡£ÈýÎ¬Êý×Ö»¯¼¼ÊõÊ¹ÈËÃÇÓÐÄÜÁ¦¶ÔÏÖÊµÈýÎ¬ÊÀ½çµÄÈÏÊ¶ºÍ±í´ï»Ø¹éµ½Ô­Ê¼µÄÖ±¹Û¡¢Á¢ÌåµÄ¾³½ç¡£ÔÚÏÖ´ú»¯µÄ21ÊÀ¼Í£¬3DµÄ¸ÅÄîÒÑÈ»³ä³â×ÅÐéÄâµÄÊÀ½ç£¬Ò²ÔÚÉî¿ÌÓ°Ïì×ÅÏÖÊµµÄÊÀ½ç¡£´Ó3DÓÎÏ·¡¢¶¯»­µ½¼ÆËã»ú¸¨ÖúÖÆÔì¡¢3D´òÓ¡¡¢Ò½Ñ§³ÉÏñ¡¢×Ô¶¯¼ÝÊ»Æû³µµÈ£¬¶¼°üº¬×Å3D¼¼ÊõµÄÓ¦ÓÃ¡£Èç¹ûÏÖÔÚµÄÊÀ½ç²»ÄÜ³ÆÎª3D ÊÀ½ç£¬ÄÇÃ´¿ÉÒÔÔ¤ÏëµÄÊÇ£¬²»¾ÃµÄÎ´À´3D¼¼ÊõµÄÓ¦ÓÃ½«»á¸ü¼ÓÆÕ¼°¡£
+¼ÆËã»úµÄ·¢Ã÷ºÍ¼«¿ìµÄÆÕ¼°£¬»¥ÁªÍøºÍ¼ÆËãÄÜÁ¦µÄ¿ìËÙÔö³¤Éî¿ÌµØÓ°ÏìÈËÃÇµÄÉú²úÉú»î·½Ê½£¬ÆäÖÐÓÈÒÔ~3D~¼¼ÊõµÄÓ°Ïì×îÎªÍ»³ö¡£ÈýÎ¬Êý×Ö»¯¼¼ÊõÊ¹ÈËÃÇÓÐÄÜÁ¦¶ÔÏÖÊµÈýÎ¬ÊÀ½çµÄÈÏÊ¶ºÍ±í´ï»Ø¹éµ½Ô­Ê¼µÄÖ±¹Û¡¢Á¢ÌåµÄ¾³½ç¡£ÔÚÏÖ´ú»¯µÄ~21~ÊÀ¼Í£¬3D~µÄ¸ÅÄîÒÑÈ»³ä³â×ÅÐéÄâµÄÊÀ½ç£¬Ò²ÔÚÉî¿ÌÓ°Ïì×ÅÏÖÊµµÄÊÀ½ç¡£´Ó~3D~ÓÎÏ·¡¢¶¯»­µ½¼ÆËã»ú¸¨ÖúÖÆÔì¡¢3D~´òÓ¡¡¢Ò½Ñ§³ÉÏñ¡¢×Ô¶¯¼ÝÊ»Æû³µµÈ£¬¶¼°üº¬×Å3D¼¼ÊõµÄÓ¦ÓÃ¡£Èç¹ûÏÖÔÚµÄÊÀ½ç²»ÄÜ³ÆÎª ~3D~ÊÀ½ç£¬ÄÇÃ´¿ÉÒÔÔ¤ÏëµÄÊÇ£¬²»¾ÃµÄÎ´À´~3D~¼¼ÊõµÄÓ¦ÓÃ½«»á¸ü¼ÓÆÕ¼°¡£
 
-3D¼¼Êõ°üº¬Ò»ÏµÁÐµÄ¹ý³Ì£¬°üÀ¨²É¼¯¡¢´¦Àí¡¢Ê¶±ðµÈ£¬¶øÕâÆäÖÐ3DÐÅÏ¢µÄ²É¼¯¼¼ÊõÊÇ»ù´¡£¬Ëù²É¼¯µÄ3DÐÅÏ¢¿ÉÓÃÓÚ½øÒ»²½´¦ÀíºÍ×ª»¯½ø¶øÎªÌá¹©ÓÐÒâÒåµÄÐÅÏ¢»òÎª¾ö²ßÌá¹©»ù´¡¡£¿ÉÒÔËµ£¬3D ÐÅÏ¢µÄ²É¼¯¼¼ÊõÖ±½ÓÓ°Ïì×Å3D¼¼ÊõÓ¦ÓÃ·¶³ë¡£
+3D~¼¼Êõ°üº¬Ò»ÏµÁÐµÄ¹ý³Ì£¬°üÀ¨²É¼¯¡¢´¦Àí¡¢Ê¶±ðµÈ£¬¶øÕâÆäÖÐ~3D~ÐÅÏ¢µÄ²É¼¯¼¼ÊõÊÇ»ù´¡£¬Ëù²É¼¯µÄ~3D~ÐÅÏ¢¿ÉÓÃÓÚ½øÒ»²½´¦ÀíºÍ×ª»¯½ø¶øÎªÌá¹©ÓÐÒâÒåµÄÐÅÏ¢»òÎª¾ö²ßÌá¹©»ù´¡¡£¿ÉÒÔËµ£¬3D~ÐÅÏ¢µÄ²É¼¯¼¼ÊõÖ±½ÓÓ°Ïì×Å~3D~¼¼ÊõÓ¦ÓÃ·¶³ë¡£
 
-3DÖØ½¨ÊÇ3DÐÅÏ¢µÄ²É¼¯µÄÒ»¸öÖØÒªÊÖ¶Î£¬ÆäÖØÒªµÄÓ¦ÓÃ°üÀ¨ÎÄÎï±£»¤¡¢Ò½ÁÆ¡¢»úÆ÷ÈËµ¼º½¡¢Ä£ÐÍÉú³É¡¢¼ÆËã»úÊÓ¾õµÈ¡£µ±È»ÎÒÃÇ¿ÉÒÔÓÃ¼ÆËã»ú¸¨ÖúÉè¼Æ£¨CAD£©À´½¨Á¢ÈýÎ¬Ä£ÐÍ£¬ÆäÓÅµãÊÇÖÆ×÷¾«Ï¸£¬µ«È±µãÊÇÐèÒªÊÂÏÈÉè¼ÆÄ£ÐÍ¸÷×é³É²¿·Ö±ÈÀý£¬ÐèÒªÊìÁ·µÄ²Ù×÷¹¤ÈË£¬¿ª·¢ÖÜÆÚ³¤¡£¶ø3DÖØ½¨Ôò»ùÓÚ¶ÔÒÑÓÐÎïÌåÈýÎ¬ÐÅÏ¢µÄ²É¼¯ºÍ´¦Àí£¬²¢ÔÚ´Ë»ù´¡ÉÏ½¨Á¢Ä£ÐÍ£¬ÔÚÊ±¼ä³É±¾ºÍÕæÊµ¸ÐÉÏ¾ßÓÐºÜ´óÓÅÊÆ£¬ÀýÈçÈËÁ³Ä£ÐÍ¾Í¹ã·ºÓÃÓÚµçÓ°½ÇÉ«´´½¨¡¢¼ÆËã»úÓÎÏ·Íâ¿ÆÊÖÊõ¡¢ÊÓÆµ»áÒéºÍÐéÄâÏÖÊµµÈ·½·¨£¬¶ÔÓÚÒ»Ð©ÐèÇóÔò±ØÐëÍ¨¹ý3D ÖØ½¨ÊµÏÖ£¬ÈçÀúÊ·ÎÄÎï±£»¤µÈ¡£
+3D~ÖØ½¨ÊÇ 3D~ÐÅÏ¢µÄ²É¼¯µÄÒ»¸öÖØÒªÊÖ¶Î£¬ÆäÖØÒªµÄÓ¦ÓÃ°üÀ¨ÎÄÎï±£»¤¡¢Ò½ÁÆ¡¢»úÆ÷ÈËµ¼º½¡¢Ä£ÐÍÉú³É¡¢¼ÆËã»úÊÓ¾õµÈ¡£µ±È»ÎÒÃÇ¿ÉÒÔÓÃ¼ÆËã»ú¸¨ÖúÉè¼Æ£¨CAD£©~À´½¨Á¢ÈýÎ¬Ä£ÐÍ£¬ÆäÓÅµãÊÇÖÆ×÷¾«Ï¸£¬µ«È±µãÊÇÐèÒªÊÂÏÈÉè¼ÆÄ£ÐÍ¸÷×é³É²¿·Ö±ÈÀý£¬ÐèÒªÊìÁ·µÄ²Ù×÷¹¤ÈË£¬¿ª·¢ÖÜÆÚ³¤¡£¶ø3D ÖØ½¨Ôò»ùÓÚ¶ÔÒÑÓÐÎïÌåÈýÎ¬ÐÅÏ¢µÄ²É¼¯ºÍ´¦Àí£¬²¢ÔÚ´Ë»ù´¡ÉÏ½¨Á¢Ä£ÐÍ£¬ÔÚÊ±¼ä³É±¾ºÍÕæÊµ¸ÐÉÏ¾ßÓÐºÜ´óÓÅÊÆ£¬ÀýÈçÈËÁ³Ä£ÐÍ¾Í¹ã·ºÓÃÓÚµçÓ°½ÇÉ«´´½¨¡¢¼ÆËã»úÓÎÏ·Íâ¿ÆÊÖÊõ¡¢ÊÓÆµ»áÒéºÍÐéÄâÏÖÊµµÈ·½·¨£¬¶ÔÓÚÒ»Ð©ÐèÇóÔò±ØÐëÍ¨¹ý~3D~ÖØ½¨ÊµÏÖ£¬ÈçÀúÊ·ÎÄÎï±£»¤µÈ¡£
 
-ÁíÒ»·½Ãæ£¬3D´òÓ¡ÓÐÔ½À´Ô½ÆÕ¼°µÄÇ÷ÊÆ¡£3D´òÓ¡Éè±¸ÒÑ¾­ÊµÏÖÁË²úÆ·»¯£¬Æä¼Û¸ñËæ×ÅÊ±¼äµÄÍÆÒÆÔòÒ²Ô½À´Ô½ÎªÆÕÍ¨´óÖÚ½ÓÊÜ£¬¿ÉÒÔÔ¤¼ÆµÄÊÇ£¬3D ´òÓ¡µÄ·çÐÐÒ²±Ø½«ÍÆ¶¯3D ÖØ½¨¼¼ÊõµÄ½øÒ»²½ÆÕ¼°ºÍ·¢Õ¹¡£¶ø¾Í3DÖØ½¨±¾ÉíÀ´¿´£¬ÆäÊµÏÖ²»ÐèÒªÌ«¹ý¸´ÔÓ»ò¾«ÃÜµÄÉè±¸£¬Ö»ÐèÒª¼òµ¥µÄ¼ÒÓÃÉè±¸¼´¿ÉÍê³É£¬ÉõÖÁÒ»ÖÖÃûÎªÍ¨¹ý¾Û½¹µÄÖØ½¨·½·¨(shape from focus)Ö»ÐèÒªÒ»Ì¨¿É±ä½¹ÉãÏñ»ú¼´¿É¡£±¾ÎÄÍ¨¹ýÊ¹ÓÃÒ»Ì¨¼ÒÓÃÉãÏñ»úºÍÒ»Ì¨¼ÒÓÃÍ¶Ó°ÒÇ£¬Ê¹ÓÃ½á¹¹¹âµÄ·½·¨Íê³ÉÁË3D ÖØ½¨ÏµÍ³£¬½á¹¹¹â·ÖÎªÑÕÉ«ÐòÁÐµÄ½á¹¹¹âºÍ»ùÓÚ¸ñÀ×ÂëµÄ¹âÕ¤¡£
-\section{3DÖØ½¨µÄ¼¼Êõ×ÛÊö}
-´Ó3DÖØ½¨µÄ¸ÅÄî±»Ìá³öµ½Ä¿Ç°ÎªÖ¹£¬ÓÐ¶àÖÖ¼¼Êõ±»Ìá³öÓÃÓÚÖØ½¨£¬Ö÷Òª¿É·ÖÎª½Ó´¥²âÁ¿ºÍ·Ç½Ó´¥²âÁ¿Á½´óÀà¡£\\
-\textbf{1 ½Ó´¥²âÁ¿·¨}
+ÁíÒ»·½Ãæ£¬3D´òÓ¡ÓÐÔ½À´Ô½ÆÕ¼°µÄÇ÷ÊÆ¡£3D~´òÓ¡Éè±¸ÒÑ¾­ÊµÏÖÁË²úÆ·»¯£¬Æä¼Û¸ñËæ×ÅÊ±¼äµÄÍÆÒÆÔòÒ²Ô½À´Ô½ÎªÆÕÍ¨´óÖÚ½ÓÊÜ£¬¿ÉÒÔÔ¤¼ÆµÄÊÇ£¬3D~´òÓ¡µÄ·çÐÐÒ²±Ø½«ÍÆ¶¯~3D~ÖØ½¨¼¼ÊõµÄ½øÒ»²½ÆÕ¼°ºÍ·¢Õ¹¡£¶ø¾Í3DÖØ½¨±¾ÉíÀ´¿´£¬ÆäÊµÏÖ²»ÐèÒªÌ«¹ý¸´ÔÓ»ò¾«ÃÜµÄÉè±¸£¬Ö»ÐèÒª¼òµ¥µÄ¼ÒÓÃÉè±¸¼´¿ÉÍê³É£¬ÉõÖÁÒ»ÖÖÃûÎªÍ¨¹ý¾Û½¹µÄÖØ½¨·½·¨(shape from focus)~Ö»ÐèÒªÒ»Ì¨¿É±ä½¹ÉãÏñ»ú¼´¿É¡£±¾ÎÄÍ¨¹ýÊ¹ÓÃÒ»Ì¨¼ÒÓÃÉãÏñ»úºÍÒ»Ì¨¼ÒÓÃÍ¶Ó°ÒÇ£¬Ê¹ÓÃ½á¹¹¹âµÄ·½·¨Íê³ÉÁË~3D~ÖØ½¨ÏµÍ³\cite{sansoni2009state}£¬½á¹¹¹â·ÖÎªÑÕÉ«ÐòÁÐµÄ½á¹¹¹âºÍ»ùÓÚ¸ñÀ×ÂëµÄ¹âÕ¤¡£
+\section{3D~ÖØ½¨µÄ¼¼Êõ×ÛÊö}
+´Ó~3D~ÖØ½¨µÄ¸ÅÄî±»Ìá³öµ½Ä¿Ç°ÎªÖ¹£¬ÓÐ¶àÖÖ¼¼Êõ±»Ìá³öÓÃÓÚÖØ½¨£¬Ö÷Òª¿É·ÖÎª½Ó´¥²âÁ¿ºÍ·Ç½Ó´¥²âÁ¿Á½´óÀà¡£\\
+\textbf{1~½Ó´¥²âÁ¿·¨}
 
   ´Ë·½·¨ÖÐ£¬ÀûÓÃ´«¸Ð´¥Í·Óë±»²âÎïÌåµÄ±íÃæÏà½Ó´¥²¢Ö±½Ó²âÁ¿±¾µãµÄÉî¶ÈÐÅÏ¢¡£Ö±½Ó²âÁ¿·¨µÄÔ­ÀíÏàµ±¼òµ¥£¬ÇÒ¾ßÓÐ·Ö±æÂÊ¸ß£¬²»ÊÜÎïÌå±íÃæÑÕÉ«¡¢Í¸Ã÷¶ÈµÈ·ÇÐÎ×´ÒòËØ¸ÉÈÅµÄÓÅµã¡£µ«ÆäÈ±µãÊÇ£¬´«¸Ð´¥Í·ÓëÎïÌåµÄÖ±½Ó½Ó´¥Ôò»áÒ»¶¨³Ì¶ÈµØµ¼ÖÂÎïÌåµÄÇáÎ¢ÐÎ±ä´Ó¶øÓ°Ïì²âÁ¿µÄ¾«¶È£¬ÕâÒ²Ê¹µÃ±¾·½·¨²»ºÏÊÊÓÃÓÚÕä¹óÎïÆ·»ò¼«Ò×ÐÎ±äÎïÌåµÄÖØ½¨¡£\\
-\textbf{2 ·Ç½Ó´¥²âÁ¿·¨}
+\textbf{2~·Ç½Ó´¥²âÁ¿·¨}
 
   ¹ËÃûË¼Òå£¬·Ç½Ó´¥²âÁ¿·¨ÔÚ²âÁ¿ÖÐ²»²úÉúÓë±»²âÁ¿ÎïÌåÖ±½ÓµÄÎïÀí½Ó´¥£¨µ«¿ÉÄÜ»áÓÐ¹â»òÉùµÄ½Ó´¥£©£¬Ö»Í¨¹ýËã·¨¶Ô±»²âÁ¿ÎïÌå·´ÉäµÄÉù»ò¹âÐÅÏ¢½øÐÐ¼ÆËãÒÔÊ¶±ðÎïÌåµÄ±íÃæÐÎ×´ÌØÐÔ¡£Ã»ÓÐÎïÀí½Ó´¥¿ÉÒÔ±£Ö¤¶Ô±»²âÎïÌå²»»á²úÉúÉËº¦£¬Õâ¸öÒòËØ±£Ö¤ÁË·Ç½Ó´¥²âÁ¿·¨µÄ¿ÉÊ¹ÓÃ·¶Î§Òª±È½Ó´¥²âÁ¿·¨Òª¸üÎª¹ã·º¡£
-·Ç½Ó´¥²âÁ¿·¨ÊÇ3D²âÁ¿µÄÖØÒª²¿·Ö£¬ÆäÖÐÖ÷ÒªµÄ·½·¨°üº¬ÈçÏÂ£º
+·Ç½Ó´¥²âÁ¿·¨ÊÇ~3D~²âÁ¿µÄÖØÒª²¿·Ö£¬ÆäÖÐÖ÷ÒªµÄ·½·¨°üº¬ÈçÏÂ£º
 \begin{description}
   \item[]\textbf{Á¢Ìå³ÉÏñ}
 ÈËÀàµÄÑÛ¾¦ÊÇÌìÈ»µÄÁ¢Ìå³ÉÏñÏµÍ³£¬Á½Ö»ÑÛ¾¦ÔÚË®Æ½·½ÏòÓÐÒ»¶Î²î¾à£¬Õâ¶Î²î¾àÊ¹µÃÎÒÃÇÔÚ¹Û²ìÈýÎ¬ÎïÌå×óÓÒÑÛ²úÉúÊÓ²ì£¬´óÄÔÔÚ½ÓÊÕµ½Ë«ÑÛÍ¼ÏñÊ±¼ì²âÊÓ²ì²¢¼ÆËã¸ÐÖªµ½ÎïÌåµÄ¾àÀë£¬´Ó¶ø²úÉúÁ¢ÌåµÄ¸ÐÊÜ¡£
@@ -188,7 +188,7 @@ discrete trend transform; structured light.}
 ¶ÔÓÚ¹â»¬ÎïÌåÆäÐ§¹û²¢²»Ì«ºÃ¡£
 
   \item[]\textbf{·ÉÐÐÊ±¼ä·¨}
-  ·ÉÐÐÊ±¼ä·¨(TOF)ÓÖ±»³ÉÎªÀ×´ï²â¾à£¬Æä¹ý³ÌÊÇÏë±»²âÎïÌå·¢³ö¾­µ÷ÖÆµÄ¼¤¹âÐÅºÅ£¬¾­·´ÉäºóÓÉÌ½Í·½ÓÊÕµ½£¬
+  ·ÉÐÐÊ±¼ä·¨(TOF)~ÓÖ±»³ÉÎªÀ×´ï²â¾à£¬Æä¹ý³ÌÊÇÏë±»²âÎïÌå·¢³ö¾­µ÷ÖÆµÄ¼¤¹âÐÅºÅ£¬¾­·´ÉäºóÓÉÌ½Í·½ÓÊÕµ½£¬
   ÀûÓÃÏàÒÆÌØÐÔ¼ÆËã±»²âÎïÌå±íÃæµ½²âÁ¿ÒÇÆ÷µÄ¾àÀë¡£ÕâÖÖ·½·¨µÄÓÅµãÊÇ²»ÊÜÎïÌå±íÃæÑÕÉ«»ò»·¾³¹âµÄ¸ÉÈÅ£¬
   µ«ÆäÒªÇó¾«ÃÜµÄÐÅºÅ´¦Àí¹ý³Ì£¬¶ÔÊ±¼ä¾«¶ÈÒªÇóºÜ¸ß¡£
   \begin{figure}[!ht]
@@ -213,31 +213,31 @@ discrete trend transform; structured light.}
   ½á¹¹¹â·¨\cite{besl1988active}Í¬ÑùÀûÓÃÈý½Ç²âÁ¿µÄÔ­Àí£¬ÀûÓÃÍ¶Ó°ÒÇÍ¶Éä½á¹¹»¯µÄÌØÕ÷Í¼ÐÎ£¬²¢ÔÚÉãÏñ»úÅÄÉãµÄÍ¼ÏñÖÐ¼ì²â
   ÏàÓ¦ÌØÕ÷²¢ÓëËùÍ¶ÉäÍ¼ÏñÖÐµÄÌØÕ÷½¨Á¢ÏàÓ¦¹ØÏµ£¬ËæºóÀûÓÃÈý½ÇÄ£ÐÍ¼ÆËãÎïÌå±íÃæµÄ¾àÀëÐÅÏ¢¡£¸Ã·½·¨Ô­Àí¼òµ¥£¬
   ³É±¾µÍÁ®£¬¿ÉÓÃ¼ÒÓÃÉãÏñ»úºÍÍ¶Ó°ÒÇÊµÏÖ¡£½á¹¹¹â
-  ÓÐ¶àÖÖÑ¡Ôñ£¬°üÀ¨µã¡¢ÏßºÍÕ¤¸ñÍ¼ÏñµÈ¡£½á¹¹¹âµÄÑ¡ÔñÊÇ»ùÓÚ½á¹¹¹âµÄ3DÖØ½¨ÏµÍ³µÄ»ù´¡¡£
+  ÓÐ¶àÖÖÑ¡Ôñ£¬°üÀ¨µã¡¢ÏßºÍÕ¤¸ñÍ¼ÏñµÈ¡£½á¹¹¹âµÄÑ¡ÔñÊÇ»ùÓÚ½á¹¹¹âµÄ~3D~ÖØ½¨ÏµÍ³µÄ»ù´¡¡£
 \end{description}
 
 \section{½á¹¹¹â¼¼Êõ×ÛÊö}
-»ùÓÚ½á¹¹¹âµÄ3DÖØ½¨ÏµÍ³ÊÇ»ñÈ¡ÎïÌå±íÃæ3DÌØÐÔµÄÖØÒª·½·¨£¬¶øÆäÖÐ£¬½á¹¹¹âµÄÑ¡Ôñ¶Ô¾«¶È¡¢Â³°ôÐÔµÈÒòËØÓÐ×Å
+»ùÓÚ½á¹¹¹âµÄ~3D~ÖØ½¨ÏµÍ³ÊÇ»ñÈ¡ÎïÌå±íÃæ~3D~ÌØÐÔµÄÖØÒª·½·¨£¬¶øÆäÖÐ£¬½á¹¹¹âµÄÑ¡Ôñ¶Ô¾«¶È¡¢Â³°ôÐÔµÈÒòËØÓÐ×Å
 Éî¿ÌµÄÓ°Ïì¡£×îÏÈ±»Ìá³öµÄ½á¹¹¹âÊÇµã½á¹¹¹â\cite{will1972grid}£¬ºóÀ´·¢Õ¹³öÁËÏß½á¹¹¹â£¬ºÜ´óµØÌáÉýÁË
-´¦ÀíËÙ¶È¡£µ½Ä¿Ç°ÎªÖ¹£¬·¢Õ¹³öµÄ½á¹¹¹â°üÀ¨£º»ùÓÚ¶þ½øÖÆÂë¡¢¸ñÀ×ÂëµÄÊ±¼ä±àÂë½á¹¹¹â£¬»ùÓÚM-arrays¡¢De Bruijn
-ÐòÁÐµÈ¿Õ¼ä±àÂëµÄ½á¹¹¹â£¬SalviµÈÔÚ
+´¦ÀíËÙ¶È¡£µ½Ä¿Ç°ÎªÖ¹£¬·¢Õ¹³öµÄ½á¹¹¹â°üÀ¨£º»ùÓÚ¶þ½øÖÆÂë¡¢¸ñÀ×ÂëµÄÊ±¼ä±àÂë½á¹¹¹â£¬»ùÓÚ~M-arrays¡¢De Bruijn
+~ÐòÁÐµÈ¿Õ¼ä±àÂëµÄ½á¹¹¹â£¬SalviµÈÔÚ
 \cite{salvi2004pattern}
 ÖÐ¶Ô¸÷ÖÖÐÎÊ½µÄ½á¹¹¹â½øÐÐÁË±È½Ï¡£
 
 \section{±¾ÎÄµÄÖ÷Òª¹¤×÷ºÍÑÐ¾¿ÄÚÈÝ}
-±¾ÎÄÊµÏÖÁËÒ»¸ö»ùÓÚ½á¹¹¹âµÄ3DÖØ½¨ÏµÍ³£¬²¢ÊµÏÖÁËGrayÂëÎª½á¹¹¹âºÍÊ¹ÓÃDe BruijnÐòÁÐÑÕÉ«ÌõÎÆÎª½á¹¹¹âµÄÁ½ÖÖ·½·¨¡£
+±¾ÎÄÊµÏÖÁËÒ»¸ö»ùÓÚ½á¹¹¹âµÄ~3D~ÖØ½¨ÏµÍ³£¬²¢ÊµÏÖÁË~Gray~ÂëÎª½á¹¹¹âºÍÊ¹ÓÃ~De Bruijn~ÐòÁÐÑÕÉ«ÌõÎÆÎª½á¹¹¹âµÄÁ½ÖÖ·½·¨¡£
 ±¾ÎÄÌá³öÁËÒ»ÏµÁÐµÄ´´ÐÂµãÓÃÓÚµ÷¸ßÏµÍ³¶ÔÎïÌå±íÃæÑÕÉ«ºÍ»·¾³¹âµÄ¿¹¸ÉÈÅÄÜÁ¦£¬ÓÐÐ§µØÌá¸ßÁËÏµÍ³µÄÂ³°ôÐÔºÍÍØ¿íÁËÏµÍ³
 µÄÊÊÓÃ·¶Î§¡£
 
-µÚÒ»ÕÂ£º¶ÔÒ»Ð©³£ÓÃµÄ3DÖØ½¨·½·¨½øÐÐÁË½éÉÜ£¬²¢½éÉÜÁË½á¹¹¹âµÄÔ­ÀíºÍ·¢Õ¹¡£
+µÚÒ»ÕÂ£º¶ÔÒ»Ð©³£ÓÃµÄ~3D~ÖØ½¨·½·¨½øÐÐÁË½éÉÜ£¬²¢½éÉÜÁË½á¹¹¹âµÄÔ­ÀíºÍ·¢Õ¹¡£
 
-µÚ¶þÕÂ£º±¾ÕÂÖØµã·ÖÎöºÍÊµÏÖÁËÉãÏñ»úºÍÍ¶Ó°ÒÇµÄÐ£ÕýºÍ¶¨±ê£¬Îª¾«È·ÊµÏÖ3D²âÁ¿Ìá¹©×¼È·µÄÈý½ÇÄ£ÐÍ¡£
+µÚ¶þÕÂ£º±¾ÕÂÖØµã·ÖÎöºÍÊµÏÖÁËÉãÏñ»úºÍÍ¶Ó°ÒÇµÄÐ£ÕýºÍ¶¨±ê£¬Îª¾«È·ÊµÏÖ~3D~²âÁ¿Ìá¹©×¼È·µÄÈý½ÇÄ£ÐÍ¡£
 
-µÚÈýÕÂ£º½éÉÜÁË²ÉÓÃÒÔDe BruijnÐòÁÐ±àÂëµÄÑÕÉ«ÌõÎÆÎª½á¹¹¹âµÄ3DÖØ½¨ÏµÍ³£¬¶ÔÆäÖÐµÄÖØµã²½ÖèÈçÑÕÉ«Ð£Õý¡¢ÑÕÉ«ÏßÌõ
-²éÕÒ¡¢ÏßÌõÑÕÉ«Ê¶±ðµÈ²½Öè½øÐÐÁËÖØµãËµÃ÷¡£±¾ÕÂÌá³öµÄ´´ÐÂµãÊµÏÖÁË¸ß·Ö±æÂÊµÄ3DÖØ½¨ÏµÍ³£¬
+µÚÈýÕÂ£º½éÉÜÁË²ÉÓÃÒÔ~De Bruijn~ÐòÁÐ±àÂëµÄÑÕÉ«ÌõÎÆÎª½á¹¹¹âµÄ~3D~ÖØ½¨ÏµÍ³£¬¶ÔÆäÖÐµÄÖØµã²½ÖèÈçÑÕÉ«Ð£Õý¡¢ÑÕÉ«ÏßÌõ
+²éÕÒ¡¢ÏßÌõÑÕÉ«Ê¶±ðµÈ²½Öè½øÐÐÁËÖØµãËµÃ÷¡£±¾ÕÂÌá³öµÄ´´ÐÂµãÊµÏÖÁË¸ß·Ö±æÂÊµÄ~3D~ÖØ½¨ÏµÍ³£¬
 ²¢¾ßÓÐ¶Ô»·¾³¹âµÈ¸ÉÈÅÒòËØ²»Ãô¸ÐµÄÌØÐÔ¡£
 
-µÚËÄÕÂ£º½éÉÜÁË²ÉÓÃ¸ñÀ×Âë¹âÕ¤¼ÓÏàÒÆÍ¼ÏñµÄ3DÖØ½¨ÏµÍ³£¬¶ÔÖØµã²½ÖèÌá³öÁËÐÂµÄ·½·¨¡£
+µÚËÄÕÂ£º½éÉÜÁË²ÉÓÃ¸ñÀ×Âë¹âÕ¤¼ÓÏàÒÆÍ¼ÏñµÄ~3D~ÖØ½¨ÏµÍ³£¬¶ÔÖØµã²½ÖèÌá³öÁËÐÂµÄ·½·¨¡£
 
 µÚÎåÕÂ£º¶Ô±¾ÎÄËùÊ¹ÓÃµÄ·½·¨½øÐÐ×Ü½á£¬²¢ÌÖÂÛÁË½øÒ»²½µÄ¸Ä½ø·½·¨¡£
 \chapter{Í¶Ó°ÒÇ-ÉãÏñ»úÏµÍ³Ð£Õý}
@@ -253,28 +253,28 @@ discrete trend transform; structured light.}
 \subsection{×ø±êÏµµÄ¶¨Òå}
 ¶ÔÓÚÏà»úÄ£ÐÍµÄÃèÊöÒ»°ãÐèÒªÈý¸ö×ø±êÏµ£ºÊÀ½ç×ø±êÏµ¡¢Ïà»ú×ø±êÏµºÍ³ÉÏñÆ½Ãæ²Î¿¼Ïµ¡£ÆäÖÐÊÀ½ç
 ×ø±êÏµÊÇÔÚÕæÊµµÄ»·¾³ÖÐÑ¡È¡µÄ×ø±êÏµ£¬¿ÉÒÔÈÎÒâÉèÖÃ¡£ÊÀ½ç×ø±êÏµÑ¡¶¨ºó£¬ÎïÌåºÍÉãÏñ»ú¾ÍÓµÓÐÊÀ½ç×ø±êÏµµÄ×ø±ê¡£
-ÔÚ½ÓÏÂÀ´¶Ô×ø±êµÄÃèÊöºÍ×ª»»ÖÐ£¬±¾ÎÄÓÃ$Q_w=[X_w\quad{}Y_w\quad{}Z_w]^T$À´±íÊ¾ÊÀ½ç×ø±êÏµµÄÒ»µã¡£
+ÔÚ½ÓÏÂÀ´¶Ô×ø±êµÄÃèÊöºÍ×ª»»ÖÐ£¬±¾ÎÄÓÃ~$Q_w=[X_w\quad{}Y_w\quad{}Z_w]^T$~À´±íÊ¾ÊÀ½ç×ø±êÏµµÄÒ»µã¡£
 
 ÉãÏñ»úÊÇÒ»¸ö¶ÀÁ¢µÄ³ÉÏñÏµÍ³£¬Æä³ÉÏñµÄÄ£ÐÍÔòÐèÒªÓÃÏà»ú×ø±êÏµÀ´ÃèÊö¡£ÔÚÏà»ú×ø±êÏµÖÐ£¬×ø±êÔ­µãÊÇ
-ÉãÏñ»úµÄ¹âÐÄ£¬ZÖá´¹Ö±ÓÚ½¹Æ½ÃæÏòÍâ£¬XÖáºÍYÖáÆ½ÐÐÓÚ½¹Æ½Ãæ¡£¶ÔÓÚÏà»ú×ø±êÏµÖÐµÄÒ»µã£¬±¾ÎÄÓÃ
-$Q_c=[X_c\quad{}Y_c\quad{}Z_c]^T$ÓèÒÔÃèÊö¡£
+ÉãÏñ»úµÄ¹âÐÄ£¬~$Z$~Öá´¹Ö±ÓÚ½¹Æ½ÃæÏòÍâ£¬~$X$~ÖáºÍ~$Y$~ÖáÆ½ÐÐÓÚ½¹Æ½Ãæ¡£¶ÔÓÚÏà»ú×ø±êÏµÖÐµÄÒ»µã£¬±¾ÎÄÓÃ
+~$Q_c=[X_c\quad{}Y_c\quad{}Z_c]^T$~ÓèÒÔÃèÊö¡£
 
-³ÉÏñÆ½Ãæ²Î¿¼Ïµ½¨Á¢ÓÚÉãÏñ»úµÄ³ÉÏñÆ½ÃæÉÏ£¬Æä×ø±êÔ­µãÊÇÏà»ú×ø±êÏµZÖáÓë³ÉÏñÆ½ÃæµÄ½»µã£¬ÕâÒ»µãÒ²±»³ÆÎª
+³ÉÏñÆ½Ãæ²Î¿¼Ïµ½¨Á¢ÓÚÉãÏñ»úµÄ³ÉÏñÆ½ÃæÉÏ£¬Æä×ø±êÔ­µãÊÇÏà»ú×ø±êÏµ~$Z$~ÖáÓë³ÉÏñÆ½ÃæµÄ½»µã£¬ÕâÒ»µãÒ²±»³ÆÎª
 ÉãÏñ»úµÄÖ÷µã¡£ÀíÏëÇé¿öÏÂ£¬Ö÷µãÓ¦µ±Î»ÓÚ³ÉÏñÆ½ÃæµÄÖÐÐÄÎ»ÖÃ£¬¶øÊµ¼ÊÉÏ£¬ÓÉÓÚÖÆ×÷¹¤ÒÕµÈÎÊÌâ£¬³ÉÏñÆ½ÃæµÄÖÐÐÄ³£
-Æ«ÀëÓÚÖ÷µã£¬±¾ÎÄÓÃ$(c_x,c_y)$À´ÃèÊöÆ«²î³Ì¶È£¬ÓÃ$q=[x\quad{}y]^T$ÃèÊö³ÉÏñÆ½Ãæ²Î¿¼ÏµµÄµã¡£
+Æ«ÀëÓÚÖ÷µã£¬±¾ÎÄÓÃ~$(c_x,c_y)$~À´ÃèÊöÆ«²î³Ì¶È£¬ÓÃ~$q=[x\quad{}y]^T$~ÃèÊö³ÉÏñÆ½Ãæ²Î¿¼ÏµµÄµã¡£
 \subsection{ÊÀ½ç×ø±êÏµµ½Ïà»ú×ø±êÏµµÄ×ª»»}
-½²ÊÀ½ç×ø±êÏµµÄµã$Q_w=[X_w\quad{}Y_w\quad{}Z_w]^T$×ª»»ÎªÏà»ú×ø±êÏµ$Q_c=[X_c\quad{}Y_c\quad{}Z_c]^T$µÄ¹ý³Ì¿ÉÒÔ·ÖÎªÒÔÏÂÁ½²½£º
+½²ÊÀ½ç×ø±êÏµµÄµã~$Q_w=[X_w\quad{}Y_w\quad{}Z_w]^T$~×ª»»ÎªÏà»ú×ø±êÏµ~$Q_c=[X_c\quad{}Y_c\quad{}Z_c]^T$~µÄ¹ý³Ì¿ÉÒÔ·ÖÎªÒÔÏÂÁ½²½£º
 \begin{enumerate}
-  \item \textbf{Ðý×ª²Ù×÷} Ðý×ªÊÀ½ç×ø±êÏµ£¬Ê¹µÃÈý¸öÖá·Ö±ðÓëÏà»ú²Î¿¼ÏµµÄX¡¢Y¡¢ZÖáÆ½ÐÐ²¢ÇÒ·´ÏòÒ»ÖÂ
+  \item \textbf{Ðý×ª²Ù×÷} Ðý×ªÊÀ½ç×ø±êÏµ£¬Ê¹µÃÈý¸öÖá·Ö±ðÓëÏà»ú²Î¿¼ÏµµÄ~$X$¡¢$Y$¡¢$Z$~ÖáÆ½ÐÐ²¢ÇÒ·´ÏòÒ»ÖÂ
   \item \textbf{Ðý×ª²Ù×÷} Æ½ÒÆ²Ù×÷ Æ½ÒÆÊÀ½ç×ø±êÏµ£¬Ê¹µÃÊÀ½ç×ø±êÏµµÄÔ­µãÓëÏà»ú×ø±êÏµµÄÔ­µãÏàÖØºÏ
 \end{enumerate}
 
-¶¨ÒåÐý×ª¾ØÕó$R$À´ÃèÊöÐý×ª²Ù×÷£¬¶¨ÒåÆ½ÒÆ¾ØÕó$T$À´ÃèÊöÆ½ÒÆ²Ù×÷£¬ÊÀ½ç×ø±êÏµµÄ×ø±êÓëÏà»ú×ø±êÏµµÄ×ø±ê
+¶¨ÒåÐý×ª¾ØÕó~$R$~À´ÃèÊöÐý×ª²Ù×÷£¬¶¨ÒåÆ½ÒÆ¾ØÕó~$T$~À´ÃèÊöÆ½ÒÆ²Ù×÷£¬ÊÀ½ç×ø±êÏµµÄ×ø±êÓëÏà»ú×ø±êÏµµÄ×ø±ê
 ÔòÓÐÈçÏÂ¹ØÏµ£º
 \begin{equation}
   Q_c=R\cdot{}Q_w+T
 \end{equation}
-ÆäÖÐ£¬RÊÇ´óÐ¡Îª$3\times3$µÄÕý½»¾ØÕó£º
+ÆäÖÐ£¬~$R$~ÊÇ´óÐ¡Îª~$3\times3$~µÄÕý½»¾ØÕó£º
 \begin{equation}
   R=\left[
   \begin{array}{ccc}
@@ -284,7 +284,7 @@ $Q_c=[X_c\quad{}Y_c\quad{}Z_c]^T$ÓèÒÔÃèÊö¡£
   \end{array}
   \right]
 \end{equation}
-TÎª$3\times1$´óÐ¡µÄ¾ØÕó£º
+$T$~Îª~$3\times1$~´óÐ¡µÄ¾ØÕó£º
 \begin{equation}
   T=[t_1\quad t_2\quad t_3]^T
 \end{equation}
@@ -318,7 +318,7 @@ TÎª$3\times1$´óÐ¡µÄ¾ØÕó£º
 ÔÚ¿¼ÂÇ´ÓÏà»ú×ø±êÏµ×ª»»Îª³ÉÏñÆ½Ãæ²Î¿¼ÏµÖ®Ç°£¬ÕâÀïÏÈ½éÉÜÉãÏñ»úµÄÄ£ÐÍ¡£
 ÔÚ¼ÆËã»úÊÓ¾õÖÐ£¬Õë¿×Ä£ÐÍ\cite{hartley2000multiple}±»¹ã·ºÓÃÓÚÏà»úÄ£ÐÍµÄÃèÊö¡£Ä£ÐÍ¼ÙÉè
 ÎïÌå±íÃæµÄ·´Éä¹âÂú×ã¹âµÄÖ±Ïß´«²¥Ìõ¼þ£¬²¢¾­¹ýÐ¡¿×Í¶ÉäÔÚÍ¼ÐÎÆ½ÃæÉÏ£¬ÐÎ³ÉÎïÌåµÄµ¹Ïñ£¬ÆäÊ¾ÒâÍ¼¼ûÍ¼~\ref{fig:nail}£¬
-Í¼ÖÐXÎªÎïÌå£¬xÎªÎïÌåµÄµ¹Ïñ£¬Ïñ¾àºÍÎï¾à·Ö±ðÎªfºÍ$Z_c$£¬ÄÇÃ´ÏÔÈ»ÓÐÈçÏÂ¹ØÏµ³ÉÁ¢£º
+Í¼ÖÐ~$X$~ÎªÎïÌå£¬$x$~ÎªÎïÌåµÄµ¹Ïñ£¬Ïñ¾àºÍÎï¾à·Ö±ðÎª~$f$~ºÍ~$Z_c$£¬ÄÇÃ´ÏÔÈ»ÓÐÈçÏÂ¹ØÏµ³ÉÁ¢£º
 \begin{equation}
   -x=\frac{f}{Z_c}X
 \end{equation}
@@ -350,7 +350,7 @@ TÎª$3\times1$´óÐ¡µÄ¾ØÕó£º
 \end{figure}
 
 ÎªÁË¼ò»¯Õë¿×Ä£ÐÍ£¬½«³ÉÏñÆ½Ãæ×ªÒÆµ½Õë¿×Ö®Ç°£¬¿É½«Õë¿×Ä£ÐÍÕûÀíÎªÒ»ÖÖµÈ¼ÛÐÎÊ½£¬ÈçÍ¼~\ref{fig:nail2}\cite{bradski2008learning}¡£
-Í¼ÖÐ£¬Õë¿×Ïàµ±ÓÚÍ¶Ó°ÖÐÐÄ£¬ÎïÌå$Q_c$¾­¹ýÍ¶Ó°ÖÐÐÄµÄ¹âÏßÍ¶Éäµ½³ÉÏñÆ½ÃæÉÏ£¬ÐÎ³Éq¡£
+Í¼ÖÐ£¬Õë¿×Ïàµ±ÓÚÍ¶Ó°ÖÐÐÄ£¬ÎïÌå~$Q_c$~¾­¹ýÍ¶Ó°ÖÐÐÄµÄ¹âÏßÍ¶Éäµ½³ÉÏñÆ½ÃæÉÏ£¬ÐÎ³É~$q$~¡£
 \begin{figure}[!ht]
 \centering
 \begin{tikzpicture}
@@ -375,8 +375,8 @@ TÎª$3\times1$´óÐ¡µÄ¾ØÕó£º
 \end{figure}
 
 Í¼~\ref{fig:nail2}ÖÐµÄÕë¿×¼´ÎªÍ¶Ó°ÖÐÐÄ£¬µ«ÔÚÊµ¼ÊµÄÏà»úÖÐ£¬Ð¾Æ¬µÄÖÐÐÄÍ¨³£²»Î»ÓÚ¹âÖáÉÏ¡£ÖÐÐÄµÄÆ«²î¿ÉÒÔ
-Òý½ø²ÎÊý$c_x$ºÍ$c_y$À´ÃèÊö£¬Í¬ÑùÒýÈëÁ½¸ö²»Í¬µÄ½¹¾à£º$f_x$ºÍ$f_y$À´ÃèÊöÁ½¸ö·½ÏòÉÏµÄ½¹¾à£¬
-ÓÚÊÇ½«ÎïÌå$Q_c(X_c,Y_c,Z_c)$ºÍÏñÌåq($x,y,f_x,f_y$)µÄÊýÑ§¹ØÏµÃèÊöÎª£º
+Òý½ø²ÎÊý~$c_x$~ºÍ~$c_y$~À´ÃèÊö£¬Í¬ÑùÒýÈëÁ½¸ö²»Í¬µÄ½¹¾à£º$f_x$~ºÍ~$f_y$~À´ÃèÊöÁ½¸ö·½ÏòÉÏµÄ½¹¾à£¬
+ÓÚÊÇ½«ÎïÌå~$Q_c(X_c,Y_c,Z_c)$~ºÍÏñÌå~$q$($x,y,f_x,f_y$)~µÄÊýÑ§¹ØÏµÃèÊöÎª£º
 \begin{eqnarray}\label{eq:inner0}
   x=X\frac{f_x}{Z_c}+c_x \nonumber\\
   y=Y\frac{f_y}{Z_c}+c_y
@@ -401,7 +401,7 @@ f_x & 0 & c_x\\
 0 & 0 & 1
 \end{array}\right]$¡£
 
-¹«Ê½~\ref{eq:camera2ccd}±íÃ÷ÁË´ÓÏà»ú×ø±êÏµµ½³ÉÏñÆ½Ãæ²Î¿¼ÏµµÄ×ª»»¹ý³Ì£¬¾ØÕó$M$°üº¬Ïà»úÄÚ²¿²ÎÊýµÄÃèÊö£¬
+¹«Ê½~\ref{eq:camera2ccd}±íÃ÷ÁË´ÓÏà»ú×ø±êÏµµ½³ÉÏñÆ½Ãæ²Î¿¼ÏµµÄ×ª»»¹ý³Ì£¬¾ØÕó~$M$~°üº¬Ïà»úÄÚ²¿²ÎÊýµÄÃèÊö£¬
 ¹ÊÒ²±»³Æ×÷ÉãÏñ»úµÄÄÚ¾ØÕó\cite{heikkila1997four}¡£
 ¶ÔÉãÏñ»ú¶¨±êµÄ¹ý³Ì¾ÍÊÇÇóµÃÏà»úÄÚ²ÎÊýÓëÍâ²ÎÊýµÄ¹ý³Ì¡£
 \subsection{ÉãÏñ»ú»û±ä}
@@ -409,15 +409,15 @@ f_x & 0 & c_x\\
 Òò´ËÔÚÉãÏñ»úÖÐÊ¹ÓÃÍ¸¾µ¶ø·ÇÐ¡¿×¡£Í¸¾µµÄÊ¹ÓÃÊ¹µÃ¿ìËÙÆØ¹â³ÉÎª¿ÉÄÜ£¬¶øÆäÈ±µãÔòÊÇÒýÈëÁËÍ¸¾µµÄ»û±ä¡£
 Í¸¾µµÄ»û±äÖ÷Òª·ÖÎªÁ½ÖÖ£º¾¶Ïò»û±äºÍÇÐÏò»û±ä\cite{fryer1986lens}¡£¾¶Ïò»û±äÊÇÓÉÍ¸¾µÐÎ×´ÒýÆð£¬¶øÇÐÏò»û±äÔòÓÉÉãÏà»úµÄ×é×°¹ý³ÌÒýÆð¡£
 
-¾¶Ïò»û±ä·ÖÎªÍ²ÐÎ»û±äºÍÕíÐÎ»û±ä£¬ÔÚ¹âÑ§ÖÐÐÄµÄ»û±ä³Ì¶ÈÎª0£¬Ô½Íù¸Ð¹âÔª¼þµÄ±ßÔµÒÆ¶¯£¬
+¾¶Ïò»û±ä·ÖÎªÍ²ÐÎ»û±äºÍÕíÐÎ»û±ä£¬ÔÚ¹âÑ§ÖÐÐÄµÄ»û±ä³Ì¶ÈÎª~0£¬Ô½Íù¸Ð¹âÔª¼þµÄ±ßÔµÒÆ¶¯£¬
 »û±ä³Ì¶ÈÔ½ÏÔÖø£¬²Î¼ûÍ¼~\ref{fig:tongx}¡£Í¨³££¬ÓëÕû·ùÍ¼Æ¬Ïà±È£¬ÕâÑùµÄ»û±ä³Ì¶È±È½ÏÐ¡£¬¿ÉÀûÓÃ¹âÑ§ÖÐÐÄ($r=0$)Î»ÖÃ
-ÖÜÎ§µÄÌ©ÀÕ¼¶ÊýÕ¹¿ªÀ´½üËÆÃèÊö£¬Í¨³£Ö»È¡Ç°Á½Ïî»òÈýÏî¾Í×ã¹»ÁË¡£¼ÙÉè$(x_{corrected},y_{corrected})$±íÊ¾ÓÉ
-µã$(x,y)$Ð£ÕýºóµÄÎ»ÖÃ£¬ÄÇÃ´ÓÐÈçÏÂ¹«Ê½£º
+ÖÜÎ§µÄÌ©ÀÕ¼¶ÊýÕ¹¿ªÀ´½üËÆÃèÊö£¬Í¨³£Ö»È¡Ç°Á½Ïî»òÈýÏî¾Í×ã¹»ÁË¡£¼ÙÉè~$(x_{corrected},y_{corrected})$~±íÊ¾ÓÉ
+µã~$(x,y)$~Ð£ÕýºóµÄÎ»ÖÃ£¬ÄÇÃ´ÓÐÈçÏÂ¹«Ê½£º
 \begin{eqnarray}
   x_{corrected}=x(1+k_1r^2+k_2r^4) \nonumber\\
   y_{corrected}=y(1+k_1r^2+k_2r^4)
 \end{eqnarray}
-×¢ÒâÉÏÊ½ÖÐÃ»ÓÐ³öÏÖrµÄÆæ´Î·½Ïî£¬ÕâÊÇÓÉ»û±ä³Ì¶È$\Delta{}r$ÊÇ$r$¼¶ÊýÕ¹¿ªÕâ¸ö¹ØÏµ¾ö¶¨µÄ¡£
+×¢ÒâÉÏÊ½ÖÐÃ»ÓÐ³öÏÖrµÄÆæ´Î·½Ïî£¬ÕâÊÇÓÉ»û±ä³Ì¶È~$\Delta{}r$~ÊÇ~$r$~¼¶ÊýÕ¹¿ªÕâ¸ö¹ØÏµ¾ö¶¨µÄ¡£
 \begin{figure}[!ht]
 \centering
 \begin{tikzpicture}
@@ -434,7 +434,7 @@ f_x & 0 & c_x\\
 \end{figure}
 
 ÁíÒ»¸ö³£ÓÃµÄ»û±äÊÇÇÐÏò»û±ä£¬ÕâÊÇÓÉÓÚÍ¸¾µ²»ÍêÈ«Æ½ÐÐÓÚÍ¼ÏñÆ½ÃæµÄÊ±ºòËù²úÉúµÄ£¬Ê¾ÒâÍ¼¼ûÍ¼~\ref{fig:qiex}¡£
-ÒýÈëÁ½¸ö¶îÍâµÄ²ÎÊý$p_1$¡¢$p_2$À´ÃèÊö£¬
+ÒýÈëÁ½¸ö¶îÍâµÄ²ÎÊý~$p_1$¡¢$p_2$~À´ÃèÊö£¬
 µÃµ½ÈçÏÂµÄ¹ØÏµ\cite{2055106}£º
 \begin{eqnarray}
   x_{corrected}=x+[2p_1y+p_2(r^2+2x^2)] \nonumber \\
@@ -454,8 +454,8 @@ f_x & 0 & c_x\\
 \end{figure}
 
 \subsection{ÉãÏñ»ú¶¨±ê}
-ÉãÏñ»ú¶¨±êµÄÄ¿±êÊÇÇóµÃÉãÏñ»úµÄÄÚ²ÎÊý¡¢Íâ²ÎÊýºÍ»û±äµÄÐ£Õý²ÎÊý£¬·ÖÎªÄÚ²¿²ÎÊý(°üÀ¨$f_x,f_y,c_x,c_y,k1,k2,p1,p2$)ºÍ
-Íâ²¿²ÎÊý(°üÀ¨$R,T$)¡£±¾ÏµÍ³Ê¹ÓÃÆåÅÌ¸ñ×÷Îª¶¨±êÎï£¬µ÷ÓÃopenCVÉãÏñ»úÐ£Õýº¯ÊýÊµÏÖÉãÏñ»ú¶¨±ê¡£
+ÉãÏñ»ú¶¨±êµÄÄ¿±êÊÇÇóµÃÉãÏñ»úµÄÄÚ²ÎÊý¡¢Íâ²ÎÊýºÍ»û±äµÄÐ£Õý²ÎÊý£¬·ÖÎªÄÚ²¿²ÎÊý(°üÀ¨~$f_x,f_y,c_x,c_y,k1,k2,p1,p2$)ºÍ
+Íâ²¿²ÎÊý(°üÀ¨~$R,T$)¡£±¾ÏµÍ³Ê¹ÓÃÆåÅÌ¸ñ×÷Îª¶¨±êÎï£¬µ÷ÓÃ~openCV~ÉãÏñ»úÐ£Õýº¯ÊýÊµÏÖÉãÏñ»ú¶¨±ê¡£
 \begin{figure}[!ht]
 \centering
     \includegraphics[width=0.7\textwidth]{chessboard_src.eps}
@@ -484,13 +484,13 @@ f_x & 0 & c_x\\
     \includegraphics[width=0.32\textwidth]{9.eps}}
   \caption{ÆåÅÌ¸ñÖÐÕÒµ½µÄ½Çµã}\label{fig:chessboard_srcs}
 \end{figure}
-±¾ÎÄµÄ¶¨±ê°åÈçÍ¼~\ref{fig:chessboard_src}ËùÊ¾£¬Ò»·ùÍ¼ÏñÖÐ¹²ÓÐ$7\times7$¸ö½Çµã£¬¼´Ã¿Á½¸öÉîÉ«·½¿éµÄ½Ó´¥µã¡£
-Ã¿¸ö·½¿éµÄ±ß³¤Îª3cm£¬½«×óÉÏ½ÇµÄµÚÒ»¸ö½ÇµãÉè¶¨ÎªÊÀ½ç×ø±êÏµµÄÔ­µã£¬X ÖáºÍYÖáÆ½ÐÐÓÚ¶¨±ê°å£¬ZÖá´¹Ö±ÓÚ¶¨±ê°åÏòÍâ¡£
+±¾ÎÄµÄ¶¨±ê°åÈçÍ¼~\ref{fig:chessboard_src}ËùÊ¾£¬Ò»·ùÍ¼ÏñÖÐ¹²ÓÐ~$7\times7$~¸ö½Çµã£¬¼´Ã¿Á½¸öÉîÉ«·½¿éµÄ½Ó´¥µã¡£
+Ã¿¸ö·½¿éµÄ±ß³¤Îª~3cm£¬½«×óÉÏ½ÇµÄµÚÒ»¸ö½ÇµãÉè¶¨ÎªÊÀ½ç×ø±êÏµµÄÔ­µã£¬~$X$~ÖáºÍ~$Y$~ÖáÆ½ÐÐÓÚ¶¨±ê°å£¬~$Z$~Öá´¹Ö±ÓÚ¶¨±ê°åÏòÍâ¡£
 ¸ù¾Ý½ÇµãµÄÏà¶Ô¹ØÏµ£¬ºÜÈÝÒ×È·¶¨¶¨±ê°åÉÏÃ¿¸ö½ÇµãµÄÊÀ½ç×ø±êÏµ×ø±ê¡£Í¼~\ref{fig:chessboard_srcs}ÊÇÐ£ÕýÉãÏñ»úËùÊ¹ÓÃ
-µÄ9·ù¶¨±êÍ¼Ïñ£¬Í¼ÖÐ²ÊÉ«µãÊÇ´ÓÉãÏñ»ú
+µÄ~9~·ù¶¨±êÍ¼Ïñ£¬Í¼ÖÐ²ÊÉ«µãÊÇ´ÓÉãÏñ»ú
 ÅÄÉãµ½Í¼ÏñÖÐ¼ì²âµ½µÄ½Çµã£¬ÆäÔÚÍ¼ÏñÖÐµÄÎ»ÖÃ¿ÉÒÔÈ·¶¨³ÉÏñÆ½Ãæ×ø±êÏµµÄ×ø±ê£¬ÓÉ´Ë½¨Á¢ÊÀ½ç×ø±êÏµºÍ³ÉÏñÆ½Ãæ×ø±êÏµµÄ
-¶à¸öµã¶Ô£¬²¢ÒÔ´Ë¼ÆËãÏà»úµÄÄÚÍâ²ÎÊý¡£±¾ÎÄÖÐÕâÐ©²ÎÊýµÄ¼ÆËãÊÇµ÷ÓÃopenCV¿âÖÐµÄcvCalibrateCamera2º¯ÊýÊµÏÖ¡£\\
-openCV¼ÆËã»û±ä²ÎÊýµÄº¯ÊýÎª:\\
+¶à¸öµã¶Ô£¬²¢ÒÔ´Ë¼ÆËãÏà»úµÄÄÚÍâ²ÎÊý¡£±¾ÎÄÖÐÕâÐ©²ÎÊýµÄ¼ÆËãÊÇµ÷ÓÃ~openCV~¿âÖÐµÄ~cvCalibrateCamera2~º¯ÊýÊµÏÖ¡£\\
+openCV~¼ÆËã»û±ä²ÎÊýµÄº¯ÊýÎª:\\
 void cvCalibrateCamera2( const CvMat* object\_points, const CvMat* image\_points,\\
 \mbox{\hspace{5.2cm}}const CvMat* point\_counts, CvSize image\_size,\\
 \mbox{\hspace{5.2cm}}CvMat* intrinsic\_matrix, CvMat* distortion\_coeffs,\\
@@ -498,11 +498,11 @@ void cvCalibrateCamera2( const CvMat* object\_points, const CvMat* image\_points
 \mbox{\hspace{5.2cm}}CvMat* translation\_vectors=NULL,\\
 \mbox{\hspace{5.2cm}}int flags=0 );
 
-cvCalibrateCamera2º¯ÊýlÒÀ¾ÝÕÅÕýÓÑÌá³öµÄËã·¨\cite{zhang2000flexible}£¬ÒÔ½ÇµãÔÚÊÀ½ç×ø±êÏµºÍ³ÉÏñÆ½Ãæ²Î¿¼ÏµÖÐµÄ×ø±ê¶ÔÎªÊäÈë£¬Êä³öÔò°üº¬ÄÚ²ÎÊý¾ØÕó$M$¡¢ »û±äÏµÊý($k_1,k_2,p_1,p_2$) ÒÔ¼°
-Íâ²ÎÊýµÄÐý×ª¾ØÕóRºÍÆ½ÒÆ¾ØÕóT¡£ÄÚ²ÎÊý¾ØÕóºÍ
-Íâ²ÎÊý¾ØÕóÃèÊöÁËÊÀ½ç×ø±êÏµºÍÉãÏñ»ú³ÉÏñÆ½Ãæ²Î¿¼ÏµÖ®¼äµÄ×ª»»¹ØÏµ£¬¶ø»û±äÏµÊý¿ÉÓÃÓÚ¶ÔÉãÏñ»úÅÄÉãÍ¼Ïñ½øÐÐµÄ»û±äÐ£Õý¡£ÔÚopenCV¿âÖÐ£¬»û±äÐ£Õý¿ÉÍ¨¹ýµ÷ÓÃº¯ÊýcvUndistort2¡¢º¯ÊýcvInitUndistortMapºÍº¯ÊýcvRemap ÊµÏÖ¡£
+cvCalibrateCamera2~º¯ÊýÒÀ¾ÝÕÅÕýÓÑÌá³öµÄËã·¨\cite{zhang2000flexible}£¬ÒÔ½ÇµãÔÚÊÀ½ç×ø±êÏµºÍ³ÉÏñÆ½Ãæ²Î¿¼ÏµÖÐµÄ×ø±ê¶ÔÎªÊäÈë£¬Êä³öÔò°üº¬ÄÚ²ÎÊý¾ØÕó~$M$¡¢ »û±äÏµÊý($k_1,k_2,p_1,p_2$) ÒÔ¼°
+Íâ²ÎÊýµÄÐý×ª¾ØÕó~$R$~ºÍÆ½ÒÆ¾ØÕó~$T$~¡£ÄÚ²ÎÊý¾ØÕóºÍ
+Íâ²ÎÊý¾ØÕóÃèÊöÁËÊÀ½ç×ø±êÏµºÍÉãÏñ»ú³ÉÏñÆ½Ãæ²Î¿¼ÏµÖ®¼äµÄ×ª»»¹ØÏµ£¬¶ø»û±äÏµÊý¿ÉÓÃÓÚ¶ÔÉãÏñ»úÅÄÉãÍ¼Ïñ½øÐÐµÄ»û±äÐ£Õý¡£ÔÚ~openCV~¿âÖÐ£¬»û±äÐ£Õý¿ÉÍ¨¹ýµ÷ÓÃº¯Êý~cvUndistort2¡¢º¯Êý~cvInitUndistortMap~ºÍº¯Êý~cvRemap~ÊµÏÖ¡£
 \section{Í¶Ó°ÒÇ¶¨±ê}
-ÉãÏñ»ú¶¨±êºóÒª½øÐÐÍ¶Ó°ÒÇ¶¨±ê¡£ÒòÎªÍ¶Ó°ÒÇÄ£ÐÍ¿ÉÒÔÈÏÎªÊÇÏà»úÄ£ÐÍµÄÄæ¹ý³Ì£¬¼´½«2DÍ¼ÏñÓ³ÉäÎª3D¹âÏßµÄ¹ý³Ì£¬ËùÒÔÆä
+ÉãÏñ»ú¶¨±êºóÒª½øÐÐÍ¶Ó°ÒÇ¶¨±ê¡£ÒòÎªÍ¶Ó°ÒÇÄ£ÐÍ¿ÉÒÔÈÏÎªÊÇÏà»úÄ£ÐÍµÄÄæ¹ý³Ì£¬¼´½«~2D~Í¼ÏñÓ³ÉäÎª~3D~¹âÏßµÄ¹ý³Ì£¬ËùÒÔÆä
 ¶¨±ê¹ý³ÌÓëÏà»ú¶¨±ê·½·¨ÀàËÆ£¬Í¬ÑùÐèÒªÔÚÊÀ½ç×ø±êÏµºÍÍ¶Ó°Í¼ÏñÆ½Ãæ²Î¿¼ÏµÖ®¼ä½¨Á¢¶à¸öµã¶Ô¡£Í¶Ó°Í¼ÏñÆ½Ãæ²Î¿¼ÏµÖÐµãµÄ×ø±ê
 ÒÑÖª£¬¶øÊÀ½ç×ø±êÏµÖÐµãµÄ×ø±êÔòÐèÒª½èÖúÒÑ¶¨±êµÄÕÕÏà»úÍê³É¡£
 
@@ -513,22 +513,22 @@ cvCalibrateCamera2º¯ÊýlÒÀ¾ÝÕÅÕýÓÑÌá³öµÄËã·¨\cite{zhang2000flexible}£¬ÒÔ½ÇµãÔÚÊÀ½
   \caption{Í¶Ó°ÒÇ¶¨±êÖÐ3DµãÓë2DµãµÄ¶ÔÓ¦¹ØÏµ}\label{fig:pc}
 \end{figure}
 
-ÔÚÍ¼~\ref{fig:pc}ÖÐ£¬ÉãÏñ»úÅÄÉãµ½Í¶ÉäÁË¶¨±êÍ¼ÏñµÄ¶¨±ê°å£¬²¢¼ì²âµ½Ò»¸ö½Çµã$q_c$£¬
-¸ù¾ÝÒÑ¾­¶¨±êµÄÏà»ú×ø±êÏµºÍ³ÉÏñÆ½Ãæ²Î¿¼Ïµ¿ÉÍÆ³öÊÀ½ç×ø±êÏµÖÐÈýÎ¬µã$Q_w$µÄ×ø±ê£¬
-¶øÔÚÉè¼ÆÍ¶Ó°Í¼ÏñÊ±¿ÉÖªÍ¶Ó°Í¼ÏñÖÐ½Çµã$q_p$ÔÚÍ¶Ó°Í¼ÏñÆ½Ãæ²Î¿¼ÏµµÄ×ø±ê£¬ÓÉ´Ë½¨Á¢
-$Q_w$ºÍ$q_p$µÄ×ø±ê¶ÔÓ¦¹ØÏµ£¬²¢¾Ý´ËÍê³ÉÍ¶Ó°ÒÇµÄ¶¨±ê¡£
+ÔÚÍ¼~\ref{fig:pc}ÖÐ£¬ÉãÏñ»úÅÄÉãµ½Í¶ÉäÁË¶¨±êÍ¼ÏñµÄ¶¨±ê°å£¬²¢¼ì²âµ½Ò»¸ö½Çµã~$q_c$£¬
+¸ù¾ÝÒÑ¾­¶¨±êµÄÏà»ú×ø±êÏµºÍ³ÉÏñÆ½Ãæ²Î¿¼Ïµ¿ÉÍÆ³öÊÀ½ç×ø±êÏµÖÐÈýÎ¬µã~$Q_w$~µÄ×ø±ê£¬
+¶øÔÚÉè¼ÆÍ¶Ó°Í¼ÏñÊ±¿ÉÖªÍ¶Ó°Í¼ÏñÖÐ½Çµã~$q_p$~ÔÚÍ¶Ó°Í¼ÏñÆ½Ãæ²Î¿¼ÏµµÄ×ø±ê£¬ÓÉ´Ë½¨Á¢
+~$Q_w$~ºÍ~$q_p$~µÄ×ø±ê¶ÔÓ¦¹ØÏµ£¬²¢¾Ý´ËÍê³ÉÍ¶Ó°ÒÇµÄ¶¨±ê¡£
 
 ×ÜµÄÀ´¿´£¬½«ÉãÏñ»ú¶¨±êºÍÍ¶Ó°ÒÇ¶¨±ê¿É±íÊöÎªÒÔÏÂÁ÷³Ì£º
 \begin{enumerate}
   \item ¼ÜÉèÉãÏñ»ú¡¢Í¶Ó°ÒÇ£¬²¢½«Æä½¹¾àµ÷ÕûºÏÊÊ£¬½«¶¨±ê°åÖÃÓÚÉãÏñ»úºÍÍ¶Ó°ÒÇÊÓÒ°ÏÂ¡£
-  \item ÉãÏñ»úÅÄÉã¶¨±ê°åÍ¼Ïñ(¼ÇÎª$I_c$)²¢¼ì²â½Çµã£¬
+  \item ÉãÏñ»úÅÄÉã¶¨±ê°åÍ¼Ïñ(¼ÇÎª~$I_c$)²¢¼ì²â½Çµã£¬
   ²¢Æ¥ÅäºÍ¼ÇÂ¼½ÇµãÔÚÍ¼ÏñÖÐµÄ×ø±ê¡¢ÔÚÊÀ½ç×ø±êÏµµÄ×ø±ê£¬Èç¶¨±ê°åÉÏ½ÇµãÎ´±»È«²¿¼ì²â³öÔòÖØÐÂÅÄÉãÍ¼Ïñ£¬Ö±ÖÁÈ«²¿½Çµã±»¼ì²â³ö¡£
   \item ¶¨±ê°å²»¶¯£¬ÔÚÆä±íÃæÆÌÉè°×Ö½£¬Í¶Ó°ÒÇÍ¶ÉäÍ¶Ó°ÒÇ¶¨±êÍ¼Ïñ£¬¼ûÍ¼~\ref{fig:pro-cam}¡£
-  \item ÉãÏñ»úÅÄÉãÍ¼Ïñ(¼ÇÎª$I_p$)ÌáÈ¡Í¶Ó°Í¼ÏñµÄ½Çµã£¬¼ÇÂ¼½ÇµãÔÚËùÅÄÉãÍ¼ÏñÖÐµÄÎ»ÖÃ£¬Èç½ÇµãÎ´±»È«²¿¼ì²â³öÔòÖØÐÂÅÄÉã$I_p$¡£
+  \item ÉãÏñ»úÅÄÉãÍ¼Ïñ(¼ÇÎª~$I_p$)ÌáÈ¡Í¶Ó°Í¼ÏñµÄ½Çµã£¬¼ÇÂ¼½ÇµãÔÚËùÅÄÉãÍ¼ÏñÖÐµÄÎ»ÖÃ£¬Èç½ÇµãÎ´±»È«²¿¼ì²â³öÔòÖØÐÂÅÄÉã~$I_p$¡£
   \item ÊÊ¶È¸Ä±ä¶¨±ê°åÎ»ÖÃºÍ½Ç¶È¡£
-  \item ÖØ¸´²½Öè2-5¹²9´Î£¬µ÷ÓÃcvCalibrateCamera2º¯Êý´¦Àí²½Öè2µÃµ½µÄ½Çµã×ø±ê¶Ô£¬¼ÆËãÉãÏñ»úÄÚÍâ²ÎÊý£¬Íê³ÉÉãÏñ»ú¶¨±ê
+  \item ÖØ¸´²½Öè~2-5~¹²~9~´Î£¬µ÷ÓÃ~cvCalibrateCamera2~º¯Êý´¦Àí²½Öè2µÃµ½µÄ½Çµã×ø±ê¶Ô£¬¼ÆËãÉãÏñ»úÄÚÍâ²ÎÊý£¬Íê³ÉÉãÏñ»ú¶¨±ê
   \item ¸ù¾ÝÉãÏñ»ú²ÎÊý¼ÆËãÍ¶Ó°Í¼Ïñ½ÇµãµÄÈýÎ¬ÐÅÏ¢£¬
-      ½¨Á¢Í¶Ó°Í¼Ïñ½ÇµãÔÚÊÀ½ç×ø±êÏµÏÂºÍÍ¶Ó°Í¼ÏñÏÂµÄ×ø±ê¶Ô£¬Í¬Ñùµ÷ÓÃcvCalibrateCamera2º¯Êý¼ÆËãÍ¶Ó°ÒÇÄÚÍâ²ÎÊý£¬Íê³ÉÍ¶Ó°ÒÇ¶¨±ê¡£
+      ½¨Á¢Í¶Ó°Í¼Ïñ½ÇµãÔÚÊÀ½ç×ø±êÏµÏÂºÍÍ¶Ó°Í¼ÏñÏÂµÄ×ø±ê¶Ô£¬Í¬Ñùµ÷ÓÃ~cvCalibrateCamera2~º¯Êý¼ÆËãÍ¶Ó°ÒÇÄÚÍâ²ÎÊý£¬Íê³ÉÍ¶Ó°ÒÇ¶¨±ê¡£
 \end{enumerate}
 \begin{figure}[!ht]
   \centering
@@ -555,16 +555,16 @@ $Q_w$ºÍ$q_p$µÄ×ø±ê¶ÔÓ¦¹ØÏµ£¬²¢¾Ý´ËÍê³ÉÍ¶Ó°ÒÇµÄ¶¨±ê¡£
 \end{tikzpicture}
 \caption{Èý½Ç²âÁ¿µÄ¼ò»¯Ä£ÐÍ}
 \end{figure}
-¾­¹ý¶¨±ê£¬Í¶Ó°ÒÇµÄ¹âÐÄ$q_1$¡¢ÉãÏñ»ú¹âÐÄ$q_2$ÔÚÊÀ½ç×ø±êÏµÏÂµÄ×ø±ê¾ùÎªÒÑÖª¡£ÉãÏñ»ú¹âÏßÓëÍ¶Ó°ÒÇ¹âÏßÏà½»ÓÚÎïÌå
-±íÃæÉÏµÄpµã£¬·½ÏòÏòÁ¿·Ö±ðÎª$v_1$ºÍ$v_2$¡£ÈÝÒ×ÍÆ¶ÏµÃµ½ÈçÏÂ¹ØÏµ£º
+¾­¹ý¶¨±ê£¬Í¶Ó°ÒÇµÄ¹âÐÄ~$q_1$¡¢ÉãÏñ»ú¹âÐÄ~$q_2$~ÔÚÊÀ½ç×ø±êÏµÏÂµÄ×ø±ê¾ùÎªÒÑÖª¡£ÉãÏñ»ú¹âÏßÓëÍ¶Ó°ÒÇ¹âÏßÏà½»ÓÚÎïÌå
+±íÃæÉÏµÄ~$p$~µã£¬·½ÏòÏòÁ¿·Ö±ðÎª~$v_1$~ºÍ~$v_2$~¡£ÈÝÒ×ÍÆ¶ÏµÃµ½ÈçÏÂ¹ØÏµ£º
 \begin{eqnarray}
   p=q_1+\lambda_1\cdot{}v_1 \nonumber \\
   p=q_2+\lambda_2\cdot{}v_2
 \end{eqnarray}
-¸ù¾ÝÒÔÉÏµÄÁ½Ê½¿ÉÒÔ¼ÆËã³ö$\lambda_1,\lambda_2$£¬½ø¶ø¼ÆËã³öpÔÚÊÀ½ç×ø±êÏµµÄ×ø±ê¡£
+¸ù¾ÝÒÔÉÏµÄÁ½Ê½¿ÉÒÔ¼ÆËã³ö~$\lambda_1,\lambda_2$£¬½ø¶ø¼ÆËã³ö~$p$~ÔÚÊÀ½ç×ø±êÏµµÄ×ø±ê¡£
 
 ÔÚÊµ¼ÊµÄÇé¿öÖÐ£¬ÉãÏñ»ú¹âÏßÓëÍ¶Ó°ÒÇ¹âÏß²¢²»Ò»¶¨»áÏà½»£¬ÕâÖÖÇé¿öÏÂÉÏÊöÁ½Ê½ÎÞ·¨½â³ö¡£
-½â¾ö°ì·¨ÊÇ£¬Çó³ö$\lambda_1,\lambda_2$£¬Ê¹µÃÈçÏÂµÄÄ¿±êº¯Êý×îÐ¡£º
+½â¾ö°ì·¨ÊÇ£¬Çó³ö~$\lambda_1,\lambda_2$£¬Ê¹µÃÈçÏÂµÄÄ¿±êº¯Êý×îÐ¡£º
 \begin{equation}
   \|(q_2+\lambda_2v_2)-(q_1+\lambda_1v_1)\|^2
 \end{equation}
@@ -590,14 +590,14 @@ $Q_w$ºÍ$q_p$µÄ×ø±ê¶ÔÓ¦¹ØÏµ£¬²¢¾Ý´ËÍê³ÉÍ¶Ó°ÒÇµÄ¶¨±ê¡£
 \end{equation}
 \section{±¾ÕÂ×Ü½á}
 ±¾ÕÂÊ×ÏÈ½éÉÜÁËÈý½Ç²âÁ¿µÄÊýÑ§Ô­Àí£¬Ö¸³öÊµÏÖÈý½ÇÄ£ÐÍµÄ¾«È·¼ÆËãÐèÒªÔ¤ÏÈÖªÏþµÄÉãÏñ»úÓëÍ¶Ó°ÒÇµÄÏà¶ÔÎ»ÖÃ¹ØÏµ£¬Æä´Î
-½éÉÜÁËÉãÏñ»úµÄ³ÉÏñÄ£ÐÍºÍ»ùÓÚ¶¨±ê°åµÄ¶¨±ê·½·¨£¬²¢ÊµÏÖÁËÍ¶Ó°ÒÇµÄ¶¨±ê¡£Í¶Ó°ÏµÍ³µÄ¶¨±êÊÇÊµÏÖ¾«È·3DÖØ½¨µÄÊýÑ§»ù´¡¡£
+½éÉÜÁËÉãÏñ»úµÄ³ÉÏñÄ£ÐÍºÍ»ùÓÚ¶¨±ê°åµÄ¶¨±ê·½·¨£¬²¢ÊµÏÖÁËÍ¶Ó°ÒÇµÄ¶¨±ê¡£Í¶Ó°ÏµÍ³µÄ¶¨±êÊÇÊµÏÖ¾«È·~3D~ÖØ½¨µÄÊýÑ§»ù´¡¡£
 \chapter{½á¹¹¹âÎªÑÕÉ«ÌõÎÆÐòÁÐµÄ3DÖØ½¨}
-±¾ÕÂ½éÉÜÒÔDe BurijnÐòÁÐÎª±àÂëÑÕÉ«ÌõÎÆ×÷Îª½á¹¹¹âµÄ3DÖØ½¨·½·¨£¬ÄÜ¹»ÊµÏÖÔÚ»·¾³¹âÏÂ
-¶ÔÎïÌåµÄ3DÉ¨Ãè¡£±¾ÎÄÔÚ´ËÏµÍ³ÖÐÌá³öÁË½Ï¶àµÄ´´ÐÂµã£¬°üÀ¨Ìá³ö¶Ô±»É¨ÃèÎïÌå±íÃæµÄ·´ÉäÂÊÐ£Õý·½·¨¡¢
-Ìá³ö¾Ö²¿Ç÷ÊÆ±ä»»µÄ¸ÅÄî²¢ÓÃÓÚÏßÌõ¼ì²â¡¢·åÖµ¶¨Î»·½·¨ÒÔ¼°¸Ä½ø¶¯Ì¬¹æ»®µÄcostº¯Êý²¢ÓÃÒÔ½¨Á¢Í¶Éä
+±¾ÕÂ½éÉÜÒÔ~De Burijn~ÐòÁÐÎª±àÂëÑÕÉ«ÌõÎÆ×÷Îª½á¹¹¹âµÄ~3D~ÖØ½¨·½·¨£¬ÄÜ¹»ÊµÏÖÔÚ»·¾³¹âÏÂ
+¶ÔÎïÌåµÄ~3D~É¨Ãè¡£±¾ÎÄÔÚ´ËÏµÍ³ÖÐÌá³öÁË½Ï¶àµÄ´´ÐÂµã£¬°üÀ¨Ìá³ö¶Ô±»É¨ÃèÎïÌå±íÃæµÄ·´ÉäÂÊÐ£Õý·½·¨¡¢
+Ìá³ö¾Ö²¿Ç÷ÊÆ±ä»»µÄ¸ÅÄî²¢ÓÃÓÚÏßÌõ¼ì²â¡¢·åÖµ¶¨Î»·½·¨ÒÔ¼°¸Ä½ø¶¯Ì¬¹æ»®µÄ~cost~º¯Êý²¢ÓÃÒÔ½¨Á¢Í¶Éä
 ÌØÕ÷ºÍ±»¼ì²âÌØÕ÷¼äµÄ¶ÔÓ¦¹ØÏµ½¨Á¢µÈ¡£ÒÔÉÏµÄ´´ÐÂ·½·¨Ê¹µÃÏµÍ³¾ß±¸Ò»¶¨¶Ô»·¾³¹âºÍ±»É¨ÃèÎïÌå±íÃæÑÕÉ«µÄ¿¹¸ÉÈÅÄÜÁ¦£¬
-ºÜºÃµØÀ©Õ¹ÁËÏµÍ³µÄÊÊÓÃ·¶Î§¡£Í¬Ê±Ëù²ÉÓÃµÄ¸ß·Ö±æÂÊÍ¶Ó°ÒÇÒ²Ê¹3DÖØ½¨¾ßÓÐºÜ¸ßµÄ·Ö±æÂÊ£¬ÀýÈç
-ÖØ½¨ºóÒ»·ùÈËÁ³µÄµãÔÆ°üº¬ÁË¶à´ï75371¸öÈýÎ¬µã¡£
+ºÜºÃµØÀ©Õ¹ÁËÏµÍ³µÄÊÊÓÃ·¶Î§¡£Í¬Ê±Ëù²ÉÓÃµÄ¸ß·Ö±æÂÊÍ¶Ó°ÒÇÒ²Ê¹~3D~ÖØ½¨¾ßÓÐºÜ¸ßµÄ·Ö±æÂÊ£¬ÀýÈç
+ÖØ½¨ºóÒ»·ùÈËÁ³µÄµãÔÆ°üº¬ÁË¶à´ï~75371~¸öÈýÎ¬µã¡£
 \section{ÏµÍ³}
 \subsection{¼Ü¹¹ºÍÁ÷³Ì}
 ËùÊ¹ÓÃµÄÉè±¸ÊÇ£º
@@ -606,18 +606,18 @@ $Q_w$ºÍ$q_p$µÄ×ø±ê¶ÔÓ¦¹ØÏµ£¬²¢¾Ý´ËÍê³ÉÍ¶Ó°ÒÇµÄ¶¨±ê¡£
   \item ÉãÏñ»ú: Nikon D200
 \end{itemize}
 
-Õû¸ö3DÖØ½¨µÄÁ÷³Ì±íÊöÈçÏÂ\cite{zhou2012adaptive}£º
+Õû¸ö~3D~ÖØ½¨µÄÁ÷³Ì±íÊöÈçÏÂ\cite{zhou2012adaptive}£º
 \begin{enumerate}
   \item Í¶ÉäÑÕÉ«ÐòÁÐ£¬ ²¢ÔÚ»·¾³¹âÏÂ×¥È¡Í¼Ïñ
   \item ÉãÏñ»ú¼°Í¶Ó°ÒÇ»û±äÐ£Õý
-  \item ÑÕÉ«Ð£Õý£¬ °üÀ¨crosstalkÐ£ÕýºÍ·´ÉäÂÊÐ£Õý
+  \item ÑÕÉ«Ð£Õý£¬ °üÀ¨~crosstalk~Ð£ÕýºÍ·´ÉäÂÊÐ£Õý
   \item ·ÖÀëÏßÌõ²¢½øÐÐ·åÖµ¶¨Î»
   \item ÑÕÉ«Ê¶±ð²¢ÕÒ³öÊ¶±ð³öµÄÌØÕ÷ÓëËùÍ¶ÉäÌØÕ÷µÄ¶ÔÓ¦¹ØÏµ
-  \item ¼ÆËã3DµãÔÆÐÅÏ¢£¬ ²¢½øÐÐºóÐø´¦Àí
+  \item ¼ÆËã~3D~µãÔÆÐÅÏ¢£¬ ²¢½øÐÐºóÐø´¦Àí
 \end{enumerate}
 \subsection{ÌØÕ÷Í¶Ó°}
-ÎªÁË·½±ãµØ½¨Á¢Í¶Ó°ÌØÕ÷ºÍ¼ì²âÌØÕ÷Ö®¼äµÄ¶ÔÓ¦¹ØÏµ£¬ ±¾ÎÄ¸ù¾ÝDe Bruijn ÐòÁÐÀ´Éè¶¨ÏßÌõÑÕÉ«¡£
-Ò»¸öÓµÓÐ5¸öÔªËØ¡¢3½×µÄDe BruijnÐòÁÐÎª£º
+ÎªÁË·½±ãµØ½¨Á¢Í¶Ó°ÌØÕ÷ºÍ¼ì²âÌØÕ÷Ö®¼äµÄ¶ÔÓ¦¹ØÏµ£¬ ±¾ÎÄ¸ù¾Ý~De Bruijn~ÐòÁÐÀ´Éè¶¨ÏßÌõÑÕÉ«¡£
+Ò»¸öÓµÓÐ5¸öÔªËØ¡¢3½×µÄ~De Bruijn~ÐòÁÐÎª£º
 4 4 4 3 4 4 2 4 4 1
 4 4 0 4 3 3 4 3 2 4 3 1 4 3
 0 4 2 3 4 2 2 4 2 1 4 2 0 4
@@ -630,7 +630,7 @@ $Q_w$ºÍ$q_p$µÄ×ø±ê¶ÔÓ¦¹ØÏµ£¬²¢¾Ý´ËÍê³ÉÍ¶Ó°ÒÇµÄ¶¨±ê¡£
 0 0 0¡£
 Í¶ÉäµÄÑÕÉ«Ñ¡Ôñ¼û±í~\ref{tabular:colorAssignment}£¬ ×¢ÒâÑ¡È¡µÄÑÕÉ«ÖÐÅÅ³ýÁË°×É«ºÍ»ÆÉ«£¬ÅÅ³ö°×É«ÊÇÒòÎª
 ÏßÌõ¼ì²âºÍÑÕÉ«Ê¶±ðµÄÌØÊâÐèÒª£¬¶øÅÅ³ý»ÆÉ«µÄÔ­ÒòÊÇ£¬ »ÆÉ«ÓëÈËµÄ·ôÉ«Ïà½ü£¬ÔÚ¶ÔÈËÌåÉ¨ÃèÊ±ÈÝÒ×Òý½ø¸ÉÈÅ¡£
-½áºÏDe BruijnÐòÁÐºÍ¸÷ÔªËØÑÕÉ«¿ÉÒÔÉú³ÉÍ¶Ó°±³¾°£¬¼ûÍ¼~\ref{figure:project_background}¡£
+½áºÏ~De Bruijn~ÐòÁÐºÍ¸÷ÔªËØÑÕÉ«¿ÉÒÔÉú³ÉÍ¶Ó°±³¾°£¬¼ûÍ¼~\ref{figure:project_background}¡£
 \begin{table}[!ht]
 \setbox0\hbox{\verb/\/}%
 \caption{Í¶Ó°ÑÕÉ«Ñ¡Ôñ}
@@ -661,14 +661,14 @@ $Q_w$ºÍ$q_p$µÄ×ø±ê¶ÔÓ¦¹ØÏµ£¬²¢¾Ý´ËÍê³ÉÍ¶Ó°ÒÇµÄ¶¨±ê¡£
 \section{crosstalkÐ£Õý}
 ×ÜÌåÉÏ½²£¬ Ó°ÏìÏµÍ³ÎÈ¶¨ÐÔµÄÒòËØ°üÀ¨ÒÔÏÂ¼¸¸ö£º
 \begin{enumerate}
-  \item Í¶Ó°ÒÇ¼°ÉãÏñ»ú´æÔÚµÄcrosstalkÏÖÏó
+  \item Í¶Ó°ÒÇ¼°ÉãÏñ»ú´æÔÚµÄ~crosstalk~ÏÖÏó
   \item »·¾³¹â
   \item Í¨³££¬ ÎïÌå±íÃæ¶Ô²»Í¬ÑÕÉ«Í¨µÀ¾ßÓÐ²»Í¬µÄ·´ÉäÂÊ
   \item ÅÄÉãµ½µÄÍ¼ÏñÖÐ£¬ ÑÕÉ«ÏßÌõµÄ¿í¶ÈºÍÇ¿¶È»áÊÜµ½ÎïÌå±íÃæµÄÆéá«ÌØÐÔµÄÓ°Ïì
 \end{enumerate}
 
-ÎªÁËÌá¸ßÏµÍ³µÄÂ³°ôÐÔ£¬ ÐèÒª¶ÔÒÔÉÏµÄ¸ÉÈÅÒòËØ²ÉÈ¡´ëÊ©¡£ ÆäÖÐµÄÒ»¸ö·½·¨ÊÇ½øÐÐÑÕÉ«Ð£Õý¡£
-ÑÕÉ«Ð£Õý°üÀ¨Á½²½£ºcrosstalkÐ£ÕýÏû³ýÑÕÉ«Í¨µÀ¼äµÄcrosstalkÏÖÏó£»·´ÉäÂÊÐ£ÕýÒÔÊ¹¸öÑÕÉ«Í¨µÀµÄ·´ÉäÂÊ³öÔÚÏàÍ¬Ë®Æ½
+ÎªÁËÌá¸ßÏµÍ³µÄÂ³°ôÐÔ£¬ÐèÒª¶ÔÒÔÉÏµÄ¸ÉÈÅÒòËØ²ÉÈ¡´ëÊ©¡£ ÆäÖÐµÄÒ»¸ö·½·¨ÊÇ½øÐÐÑÕÉ«Ð£Õý¡£
+ÑÕÉ«Ð£Õý°üÀ¨Á½²½£ºcrosstalk~Ð£ÕýÏû³ýÑÕÉ«Í¨µÀ¼äµÄ~crosstalk~ÏÖÏó£»·´ÉäÂÊÐ£ÕýÒÔÊ¹¸öÑÕÉ«Í¨µÀµÄ·´ÉäÂÊ³öÔÚÏàÍ¬Ë®Æ½
 
 ÈÏÎªÑÕÉ«ÏµÍ³µÄÄ£ÐÍÎª¹«Ê½~\ref{eq:color_model}\cite{caspi1998range}£º
 
@@ -706,11 +706,11 @@ o^b\\
   \end{array}
 \right]}_{O} ) \label{eq:color_model}
 \end{equation}
-ÕâÀïµÄ$X$¾ØÕóÎªcrosstalk¾ØÕó£¬¿ÉÒÔÔÚ°µÊÒ»·¾³ÖÐÍ¨¹ýÍ¶Ó° RGB Èý·ù´¿É«Í¼ÖÁ´¿°×É«ÎïÌå²¢¼ÆËãÅÄÉãµ½Í¼Æ¬µÄÑÕÉ«Îó²îµÃµ½¡£
-¾ØÕó$A$Îª¸÷ÑÕÉ«Í¨µÀµÄ·´ÉäÂÊ¡£
+ÕâÀïµÄ~$X$~¾ØÕóÎª~crosstalk~¾ØÕó£¬¿ÉÒÔÔÚ°µÊÒ»·¾³ÖÐÍ¨¹ýÍ¶Ó°~RGB~Èý·ù´¿É«Í¼ÖÁ´¿°×É«ÎïÌå²¢¼ÆËãÅÄÉãµ½Í¼Æ¬µÄÑÕÉ«Îó²îµÃµ½¡£
+¾ØÕó~$A$~Îª¸÷ÑÕÉ«Í¨µÀµÄ·´ÉäÂÊ¡£
 \section{Ïà¶Ô·´ÉäÂÊÐ£Õý}
 \subsection{Ïà¶Ô·´ÉäÂÊ¶Ô¹Û²âµÄÓ°Ïì}
-¹«Ê½~\ref{eq:color_model}ÖÐµÄ¾ØÕó$A$Îª·´ÉäÂÊ¾ØÕó£¬¾­¹ý¼òµ¥×ª»»£¬¿ÉÒÔµÃµ½£º
+¹«Ê½~\ref{eq:color_model}ÖÐµÄ¾ØÕó~$A$~Îª·´ÉäÂÊ¾ØÕó£¬¾­¹ý¼òµ¥×ª»»£¬¿ÉÒÔµÃµ½£º
 \begin{equation}
 \label{eq:ra} A = \left[
 \begin{array}{ccc}
@@ -726,7 +726,7 @@ a^r  &  0                  & 0   \\
 \end{array}
 \right]
 \end{equation}
-¹«Ê½~\ref{eq:ra}ÖÐµÄ$\alpha$¡¢$\beta$·Ö±ðÎªGÍ¨µÀ¡¢BÍ¨µÀÏà¶ÔRÍ¨µÀµÄÏà¶Ô·´ÉäÂÊ£¬ $a^r$´ú±íRÍ¨µÀµÄ·´ÉäÂÊ¡£
+¹«Ê½~\ref{eq:ra}ÖÐµÄ~$\alpha$¡¢$\beta$~·Ö±ðÎª~G~Í¨µÀ¡¢~B~Í¨µÀÏà¶Ô~R~Í¨µÀµÄÏà¶Ô·´ÉäÂÊ£¬$a^r$~´ú±íRÍ¨µÀµÄ·´ÉäÂÊ¡£
 ÎªÁË½øÐÐÑÕÉ«Ð£Õý£¬¶Ô¹«Ê½\ref{eq:color_model}½øÐÐ×ª»»£¬²¢½«¹«Ê½~\ref{eq:ra}´úÈëµÃµ½£º
 \begin{eqnarray}
 \label{eq:calibrated}
@@ -740,10 +740,10 @@ a^r  &  0                  & 0   \\
 \end{array}
 \right]}^{-1}{X^{-1}}I_{c}
 \end{eqnarray}
-¹«Ê½~\ref{eq:calibrated}ÖÐµÄ$\tilde{A}$ ÓÉ $\tilde{\alpha}$¡¢$\tilde{\beta}$×é³É£¬ Ç°ÕßÊÇ$A$µÄ½üËÆ¹À¼Æ£¬ ¶øºóÕß·Ö±ðÊÇ
-G¡¢ BÍ¨µÀÏà¶ÔÓÚRÍ¨µÀµÄÏà¶Ô·´ÉäÂÊ¹À¼Æ¡£ ÏÂÎÄ½éÉÜ$\tilde{\alpha}$¡¢$\tilde{\beta}$µÄ¼ÆËã·½·¨¡£
+¹«Ê½~\ref{eq:calibrated}ÖÐµÄ~$\tilde{A}$~ÓÉ~$\tilde{\alpha}$¡¢$\tilde{\beta}$~×é³É£¬ Ç°ÕßÊÇ~$A$~µÄ½üËÆ¹À¼Æ£¬ ¶øºóÕß·Ö±ðÊÇ~
+G¡¢B~Í¨µÀÏà¶ÔÓÚRÍ¨µÀµÄÏà¶Ô·´ÉäÂÊ¹À¼Æ¡£ÏÂÎÄ½éÉÜ~$\tilde{\alpha}$¡¢$\tilde{\beta}$~µÄ¼ÆËã·½·¨¡£
 
-Áî$I_a$´ú±í¾­¹ýcrosstalkÐ£ÕýºÍÏà¶Ô·´ÉäÂÊÐ£ÕýºóµÄÑÕÉ«Öµ£¬¿ÉÒÔµÃµ½£º
+Áî~$I_a$~´ú±í¾­¹ý~crosstalk~Ð£ÕýºÍÏà¶Ô·´ÉäÂÊÐ£ÕýºóµÄÑÕÉ«Öµ£¬¿ÉÒÔµÃµ½£º
 \begin{eqnarray}
 \label{eq:calibrated1}
 % \nonumber to remove numbering (before each equation)
@@ -756,32 +756,32 @@ G¡¢ BÍ¨µÀÏà¶ÔÓÚRÍ¨µÀµÄÏà¶Ô·´ÉäÂÊ¹À¼Æ¡£ ÏÂÎÄ½éÉÜ$\tilde{\alpha}$¡¢$\tilde{\beta}$
 \end{array}
 \right]}^{-1}{X^{-1}}I_{c}
 \end{eqnarray}
-¹Û²ì¹«Ê½~\ref{eq:calibrated1}µÃµ½£¬¾­¹ýcrosstalkÐ£ÕýºÍÏà¶Ô·´ÉäÂÊÐ£ÕýµÄÑÕÉ«$I_a$ÓÉ3²¿·Ö×é³É£º
+¹Û²ì¹«Ê½~\ref{eq:calibrated1}µÃµ½£¬¾­¹ý~crosstalk~Ð£ÕýºÍÏà¶Ô·´ÉäÂÊÐ£ÕýµÄÑÕÉ«~$I_a$~ÓÉ3²¿·Ö×é³É£º
 \begin{itemize}
-  \item Í¶Ó°ÑÕÉ«$I_p$
-  \item »·¾³¹â $O$
-  \item RÍ¨µÀ·´ÉäÂÊ$a^r$
+  \item Í¶Ó°ÑÕÉ«~$I_p$
+  \item »·¾³¹â~$O$
+  \item R~Í¨µÀ·´ÉäÂÊ~$a^r$
 \end{itemize}
 
-$I_a$ÖÐËäÈ»ÈÔ±£ÁôÓÐ»·¾³¹âºÍRÍ¨µÀµÄ·´ÉäÂÊÕâÁ½¸ö¸ÉÈÅÒòËØ£¬ µ«ÒÑ¾­ÅÅ³ýÁËcrosstalkÏÖÏóºÍ²»Í¬·´ÉäÂÊµÄÓ°Ïì¡£ $I_a$Ò²ÊÇ×÷ÎªÌØÕ÷¼ì²âµÄÖ±½ÓÊäÈë¡£ ÔÚÌØÖÖ¼ì²âÖÐ£¬ ¸ü¶àµÄ²ßÂÔ±»²ÉÓÃÒÔÏû³ý»·¾³¹âºÍ$a^r$¶ÔÏßÌõ¼ì²âºÍÑÕÉ«Ê¶±ðµÄÓ°Ïì¡£
-¶øÎªÁË¼ÆËã$I_a$£¬ ²»½öÐèÒª½øÐÐcrosstalkÐ£Õý£¬ »¹Òª½øÐÐÏà¶ÔµÄ·´ÉäÂÊÐ£Õý¡£ Êµ¼ÊÏµÍ³ÖÐ£¬ EMD(Earth Mover Distance)\cite{rubner2000earth}·½·¨±»ÓÃÀ´·ÖÎöÑÕÉ«Ö±·½Í¼²¢¹ÀËãÏà¶Ô·´ÉäÂÊ¡£
+$I_a$~ÖÐËäÈ»ÈÔ±£ÁôÓÐ»·¾³¹âºÍ~R~Í¨µÀµÄ·´ÉäÂÊÕâÁ½¸ö¸ÉÈÅÒòËØ£¬µ«ÒÑ¾­ÅÅ³ýÁË~crosstalk~ÏÖÏóºÍ²»Í¬·´ÉäÂÊµÄÓ°Ïì¡£$I_a$~Ò²ÊÇ×÷ÎªÌØÕ÷¼ì²âµÄÖ±½ÓÊäÈë¡£ÔÚÌØÖÖ¼ì²âÖÐ£¬¸ü¶àµÄ²ßÂÔ±»²ÉÓÃÒÔÏû³ý»·¾³¹âºÍ~$a^r$~¶ÔÏßÌõ¼ì²âºÍÑÕÉ«Ê¶±ðµÄÓ°Ïì¡£
+¶øÎªÁË¼ÆËã~$I_a$£¬²»½öÐèÒª½øÐÐ~crosstalk~Ð£Õý£¬»¹Òª½øÐÐÏà¶ÔµÄ·´ÉäÂÊÐ£Õý¡£Êµ¼ÊÏµÍ³ÖÐ£¬EMD(Earth Mover Distance)\cite{rubner2000earth}·½·¨±»ÓÃÀ´·ÖÎöÑÕÉ«Ö±·½Í¼²¢¹ÀËãÏà¶Ô·´ÉäÂÊ¡£
 
 \subsection{Ïà¶Ô·´ÉäÂÊµÄ¼ÆËã}
-ÎïÌå±íÃæÉÏGÍ¨µÀÏà¶ÔÓÚRÍ¨µÀµÄÏà¶Ô·´ÉäÂÊ$\tilde{\alpha}$µÄ¼ÆËã·½·¨ÊÇ£¬ Ê×ÏÈ½¨Á¢£ÒÍ¨µÀºÍ£ÇÍ¨µÀ¸÷×ÔµÄÖ±·½Í¼£¬½ø¶øÔÚÖ±·½Í¼Ö®¼ä½¨Á¢Á÷¶¯¾ØÕó£¬Í¨¹ý·ÖÎöÁ÷¶¯¾ØÕóµÄÖµ
+ÎïÌå±íÃæÉÏ~G~Í¨µÀÏà¶ÔÓÚ~R~Í¨µÀµÄÏà¶Ô·´ÉäÂÊ~$\tilde{\alpha}$~µÄ¼ÆËã·½·¨ÊÇ£¬Ê×ÏÈ½¨Á¢~R~Í¨µÀºÍ~G~Í¨µÀ¸÷×ÔµÄÖ±·½Í¼£¬½ø¶øÔÚÖ±·½Í¼Ö®¼ä½¨Á¢Á÷¶¯¾ØÕó£¬Í¨¹ý·ÖÎöÁ÷¶¯¾ØÕóµÄÖµ
 ¿ÉÒÔÊµÏÖÏà¶Ô·´ÉäÂÊµÄ¹À¼Æ¡£
 
-¿¼ÂÇ$H^r$ ´ú±íRÍ¨µÀµÄÖ±·½Í¼£¬ÈçÏÂ£º
+¿¼ÂÇ~$H^r$~´ú±í~R~Í¨µÀµÄÖ±·½Í¼£¬ÈçÏÂ£º
 \begin{equation}
 \label{eq:H}
 H^r=\{(H^r_1,W^r_1),(H^r_2,W^r_2),\cdots,(H^r_n,W^r_n)\}
 \end{equation}
-ÆäÖÐ£¬$H^r_i(1\le{}i\le{}n)$Ö±·½Í¼µÄ»Ò¶ÈÖµ£¬ $W^r_i(1\le{}i\le{}n)$ÊÇ¶ÔÓ¦»Ò¶ÈµÄÏñËØ¸öÊý¡£ ¼ÙÉèr¡¢gºÍb·Ö±ð´ú±íºì¡¢ÂÌºÍÀ¶Í¨µÀ£¬
-Ê×ÏÈ$H^g$±»×ª»»Îª$H^{g'}$£¬$H^{g'}$×÷Îª$H^r$µÄ×îºÃÆ¥Åä£¬²¢ÇÒÆä×ª»»¹ý³Ì¿É±íÊ¾ÎªÁ÷¾ØÕóµÄÐÎÊ½: $\mathbf{f}={f_{ij}(1\le{}i\le{}n,1\le{}j\le{}n)}$£»Æë´ÎÊÇ¼ÆËãÁ÷¾ØÕófÒÔÃèÊö´Ó$H^g$µ½$H^{g'}$µÄ×ª»»¹ý³Ì¡£
-f¿ÉÍ¨¹ý×îÐ¡»¯ÒÔÏÂµÄÄ¿±êº¯ÊýÇóµÃ£¬Ä¿±êº¯Êý±íÊ¾Îª¹«Ê½~\ref{eq:cost}¡£
+ÆäÖÐ£¬$H^r_i(1\le{}i\le{}n)$~ÊÇÖ±·½Í¼µÄ»Ò¶ÈÖµ£¬$W^r_i(1\le{}i\le{}n)$~ÊÇ¶ÔÓ¦»Ò¶ÈµÄÏñËØ¸öÊý¡£ ¼ÙÉè~r¡¢g~ºÍ~b~·Ö±ð´ú±íºì¡¢ÂÌºÍÀ¶Í¨µÀ£¬
+Ê×ÏÈ~$H^g$~±»×ª»»Îª~$H^{g'}$£¬$H^{g'}$~×÷Îª~$H^r$~µÄ×îºÃÆ¥Åä£¬²¢ÇÒÆä×ª»»¹ý³Ì¿É±íÊ¾ÎªÁ÷¾ØÕóµÄÐÎÊ½: $\mathbf{f}={f_{ij}(1\le{}i\le{}n,1\le{}j\le{}n)}$£»Æë´ÎÊÇ¼ÆËãÁ÷¾ØÕó~$f$~ÒÔÃèÊö´Ó~$H^g$~µ½~$H^{g'}$~µÄ×ª»»¹ý³Ì¡£
+$f$~¿ÉÍ¨¹ý×îÐ¡»¯ÒÔÏÂµÄÄ¿±êº¯ÊýÇóµÃ£¬Ä¿±êº¯Êý±íÊ¾Îª¹«Ê½~\ref{eq:cost}¡£
 \begin{equation}\label{eq:cost}
 cost(H^g,H^r)=\sum_{i=1}^{n}{\sum_{j=1}^{n}{|j-i|f_{ij}}}
 \end{equation}
-ÕâÀïµÄ$f_{ij}$´ú±í´Ó$H^g_i$µ½$H^r_j$µÄÁ÷£¬ $|j - i|$ ´ú±íÁ÷¶¯¾àÀë¡£ÉÏÊöÄ¿±êº¯ÊýµÄÔ¼ÊøÎª¹«Ê½~\ref{eq:cons1}µ½¹«Ê½~\ref{eq:cons4}¡£
+ÕâÀïµÄ~$f_{ij}$~´ú±í´Ó~$H^g_i$~µ½~$H^r_j$~µÄÁ÷£¬$|j - i|$ ´ú±íÁ÷¶¯¾àÀë¡£ÉÏÊöÄ¿±êº¯ÊýµÄÔ¼ÊøÎª¹«Ê½~\ref{eq:cons1}µ½¹«Ê½~\ref{eq:cons4}¡£
 \begin{equation}\label{eq:cons1}
 f_{ij}\ge{0} \textrm{ for } 1\le{}i\le{}n,1\le{}j\le{}n
 \end{equation}
@@ -795,17 +795,17 @@ f_{ij}\ge{0} \textrm{ for } 1\le{}i\le{}n,1\le{}j\le{}n
 \begin{equation}\label{eq:cons4}
 \sum_{i=1}^{n}{\sum_{j=1}^{n}{f_{ij}}}=\min(\sum_{i=1}^{n}{W^g_i},\sum_{j=1}^{n}{W^r_j})
 \end{equation}
-Á÷¾ØÕó$\mathbf{f}$ÖÐ£¬ $f_{ij}$´ú±í´Ói»Ò¶È¼¶°áÒÆµ½j»Ò¶È¼¶µÄÏñËØ¸öÊý¡£ÓÚÊÇÏà¶Ô·´ÉäÂÊ¹ÀËã¹«Ê½Îª£º
+Á÷¾ØÕó~$\mathbf{f}$~ÖÐ£¬$f_{ij}$~´ú±í´Ó~$i$~»Ò¶È¼¶°áÒÆµ½~$j$~»Ò¶È¼¶µÄÏñËØ¸öÊý¡£ÓÚÊÇÏà¶Ô·´ÉäÂÊ¹ÀËã¹«Ê½Îª£º
 \begin{equation} \label{eq:ratio}
 %\tilde{\alpha}=\frac{\sum_{i=1}^{n}{\sum_{j=1}^{n}{(f_{ij}i}})}{\sum_{i=1}^{n}{\sum_{j=1}^{n}{(f_{ij}j)}}}
 \tilde{\alpha}(i)=\frac{(\sum_{j=1}^nf_{ij})i}{\sum_{i=1}^n\sum_{j=1}^n(f_{ij}j)}
  ,1\leq i \leq n,1\leq j \leq n
 \end{equation}
-BÍ¨µÀµÄÏà¶Ô·´ÉäÂÊ¿ÉÍ¨¹ýÏàËÆµÄ¹ý³ÌÇóµÃ£¬ÕâÀï²»ÔÙÐðÊö¡£
+B~Í¨µÀµÄÏà¶Ô·´ÉäÂÊ¿ÉÍ¨¹ýÏàËÆµÄ¹ý³ÌÇóµÃ£¬ÕâÀï²»ÔÙÐðÊö¡£
 \subsection{·´ÉäÂÊÐ£ÕýµÄ½á¹û}
-·´ÉäÂÊÐ£ÕýµÄÄ¿µÄÊÇÍ¨¹ýÐ£ÕýÊ¹µÃRGBÍ¨µÀµÄ·´ÉäÂÊ´¦ÓÚÏàÍ¬Ë®Æ½¡£Í¼~\ref{FIG_AC}ÖÐ£¬(a)(b)·Ö±ðÊÇ·´ÉäÂÊÇ°ºóµÄÍ¼Æ¬£¬
-(c)(d)ÊÇ¶ÔÓ¦µÄ¸÷Í¨µÀÖ±·½Í¼¡£¿ÉÒÔÇåÎú¿´µ½£¬(a)ÖÐÑÕÉ«²»ÏÊÑÞ¡¢²»Ã÷ÀÊ£¬¶ÔÓ¦µÄÖ±·½Í¼ÖÐ£¬RÍ¨µÀ¾ßÓÐ±ÈG£¬BÍ¨µÀ¸ü¸ßµÄ
-ÁÁ¶È¡£¶ø¾­¹ý·´ÉäÂÊÐ£Õýºó£¬(d)ÖÐµÄRGBÍ¨µÀµÄÁÁ¶È·Ö²¼»ù±¾ÏàËÆ¡£
+·´ÉäÂÊÐ£ÕýµÄÄ¿µÄÊÇÍ¨¹ýÐ£ÕýÊ¹µÃ~RGB~Í¨µÀµÄ·´ÉäÂÊ´¦ÓÚÏàÍ¬Ë®Æ½¡£Í¼~\ref{FIG_AC}ÖÐ£¬(a)(b)·Ö±ðÊÇ·´ÉäÂÊÇ°ºóµÄÍ¼Æ¬£¬
+(c)(d)ÊÇ¶ÔÓ¦µÄ¸÷Í¨µÀÖ±·½Í¼¡£¿ÉÒÔÇåÎú¿´µ½£¬(a)ÖÐÑÕÉ«²»ÏÊÑÞ¡¢²»Ã÷ÀÊ£¬¶ÔÓ¦µÄÖ±·½Í¼ÖÐ£¬R~Í¨µÀ¾ßÓÐ±È~G£¬B~Í¨µÀ¸ü¸ßµÄ
+ÁÁ¶È¡£¶ø¾­¹ý·´ÉäÂÊÐ£Õýºó£¬(d)ÖÐµÄ~RGB~Í¨µÀµÄÁÁ¶È·Ö²¼»ù±¾ÏàËÆ¡£
 \begin{figure}[!ht]
   \centering
   \subfloat[]{
@@ -828,7 +828,7 @@ BÍ¨µÀµÄÏà¶Ô·´ÉäÂÊ¿ÉÍ¨¹ýÏàËÆµÄ¹ý³ÌÇóµÃ£¬ÕâÀï²»ÔÙÐðÊö¡£
 \end{figure}
 
 ÓÉÓÚÐ£ÕýÁËÑÕÉ«µÄ»û±ä£¬·´ÉäÂÊÐ£ÕýÍ¬ÑùÌá¸ßÁËÑÕÉ«µÄÊ¶±ð¾«¶È¡£Í¼~\ref{fig:colorClassify}¶Ô±ÈÁË·´ÉäÂÊÐ£ÕýÇ°ºóµÄ
-ÑÕÉ«Ê¶±ð×¼È·ÂÊ£¬¾­¹ý·´ÉäÂÊÐ£Õý£¬ÑÕÉ«Ê¶±ðµÄ×¼È·ÂÊÌá¸ßÁË16.18\%¡£
+ÑÕÉ«Ê¶±ð×¼È·ÂÊ£¬¾­¹ý·´ÉäÂÊÐ£Õý£¬ÑÕÉ«Ê¶±ðµÄ×¼È·ÂÊÌá¸ßÁË~16.18\%¡£
 \begin{figure}[!ht]
   % Requires \usepackage{graphicx}
   \centering
@@ -838,21 +838,21 @@ BÍ¨µÀµÄÏà¶Ô·´ÉäÂÊ¿ÉÍ¨¹ýÏàËÆµÄ¹ý³ÌÇóµÃ£¬ÕâÀï²»ÔÙÐðÊö¡£
 \end{figure}
 
 \section{ÌØÕ÷Ê¶±ð}
-crosstalkÐ£ÕýºÍ·´ÉäÂÊÐ£ÕýµÄÄ¿µÄÊÇÐ£ÕýËùÅÄÉãÍ¼Æ¬µÄÑÕÉ«»û±ä£¬ÒÔ±ã¸ü×¼ÇÐµØ¼ì²âµ½ËùÍ¶Ó°ÌØÕ÷£ºÏßÌõÎ»ÖÃ¼°ÆäÑÕÉ«¡£
+crosstalk~Ð£ÕýºÍ·´ÉäÂÊÐ£ÕýµÄÄ¿µÄÊÇÐ£ÕýËùÅÄÉãÍ¼Æ¬µÄÑÕÉ«»û±ä£¬ÒÔ±ã¸ü×¼ÇÐµØ¼ì²âµ½ËùÍ¶Ó°ÌØÕ÷£ºÏßÌõÎ»ÖÃ¼°ÆäÑÕÉ«¡£
 ÎªÁËÄÜ¹»Ìá¸ß¼ì²âÑÕÉ«ÏßÌõµÄ
-ÕÙ»ØÂÊºÍ×¼È·ÂÊ£¬±¾ÎÄÒýÈëÁËÁËÁ½¸ö¸ÅÄî£º$M$ Í¨µÀºÍÀëÉ¢Ç÷ÊÆ±ä»»¡£
-$M$Í¨µÀÊÇÖ¸½«R¡¢G¡¢BÈý¸öÍ¨µÀÈÚºÏÎªÒ»¸öÍ¨µÀ£¬±ÜÃâÁË·Ö±ð´¦ÀíR¡¢G¡¢B Èý¸öÍ¨µÀµÄ¸´ÔÓÐÔ£¬Í¬Ê±½áºÏËùÍ¶ÉäÑÕÉ«ÐòÁÐµÄÌØÊâÐÔ£¬ ×î´óÏÞ¶ÈµØ±£ÁôÁËÔ­Ê¼ÏßÌõµÄ
-ÌØÕ÷£¬ÁíÍâ£¬$M$Í¨µÀµÄ¶¨ÒåÒ²Ê¹Æä¾ßÓÐÒ»¶¨È¥±³¾°¹â¸ÉÈÅµÄÄÜÁ¦¡£ÀëÉ¢Ç÷ÊÆ±ä»»½«$M$Í¨µÀÖÐÏßÌõµÄ±ä»¯ÌØÐÔ×ª»»Îª¸üÒ×¼ì²âµÄÐÎÊ½£¬ ºÜ´ó³Ì¶ÈÉÏÌá¸ßÁËÏßÌõ¼ì²â³É¹¦ÂÊ¡£
-\subsection{$M$ Í¨µÀ¶¨Òå}
-$M$Í¨µÀ±»¶¨ÒåÎªµ±Ç°ÏñËØÏÂ£¬ R¡¢G¡¢BÈý¸öÍ¨µÀµÄ×î´óÖµÓë×îÐ¡ÖµÖ®²î£¬ Èç¹«Ê½~\ref{eq:Mchannel}\cite{zhao2011novel}¡£
+ÕÙ»ØÂÊºÍ×¼È·ÂÊ£¬±¾ÎÄÒýÈëÁËÁËÁ½¸ö¸ÅÄî£º$M$~Í¨µÀºÍÀëÉ¢Ç÷ÊÆ±ä»»¡£
+$M$~Í¨µÀÊÇÖ¸½«~R¡¢G¡¢B~Èý¸öÍ¨µÀÈÚºÏÎªÒ»¸öÍ¨µÀ£¬±ÜÃâÁË·Ö±ð´¦Àí~R¡¢G¡¢B~Èý¸öÍ¨µÀµÄ¸´ÔÓÐÔ£¬Í¬Ê±½áºÏËùÍ¶ÉäÑÕÉ«ÐòÁÐµÄÌØÊâÐÔ£¬×î´óÏÞ¶ÈµØ±£ÁôÁËÔ­Ê¼ÏßÌõµÄ
+ÌØÕ÷£¬ÁíÍâ£¬$M$~Í¨µÀµÄ¶¨ÒåÒ²Ê¹Æä¾ßÓÐÒ»¶¨È¥±³¾°¹â¸ÉÈÅµÄÄÜÁ¦¡£ÀëÉ¢Ç÷ÊÆ±ä»»½«~$M$~Í¨µÀÖÐÏßÌõµÄ±ä»¯ÌØÐÔ×ª»»Îª¸üÒ×¼ì²âµÄÐÎÊ½£¬ºÜ´ó³Ì¶ÈÉÏÌá¸ßÁËÏßÌõ¼ì²â³É¹¦ÂÊ¡£
+\subsection{$M$~Í¨µÀ¶¨Òå}
+$M$~Í¨µÀ±»¶¨ÒåÎªµ±Ç°ÏñËØÏÂ£¬R¡¢G¡¢B~Èý¸öÍ¨µÀµÄ×î´óÖµÓë×îÐ¡ÖµÖ®²î£¬Èç¹«Ê½~\ref{eq:Mchannel}\cite{zhao2011novel}¡£
 \begin{equation}
 \label{eq:Mchannel}
 M_{ij}=\max{(C^r_{ij},C^g_{ij},C^b_{ij})}-\min{(C^r_{ij},C^g_{ij},C^b_{ij})}
 \end{equation}
-ÕâÀïµÄ$C_{ij}$ÊÇ¹«Ê½~\ref{eq:calibrated1}ÖÐ$I_a$Í¼ÏñÖÐµÄÏñËØÖµ£¬¼´ÑÕÉ«Ð£ÕýºóµÄÏñËØÖµ¡£½ÓÏÂÀ´µÄ´¦ÀíÈçÖÐÐÄÏß²éÕÒºÍ·åÖµ¶¨Î»¶¼ÊÇ»ùÓÚ
-$M$Í¨µÀ½øÐÐµÄ¡£ $M$Í¨µÀµÄ¶¨ÒåÐÎÊ½¾ö¶¨ÁËÆä¾ßÓÐÅÅ³ý»·¾³¹â¸ÉÈÅµÄÄÜÁ¦£¬ÆäÖ¤Ã÷¼û¹«Ê½~\ref{eq:Cij}ºÍ¹«Ê½~\ref{eq:Mij}¡£
+ÕâÀïµÄ~$C_{ij}$~ÊÇ¹«Ê½~\ref{eq:calibrated1}ÖÐ~$I_a$~Í¼ÏñÖÐµÄÏñËØÖµ£¬¼´ÑÕÉ«Ð£ÕýºóµÄÏñËØÖµ¡£½ÓÏÂÀ´µÄ´¦ÀíÈçÖÐÐÄÏß²éÕÒºÍ·åÖµ¶¨Î»¶¼ÊÇ»ùÓÚ
+~$M$~Í¨µÀ½øÐÐµÄ¡£$M$~Í¨µÀµÄ¶¨ÒåÐÎÊ½¾ö¶¨ÁËÆä¾ßÓÐÅÅ³ý»·¾³¹â¸ÉÈÅµÄÄÜÁ¦£¬ÆäÖ¤Ã÷¼û¹«Ê½~\ref{eq:Cij}ºÍ¹«Ê½~\ref{eq:Mij}¡£
 
-¸ù¾Ý¹«Ê½~\ref{eq:calibrated1}£¬ $C_{ij}$¾ßÓÐÈçÏÂÐÎÊ½£º
+¸ù¾Ý¹«Ê½~\ref{eq:calibrated1}£¬$C_{ij}$~¾ßÓÐÈçÏÂÐÎÊ½£º
 \renewcommand{\arraystretch}{1.3}
 \begin{equation}
 \label{eq:Cij} \left[
@@ -869,8 +869,8 @@ p^b_{ij}+o^b_{ij}
 \end{array}
 \right]
 \end{equation}
-½«¹«Ê½~\ref{eq:Cij}´úÈë¹«Ê½~\ref{eq:Mchannel}£¬ ²¢ÈÏÎª»·¾³¹âÖ÷ÒªÓÐ°×É«¹â×é³É£¬
-¼´$o^r_{ij}\approx{}o^g_{ij}\approx{}o^b_{ij}$£¬ ¿ÉÒÔµÃµ½£º
+½«¹«Ê½~\ref{eq:Cij}´úÈë¹«Ê½~\ref{eq:Mchannel}£¬²¢ÈÏÎª»·¾³¹âÖ÷ÒªÓÐ°×É«¹â×é³É£¬
+¼´~$o^r_{ij}\approx{}o^g_{ij}\approx{}o^b_{ij}$£¬¿ÉÒÔµÃµ½£º
 \begin{eqnarray}
 \label{eq:Mij} M_{ij} & = & a^r\max{ \left[
 \begin{array}{c}
@@ -912,7 +912,7 @@ p^b_{ij}
 \begin{equation}
     \min({[p^r_{ij}\hspace{10pt}p^g_{ij}\hspace{10pt}p^b_{ij}]}^T) = 0
 \end{equation}
-ÕâÊÇÒòÎª£¬ËùÍ¶ÉäµÄ¸÷ÑÕÉ«µÄR¡¢G¡¢BÈý¸öÍ¨µÀÖ®ÖÐÖÐ£¬ÖÁÉÙ´æÔÚÒ»¸öÎª 0 µÄÍ¨µÀ¡£¾ßÌå¿É²Î¿´±í~\ref{tabular:colorAssignment}¡£
+ÕâÊÇÒòÎª£¬ËùÍ¶ÉäµÄ¸÷ÑÕÉ«µÄ~R¡¢G¡¢B~Èý¸öÍ¨µÀÖ®ÖÐÖÐ£¬ÖÁÉÙ´æÔÚÒ»¸öÎª~$0$~µÄÍ¨µÀ¡£¾ßÌå¿É²Î¿´±í~\ref{tabular:colorAssignment}¡£
 \begin{figure}[!ht]
 \centering
 \subfloat[]{
@@ -923,15 +923,15 @@ p^b_{ij}
 }
 \caption{(a) ¼ÓÕÕÁË¹âÕ¤µÄÊÖ\quad()(b)½«(a)×ª»»ºóµÃµ½µÄMÍ¨µÀÍ¼}\label{fig:de_m}
 \end{figure}
-´ÓÒÔÉÏµÄÍÆÑÝ¿É¼û£¬$M$ Í¨µÀÖ»ºÍÁ½¸öÒòËØÏà¹Ø£º
+´ÓÒÔÉÏµÄÍÆÑÝ¿É¼û£¬$M$~Í¨µÀÖ»ºÍÁ½¸öÒòËØÏà¹Ø£º
 \begin{itemize}
-  \item Í¶Ó°ÑÕÉ«$I_p$
-  \item RÍ¨µÀ·´ÉäÂÊ$a^r$
+  \item Í¶Ó°ÑÕÉ«~$I_p$
+  \item R~Í¨µÀ·´ÉäÂÊ~$a^r$
 \end{itemize}
-$M$Í¨µÀÓë»·¾³¹â $O$ ÎÞ¹Ø¡£
+$M$~Í¨µÀÓë»·¾³¹â$O$~ÎÞ¹Ø¡£
 
 \subsection{ÀëÉ¢Ç÷ÊÆ±ä»»}
-ÔÚ$M$Í¨µÀµÄ»ù´¡ÉÏ£¬ÎªÁË½øÒ»²½ÅÅ³ýRÍ¨µÀ·´ÉäÂÊ¶ÔÖÐÐÄÏß²éÕÒµÄÓ°Ïì£¬±¾ÎÄÌá³öÀëÉ¢Ç÷ÊÆ±ä»»(DTT)µÄ¸ÅÄî¡£
+ÔÚ~$M$~Í¨µÀµÄ»ù´¡ÉÏ£¬ÎªÁË½øÒ»²½ÅÅ³ý~R~Í¨µÀ·´ÉäÂÊ¶ÔÖÐÐÄÏß²éÕÒµÄÓ°Ïì£¬±¾ÎÄÌá³öÀëÉ¢Ç÷ÊÆ±ä»»(DTT)µÄ¸ÅÄî¡£
 ÀëÉ¢Ç÷ÊÆ±ä»»±»¶¨ÒåÎªÈçÏÂÐÎÊ½\cite{onoz2003power}£º
 \begin{equation}\label{eq:LTM}
 T_{ij}=\sum_{k=h+1}^{j+N}{\sum_{h=j}^{j+N-1}{sign(M_{ik}-M_{ih})}}
@@ -947,8 +947,8 @@ T_{ij}=\sum_{k=h+1}^{j+N}{\sum_{h=j}^{j+N-1}{sign(M_{ik}-M_{ih})}}
 \end{array}
 \right.
 \end{equation}
-ÆäÖÐµÄ$N$Îª´°¿Ú´óÐ¡£¬ Êµ¼ÊÓ¦ÓÃÖÐ´°¿Ú´óÐ¡¿ÉÉè¶¨ÏßÌõÆ½¾ù¿í¶ÈµÄÒ»°ë¡£ ¿¼ÂÇ´°¿Ú´óÐ¡Ô¶Ð¡ÓÚÍ¼Ïñ³ß´çµÄÊµ¼ÊÒòËØ£¬
-ÔòÒÔÏÂÌõ¼þ½üËÆ³ÉÁ¢£º $a^r_{ik}\approx{}a^r_{ih}$¡£ ´Ë½üËÆÌõ¼þ¿ÉÒÔÀí½âÎª£¬ ÔÚÎïÌå±íÃæÉÏ£¬ Ïà½üµÄµã¾ßÓÐ½Ó½üµÄ·´ÉäÂÊ¡£ ½«Õâ¸ö½üËÆÌõ¼þ´úÈë¹«Ê½~\ref{eq:LTM}£¬ ¿ÉÒÔµÃµ½ÈçÏÂÍÆÑÝ£º
+ÆäÖÐµÄ~$N$~Îª´°¿Ú´óÐ¡£¬Êµ¼ÊÓ¦ÓÃÖÐ´°¿Ú´óÐ¡¿ÉÉè¶¨ÏßÌõÆ½¾ù¿í¶ÈµÄÒ»°ë¡£¿¼ÂÇ´°¿Ú´óÐ¡Ô¶Ð¡ÓÚÍ¼Ïñ³ß´çµÄÊµ¼ÊÒòËØ£¬
+ÔòÒÔÏÂÌõ¼þ½üËÆ³ÉÁ¢£º$a^r_{ik}\approx{}a^r_{ih}$¡£´Ë½üËÆÌõ¼þ¿ÉÒÔÀí½âÎª£¬ÔÚÎïÌå±íÃæÉÏ£¬Ïà½üµÄµã¾ßÓÐ½Ó½üµÄ·´ÉäÂÊ¡£½«Õâ¸ö½üËÆÌõ¼þ´úÈë¹«Ê½~\ref{eq:LTM}£¬ ¿ÉÒÔµÃµ½ÈçÏÂÍÆÑÝ£º
 \renewcommand{\arraystretch}{1.3}
 \begin{eqnarray}
 \label{eq:sign1} \lefteqn{sign(M_{ik}-M_{ih}) } \nonumber\\
@@ -969,72 +969,72 @@ p^b_{ih}
 & = & sign(\max( \mathbf{p}_{ik} ) - \max(
 \mathbf{p}_{ih} ) ]
 \end{eqnarray}
-×îÖÕ£¬ $M$Í¨µÀµÄÀëÉ¢Ç÷ÊÆ±ä»»±»±íÊ¾Îª£º
+×îÖÕ£¬$M$~Í¨µÀµÄÀëÉ¢Ç÷ÊÆ±ä»»±»±íÊ¾Îª£º
 \begin{equation}
 \label{eq:LTM1}
 T_{ij}=\sum_{k=h+1}^{j+N}{\sum_{h=j}^{j+N-1}{sign(\max(\mathbf{p}_{ik})-\max(\mathbf{p}_{ih}))}}
 \end{equation}
-¹«Ê½ (\ref{eq:LTM1}) ±í´ïµÄDDTÓÐÈçÏÂÐÔÖÊ:
+¹«Ê½ (\ref{eq:LTM1}) ±í´ïµÄ~DDT~ÓÐÈçÏÂÐÔÖÊ:
 \begin{itemize}
-\item ÔÚ $M$ Í¨µÀµÄÉÏÉýÑØ, $T$ ´ïµ½×î´óÖµ $\frac{N(N+1)}{2}$.
-\item ÔÚ $M$ Í¨µÀµÄÏÂ½µÑØ, $T$ µ½´ï×îÐ¡Öµ $-\frac{N(N+1)}{2}$.
-\item ÔÚ·Çµ¥µ÷Çø¼ä£¬$T$ µÄÖµÎ»ÓÚ×î´óÖµºÍ×îÐ¡ÖµÖ®¼ä.
+\item ÔÚ~$M$~Í¨µÀµÄÉÏÉýÑØ, $T$~´ïµ½×î´óÖµ~$\frac{N(N+1)}{2}$.
+\item ÔÚ~$M$~Í¨µÀµÄÏÂ½µÑØ, $T$~µ½´ï×îÐ¡Öµ~$-\frac{N(N+1)}{2}$.
+\item ÔÚ·Çµ¥µ÷Çø¼ä£¬$T$~µÄÖµÎ»ÓÚ×î´óÖµºÍ×îÐ¡ÖµÖ®¼ä.
 \end{itemize}
 \begin{figure}[!ht]
   % Requires \usepackage{graphicx}
   \centering
   \includegraphics[width=0.7\textwidth]{retrend1.eps}
-  \caption{DTT. T(n) ´ú±íÁË f(n) µÄ¾Ö²¿Ç÷ÊÆ. T(n) µÄ×î´óÖµÒâÎ¶×Å f(n) Î»ÓÚÉÏÉýÑØ£¬ ¶ø T(n) ´ïµ½×îÐ¡ÖµÒâÎ¶×Å f(n) Î»ÓÚÏÂ½µÑØ£¬ ÇÒ T(n) ×î´óÖµµÄ½áÊøµãÓë f(n) µÄ·åÖµµãµÄ¾àÀëÇ¡Îª´°¿Ú´óÐ¡ N.}\label{figure:1}
+  \caption{DTT. ~$T(n)$~´ú±íÁË~$f(n)$~µÄ¾Ö²¿Ç÷ÊÆ. ~$T(n)$~µÄ×î´óÖµÒâÎ¶×Å~$f(n)$~Î»ÓÚÉÏÉýÑØ£¬¶ø~$T(n)$~´ïµ½×îÐ¡ÖµÒâÎ¶×Å~$f(n)$~ Î»ÓÚÏÂ½µÑØ£¬ ÇÒ~$T(n)$~×î´óÖµµÄ½áÊøµãÓë~$f(n)$~µÄ·åÖµµãµÄ¾àÀëÇ¡Îª´°¿Ú´óÐ¡~$N$.}\label{figure:1}
 \end{figure}
 
 \begin{figure}[!ht]
   % Requires \usepackage{graphicx}
   \centering
   \includegraphics[width=0.7\textwidth]{retrend2.eps}
-  \caption{f(n) ºÍ T(n): ÈçÍ¼£¬ f(n) ÓÐËÄ¸ö·ûºÏ¸ßË¹·Ö²¼µÄ·åÖµ£¬¸÷ÓÐ²»Í¬µÄ¿í¶ÈºÍ¸ß¶È£¬ÔÚ¶Ô f(n) ÊµÊ© DTT ±ä»»µÃµ½µÄ T(n) ÖÐ£¬ ËÄ¸ö·åÖµµãÔò¶ÔÓ¦ÏàÍ¬µÄ×î´óÖµµ½×îÐ¡ÖµµÄ±ä»¯Ä£Ê½£¬ Ñ°ÕÒºÍ¶¨Î»ÕâÑùµÄ±ä»¯Ä£Ê½¿ÉÒÔÓÃÓÚ»ØËÝÑ°ÕÒ·åÖµÎ»ÖÃ. }\label{figure:trendshow}
+  \caption{~$f(n)$~ºÍ~$T(n)$: ÈçÍ¼£¬~$f(n)$~ÓÐËÄ¸ö·ûºÏ¸ßË¹·Ö²¼µÄ·åÖµ£¬¸÷ÓÐ²»Í¬µÄ¿í¶ÈºÍ¸ß¶È£¬ÔÚ¶Ô~$f(n)$~ÊµÊ©~DTT~±ä»»µÃµ½µÄ~$T(n)$~ÖÐ£¬ËÄ¸ö·åÖµµãÔò¶ÔÓ¦ÏàÍ¬µÄ×î´óÖµµ½×îÐ¡ÖµµÄ±ä»¯Ä£Ê½£¬Ñ°ÕÒºÍ¶¨Î»ÕâÑùµÄ±ä»¯Ä£Ê½¿ÉÒÔÓÃÓÚ»ØËÝÑ°ÕÒ·åÖµÎ»ÖÃ. }\label{figure:trendshow}
 \end{figure}
 
-DTTµÄÁíÍâÒ»¸öÖØÒª×÷ÓÃÊÇÄÜ¹»ºÜºÃµØ¼ì²â³öÎ¢ÈõÏßÌõ¡£ÔÚÊµ¼Ê²ÉÑùµÄÕÕÆ¬ÖÐ£¬ÔÚÎïÌå±ßÔµ»ò±íÃæÆð·üÆÂ¶È½Ï´óµÄµØ·½£¬
+DTT~µÄÁíÍâÒ»¸öÖØÒª×÷ÓÃÊÇÄÜ¹»ºÜºÃµØ¼ì²â³öÎ¢ÈõÏßÌõ¡£ÔÚÊµ¼Ê²ÉÑùµÄÕÕÆ¬ÖÐ£¬ÔÚÎïÌå±ßÔµ»ò±íÃæÆð·üÆÂ¶È½Ï´óµÄµØ·½£¬
 ÓÉÓÚÍ¶ÉäÏßÌõ±»Ð±ÏòÀ­³¶£¬ÏßÌõ±ä¿í£¬
 µ¼ÖÂÓÉÍ¶ÉäÏßÌõËùÒýÆðµÄÁÁ¶ÈÆð·ü±ä»¯½ÏÐ¡£¬Ê¹ÓÃ´«Í³µÄÒÔÁÁ¶È×÷ÎªÅÐ¶Ï±ê×¼·½·¨ºÜÄÑÔÚ±³¾°ÖÐ¼ì²âµ½ÕâÐ©Î¢ÈõÏßÌõ¡£È»¶ø¿ÉÏë¶øÖª£¬
-ÎïÌå±íÃæµÄ3DÐÅÏ¢ÔÚÆð·ü½Ï´óÇøÓò×îÎª¼¯ÖÐ£¬ËùÒÔÈçºÎ½«ÏßÌõ¼ì²â×¼È·¼«ÎªÖØÒª£¬Ö±½Ó¹ØÏµµ½3DÖØ½¨µÄÐ§¹û¡£
-DTTÖ®ËùÒÔÄÜ¹»ºÜºÃµØ´¦ÀíÕâÖÖÇé¿öÊÇÒòÎª£¬DTT½ö¹Ø×¢ÁÁ¶ÈµÄ±ä»¯Ç÷ÊÆ¶ø²»¹Ø×¢ÁÁ¶ÈµÄ¾ø¶ÔÖµ£¬¼´Í¨¹ý±ä»»£¬DTT½«ÏßÌõµÄ
+ÎïÌå±íÃæµÄ~3D~ÐÅÏ¢ÔÚÆð·ü½Ï´óÇøÓò×îÎª¼¯ÖÐ£¬ËùÒÔÈçºÎ½«ÏßÌõ¼ì²â×¼È·¼«ÎªÖØÒª£¬Ö±½Ó¹ØÏµµ½~3D~ÖØ½¨µÄÐ§¹û¡£
+DTT~Ö®ËùÒÔÄÜ¹»ºÜºÃµØ´¦ÀíÕâÖÖÇé¿öÊÇÒòÎª£¬DTT~½ö¹Ø×¢ÁÁ¶ÈµÄ±ä»¯Ç÷ÊÆ¶ø²»¹Ø×¢ÁÁ¶ÈµÄ¾ø¶ÔÖµ£¬¼´Í¨¹ý±ä»»£¬DTT~½«ÏßÌõµÄ
 ÏÈµÝÔö¡¢ºóµÝ¼õÇ÷ÊÆ×ª»»Îª\textbf{×î´óÖµ-×îÐ¡ÖµÄ£Ê½}£¬¶ø×î´óÖµ-×îÐ¡ÖµÄ£Ê½Ö»ÓëÏßÌõµÄ±ä»¯Ç÷ÊÆÓÐ¹Ø£¬ÓëÏßÌõµÄ¾ø¶ÔÁÁ¶ÈÎÞ¹Ø¡£
 Í¼~\ref{fig:segmentation}
-¶Ô±ÈÁËÊ¹ÓÃ×ÔÊÊÓ¦ãÐÖµ¶þÖµ»¯·½·¨ºÍDTT·½·¨·ÖÀëµÄÏßÌõ½á¹û£¬
-ÏÔÈ»£¬ÔÚÆÂ¶È½Ï´óµÄÎïÌå±ßÔµÇøÓò£¬DTT·½·¨¼ì²â³ýÁË¾ø´ó²¿·ÖÏßÌõ£¬¶ø×ÔÊÊÓ¦ãÐÖµµÄ¶þ
+¶Ô±ÈÁËÊ¹ÓÃ×ÔÊÊÓ¦ãÐÖµ¶þÖµ»¯·½·¨ºÍ~DTT~·½·¨·ÖÀëµÄÏßÌõ½á¹û£¬
+ÏÔÈ»£¬ÔÚÆÂ¶È½Ï´óµÄÎïÌå±ßÔµÇøÓò£¬DTT~·½·¨¼ì²â³ýÁË¾ø´ó²¿·ÖÏßÌõ£¬¶ø×ÔÊÊÓ¦ãÐÖµµÄ¶þ
 Öµ»¯·½·¨µÄ¼ì²â½á¹ûÔò´æÔÚ²»ÉÙÂ©¼ì¼°¶Ïµã¡£
 \begin{figure}[!ht]
   \centering
   \subfloat[]{
-    \label{fig:FIG_AC:a} %% label for first subfigure
+   %% label for first subfigure
     \includegraphics[width=3in]{handLightLocal.eps}}
   \\
   \subfloat[]{
-    \label{fig:FIG_AC:b} %% label for second subfigure
+   %% label for second subfigure
     \includegraphics[height=2in]{centerOLD.eps}}
   \subfloat[]{
-    \label{fig:FIG_AC:c} %% label for second subfigure
+  %% label for second subfigure
     \includegraphics[height=2in]{centerNEW.eps}}
    \caption{ÏßÌõ¼ì²âµÄ½á¹û¶Ô±È. (a) Ô­Í¼Ïñ, (b) ×ÔÊÊÓ¦ãÐÖµ¶þÖµ»¯·½·¨¼ì²âµÄÏßÌõ, (c)Ê¹ÓÃDTT¼ì²âµ½µÄÏßÌõ.}\label{fig:segmentation}
 \end{figure}
 
 \subsection{·åÖµ¶¨Î»}
 
-ÔÚÊ¹ÓÃDTTµÄ·½·¨¶¨Î»ÏßÌõºó£¬»¹ÐèÒªÈ·¶¨ÏßÌõµÄ·åÖµÎ»ÖÃÒÔÓÃÓÚÈýÎ¬µãÔÆµÄ¼ÆËã¡£·åÖµ¶¨Î»µÄ·½·¨ÓÐ¶àÖÖ\cite{fisher1996comparison}£¬Ò»Ð©ÊÇ¾«È·µ½
+ÔÚÊ¹ÓÃ~DTT~µÄ·½·¨¶¨Î»ÏßÌõºó£¬»¹ÐèÒªÈ·¶¨ÏßÌõµÄ·åÖµÎ»ÖÃÒÔÓÃÓÚÈýÎ¬µãÔÆµÄ¼ÆËã¡£·åÖµ¶¨Î»µÄ·½·¨ÓÐ¶àÖÖ\cite{fisher1996comparison}£¬Ò»Ð©ÊÇ¾«È·µ½
 ÏñËØ£¬ÁíÒ»Ð©ÊÇ¾«È·µ½ÑÇÏñËØ£¬ÏÖÁÐ¾ÙÖ÷ÒªµÄ·½·¨ÈçÏÂ¡£
 \begin{itemize}
-  \item \textbf{×î´óÖµ·½·¨} Jordi\cite{OptimisedDeBruijn} Ê¹ÓÃÏßÌõÖÐ¾ßÓÐ×î´óÖµµÃÏñËØÎ»ÖÃ×÷Îª·åÖµÎ»ÖÃ£¬ ÎªÁË±ãÓÚ¶Ô±È½á¹û£¬ ½«´Ë·½·¨
-  ¼ò¼ÇÎª MAX£¬±¾·½·¨Ö»¾«È·µ½ÏñËØ¡£
-  \item \textbf{ÖÐÐÄµã·½·¨} ThomasµÈ\cite{GraphCut} ÔòÊ¹ÓÃÏßÌõµÄÖÐÐÄÎ»ÖÃ×÷Îª·åÖµÎ»ÖÃ£¬ ¼Ç´Ë·½·¨Îª MID£¬±¾·½·¨Ö»¾«È·µ½ÏñËØ¡£
+  \item \textbf{×î´óÖµ·½·¨} Jordi\cite{OptimisedDeBruijn} Ê¹ÓÃÏßÌõÖÐ¾ßÓÐ×î´óÖµµÃÏñËØÎ»ÖÃ×÷Îª·åÖµÎ»ÖÃ£¬ÎªÁË±ãÓÚ¶Ô±È½á¹û£¬ ½«´Ë·½·¨
+  ¼ò¼ÇÎª~MAX£¬±¾·½·¨Ö»¾«È·µ½ÏñËØ¡£
+  \item \textbf{ÖÐÐÄµã·½·¨} ThomasµÈ\cite{GraphCut} ÔòÊ¹ÓÃÏßÌõµÄÖÐÐÄÎ»ÖÃ×÷Îª·åÖµÎ»ÖÃ£¬ ¼Ç´Ë·½·¨Îª~MID£¬±¾·½·¨Ö»¾«È·µ½ÏñËØ¡£
   \item \textbf{¼ÓÈ¨Æ½¾ù·¨} ZhiqiangµÈ\cite{CompositeColorfulStripes} Ê¹ÓÃµÄ·åÖµÎ»ÖÃ¼ÆËã·½·¨Îª£¬ÔÚÕû¸öÏßÌõÇøÓò
-  Ö®ÖÐ£¬ÒÔ¸÷ÏñËØµãµÄÁÁ¶ÈÎªÈ¨ÖØ£¬¶Ô¸÷ÏñËØµÄÎ»ÖÃÇóÈ¡¼ÓÈ¨Æ½¾ùÖµ²¢×÷Îª·åÖµÎ»ÖÃ£¬ ¼Ç´Ë·½·¨Îª WA£¬±¾·½·¨½«·åÖµÎ»ÖÃ¼ÆËãµ½ÁËÑÇÏñËØ¡£
-  \item \textbf{¸ÅÂÊ·¨} FechtelerµÈ\cite{ColorClassification} Ôò½áºÏÁÁ¶È¡¢ÏßÌõÐÎ×´µÈÒòËØ£¬¹¹½¨Å×ÎïÏßÄ£ÐÍ²¢¼ÆËã·åÖµÎ»ÖÃ£¬ ¼Ç´Ë·½·¨Îª PA£¬±¾·½·¨½«·åÖµÎ»ÖÃ¼ÆËãµ½ÁËÑÇÏñËØ¡£
+  Ö®ÖÐ£¬ÒÔ¸÷ÏñËØµãµÄÁÁ¶ÈÎªÈ¨ÖØ£¬¶Ô¸÷ÏñËØµÄÎ»ÖÃÇóÈ¡¼ÓÈ¨Æ½¾ùÖµ²¢×÷Îª·åÖµÎ»ÖÃ£¬ ¼Ç´Ë·½·¨Îª~WA£¬±¾·½·¨½«·åÖµÎ»ÖÃ¼ÆËãµ½ÁËÑÇÏñËØ¡£
+  \item \textbf{¸ÅÂÊ·¨} FechtelerµÈ\cite{ColorClassification} Ôò½áºÏÁÁ¶È¡¢ÏßÌõÐÎ×´µÈÒòËØ£¬¹¹½¨Å×ÎïÏßÄ£ÐÍ²¢¼ÆËã·åÖµÎ»ÖÃ£¬ ¼Ç´Ë·½·¨Îª~PA£¬±¾·½·¨½«·åÖµÎ»ÖÃ¼ÆËãµ½ÁËÑÇÏñËØ¡£
 \end{itemize}
 
-±¾ÎÄ¼ÆËã·åÖµµÄ·½·¨²»Í¬ÓÚÒÔÉÏ£¬ÆäÖ÷ÒªµÄ²½ÖèÊÇ£¬ÔÚMÍ¨µÀºÍÊ¹ÓÃDTT·½·¨È·¶¨µÄÏßÌõÇøÓòµÄ»ù´¡ÉÏ£¬Ñ°ÕÒÏßÌõÇøÓòÖÐ
-MÍ¨µÀÖµ¸ßÓÚ·åÖµÒ»¶¨±ÈÀýµÄÏñËØµã£¬²¢¶ÔÕâÐ©µã¼ÓÈ¨¼ÆËã¾ùÖµÒÔ×÷Îª·åÖµÎ»ÖÃ£¬±¾ÎÄµÄ·½·¨¼ÇÎª MMWA£¬ ¿É±íÊöÎª¹«Ê½~\ref{eq:Iestimated}¡£
-±¾·½·¨ÓëÒÔÉÏ·½·¨µÄÇø±ðÊÇ£¬Ê×ÏÈ¹«Ê½~\ref{eq:Iestimated}²¢²»ÒÔÁÁ¶ÈÖ±½Ó×÷ÎªÈ¨ÖØ£¬¶øÊÇÊ¹ÓÃ´ËÏñËØµãµÄ$M$Í¨µÀÖµ£¬ÁíÍâ£¬
+±¾ÎÄ¼ÆËã·åÖµµÄ·½·¨²»Í¬ÓÚÒÔÉÏ£¬ÆäÖ÷ÒªµÄ²½ÖèÊÇ£¬ÔÚ~$M$~Í¨µÀºÍÊ¹ÓÃ~DTT~·½·¨È·¶¨µÄÏßÌõÇøÓòµÄ»ù´¡ÉÏ£¬Ñ°ÕÒÏßÌõÇøÓòÖÐ
+MÍ¨µÀÖµ¸ßÓÚ·åÖµÒ»¶¨±ÈÀýµÄÏñËØµã£¬²¢¶ÔÕâÐ©µã¼ÓÈ¨¼ÆËã¾ùÖµÒÔ×÷Îª·åÖµÎ»ÖÃ£¬±¾ÎÄµÄ·½·¨¼ÇÎª~MMWA£¬ ¿É±íÊöÎª¹«Ê½~\ref{eq:Iestimated}¡£
+±¾·½·¨ÓëÒÔÉÏ·½·¨µÄÇø±ðÊÇ£¬Ê×ÏÈ¹«Ê½~\ref{eq:Iestimated}²¢²»ÒÔÁÁ¶ÈÖ±½Ó×÷ÎªÈ¨ÖØ£¬¶øÊÇÊ¹ÓÃ´ËÏñËØµãµÄ~$M$~Í¨µÀÖµ£¬ÁíÍâ£¬
 ´Ë·½·¨ÅÅ³ýÁËÏßÌõÍâÎ§¸üÈÝÒ×ÊÜÔëÉùÓ°ÏìµÄµã¡£
 \begin{equation}
 \label{eq:Iestimated} I_{estimated}=
@@ -1042,7 +1042,7 @@ MÍ¨µÀÖµ¸ßÓÚ·åÖµÒ»¶¨±ÈÀýµÄÏñËØµã£¬²¢¶ÔÕâÐ©µã¼ÓÈ¨¼ÆËã¾ùÖµÒÔ×÷Îª·åÖµÎ»ÖÃ£¬±¾ÎÄµÄ·½·
 \alpha{}M_{max}
 \end{equation}
 
-ÔÚÊµ¼ÊÏµÍ³ÖÐ£¬$\alpha$Ñ¡È¡µÄÖµÎª 0.6¡£Í¼~\ref{figure:peak} ¶Ô±ÈÁË¸÷·½·¨µÃµ½µÄ·åÖµÎ»ÖÃ¶Ô±È¡£
+ÔÚÊµ¼ÊÏµÍ³ÖÐ£¬$\alpha$~Ñ¡È¡µÄÖµÎª~0.6¡£Í¼~\ref{figure:peak} ¶Ô±ÈÁË¸÷·½·¨µÃµ½µÄ·åÖµÎ»ÖÃ¶Ô±È¡£
 ¿ÉÒÔ¿´µ½×î´óÖµ·½·¨È·¶¨µÄ·åÖµÎ»ÖÃÆð·ü×î´ó£¬±¾ÎÄ·½·¨¼ì²âµÄ·åÖµÔòÆ½Ë³µÃ¶à¡£
 \begin{figure}[!ht]
   % Requires \usepackage{graphicx}
@@ -1068,11 +1068,11 @@ MÍ¨µÀÖµ¸ßÓÚ·åÖµÒ»¶¨±ÈÀýµÄÏñËØµã£¬²¢¶ÔÕâÐ©µã¼ÓÈ¨¼ÆËã¾ùÖµÒÔ×÷Îª·åÖµÎ»ÖÃ£¬±¾ÎÄµÄ·½·
 \end{figure}
 
 \subsection{ÑÕÉ«ÌáÈ¡}
-ÏßÌõÑÕÉ«Ê¶±ðÊÇÌØÕ÷Ê¶±ðµÄÁíÒ»¸öÖØÒª²¿·Ö£¬ÑÕÉ«Ê¶±ðµÄ×¼È·ÂÊÖ±½ÓÓ°ÏìÌØÕ÷Ê¶±ðµÄ×¼È·ÂÊ¡£´Ó¹«Ê½~\ref{eq:calibrated1}¿ÉÖª£¬ Ô­Ê¼Í¼Ïñ¼´Ê¹¾­¹ýcrosstalkºÍÏà¶Ô·´ÉäÂÊÐ£Õý£¬ÈÔÈ»±£ÁôÓÐ»·¾³¹âºÍRÍ¨µÀ·´ÉäÂÊµÄÓ°Ïì¡£ÒÔ¼òµ¥µÄRGBÑÕÉ«¿Õ¼ä¶ÔÑÕÉ«Ê¶±ðÄÑÒÔ×öµ½¶Ô
-ÉÏÊö¸ÉÈÅÒòËØµÄÃâÒßÐÔ¡£ÎªÁË½â¾öÕâ¸öÎÊÌâ£¬±¾ÎÄ½«ÒÑ¼ì²âµ½ÏßÌõÎ»ÖÃµÄR¡¢G¡¢BÖµ×ª»¯ÎªÉ«¶È£¬²¢ÔÚhsv¿Õ¼ä·Ö±ðÓë5¸öËùÍ¸ÉäÑÕÉ«µÄ
+ÏßÌõÑÕÉ«Ê¶±ðÊÇÌØÕ÷Ê¶±ðµÄÁíÒ»¸öÖØÒª²¿·Ö£¬ÑÕÉ«Ê¶±ðµÄ×¼È·ÂÊÖ±½ÓÓ°ÏìÌØÕ÷Ê¶±ðµÄ×¼È·ÂÊ¡£´Ó¹«Ê½~\ref{eq:calibrated1}¿ÉÖª£¬Ô­Ê¼Í¼Ïñ¼´Ê¹¾­¹ý~crosstalk~ºÍÏà¶Ô·´ÉäÂÊÐ£Õý£¬ÈÔÈ»±£ÁôÓÐ»·¾³¹âºÍ~R~Í¨µÀ·´ÉäÂÊµÄÓ°Ïì¡£ÒÔ¼òµ¥µÄ~RGB~ÑÕÉ«¿Õ¼ä¶ÔÑÕÉ«Ê¶±ðÄÑÒÔ×öµ½¶Ô
+ÉÏÊö¸ÉÈÅÒòËØµÄÃâÒßÐÔ¡£ÎªÁË½â¾öÕâ¸öÎÊÌâ£¬±¾ÎÄ½«ÒÑ¼ì²âµ½ÏßÌõÎ»ÖÃµÄ~R¡¢G¡¢B~Öµ×ª»¯ÎªÉ«¶È£¬²¢ÔÚ~hsv~¿Õ¼ä·Ö±ðÓë5¸öËùÍ¸ÉäÑÕÉ«µÄ
 É«¶ÈÏà±È½Ï£¬ÈôÓëÄ³¸öÍ¶ÉäÑÕÉ«µÄÉ«¶ÈÏà²î×îÐ¡ÇÒ²îÖµÔÚãÐÖµÖ®ÄÚÔòÅÐ¶¨ÏßÌõÑÕÉ«Îª´ËÍ¶ÉäÑÕÉ«¡£
 
-¼ÙÉèÄ³ÏñËØµã¾ßÓÐ(R,G,B)Èý¸öÍ¨µÀÖµ£¬ ÇÒÂú×ã$R\ge{}G\ge{}B$£¬ ÄÇÃ´Õâ¸öµãµÄÉ«¶È±í´ïÎª£º
+¼ÙÉèÄ³ÏñËØµã¾ßÓÐ~(R,G,B)~Èý¸öÍ¨µÀÖµ£¬ ÇÒÂú×ã~$R\ge{}G\ge{}B$£¬ÄÇÃ´Õâ¸öµãµÄÉ«¶È±í´ïÎª£º
 \begin{equation}\label{eq:hue}
   h=60^{o}\cdot\frac{G-B}{R-B}
 \end{equation}
@@ -1094,9 +1094,9 @@ h & = & \frac{C^g-C^b}{C^r-C^b}\cdot \frac{\pi}{3} \nonumber \\
 Íê³ÉÏßÌõ¼ì²â¡¢·åÖµ¶¨Î»ºÍÑÕÉ«Ê¶±ðµÈÌØÕ÷Ê¶±ðµÄ²½Öèºó£¬»¹Òª½¨Á¢¼ì²â³öÌØÕ÷¼°ËùÍ¶ÉäÌØÕ÷¼äµÄ¶ÔÓ¦¹ØÏµÒÔ´úÈëÈý½ÇÄ£ÐÍ²¢¼ÆËãÈýÎ¬µãÔÆ¡£
 Êµ¼ÊÖÐÕâÒ»²½ÊÇ²ÉÓÃ¶¯Ì¬¹æ»®Æ¥ÅäÉ«¶ÈµÄ·½·¨ÊµÏÖ£¬×ÞÈóµÈ\cite{zou2012novel}ÔòÌá³öÁË¸ÅÂÊÄ£ÐÍÒÔÇó½â¸ÅÂÊÄ£ÐÍ¡£
 
-¼ÙÉè$A_i,1\in[1,N]$´ú±íÍ¶ÉäÏßÌõÐòÁÐµÄÉ«¶ÈÖµ£¬$B_j,j\in[1,M]$´ú±í¼ì²â³öÏßÌõÐòÁÐµÄÉ«¶ÈÖµ£¬·ÖÁ½²½½øÐÐ$A_i$,$B_j$µÄÆ¥Åä£º
+¼ÙÉè~$A_i,1\in[1,N]$~´ú±íÍ¶ÉäÏßÌõÐòÁÐµÄÉ«¶ÈÖµ£¬$B_j,j\in[1,M]$~´ú±í¼ì²â³öÏßÌõÐòÁÐµÄÉ«¶ÈÖµ£¬·ÖÁ½²½½øÐÐ~$A_i$,~$B_j$~µÄÆ¥Åä£º
 \begin{enumerate}
-  \item ½¨Á¢$C_{ij}(1\in[1,N],j\in[1,M])$¾ØÕóºÍ$P_{ij}(1\in[1,N],j\in[1,M])$Â·¾¶¾ØÕó£¬½¨Á¢·½·¨Îª£º
+  \item ½¨Á¢~$C_{ij}(1\in[1,N],j\in[1,M])$~¾ØÕóºÍ~$P_{ij}(1\in[1,N],j\in[1,M])$~Â·¾¶¾ØÕó£¬½¨Á¢·½·¨Îª£º
   \begin{equation}\label{eq:cmatrix}
     C_{ij}=\max(C_{i(j-1)},C_{(i-1)j},C_{(i-1)(j-1)}+cost_{ij})
   \end{equation}
@@ -1109,13 +1109,12 @@ h & = & \frac{C^g-C^b}{C^r-C^b}\cdot \frac{\pi}{3} \nonumber \\
     \end{array}
     \right.
   \end{equation}
-  \item ´ÓÔªËØ$P_{MN}$¿ªÊ¼£¬ÑØ×Å¼ýÍ·¸ú×Ù$P$¾ØÕó£¬ÆäÂ·¾¶ÖÐµÄ``$\nwarrow$''¶ÔÓ¦$A_i$,$B_j$µÄÒ»¸öÆ¥Åä£¬``$\uparrow$''±íÊ¾
-  $B_j$ÖÐÈ±Ê§ÔªËØ£¬¼´Â©¼ìÏßÌõ£¬``$\longleftarrow$''±íÊ¾$B_j$ÖÐ¶à³öÔªËØ£¬¼´¶à¼ì³öÁËÏßÌõ¡£
+  \item ´ÓÔªËØ~$P_{MN}$~¿ªÊ¼£¬ÑØ×Å¼ýÍ·¸ú×Ù~$P$~¾ØÕó£¬ÆäÂ·¾¶ÖÐµÄ~``$\nwarrow$''~¶ÔÓ¦~$A_i$,$B_j$~µÄÒ»¸öÆ¥Åä£¬``$\uparrow$''~±íÊ¾
+  ~$B_j$~ÖÐÈ±Ê§ÔªËØ£¬¼´Â©¼ìÏßÌõ£¬``$\longleftarrow$''~±íÊ¾~$B_j$~ÖÐ¶à³öÔªËØ£¬¼´¶à¼ì³öÁËÏßÌõ¡£
 \end{enumerate}
 
-¹«Ê½~\ref{eq:cmatrix}ºÍ¹«Ê½~\ref{eq:pmatrix}ÖÐµÄ$cost_{ij}$ÊÇÊµÏÖÕýÈ·Æ¥ÅäµÄ¹Ø¼ü£¬ÎªÁË¹ÄÀøÁ¬ÐøµÄÆ¥Åä£¬±¾ÎÄÊ¹ÓÃÁ¬ÐøÈý¸ùÏßÌõ
-µÄÆ¥Åä³Ì¶È×÷ÎªcostÖµ£¬±íÊ¾Îª¹«Ê½Îª£º
-$cost_{ij}$Îª£º
+¹«Ê½~\ref{eq:cmatrix}ºÍ¹«Ê½~\ref{eq:pmatrix}ÖÐµÄ~$cost_{ij}$~ÊÇÊµÏÖÕýÈ·Æ¥ÅäµÄ¹Ø¼ü£¬ÎªÁË¹ÄÀøÁ¬ÐøµÄÆ¥Åä£¬±¾ÎÄÊ¹ÓÃÁ¬ÐøÈý¸ùÏßÌõ
+µÄÆ¥Åä³Ì¶È×÷Îª~cost~Öµ£¬$cost_{ij}$~¿É±íÊ¾Îª£º
 \begin{equation}
   cost_{ij}=match(A_{i-1},B_{j-1})+match(A_i,B_j)+match(A_{i+1},B_{j+1})
 \end{equation}
@@ -1128,7 +1127,7 @@ $cost_{ij}$Îª£º
   \end{array}
   \right.
 \end{equation}
-½«$match(A_i,B_j)$±íÊ¾ÎªÍ¼ÐÎÎª£º
+½«~$match(A_i,B_j)$~±íÊ¾ÎªÍ¼ÐÎÎª£º
 \begin{figure}[!ht]
 \centering
   \begin{tikzpicture}
@@ -1141,10 +1140,10 @@ $cost_{ij}$Îª£º
   \caption{$match(A_i,B_j)$µÄÍ¼ÐÎ±íÊ¾}
 \end{figure}
 \section{ÖØ½¨½á¹û}
-±¾ÏµÍ³µÄÊä³ö½á¹ûÊÇ3DµãÔÆ£¬ÓÉÓÚ²ÉÓÃÁËÑÕÉ«Ð£Õý¡¢DTTµÈ¸Ä½ø·½·¨£¬ÏµÍ³ÄÜ¹»ÔÚ·Ç°µÊÒµÄ»·¾³ÖÐÕý³£¹¤×÷£¬¾ßÓÐÁ¼ºÃµÄ¶Ô»·¾³¹â¿¹¸ÉÈÅÐÔÄÜ¡£
+±¾ÏµÍ³µÄÊä³ö½á¹ûÊÇ~3D~µãÔÆ£¬ÓÉÓÚ²ÉÓÃÁËÑÕÉ«Ð£Õý¡¢DTT~µÈ¸Ä½ø·½·¨£¬ÏµÍ³ÄÜ¹»ÔÚ·Ç°µÊÒµÄ»·¾³ÖÐÕý³£¹¤×÷£¬¾ßÓÐÁ¼ºÃµÄ¶Ô»·¾³¹â¿¹¸ÉÈÅÐÔÄÜ¡£
 Í¼~\ref{FIG_Example}Õ¹Ê¾ÁË¶àÃæÌå¡¢
 ÊÖ²¿ºÍÁ³²¿µÄÍ¼Ïñ²É¼¯»·¾³ºÍÖØ½¨½á¹û£¬¼´Ê¹´æÔÚ»·¾³¹â£¬ÏµÍ³Ò²ÄÜ¹»ÀûÓÃËã·¨Õë¶ÔÐÔµØÅÅ³ý¸ÉÈÅ£¬´Ó¶øÕýÈ·µØ¼ì²âÌØÕ÷²¢¼ÆËã³öÈýÎ¬µãÔÆ¡£ÏµÍ³µÄ
-ÁíÒ»¸öÌØµãÊÇ·Ö±æÂÊ¸ß£¬Í¼~\ref{FIG_Example}(b)(d)·Ö±ðÓÐ85687ºÍ75371 ¸öÈýÎ¬µã¡£
+ÁíÒ»¸öÌØµãÊÇ·Ö±æÂÊ¸ß£¬Í¼~\ref{FIG_Example}(b)(d)·Ö±ðÓÐ~85687~ºÍ~75371~¸öÈýÎ¬µã¡£
 \begin{figure}[!ht]
   \centering
   \subfloat[]{
@@ -1176,12 +1175,12 @@ $cost_{ij}$Îª£º
 \label{FIG_Example}
 \end{figure}
 \section{±¾ÕÂ×Ü½á}
-±¾ÕÂÊµÏÖÁËÒ»ÖÖ»ùÓÚDe Bruijn
-ÐòÁÐ±àÂëÑÕÉ«ÐòÁÐ×÷Îª½á¹¹¹âµÄ3DÖØ½¨·½·¨£¬½éÉÜÁËÒ»°ãµÄÁ÷³Ì²¢ÔÚ¹Ø¼ü´¦Àí²½ÖèÖÐ£¬ÈçÑÕÉ«Ð£Õý¡¢ÏßÌõÊ¶±ð¡¢·åÖµ¶¨Î»ºÍÑÕÉ«Ê¶±ðµÈ·½Ãæ½øÐÐÁË
-´´ÐÂ£¬Ìá³öÁËDTTµÈ¸ÅÄîÓÃÓÚÌØÕ÷Ê¶±ð£¬Ê¹µÃÏµÍ³ÔÚÏßÌõ¼ì²â¡¢¶¨Î»ºÍÑÕÉ«Ê¶±ðµÈ·½ÃæÄÜ¹»È¡µÃ¾«È·µÄ½á¹û£¬Í¬Ê±Ò²¿Ë·þÁË½á¹¹¹â·½·¨Ò×ÊÜ»·¾³¹â¸ÉÈÅµÄÈ±µã£¬Ê¹ÖØ½¨ÏµÍ³¼´Ê¹ÔÚ»·¾³¹âÏÂºÜºÃµÄ¹¤×÷£¬²»ÐèÒª°µÊÒ»·¾³£¬ºÜ´ó³Ì¶ÈÉÏÌáÉýÁËÖØ½¨ÏµÍ³µÄÊ¹ÓÃ·¶Î§¡£
-\chapter{½á¹¹¹âÎª¸ñÀ×ÂëÍ¶Ó°¹âÕ¤µÄ3DÖØ½¨}
-¸ñÀ×ÂëÍ¶Ó°¹âÕ¤ÊÇÊ±¼ä±àÂë·½Ê½µÄ3DÖØ½¨£¬Ïà±ÈÓÚ¿Õ¼ä±àÂë£¬Ê±¼ä±àÂë·½Ê½¾ßÓÐ·Ö±æÂÊ¸ß¡¢²âÁ¿Îó²îÐ¡µÄÌØµã¡£
-½á¹¹¹âÎª¸ñÀ×ÂëÍ¶Ó°¹âÕ¤µÄ3DÖØ½¨Í¬Ñù²ÉÓÃÈý½ÇÄ£ÐÍ£¬ÏµÍ³¼Ü¹¹ÓëÖ®Ç°ËùÊöÀàËÆ£¬´Ë´¦²»ÔÙÖØ¸´¡£×ÜÌåµÄ´¦Àí²½ÖèÊÇ£º
+±¾ÕÂÊµÏÖÁËÒ»ÖÖ»ùÓÚ~De Bruijn~
+ÐòÁÐ±àÂëÑÕÉ«ÐòÁÐ×÷Îª½á¹¹¹âµÄ~3D~ÖØ½¨·½·¨£¬½éÉÜÁËÒ»°ãµÄÁ÷³Ì²¢ÔÚ¹Ø¼ü´¦Àí²½ÖèÖÐ£¬ÈçÑÕÉ«Ð£Õý¡¢ÏßÌõÊ¶±ð¡¢·åÖµ¶¨Î»ºÍÑÕÉ«Ê¶±ðµÈ·½Ãæ½øÐÐÁË
+´´ÐÂ£¬Ìá³öÁË~DTT~µÈ¸ÅÄîÓÃÓÚÌØÕ÷Ê¶±ð£¬Ê¹µÃÏµÍ³ÔÚÏßÌõ¼ì²â¡¢¶¨Î»ºÍÑÕÉ«Ê¶±ðµÈ·½ÃæÄÜ¹»È¡µÃ¾«È·µÄ½á¹û£¬Í¬Ê±Ò²¿Ë·þÁË½á¹¹¹â·½·¨Ò×ÊÜ»·¾³¹â¸ÉÈÅµÄÈ±µã£¬Ê¹ÖØ½¨ÏµÍ³¼´Ê¹ÔÚ»·¾³¹âÏÂºÜºÃµÄ¹¤×÷£¬²»ÐèÒª°µÊÒ»·¾³£¬ºÜ´ó³Ì¶ÈÉÏÌáÉýÁËÖØ½¨ÏµÍ³µÄÊ¹ÓÃ·¶Î§¡£
+\chapter{½á¹¹¹âÎª¸ñÀ×ÂëÍ¶Ó°¹âÕ¤µÄ~3D~ÖØ½¨}
+¸ñÀ×ÂëÍ¶Ó°¹âÕ¤ÊÇÊ±¼ä±àÂë·½Ê½µÄ~3D~ÖØ½¨£¬Ïà±ÈÓÚ¿Õ¼ä±àÂë£¬Ê±¼ä±àÂë·½Ê½¾ßÓÐ·Ö±æÂÊ¸ß¡¢²âÁ¿Îó²îÐ¡µÄÌØµã¡£
+½á¹¹¹âÎª¸ñÀ×ÂëÍ¶Ó°¹âÕ¤µÄ~3D~ÖØ½¨Í¬Ñù²ÉÓÃÈý½ÇÄ£ÐÍ£¬ÏµÍ³¼Ü¹¹ÓëÖ®Ç°ËùÊöÀàËÆ£¬´Ë´¦²»ÔÙÖØ¸´¡£×ÜÌåµÄ´¦Àí²½ÖèÊÇ£º
 \begin{enumerate}
   \item Í¶Ó°¹âÕ¤²¢²É¼¯Í¼Ïñ
   \item Í¼Ïñ´¦Àí²¢ÌáÈ¡ÓÐÐ§ÇøÓò
@@ -1189,9 +1188,9 @@ $cost_{ij}$Îª£º
   \item ¼ÆËãµãµÄÈýÎ¬×ø±ê
 \end{enumerate}
 \section{ÌØÕ÷Í¶Ó°}
-Í¨³£CCDÉãÏñ»ú¾µÍ·ÉÏÓÐÔöÍ¸Ä¤£¬ÔöÍ¸Ä¤µÄ×÷ÓÃÊÇ¼õÉÙ¹âÔÚ½øÈë¾µÍ·Ê±µÄ·´Éä£¬Ôö¼Ó½øÈë¾µÍ·µÄ¹âÇ¿¡£
+Í¨³£~CCD~ÉãÏñ»ú¾µÍ·ÉÏÓÐÔöÍ¸Ä¤£¬ÔöÍ¸Ä¤µÄ×÷ÓÃÊÇ¼õÉÙ¹âÔÚ½øÈë¾µÍ·Ê±µÄ·´Éä£¬Ôö¼Ó½øÈë¾µÍ·µÄ¹âÇ¿¡£
 ÒòÎªÈËÑÛ¶ÔÆ«ÂÌµÄÑÕÉ«Ãô¸Ð£¬´ó¶àÊý¾µÍ·¶¼Ñ¡ÔñÔöÇ¿ÂÌ¹âµÄÈëÉä£¬ÒòÎª²ÉÓÃºñ¶ÈÎªÂÌ¹â²¨³¤Ò»°ëµÄÔöÍ¸Ä¤¡£
-ÕâÑù¾ÍÔì³ÉÓÉCCDÉãÏñ»ú»ñÈ¡Í¼ÏñÊ±ÑÕÉ«µÄ²»¾ùÔÈÐÔ£¬ËùÒÔÏµÍ³Ê¹ÓÃµÄ½á¹¹¹â²ÉÓÃÂÌÉ«¡£
+ÕâÑù¾ÍÔì³ÉÓÉ~CCD~ÉãÏñ»ú»ñÈ¡Í¼ÏñÊ±ÑÕÉ«µÄ²»¾ùÔÈÐÔ£¬ËùÒÔÏµÍ³Ê¹ÓÃµÄ½á¹¹¹â²ÉÓÃÂÌÉ«¡£
 
 ¾­ÑéÖ¤£¬ÂÌÉ«±ÈºìÉ«¹âµÈÆäËû¹âÔÚÏàÍ¬Ìõ¼þÏÂµÃµ½µÄµãÔÆÔëµã¸üÉÙÇÒÕýÈ·µã¸ü¶à¡£
 \subsection{¸ñÀ×Âë¹âÕ¤}
@@ -1228,11 +1227,11 @@ $cost_{ij}$Îª£º
 \end{center}
 \end{table}
 
-¸ñÀ×ÂëµÄÉú³É¿É²ÉÓÃµÝ¹é·½Ê½ÊµÏÖ¡£¼ÙÈçÏëÒªÉú³ÉnÎ»¸ñÀ×Âë£¬Ôò¿ÉÏÈ½«n-1 Î»¸ñÀ×ÂëµÄ$2^{n-1}$¸ö±àÂëÁÐ³ö£¬¶øºóÔÙÒÔ´ÓºóÏòÇ°µÄ
-Ë³Ðò£¬ÖØÐÂÁÐ³öÕân-1Î»¸ñ¸ñÀ×Âë£¬ÐÎ³ÉÐÎ³É$2^n$¸öÐòÁÐ£¬Ã¿¸öÐòÁÐµÄ³¤¶ÈÎª$n-1$¡£×îºóÔÚÇ°$2^{n-1}$¸öÐòÁÐµÄ×îÇ°²¹0£¬ÔÚºó$2^{n-1}$
-¸öÐòÁÐµÄ×îÇ°²¹1£¬ÕâÑù¾ÍÍê³ÉÁËnÎ»¸ñÀ×ÂëµÄÉú³É¡£·Ö±ðÉè¶¨¸ñÀ×ÂëÖÐ0ºÍ1 ´ú±íµÄÑÕÉ«£¬²¢´Ó¸ßÎ»ÏòµÍÎ»ÒÀ´ÎµÝ½ø£¬ÐÎ³Én·ù$2^{n}$Î»µÄ¸ñÀ×Âë
+¸ñÀ×ÂëµÄÉú³É¿É²ÉÓÃµÝ¹é·½Ê½ÊµÏÖ¡£¼ÙÈçÏëÒªÉú³É~n~Î»¸ñÀ×Âë£¬Ôò¿ÉÏÈ½«~$n-1$~Î»¸ñÀ×ÂëµÄ~$2^{n-1}$~¸ö±àÂëÁÐ³ö£¬¶øºóÔÙÒÔ´ÓºóÏòÇ°µÄ
+Ë³Ðò£¬ÖØÐÂÁÐ³öÕâ~$n-1$~Î»¸ñ¸ñÀ×Âë£¬ÐÎ³ÉÐÎ³É~$2^n$~¸öÐòÁÐ£¬Ã¿¸öÐòÁÐµÄ³¤¶ÈÎª~$n-1$¡£×îºóÔÚÇ°~$2^{n-1}$~¸öÐòÁÐµÄ×îÇ°²¹~$0$£¬ÔÚºó$2^{n-1}$~
+¸öÐòÁÐµÄ×îÇ°²¹~1£¬ÕâÑù¾ÍÍê³ÉÁË~n~Î»¸ñÀ×ÂëµÄÉú³É¡£·Ö±ðÉè¶¨¸ñÀ×ÂëÖÐ~0~ºÍ~1~´ú±íµÄÑÕÉ«£¬²¢´Ó¸ßÎ»ÏòµÍÎ»ÒÀ´ÎµÝ½ø£¬ÐÎ³É~$n$~·ù~$2^{n}$~ Î»µÄ¸ñÀ×Âë
 ±àÂëµÄ¹âÕ¤Í¼°¸²¢Í¶ÉäÖÁ±»É¨ÃèÎïÌå±íÃæ¡£ÅÄÉãµ½¼ÓÕÕ¸ñÀ×Âë¹âÕ¤µÄÎïÌåÔÚÍ¼~\ref{fig:gray_project}ÖÐÌåÏÖ£¬´ÓÍ¼ÖÐÎÒÃÇ¿´µ½£¬ºóÈý·ùµÄ¸ñÀ×Âë
-¹âÕ¤ÁÁ¶È×ª»»Æµ·±£¬ÓÈÆäÊÇ×îºóÒ»·ù£¬ÁÁÇøºÍ°µÇøÖ»Õ¼1¸öÏñËØ£¬Õâµ¼ÖÂÔÚÊµ¼Ê´¦ÀíÖÐºÜÄÑ×¼È·Çø·ÖÁÁÇøºÍ°µÇø¡£
+¹âÕ¤ÁÁ¶È×ª»»Æµ·±£¬ÓÈÆäÊÇ×îºóÒ»·ù£¬ÁÁÇøºÍ°µÇøÖ»Õ¼~1~¸öÏñËØ£¬Õâµ¼ÖÂÔÚÊµ¼Ê´¦ÀíÖÐºÜÄÑ×¼È·Çø·ÖÁÁÇøºÍ°µÇø¡£
 
 \begin{figure}[!ht]
 \centering
@@ -1274,8 +1273,8 @@ $cost_{ij}$Îª£º
 ÔÚÊµ¼ÊµÄÏµÍ³ÖÐ£¬³ýÁË¸ñÀ×Âë¹âÕ¤»¹Ê¹ÓÃÁËÎ»ÒÆÂë¹âÕ¤×÷Îª²¹³ä¡£ÕâÊÇÒòÎª£¬µ±¸ñÀ×Âë×ª»»ÆµÂÊ½Ï¸ßÊ±£¬Ã÷°µ¹âÏß¼ä¸ôºÜ½ü£¬
 ÆäÏà»¥¼ä¸ÉÈÅÒÑ²»¿É±ÜÃâºÍºöÂÔ£¬µ¼ÖÂÔÚ
 Ê¶±ð¹âÁÁÇøºÍºÚ°µÇøµÄ´¦ÀíÖÐÒýÈëÎó²î¡£ÎªÁË½â¾öÕâ¸öÎÊÌâ£¬Êµ¼ÊµÄÏµÍ³Ö»Ê¹ÓÃÃ÷°µ¼ä¸ô½Ï´óµÄÈô¸É·ù¸ñÀ×Âë¹âÕ¤£¬
-ÓÉ´ËÒýÆðµÄ·Ö±æÂÊÈ±Ê§²ÉÓÃÎ»ÒÆÂë±ê×¢¡£ÈçÔÚ±¾ÎÄÖÐ²ÉÓÃµÄ¸ñÀ×Âë¹²10·ù£¬ÀíÂÛÉÏ×î¸ß·Ö±æÂÊÎª1024£¬µ«±ä»¯ÆµÂÊ×î¸ßµÄ3·ù´¦ÀíÆðÀ´Ïàµ±À§ÄÑ£¬ÓÚÊÇÖ»²ÉÓÃ7 ·ù¸ñÀ×Âë¹âÕ¤¡£7·ù¸ñÀ×Âë¹âÕ¤µÄ×îÐ¡±ä»¯µ¥ÔªÎª8ÏñËØ£¬ÓÚÊÇ·Ö±æÂÊÏÂ½µÎªÔ­À´µÄ°Ë·ÖÖ®Ò»£¬Îª128¡£
-´ËÊ±ÔÚ¸ñÀ×Âë¹âÕ¤Ã¿¸ö×îÐ¡µÄ±ä»¯µ¥ÔªÖ®ÄÚ·ÖÊ±8´Î£¬¶îÍâÍ¶Éä8ÌõÎ»ÒÆÂëÒÔ¿ÉÒÔÌî²¹ËðÊ§µÄ·Ö±æÂÊ£¬×îÖÕµÄË®Æ½·Ö±æÂÊÎª1024¡£¿í¶ÈÎª8µÄÎ»ÒÆÂëÈçÍ¼~\ref{figure:move} ËùÊ¾¡£
+ÓÉ´ËÒýÆðµÄ·Ö±æÂÊÈ±Ê§²ÉÓÃÎ»ÒÆÂë±ê×¢¡£ÈçÔÚ±¾ÎÄÖÐ²ÉÓÃµÄ¸ñÀ×Âë¹²~10~·ù£¬ÀíÂÛÉÏ×î¸ß·Ö±æÂÊÎª~1024£¬µ«ÔÚ±ä»¯ÆµÂÊ×î¸ßµÄ~3~·ùÍ¼ÏñÖÐ£¬¹âÕ¤µÄÃ÷°µÇøÓò½»ÌæÆµ·±¡¢»¥ÏàÓ°Ïì£¬µ¼ÖÂºÜÄÑ×¼È·¶¨Î»±ß½ç¡£ÎªÁË½â¾öÕâ¸öÎÊÌâ£¬Êµ¼ÊµÄÏµÍ³ÖÐÖ»Í¶ÉäÇ°~7~·ù±ä»¯½ÏÐ¡µÄ¸ñÀ×Âë¹âÕ¤¡£Óë~10~·ù¸ñÀ×Âë¹âÕ¤Ïà±È£¬7~ ·ù¸ñÀ×Âë¹âÕ¤µÄ×îÐ¡±ä»¯µ¥ÔªÎª~8~ÏñËØ£¬·Ö±æÂÊÏÂ½µÎªÔ­À´µÄ°Ë·ÖÖ®Ò»£¬Îª~128¡£ÎªÁË´ïµ½ÏàÍ¬·Ö±æÂÊ£¬
+´ËÊ±ÔÚ¸ñÀ×Âë¹âÕ¤Ã¿¸ö×îÐ¡µÄ±ä»¯µ¥ÔªÖ®ÄÚ·ÖÊ±~8~´Î£¬Ã¿´ÎÍ¶Éä~1~ÌõÎ»ÒÆÂë£¬8~·ùÎ»ÒÆÂëÊ¹µÃ·Ö±æÂÊÉýÎª~1024¡£ ¿í¶ÈÎª~8~µÄÎ»ÒÆÂëÈçÍ¼~\ref{figure:move} ËùÊ¾¡£
 \begin{figure}[!ht]
   \centering
   \includegraphics[width=0.8\textwidth]{sweep.eps}
@@ -1283,7 +1282,7 @@ $cost_{ij}$Îª£º
 \end{figure}
 \section{±àÂëÍ¼ÏñµÄ´¦Àí}
 \subsection{ÓÐÐ§ÇøÓòµÄÑ¡Ôñ}
-Êµ¼ÊÉÏ£¬ÒÔ½á¹¹¹âÎª»ù´¡µÄ3Î¬ÖØ½¨¿ÉÄÜ»á´æÔÚ²âÁ¿ËÀ½Ç£¬¼´½á¹¹¹âÎÞ·¨ÕÕÉäµ½»òÕÕÏà»úÎÞ·¨²¶×½µÄÇøÓò£¬ÆäÊ¾ÒâÍ¼ÈçÍ¼~\ref{fig:dead}¡£
+Êµ¼ÊÉÏ£¬ÒÔ½á¹¹¹âÎª»ù´¡µÄ~3~Î¬ÖØ½¨¿ÉÄÜ»á´æÔÚ²âÁ¿ËÀ½Ç£¬¼´½á¹¹¹âÎÞ·¨ÕÕÉäµ½»òÕÕÏà»úÎÞ·¨²¶×½µÄÇøÓò£¬ÆäÊ¾ÒâÍ¼ÈçÍ¼~\ref{fig:dead}¡£
 
 \begin{figure}[!ht]
   \centering
@@ -1310,7 +1309,7 @@ $cost_{ij}$Îª£º
   \caption{²âÁ¿ËÀ½ÇµÄÊ¾ÒâÍ¼}\label{fig:dead}
 \end{figure}
 
-ÔÚÍ¼~\ref{fig:dead}ÖÐ£¬ÎïÌå±íÃæµÄABºÍCD²¿·ÖÎª²âÁ¿ËÀ½Ç£¬ÆäÖÐAB²¿·ÖÊÇÒòÎªÉãÏñ»úÎÞ·¨²¶×½µ½£¬CD²¿·Ö±íÃæÔòÊÇÒòÎªÍ¶Ó°ÒÇÎÞ·¨ÕÕÉäµ½¡£
+ÔÚÍ¼~\ref{fig:dead}ÖÐ£¬ÎïÌå±íÃæµÄ~AB~ºÍ~CD~²¿·ÖÎª²âÁ¿ËÀ½Ç£¬ÆäÖÐ~AB~²¿·ÖÊÇÒòÎªÉãÏñ»úÎÞ·¨²¶×½µ½£¬CD~²¿·Ö±íÃæÔòÊÇÒòÎªÍ¶Ó°ÒÇÎÞ·¨ÕÕÉäµ½¡£
 
 ËÀ½ÇµÄ´æÔÚ»áÔÚ½âÂëÍ¼ÏñÒýÈë¸ÉÈÅ£¬Ó¦ÊÂÏÈÓèÒÔ±ê¼Ç²¢ÔÚ½âÂëºÍ¼ÆËãµãÔÆÊ±ÅÅ³ý´Ë²¿·Ö¡£·½·¨ÔÚÍ¶Éä¸ñÀ×Âë¹âÕ¤Ö®Ç°Í¶ÉäÈ«ÁÁµÄÍ¶Éä¹â£¬
 ²¢Í¨¹ý¶þÖµ»¯µÄ·½·¨¼ì²â³öÓÐÐ§ÇøÓò¡£Í¼~\ref{fig:gray_valid}ÖÐ£¬(a)ÊÇÔÚÎÞÈÎºÎÍ¶Ó°ÏÂµÄÅÄÉãÍ¼Ïñ£¬(b)ÊÇÍ¶ÉäÈ«ÆÁ¹âÊ±ÅÄÉãµÄÍ¼Ïñ£¬(c)ÊÇ
@@ -1333,9 +1332,9 @@ $cost_{ij}$Îª£º
 ÔÚ½âÎö¸ñÀ×Âë¹âÕ¤Ö®Ç°£¬±¾ÎÄÏÈ½âÂëÎ»ÒÆÍ¼Âë¡£ÔÚ¼ÓÕÕ¸ñÀ×Âë¹âÕ¤Ö®Ç°£¬ÐèÒªÈÃÉãÏñ»ú¼ÇÂ¼ÔÚÎÞÈÎºÎ¹âÕÕÌõ¼þÏÂµÄ»·¾³Í¼Ïñ£¬ ¼ÇÎª$I_{background}$¡£ÌáÈ¡Î»ÒÆÍ¼ÂëµÄ´¦Àí²½Öè¿É±íÊ¾Îª£º
 \begin{enumerate}
   \item ¼ÆËã $I_{sub}=I_{move}-I_{background}$
-  \item °´ÕÕÔ­Í¶Éä¹âÖÐ¸÷Í¨µÀµÄ±ÈÀý½«$I_{sub}$ÖÐµÄR£¬G£¬BÍ¨µÀºÏ²¢Îªµ¥Ò»Í¨µÀ£¬¼ÇÎª$I_{channel}$
+  \item °´ÕÕÔ­Í¶Éä¹âÖÐ¸÷Í¨µÀµÄ±ÈÀý½«$I_{sub}$ÖÐµÄ~R£¬G£¬B~Í¨µÀºÏ²¢Îªµ¥Ò»Í¨µÀ£¬¼ÇÎª$I_{channel}$
 
-     ¼ÙÉèÍ¶Éä¹âµÄÑÕÉ«Îª(R, G, B)£¬ ÄÇÃ´:
+     ¼ÙÉèÍ¶Éä¹âµÄÑÕÉ«Îª~(R, G, B)£¬ ÄÇÃ´:
      \begin{equation}
        I_{channel} = \frac{R}{R+G+B}\cdot{}I_{sub}^R+\frac{G}{R+G+B}\cdot{}I_{sub}^G+\frac{B}{R+G+B}\cdot{}I_{sub}^B
      \end{equation}
@@ -1354,10 +1353,10 @@ $cost_{ij}$Îª£º
 Î»ÒÆÍ¼ÂëµÄ½âÎö¶ÔµãÔÆµÄ¾«È·³Ì¶ÈÓÐºÜ´óÓ°Ïì£¬±¾´¦²ÉÓÃÓëÑÕÉ«ÌõÎÆÐòÁÐÖÐµÄ·åÖµ¶¨Î»·½·¨Ò»ÑùµÄËã·¨¿É´ïµ½ÑÇÏñËØµÄ¾«¶È¡£ÁíÒ»·½Ãæ£¬
 ½ÓÏÂÀ´µÄ¸ñÀ×Âë¹âÕ¤µÄ½âÎöÔòÐèÒªÓÃµ½Î»ÒÆÍ¼ÂëÐÅÏ¢¡£
 \subsection{½âÂë¸ñÀ×Âë¹âÕ¤}
-ÔÚ $t$ Ê±¿ÌÅÄÉãµ½µÄ¼ÓÕÕ¸ñÀ×Âë¹âÕ¤µÄÍ¼Ïñ¼ÇÎª $I_{gray}$£¬ÄÇÃ´´¦Àí·½Ê½²½Öè¿ÉÁÐÎª£º
+ÔÚ~$t$~Ê±¿ÌÅÄÉãµ½µÄ¼ÓÕÕ¸ñÀ×Âë¹âÕ¤µÄÍ¼Ïñ¼ÇÎª~$I_{gray}$£¬ÄÇÃ´´¦Àí·½Ê½²½Öè¿ÉÁÐÎª£º
 \begin{enumerate}
-  \item ¼ÆËã $I_{sub}=I_{gray}-I_{background}$
-  \item ºÏ²¢$I_{sub}$µÄR£¬G£¬BÍ¨µÀÎªµ¥Ò»Í¨µÀ£¬¼ÇÎª$I_{channel}$
+  \item ¼ÆËã~$I_{sub}=I_{gray}-I_{background}$
+  \item ºÏ²¢~$I_{sub}$~µÄR£¬G£¬BÍ¨µÀÎªµ¥Ò»Í¨µÀ£¬¼ÇÎª~$I_{channel}$
 
      ¼ÙÉèÍ¶Éä¹âµÄÑÕÉ«Îª(R, G, B)£¬ ÄÇÃ´:
      \begin{equation}
@@ -1375,44 +1374,44 @@ $cost_{ij}$Îª£º
   \caption{(a),Ò»·ù¼ÓÕÕÁË¸ñÀ×Âë¹âÕ¤µÄÎïÌå (b),ºÏ²¢Îªµ¥Í¨µÀ} \label{figure:gray_process}
 \end{figure}
 
-Í¼~\ref{figure:gray_process}Õ¹Ê¾ÁËl±àÂëÍ¼ÏñµÄ´¦Àí¹ý³Ì£¬(a)ÊÇÉãÏñ»úÅÄÉãµ½µÄÍ¼Ïñ£¬(b)ÊÇ½«(a)´ÓRGB×ª»»Îª»Ò¶ÈÍ¼ºóµÃµ½µÄ
+Í¼~\ref{figure:gray_process}Õ¹Ê¾ÁË±àÂëÍ¼ÏñµÄ´¦Àí¹ý³Ì£¬(a)ÊÇÉãÏñ»úÅÄÉãµ½µÄÍ¼Ïñ£¬(b)ÊÇ½«(a)¼õÈ¥±³¾°Í¼Ïñºó´Ó~RGB~×ª»»Îª»Ò¶ÈÍ¼ºóµÃµ½µÄ
 Í¼Ïñ¡£
 
 Êµ¼ÊÉÏ£¬¶þÖµ»¯Í¼ÏñÊÇ×¼È·½âÂëµÄ¹Ø¼ü¡£½«Ò»·ùÍ¼Ïñ¶þÖµ»¯µÄ·½·¨ÓÐ¶àÖÖ£¬´óÖÂ¿É·ÖÎªÈ«¾ÖãÐÖµ·¨ºÍ¾Ö²¿ãÐÖµ·¨£¬¶øãÐÖµµÄÑ¡ÔñÖÁ¹ØÖØÒª¡£
-È«¾ÖãÐÖµ·¨ÊÇÖ¸£¬Ñ¡È¡µ¥Ò»µÄãÐÖµ£¬ÊÊÓÃÓÚÕû·ùÍ¼Ïñ²¢¶þÖµ»¯£¬µäÐÍµÄËã·¨°üÀ¨Ö±·½Í¼±ä»»·¨£¬OTSU·¨(´óÂÉ·¨)¡£È«¾ÖãÐÖµ·¨ËäÈ»¼òµ¥µ«
+È«¾ÖãÐÖµ·¨ÊÇÖ¸£¬Ñ¡È¡µ¥Ò»µÄãÐÖµ£¬ÊÊÓÃÓÚÕû·ùÍ¼Ïñ²¢¶þÖµ»¯£¬µäÐÍµÄËã·¨°üÀ¨Ö±·½Í¼±ä»»·¨£¬OTSU~·¨(´óÂÉ·¨)¡£È«¾ÖãÐÖµ·¨ËäÈ»¼òµ¥µ«
 È´²»ÄÜ±íÏÖÍ¼ÏñµÄÏ¸½Ú¡£¶ø¾Ö²¿ãÐÖµ·¨ÊÇÖ¸£¬½«Í¼Ïñ°´ÕÕÄ³ÖÖ¹æÔò»®·ÖÎªÈô¸É²¿·Ö£¬ÔÚ¸÷²¿·ÖÖ®ÄÚÑ¡È¡ãÐÖµ²¢ÊÊÓÃÓÚ´Ë²¿·ÖÒÔ¶þÖµ»¯¡£Ïà±ÈÖ®ÏÂ£¬¾Ö²¿ãÐÖµ·¨ËäÈ»Ã»ÓÐ´Ó¸ù±¾ÉÏ½â¾öÕâ¸öÈ±ÏÝ£¬µ«½ÏÈ«¾ÖãÐÖµ·¨ÄÜ½«Ï¸½Ú±íÏÖµØ¸üºÃ¡£
 
-ÁíÒ»·½Ãæ£¬ÔÚ±¾ÏµÍ³ÖÐ£¬ÉÔ¼ÓÍÆÀí±ã¿ÉÖªµÀ£¬¸ñÀ×Âë¹âÕ¤µÄ±ßÔµÓ¦µ±Î»ÓÚµÚ8ÌõÎ»ÒÆÂëºÍÏàÁÚ¸ñÀ×Âë¹âÕ¤±ä»¯µ¥ÔªµÄµÚ1ÌõÎ»ÒÆÂëÖ®¼ä£¬Ò²¾ÍÊÇËµ£¬¼ì²âµÃµ½µÄÎ»ÒÆÂëÎ»ÖÃ¶Ô¸ñÀ×Âë¹âÕ¤µÄ±ßÔµÎ»ÖÃÌí¼ÓÁËÔ¼ÊøºÍÖ¸µ¼£¬¹âÕ¤±ßÔµµÄÈ·¶¨ÐèÒª¿¼ÂÇ¹âÕ¤ÁÁ¶ÈµÄ±ä»¯£¬Ò²ÐèÒª¿¼ÂÇÎ»ÒÆÂëµÄÔ¼ÊøÌõ¼þ¡£±¾ÎÄ²ÉÓÃ¸ÅÂÊµÄ·½Ê½×ÛºÏ¿¼ÂÇÕâÁ½¸öÒòËØ²¢×îÖÕÈ·¶¨±ßÔµÎ»ÖÃ£¬¾ßÌå¿É±íÊöÎª£º
+ÁíÒ»·½Ãæ£¬ÔÚ±¾ÏµÍ³ÖÐ£¬ÉÔ¼ÓÍÆÀí±ã¿ÉÖªµÀ£¬¸ñÀ×Âë¹âÕ¤µÄ±ßÔµÓ¦µ±Î»ÓÚµÚ~8~ÌõÎ»ÒÆÂëºÍÏàÁÚ¸ñÀ×Âë¹âÕ¤±ä»¯µ¥ÔªµÄµÚ~1~ÌõÎ»ÒÆÂëÖ®¼ä£¬Ò²¾ÍÊÇËµ£¬¼ì²âµÃµ½µÄÎ»ÒÆÂëÎ»ÖÃ¶Ô¸ñÀ×Âë¹âÕ¤µÄ±ßÔµÎ»ÖÃÌí¼ÓÁËÔ¼ÊøºÍÖ¸µ¼£¬¹âÕ¤±ßÔµµÄÈ·¶¨ÐèÒª¿¼ÂÇ¹âÕ¤ÁÁ¶ÈµÄ±ä»¯£¬Ò²ÐèÒª¿¼ÂÇÎ»ÒÆÂëµÄÔ¼ÊøÌõ¼þ¡£±¾ÎÄ²ÉÓÃ¸ÅÂÊµÄ·½Ê½×ÛºÏ¿¼ÂÇÕâÁ½¸öÒòËØ²¢×îÖÕÈ·¶¨±ßÔµÎ»ÖÃ£¬¾ßÌå¿É±íÊöÎª£º
 \begin{enumerate}
-  \item Ê¹ÓÃ¾Ö²¿ãÐÖµ·¨¶þÖµ»¯$I_{channel}$£¬²¢³õ²½È·¶¨±ßÔµµÄ´óÖÂÎ»ÖÃ£¬¼ûÍ¼~\ref{fig:two_lines}(b)¡£¼ÙÉè±»È·¶¨µÄ±ßÔµÎ»ÖÃÎªt£¬ÄÇÃ´°´ÕÕ¸ßË¹Ë¥¼õ£¬Óët ÏàÁÚµÄÎ»ÖÃi¿ÉÄÜÎª±ßÔµµÄ¸ÅÂÊ¿É±íÊ¾Îª£º
+  \item Ê¹ÓÃ¾Ö²¿ãÐÖµ·¨¶þÖµ»¯~$I_{channel}$£¬²¢³õ²½È·¶¨±ßÔµµÄ´óÖÂÎ»ÖÃ£¬¼ûÍ¼~\ref{fig:two_lines}(b)¡£¼ÙÉè±»È·¶¨µÄ±ßÔµÎ»ÖÃÎª~$t$£¬ÄÇÃ´°´ÕÕ¸ßË¹Ë¥¼õ£¬Óë~$t$~ÏàÁÚµÄÎ»ÖÃ~$i$~¿ÉÄÜÎª±ßÔµµÄ¸ÅÂÊ¿É±íÊ¾Îª£º
      \begin{equation}\label{eq:one_edge}
       p_t(i)=e^{\left(\frac{i-t}{c_1}\right)^2}
       \end{equation}
-      ´Ë´¦µÄ$c_1$Ñ¡ÔñÎª1¡£
-  \item È·¶¨i¸½½üµÚ8ÌõÎ»ÒÆÂëºÍÏàÁÚ¸ñÀ×Âë¹âÕ¤±ä»¯µ¥ÔªµÄµÚ1ÌõÎ»ÒÆÂëµÄÎ»ÖÃ£¬¼ûÍ¼~\ref{fig:two_lines}(a)£¬·Ö±ð¼ÇÎªlºÍh£¬lºÍhÎª±ßÔµÎ»ÖÃÌá¹©ÁËÏÞÖÆÒòËØ£¬ÔÚ´ËÔ¼ÊøÌõ¼þÏÂ£¬Î»ÖÃi¿ÉÄÜÎª±ßÔµµÄ¸ÅÂÊ¿É±íÊ¾Îª£º
+      ´Ë´¦µÄ~$c_1$~Ñ¡ÔñÎª~1¡£
+  \item È·¶¨~$i$~¸½½üµÚ~$8$~ÌõÎ»ÒÆÂëºÍÏàÁÚ¸ñÀ×Âë¹âÕ¤±ä»¯µ¥ÔªµÄµÚ~$1$~ÌõÎ»ÒÆÂëµÄÎ»ÖÃ£¬¼ûÍ¼~\ref{fig:two_lines}(a)£¬·Ö±ð¼ÇÎª~$l$~ ºÍ~$h$~£¬~$l$~ºÍ~$h$~ Îª±ßÔµÎ»ÖÃÌá¹©ÁËÏÞÖÆÒòËØ£¬ÔÚ´ËÔ¼ÊøÌõ¼þÏÂ£¬Î»ÖÃ~$i$~¿ÉÄÜÎª±ßÔµµÄ¸ÅÂÊ¿É±íÊ¾Îª£º
       \begin{equation}\label{eq:two_line}
       p_c(i)=e^{\left(\frac{2i-l-h}{2c_2}\right)^2}
       \end{equation}
-      ´Ë´¦µÄ$c_z$Éè¶¨Îª$\frac{h-l}{1}$£¬¼´lºÍhÏà¾àÔ½Ô¶$p_c(i)$Ô½Æ½»º£¬·´Ö®ÔòÔ½¶¸ÇÍ¡£
-  \item ½áºÏÉÏÊöÁ½¸öÒòËØ£¬Î»ÖÃi×îÖÕ¿ÉÄÜÎªÕæÕý±ß½çµÄ¸ÅÂÊÎª£º
+      ´Ë´¦µÄ~$c_z$~Éè¶¨Îª~$\frac{1}{h-l}$£¬¼´~$l$~ºÍ~$h$~Ïà¾àÔ½Ô¶~$p_c(i)$~Ô½Æ½»º£¬·´Ö®ÔòÔ½¶¸ÇÍ¡£
+  \item ½áºÏÉÏÊöÁ½¸öÒòËØ£¬Î»ÖÃ~$i$~×îÖÕ¿ÉÄÜÎªÕæÕý±ß½çµÄ¸ÅÂÊÎª£º
   \begin{equation}\label{eq:edge}
       p(i)=p_t(i)\cdot{}p_c(i)=e^{\left(\frac{i-t}{c_1}\right)^2}\cdot{}e^{\left(\frac{2i-l-h}{2c_2}\right)^2}
       \end{equation}
-      ×îÖÕ£¬È¡$p(i)$×î´óÖµ´¦µÄi×÷Îª¸ñÀ×Âë¹âÕ¤µÄ×îÖÕ±ßÔµÎ»ÖÃ¡£
+      ×îÖÕ£¬È¡~$p(i)$~×î´óÖµ´¦µÄ~$i$~×÷Îª¸ñÀ×Âë¹âÕ¤µÄ×îÖÕ±ßÔµÎ»ÖÃ¡£
 \end{enumerate}
 \begin{figure}[!ht]
 \centering
 \subfloat[]{
-\includegraphics[width=0.6\textwidth]{edge2.jpg}
+\includegraphics[width=0.6\textwidth]{edge2.eps}
 }\\
 \subfloat[]{
-\includegraphics[width=0.6\textwidth]{edge.jpg}
+\includegraphics[width=0.6\textwidth]{edge.eps}
 }
-\cacption{(a)Á½ÌõÏàÁÚµÄ±ß½çÎ»ÒÆÂëÏßÌõ (b)ãÐÖµ·Ö¸îµÃµ½µÄ±ßÔµÏß£¬¿É¼û¶þÕßÓÐÊ±ºò²¢²»ÄÜ·ûºÏµÃºÜºÃ}
+\caption{(a)Á½ÌõÏàÁÚµÄ±ß½çÎ»ÒÆÂëÏßÌõ (b)ãÐÖµ·Ö¸îµÃµ½µÄ±ßÔµÏß}
 \label{fig:two_lines}
 \end{figure}
 
-Í¼~\ref{fig:two_lines}(a)ÊÇÁ½ÌõÏàÁÚµÄ±ß½çÎ»ÒÆÂëÏßÌõ£¬ÀíÏëÇé¿öÏÂ¸ñÀ×Âë¹âÕ¤µÄ±ßÔµÓ¦Î»ÓÚÏßÌõÖ®¼ä£¬°´ÕÕÊ½~\label{eq:two_line}½«Æä×ª»¯ÎªÍ¼~\label{fig:fig}(a)¡£Í¼~\ref{fig:two_lines}(b)ÊÇ¶þÖµ»¯µÃµ½µÄ±ß½çÎ»ÖÃ£¬°´ÕÕÊ½~\label{eq:one_edge} ½«Æä×ª»¯ÎªÍ¼~\label{fig:fig}(b)£¬×îÖÕÊ½~\label{eq:edge}ºÏ²¢µÃµ½Í¼~\label{fig:fig}(c)²¢È¡Æä×î´óÎ»ÖÃÎª¸ñÀ×Âë¹âÕ¤µÄ±ß½ç£¬Ð§¹û¼ûÍ¼~\ref{fig:edge_result}¡£
+Í¼~\ref{fig:two_lines}(a)ÊÇÁ½ÌõÏàÁÚµÄ±ß½çÎ»ÒÆÂëÏßÌõ£¬ÀíÏëÇé¿öÏÂ¸ñÀ×Âë¹âÕ¤µÄ±ßÔµÓ¦Î»ÓÚÏßÌõÖ®¼ä£¬°´ÕÕÊ½~\ref{eq:two_line}½«Æä×ª»¯ÎªÍ¼~\ref{fig:fig}(a)¡£Í¼~\ref{fig:two_lines}(b)ÊÇ¶þÖµ»¯µÃµ½µÄ±ß½çÎ»ÖÃ£¬°´ÕÕÊ½~\ref{eq:one_edge} ½«Æä×ª»¯ÎªÍ¼~\ref{fig:fig}(b)£¬×îÖÕ°´ÕÕÊ½~\ref{eq:edge}ºÏ²¢µÃµ½Í¼~\ref{fig:fig}(c)²¢È¡Æä×î´óÎ»ÖÃÎª¸ñÀ×Âë¹âÕ¤µÄ±ß½ç£¬Ð§¹û¼ûÍ¼~\ref{fig:edge_result}¡£
 
 \begin{figure}[!ht]
 \centering
@@ -1434,18 +1433,19 @@ $cost_{ij}$Îª£º
   \draw[dashed] (2.5,-2.7) -- (2.5, 5);
   \draw[dashed] (3,-2.7) -- (3, 5);
 \end{tikzpicture}
-\caption{(a),$p_c$ (b),$p_t$ (c),p}\label{fig:fig}
+\caption{(a),~$p_c$\quad(b),~$p_t$\quad(c),~p}\label{fig:fig}
 \end{figure}
 
 \begin{figure}[!ht]
 \centering
-\includegraphics[width=0.6\textwidth]{edge3.jpg}
-\cacption{¸ñÀ×Âë¹âÕ¤µÄ±ß½ç}
+\includegraphics[width=0.6\textwidth]{edge3.eps}
+\caption{×îÖÕÈ·¶¨µÄ¸ñÀ×Âë¹âÕ¤±ß½ç}
 \label{fig:edge_result}
 \end{figure}
 
 \section{ÖØ½¨½á¹û}
-ÖØ½¨µÄ½á¹ûÈçÍ¼£º
+±¾ÎÄ´Ó¶à¸ö½Ç¶È¶ÔÄ£ÐÍ½øÐÐÁË±íÃæÖØ½¨£¬µÃµ½ÁË²»Í¬½Ç¶ÈµÄ~3D~µãÔÆÊý¾Ý£¬ÖØ½¨µÄ½á¹ûÈçÍ¼~\label{fig:gray_result}¡£
+
 \begin{figure}[!ht]
 \centering
 \subfloat[]{
@@ -1467,41 +1467,41 @@ $cost_{ij}$Îª£º
   \caption{ÖØ½¨½á¹û£¬×ó²àÍ¼Îª³¡¾°Í¼£¬ÓÒ²àÎªÖØ½¨µÄµãÔÆ}\label{fig:gray_result}
 \end{figure}
 \section{±¾ÕÂ×Ü½á}
-±¾ÕÂ½éÉÜÁË»ùÓÚ¸ñÀ×Âë¹âÕ¤µÄ3DÖØ½¨·½·¨¡£ÏµÍ³½áºÏ¸ñÀ×Âë¹âÕ¤ºÍÏàÒÆÏßÌõ£¬²¢ÔÚ¸ñÀ×Âë¹âÕ¤µÄ±ßÔµÊ¶±ðµÈ·½·¨½øÐÐÁË´´ÐÂ£¬Ìá³öÁË
+±¾ÕÂ½éÉÜÁË»ùÓÚ¸ñÀ×Âë¹âÕ¤µÄ~3D~ÖØ½¨·½·¨¡£ÏµÍ³½áºÏ¸ñÀ×Âë¹âÕ¤ºÍÏàÒÆÏßÌõ£¬²¢ÔÚ¸ñÀ×Âë¹âÕ¤µÄ±ßÔµÊ¶±ðµÈ·½·¨½øÐÐÁË´´ÐÂ£¬Ìá³öÁË
 »ùÓÚ¸ÅÂÊµÄ±ßÔµÊ¶±ð·½·¨£¬È¡µÃÁËÀíÏëµÄÖØ½¨Ð§¹û¡£
 \chapter{×Ü½áºÍÕ¹Íû}
-±¾ÎÄÊ×ÏÈ¶Ô3DÖØ½¨µÄÔ­ÀíºÍ½á¹¹¹â¼¼Êõ½øÐÐÁËÑÐ¾¿·ÖÎöºÍ×Ü½á£¬ÔÚ×ÛºÏ¿¼ÂÇÖØ½¨ËùÐèÊ±¼äºÍÖØ½¨¾«¶ÈµÈÒòËØºóÑ¡Ôñ»ùÓÚ¸ñÀ×Âë¹âÕ¤µÄÖØ½¨·½·¨ºÍ»ùÓÚDe BruijnÐòÁÐ±àÂëÌõÎÆµÄ½á¹¹¹â·½·¨ÊµÏÖÁË3DÖØ½¨Ç°ÕßÊôÓÚÊ±¼ä±àÂë¶øºóÕßÊôÓÚ¿Õ¼ä±àÂë¡£ÔÚÊµ¼ÊÊ¹ÓÃÖÐ¿É×ÛºÏ¿¼ÂÇ£¬Áé»îÑ¡ÔñÊ¹ÓÃ·½·¨¡£
+±¾ÎÄÊ×ÏÈ¶Ô~3D~ÖØ½¨µÄÔ­ÀíºÍ½á¹¹¹â¼¼Êõ½øÐÐÁËÑÐ¾¿·ÖÎöºÍ×Ü½á£¬ÔÚ×ÛºÏ¿¼ÂÇÖØ½¨ËùÐèÊ±¼äºÍÖØ½¨¾«¶ÈµÈÒòËØºóÑ¡Ôñ»ùÓÚ¸ñÀ×Âë¹âÕ¤µÄÖØ½¨·½·¨ºÍ»ùÓÚ~De Bruijn~ÐòÁÐ±àÂëÌõÎÆµÄ½á¹¹¹â·½·¨ÊµÏÖÁË~3D~ÖØ½¨Ç°ÕßÊôÓÚÊ±¼ä±àÂë¶øºóÕßÊôÓÚ¿Õ¼ä±àÂë¡£ÔÚÊµ¼ÊÊ¹ÓÃÖÐ¿É×ÛºÏ¿¼ÂÇ£¬Áé»îÑ¡ÔñÊ¹ÓÃ·½·¨¡£
 \section{ÑÐ¾¿×Ü½á}
-±¾ÎÄÖ÷ÒªµÄÑÐ¾¿ÄÚÈÝ°üÀ¨£ºÉãÏñ»ú-Í¶Ó°ÒÇÏµÍ³¶¨±ê¡¢½á¹¹¹âµÄÑ¡Ôñ¡¢½á¹¹¹âÌØÕ÷Ê¶±ðµÈ·½·¨£¬Ìá³öÁË$M$Í¨µÀ¡¢ÀëÉ¢Ç÷ÊÆ±ä»»ºÍ¸ñÀ×Âë¹âÕ¤±ßÔµÊ¶±ðµÈ¸ÅÄîºÍ·½·¨£¬¾ßÌå×Ü½áÎªÈçÏÂ£º
+±¾ÎÄÖ÷ÒªµÄÑÐ¾¿ÄÚÈÝ°üÀ¨£ºÉãÏñ»ú-Í¶Ó°ÒÇÏµÍ³¶¨±ê¡¢½á¹¹¹âµÄÑ¡Ôñ¡¢½á¹¹¹âÌØÕ÷Ê¶±ðµÈ·½·¨£¬Ìá³öÁË~$M$~Í¨µÀ¡¢ÀëÉ¢Ç÷ÊÆ±ä»»ºÍ¸ñÀ×Âë¹âÕ¤±ßÔµÊ¶±ðµÈ¸ÅÄîºÍ·½·¨£¬¾ßÌå×Ü½áÎªÈçÏÂ£º
 
 \subsection{ÉãÏñ»ú-Í¶Ó°ÒÇÏµÍ³¶¨±ê}
 
-  ¶ÔÉãÏñ»ú-Í¶Ó°ÒÇÏµÍ³½øÐÐ¶¨±êÊÇÊµÏÖ¾«È·3DÖØ½¨µÄÇ°Ìá¡£±¾ÎÄ·ÖÎöÁËÉãÏñ»úµÄ³ÉÏñÄ£ÐÍºÍ»û±äÔ­Òò£¬ÍÆµ¼ÁË×ø±êÏµ×ª»»¹ØÏµ£¬²¢Ê¹ÓÃÆåÅÌ¸ñ×÷Îª¶¨±ê°å¶øÈ·Á¢ÁËÉãÏñ»ú¶¨±ê¹ý³Ì¡£±¾ÎÄ½«Í¶Ó°ÒÇÊÓ×÷Äæ³ÉÏñÏµÍ³£¬²¢ÀûÓÃÉãÏñ»ú¶¨±ê²ÎÊýÊµÏÖÁËÍ¶Ó°ÒÇµÄ¶¨±ê¡£
+  ¶ÔÉãÏñ»ú-Í¶Ó°ÒÇÏµÍ³½øÐÐ¶¨±êÊÇÊµÏÖ¾«È·~3D~ÖØ½¨µÄÇ°Ìá¡£±¾ÎÄ·ÖÎöÁËÉãÏñ»úµÄ³ÉÏñÄ£ÐÍºÍ»û±äÔ­Òò£¬ÍÆµ¼ÁË×ø±êÏµ×ª»»¹ØÏµ£¬²¢Ê¹ÓÃÆåÅÌ¸ñ×÷Îª¶¨±ê°å¶øÈ·Á¢ÁËÉãÏñ»ú¶¨±ê¹ý³Ì¡£±¾ÎÄ½«Í¶Ó°ÒÇÊÓ×÷Äæ³ÉÏñÏµÍ³£¬²¢ÀûÓÃÉãÏñ»ú¶¨±ê²ÎÊýÊµÏÖÁËÍ¶Ó°ÒÇµÄ¶¨±ê¡£
 
 \subsection{½á¹¹¹âÑ¡ÔñºÍÉè¼Æ}
 
-  ±¾ÎÄÑ¡ÔñÁ½Àà½á¹¹¹âÊµÏÖ3DÖØ½¨£ºÊ±¼ä±àÂëµÄ¸ñÀ×Âë¹âÕ¤ºÍ¿Õ¼ä±àÂëµÄDe BruijnÐòÁÐ±àÂëÑÕÉ«ÌõÎÆ¡£ÔÚDe BruijnÐòÁÐ±àÂëÌõÎÆµÄÑÕÉ«Ñ¡ÔñÖÐ£¬±¾ÎÄÑ¡ÔñÔÚÉ«¶È¿Õ¼äÖÐ·Ö²¼½ÏÎªÀëÉ¢µÄ5ÖÖÑÕÉ«×÷Îª±àÂëÑÕÉ«ÒÔ±ãÏßÌõ¼ì²âºÍÑÕÉ«Ê¶±ð¡£ÔÚ¸ñÀ×Âë¹âÕ¤ÖÐÓÖ½áºÏÏàÒÆÌõÎÆµÄ·½·¨ÊµÏÖÁË¸ß·Ö±æÂÊµÄ3DÖØ½¨¡£
+  ±¾ÎÄÑ¡ÔñÁ½Àà½á¹¹¹âÊµÏÖ~3D~ÖØ½¨£ºÊ±¼ä±àÂëµÄ¸ñÀ×Âë¹âÕ¤ºÍ¿Õ¼ä±àÂëµÄ~De Bruijn~ÐòÁÐ±àÂëÑÕÉ«ÌõÎÆ¡£ÔÚ~De Bruijn~ÐòÁÐ±àÂëÌõÎÆµÄÑÕÉ«Ñ¡ÔñÖÐ£¬±¾ÎÄÑ¡ÔñÔÚÉ«¶È¿Õ¼äÖÐ·Ö²¼½ÏÎªÀëÉ¢µÄ5ÖÖÑÕÉ«×÷Îª±àÂëÑÕÉ«ÒÔ±ãÏßÌõ¼ì²âºÍÑÕÉ«Ê¶±ð¡£ÔÚ¸ñÀ×Âë¹âÕ¤ÖÐÓÖ½áºÏÏàÒÆÌõÎÆµÄ·½·¨ÊµÏÖÁË¸ß·Ö±æÂÊµÄ~3D~ÖØ½¨¡£
 
 \subsection{ÌØÕ÷Ê¶±ð}
 
-  ÔÚÌØÕ÷Ê¶±ð·½Ãæ±¾ÎÄ×÷ÁË½Ï¶à´´ÐÂ¡£¶ÔÑÕÉ«ÌõÎÆ½á¹¹¹â·½·¨£¬±¾ÎÄÌá³öÁËÑÕÉ«Ð£Õý·½·¨¡¢ÑÕÉ«ÏßÌõ¼ì²â·½·¨ºÍÑÕÉ«Ê¶±ðµÈ·½·¨¡£ÔÚÑÕÉ«Ð£ÕýÖÐ£¬±¾ÎÄÀûÓÃEMDÊµÏÖÁË·´ÉäÂÊÐ£Õý£¬±ÜÃâÁËÎïÌå±íÃæÑÕÉ«¶ÔÑÕÉ«ÏßÌõµÄÓ°Ïì¡£ÔÚÏßÌõ¼ì²âÖÐ£¬±¾ÎÄÌá³öÁË$M$Í¨µÀÒÔÈÚºÏR¡¢G¡¢BÍ¨µÀ£¬Ìá³öÁËÀëÉ¢Ç÷ÊÆ±ä»»(DTT)ÊµÏÖÁËÏßÌõµÄÊ¶±ð¡£ÔÚ¶ÔÓ¦µã½¨Á¢Ö®ÖÐ£¬±¾ÎÄÊ¹ÓÃ¶¯Ì¬¹æ»®·½·¨£¬²¢Éè¼ÆÁËÌØÊâµÄcostº¯Êý£¬ÊµÏÖÁË±»¼ì²â³öÌØÕ÷ÓëÍ¶ÉäÌØÕ÷Ö®¼äµÄ¶ÔÓ¦¹ØÏµ½¨Á¢¡£×îºó£¬±¾ÎÄ½«ÏßÌõµÄÑÕÉ«Ê¶±ð·ÅÔÚÉ«¶È¿Õ¼äÖ®ÖÐ½øÐÐ£¬±ÜÃâÁË»·¾³¹âµÄ¸ÉÈÅ¡£
+  ÔÚÌØÕ÷Ê¶±ð·½Ãæ±¾ÎÄ×÷ÁË½Ï¶à´´ÐÂ¡£¶ÔÑÕÉ«ÌõÎÆ½á¹¹¹â·½·¨£¬±¾ÎÄÌá³öÁËÑÕÉ«Ð£Õý·½·¨¡¢ÑÕÉ«ÏßÌõ¼ì²â·½·¨ºÍÑÕÉ«Ê¶±ðµÈ·½·¨¡£ÔÚÑÕÉ«Ð£ÕýÖÐ£¬±¾ÎÄÀûÓÃ~EMD~ÊµÏÖÁË·´ÉäÂÊÐ£Õý£¬±ÜÃâÁËÎïÌå±íÃæÑÕÉ«¶ÔÑÕÉ«ÏßÌõµÄÓ°Ïì¡£ÔÚÏßÌõ¼ì²âÖÐ£¬±¾ÎÄÌá³öÁË~$M$~Í¨µÀÒÔÈÚºÏ~R¡¢G¡¢B~Í¨µÀ£¬Ìá³öÁËÀëÉ¢Ç÷ÊÆ±ä»»(DTT)ÊµÏÖÁËÏßÌõµÄÊ¶±ð¡£ÔÚ¶ÔÓ¦µã½¨Á¢Ö®ÖÐ£¬±¾ÎÄÊ¹ÓÃ¶¯Ì¬¹æ»®·½·¨£¬²¢Éè¼ÆÁËÌØÊâµÄcostº¯Êý£¬ÊµÏÖÁË±»¼ì²â³öÌØÕ÷ÓëÍ¶ÉäÌØÕ÷Ö®¼äµÄ¶ÔÓ¦¹ØÏµ½¨Á¢¡£×îºó£¬±¾ÎÄ½«ÏßÌõµÄÑÕÉ«Ê¶±ð·ÅÔÚÉ«¶È¿Õ¼äÖ®ÖÐ½øÐÐ£¬±ÜÃâÁË»·¾³¹âµÄ¸ÉÈÅ¡£
 
   ÔÚ»ùÓÚ¸ñÀ×Âë¹âÕ¤µÄÏµÍ³ÖÐ£¬±¾ÎÄÌá³öÁË»ùÓÚ×ÔÊÊÓ¦ãÐÖµºÍ¸ÅÂÊµÄ·½·¨È·¶¨¸ñÀ×Âë¹âÕ¤µÄ±ßÔµ£¬ÊµÏÖÁËºÜºÃµÄÖØ½¨½á¹û¡£
 
 \section{Õ¹Íû}
-±¾ÎÄÀûÓÃÁ½ÖÖ·½·¨£¬ÊµÏÖÁË¾ßÓÐÊÊÓÃ·¶Î§¹ã¡¢Â³°ôÐÔ¸ßµÄ3DÖØ½¨ÏµÍ³¡£ÔÚºóÐøµÄÑÐ¾¿ÖÐ£¬ÔÚÒÔÏÂµÄ·½Ãæ»¹¿ÉÒÔ¼ÌÐøÉîÈëÌ½¾¿¡£
+±¾ÎÄÀûÓÃÁ½ÖÖ·½·¨£¬ÊµÏÖÁË¾ßÓÐÊÊÓÃ·¶Î§¹ã¡¢Â³°ôÐÔ¸ßµÄ~3D~ÖØ½¨ÏµÍ³¡£ÔÚºóÐøµÄÑÐ¾¿ÖÐ£¬ÔÚÒÔÏÂµÄ·½Ãæ»¹¿ÉÒÔ¼ÌÐøÉîÈëÌ½¾¿¡£
 
 \subsection{3DµãÔÆµÄ´¦Àí}
 
-  ±¾ÏµÍ³µÄÖ±½ÓÊä³öÊÇÎïÌå±íÃæµÄ3DµãÔÆ£¬ÔÚºóÐøµÄÑÐ¾¿Ö®ÖÐ£¬»¹¿ÉÒÔÍ¨¹ýDelaunayÈý½Ç»¯µÄ·½·¨½«µãÔÆ×ª»¯Îª±íÃæ¡£¸ü½øÒ»²½µØ£¬
+  ±¾ÏµÍ³µÄÖ±½ÓÊä³öÊÇÎïÌå±íÃæµÄ~3D~µãÔÆ£¬ÔÚºóÐøµÄÑÐ¾¿Ö®ÖÐ£¬»¹¿ÉÒÔÍ¨¹ý~Delaunay~Èý½Ç»¯µÄ·½·¨½«µãÔÆ×ª»¯Îª±íÃæ¡£¸ü½øÒ»²½µØ£¬
   ¿ÉÒÔ½«ÎïÌå±íÃæµÄÊµ¼ÊÎÆÀí¸²¸ÇÓÚ°üÃæÖ®ÉÏ£¬Ê¹µÃÖØ½¨½á¹û¸ü¼ÓÏÊÃ÷ºÍÁ¢Ìå»¯¡£
 
-  ÁíÒ»·½Ãæ£¬±¾ÏµÍ³Ò»´Î3DÖØ½¨Êä³öµÄ½á¹ûÊÇ´ÓÄ³Ò»¸ö½Ç¶È¹Û²âµ½µÄÎïÌå±íÃæ£¬ÒªÏëµÃµ½$360^\circ$µÄÈ«¾°µãÔÆÔòÐèÒª´Ó²»Í¬½Ç¶ÈÖØ½¨
-  ²¢Æ´½Ó¡£Ä¿Ç°¿ÉÒÔÊ¹ÓÃ¶àÌ¨Éè±¸Í¬Ê±´Ó²»Í¬½Ç¶È¶ÔÎïÌå½øÐÐÖØ½¨£¬Ò²¿ÉÒÔÀûÓÃµ¥Éè±¸ºÍÔÆÌ¨×ª¶¯ÎïÌå²¢¶à´ÎÖØ½¨²¢ÊµÏÖÆ´½Ó¡£Ç°ÕßËÙ¶È¿ìµ«ËùÐè³É±¾½Ï¸ß£¬ºóÕß³É±¾µÍµ«Ðè½øÐÐ¶à´ÎÖØ½¨¡£µãÔÆÆ´½Ó¿ÉÀûÓÃBeslºÍMckay\cite{besl1992method}Ìá³öµÄICPËã·¨ÊµÏÖ¡£
+  ÁíÒ»·½Ãæ£¬±¾ÏµÍ³Ò»´Î~3D~ÖØ½¨Êä³öµÄ½á¹ûÊÇ´ÓÄ³Ò»¸ö½Ç¶È¹Û²âµ½µÄÎïÌå±íÃæ£¬ÒªÏëµÃµ½~$360^\circ$~µÄÈ«¾°µãÔÆÔòÐèÒª´Ó²»Í¬½Ç¶ÈÖØ½¨
+  ²¢Æ´½Ó¡£Ä¿Ç°¿ÉÒÔÊ¹ÓÃ¶àÌ¨Éè±¸Í¬Ê±´Ó²»Í¬½Ç¶È¶ÔÎïÌå½øÐÐÖØ½¨£¬Ò²¿ÉÒÔÀûÓÃµ¥Éè±¸ºÍÔÆÌ¨×ª¶¯ÎïÌå²¢¶à´ÎÖØ½¨²¢ÊµÏÖÆ´½Ó¡£Ç°ÕßËÙ¶È¿ìµ«ËùÐè³É±¾½Ï¸ß£¬ºóÕß³É±¾µÍµ«Ðè½øÐÐ¶à´ÎÖØ½¨¡£µãÔÆÆ´½Ó¿ÉÀûÓÃ~Besl~ºÍ~Mckay\cite{besl1992method}Ìá³öµÄ~ICP~Ëã·¨ÊµÏÖ¡£
 
 \subsection{ÊµÏÖÊµÊ±ÖØ½¨}
 
-  ±¾ÎÄËùÊ¹ÓÃµÄ¿Õ¼ä±àÂëµÄ½á¹¹¹âÖ»ÐèÒªÅÄÉãÒ»·ùÍ¼Ïñ¼´¿ÉÊµÏÖ3DÖØ½¨£¬¿É¿¼ÂÇÊ¹ÓÃ²¢ÐÐ´¦ÀíµÄ·½Ê½¼ÓËÙ´¦Àí±È½ÏºÄÊ±µÄ»·½Ú£¬ÈçÀëÉ¢Ç÷ÊÆ±ä»»¡¢¶¯Ì¬¹æ»®¡¢µãÔÆ¼ÆËã£¬²¢×îÖÕÊµÏÖÊµÊ±µÄ3D ÖØ½¨¡£ÊµÊ±µÄ3DÖØ½¨¶ÔÒÆ¶¯ÎïÌå¾ßÓÐºÜ´óÒâÒå¡£
+  ±¾ÎÄËùÊ¹ÓÃµÄ¿Õ¼ä±àÂëµÄ½á¹¹¹âÖ»ÐèÒªÅÄÉãÒ»·ùÍ¼Ïñ¼´¿ÉÊµÏÖ~3D~ÖØ½¨£¬¿É¿¼ÂÇÊ¹ÓÃ²¢ÐÐ´¦ÀíµÄ·½Ê½¼ÓËÙ´¦Àí±È½ÏºÄÊ±µÄ»·½Ú£¬ÈçÀëÉ¢Ç÷ÊÆ±ä»»¡¢¶¯Ì¬¹æ»®¡¢µãÔÆ¼ÆËã£¬²¢×îÖÕÊµÏÖÊµÊ±µÄ~3D~ÖØ½¨¡£ÊµÊ±µÄ~3D~ÖØ½¨¶ÔÒÆ¶¯ÎïÌå¾ßÓÐºÜ´óÒâÒå¡£
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% ¸½¼þ²¿·Ö
@@ -1577,12 +1577,12 @@ $cost_{ij}$Îª£º
 ±¾ÎÄµÄÑÐ¾¿ÄÚÈÝÊÇÔÚÎÒµÄµ¼Ê¦¶¼Ë¼µ¤ÀÏÊ¦¡¢ÖÜÓàÀÏÊ¦¡¢ÓÚÒ«ÀÏÊ¦µÄÏ¤ÐÄÖ¸µ¼ºÍ°ïÖúÏÂÍê³ÉµÄ¡£ÔÚÕû¸öÑÐ¾¿ÉúÑ§Ï°ÆÚ¼ä£¬ÎÒµÄµ¼Ê¦
 ÎªÎÒÌá¹©ÁË×¿Ô½¡¢ÇáËÉÓÑºÃµÄÑ§Ï°ÑÐ¾¿»·¾³£¬²¢ÔÚË¼Ïë¡¢ÑÐ¾¿µÈ·½Ãæ¸øÓèÁËºÜ¶àµÄ¹Ø»³ºÍÖ¸Òý£¬Ê¹µÃÎÒ¶ÔÉú»îºÍÈËÉúµÄÈÏÊ¶ºÍÀí½âµÃµ½¼«´óÌáÉý¡£µ¼Ê¦ÑÏ½÷µÄÖÎÑ§Ì¬¶ÈºÍÆÄ¾ßÇ°Õ°ÐÔµÄÑÛ¹â¶ÔÎÒ²úÉúÁËÉî¿ÌÓ°Ïì£¬ÊÇÎÒÔÚ½ñºó¹¤×÷Éú»îÖÐµÄ°ñÑù£¬½÷Ïëµ¼Ê¦ÖÂÒÔ³ç¸ß¾´Òâ£¡
 
-ÖÜÓàÀÏÊ¦¡¢ÓÚÒ«ÀÏÊ¦ºÜ¹ØÐÄÎÒµÄÑ§Ï°ºÍ¿ÆÑÐ£¬Ã¿´ÎÓëÖÜÓàÀÏÊ¦¡¢ÓÚÒ«ÀÏÊ¦µÄÌÖÂÛ¶¼ÆäËÍ¶ø¸»ÓÐ´´Òâ²¢¶¼ÄÜ¹»»ñÒæºÜÉî¡£ÎÒÓ¡Ïó×îÉîµÄÊÇÖÜÓàÀÏÊ¦
-¡¢ÓÚÒ«ÀÏÊ¦Ôø´øÁìÎÒÈ¥ÉÏº£²Î¹ÛIntelÇ¶ÈëÊ½Éè¼Æ´óÈü£¬¿´µ½ÁËÈ«¹ú¸÷µØ´óÑ§Éú´´×÷µÄ×÷Æ·£¬¼«´óµØ¿ªÀ«ÁËÑÛ½çºÍ¼ûÊ¶¡£ÖÜÓàÀÏÊ¦ÈåÑÅ¸»ÓÐË¼Ïë£¬ÓÚÒ«ÀÏÊ¦²©Ñ§¿Ì¿à£¬Á½Î»ÀÏÊ¦¶ÔÎÒ°ïÖúºÜ´ó£¬¸ÐÐ»ÄãÃÇ£¡
+ÖÜÓàÀÏÊ¦¡¢ÓÚÒ«ÀÏÊ¦ºÜ¹ØÐÄÎÒµÄÑ§Ï°ºÍ¿ÆÑÐ£¬Ã¿´ÎÓëÖÜÓàÀÏÊ¦¡¢ÓÚÒ«ÀÏÊ¦µÄÌÖÂÛ¶¼¼°Æä¸»ÓÐ´´Òâ²¢¶¼ÄÜ¹»»ñÒæºÜÉî¡£¼ÇÒäÖÐ×îÉîµÄÊÇÖÜÓàÀÏÊ¦
+¡¢ÓÚÒ«ÀÏÊ¦Ôø´øÁìÎÒÈ¥ÉÏº£²Î¹Û~Intel~Ç¶ÈëÊ½Éè¼Æ´óÈü£¬ÔÚ´óÈüÉÏ¿´µ½ÁËÈ«¹ú¸÷µØ´óÑ§Éú´´×÷µÄ×÷Æ·£¬¼«´óµØ¿ªÀ«ÁËÑÛ½çºÍ¼ûÊ¶¡£ÖÜÓàÀÏÊ¦ÈåÑÅ¸»ÓÐË¼Ïë£¬ÓÚÒ«ÀÏÊ¦²©Ñ§¿Ì¿à£¬Á½Î»ÀÏÊ¦¶ÔÎÒ°ïÖúºÜ´ó£¬¸ÐÐ»ÄãÃÇ£¡
 
-¸ÐÐ»Íõ×ÔÇ¿ÀÏÊ¦¡¢Åí³ÉÀÚÀÏÊ¦µÈÎÒµÄÊÚÒµ¶÷Ê¦£¡
+¸ÐÐ»Ê¢Óñ±¦ÀÏÊ¦¡¢ÍõÓýê¿ÀÏÊ¦µÄ¹ØÐÄ°ïÖú£¬¸ÐÐ»Íõ×ÔÇ¿ÀÏÊ¦¡¢Åí³ÉÀÚÀÏÊ¦µÈÎÒµÄÊÚÒµ¶÷Ê¦£¡
 
-»¹Òª¸ÐÐ»ÈÎ½á¡¢ËÎÓî¡¢ÍõÑÐµÄÏà°é£¬¸ÐÐ»ÐÌÌìÍþ¡¢Â½¹ðÁÁ¡¢×ÞÈóµÈÊ¦µÜÊ¦ÃÃ£¬ÕýÊÇÄãÃÇÊ¹µÃÊµÑéÊÒ³åÂð³¯ÆøºÍ»¶ÀÖ£¡¸ÐÐ»Íõ´óÇ§¡¢»Æ·æ¡¢Ñîè¤¡¢Ðí±ó·æµÈÊ¦ÐÖ£¬ÄãÃÇÍ¬Ñù¶ÔÎÒ°ïÖúºÜ´ó£¡
+»¹Òª¸ÐÐ»ÈÎ½á¡¢ËÎÓî¡¢ÍõÑÐµÄÏà°é£¬¸ÐÐ»ÐÌÌìÍþ¡¢Â½¹ðÁÁ¡¢×ÞÈóµÈÊ¦µÜÊ¦ÃÃ£¬ÕýÊÇÄãÃÇÊ¹µÃÊµÑéÊÒ³äÂú³¯ÆøºÍ»¶ÀÖ£¡¸ÐÐ»Íõ´óÇ§¡¢»Æ·æ¡¢Ñîè¤¡¢Ðí±ó·æµÈÊ¦ÐÖ£¬ÄãÃÇÍ¬Ñù¶ÔÎÒ°ïÖúºÜ´ó£¡
 \end{thanks}
 
 

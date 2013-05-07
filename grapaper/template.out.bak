@@ -4,7 +4,7 @@
 \BOOKMARK [0][-]{chapter*.1}{目 \040录}{}% 4
 \BOOKMARK [0][-]{chapter.1}{第一章 \040绪论}{}% 5
 \BOOKMARK [1][-]{section.1.1}{1.1 引言}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.2}{1.2 3D重建的技术综述}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.2}{1.2 3D 重建的技术综述}{chapter.1}% 7
 \BOOKMARK [1][-]{section.1.3}{1.3 结构光技术综述}{chapter.1}% 8
 \BOOKMARK [1][-]{section.1.4}{1.4 本文的主要工作和研究内容}{chapter.1}% 9
 \BOOKMARK [0][-]{chapter.2}{第二章 \040投影仪-摄像机系统校正}{}% 10
@@ -34,7 +34,7 @@
 \BOOKMARK [2][-]{subsection.3.4.5}{3.4.5 建立检测特征及投射特征间的对应关系}{section.3.4}% 34
 \BOOKMARK [1][-]{section.3.5}{3.5 重建结果}{chapter.3}% 35
 \BOOKMARK [1][-]{section.3.6}{3.6 本章总结}{chapter.3}% 36
-\BOOKMARK [0][-]{chapter.4}{第四章 \040结构光为格雷码投影光栅的3D重建}{}% 37
+\BOOKMARK [0][-]{chapter.4}{第四章 \040结构光为格雷码投影光栅的 3D 重建}{}% 37
 \BOOKMARK [1][-]{section.4.1}{4.1 特征投影}{chapter.4}% 38
 \BOOKMARK [2][-]{subsection.4.1.1}{4.1.1 格雷码光栅}{section.4.1}% 39
 \BOOKMARK [2][-]{subsection.4.1.2}{4.1.2 位移码图}{section.4.1}% 40
