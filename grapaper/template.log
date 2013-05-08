@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.7.9)  8 MAY 2013 00:54
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.7.9)  9 MAY 2013 01:38
 entering extended mode
 **template.tex
 (E:\Projects\master\master-paper\grapaper\template.tex
@@ -1194,7 +1194,7 @@ File: figures/system.eps Graphic file (type eps)
 
 ]
 Overfull \hbox (26.04866pt too wide) in paragraph at lines 267--269
-[]\C19/rm/m/n/12.05/45 ù \C19/rm/m/n/12.05/55 ­ \C19/rm/m/n/12.05/46 . \C19/rm/
+[]\C19/rm/m/n/12.05/45 ò \C19/rm/m/n/12.05/55 ­ \C19/rm/m/n/12.05/46 . \C19/rm/
 m/n/12.05/65 ‹ \C19/rm/m/n/12.05/37 I \C19/rm/m/n/12.05/59 X \C19/rm/m/n/12.05/
 40  : $\OML/cmm/m/it/12.05 Q[] \OT1/cmr/m/n/12.05 = [\OML/cmm/m/it/12.05 X[] [
 ]Y[] []Z[]\OT1/cmr/m/n/12.05 ][]$ \C19/rm/m/n/12.05/65 = \C19/rm/m/n/12.05/44 †
@@ -1510,12 +1510,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26735 strings out of 495355
- 465304 string characters out of 3183883
+ 26746 strings out of 495355
+ 465512 string characters out of 3183883
  507615 words of memory out of 3000000
- 29211 multiletter control sequences out of 15000+200000
+ 29222 multiletter control sequences out of 15000+200000
  99848 words of font info for 330 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,14n,55p,26355b,1086s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on template.dvi (55 pages, 355500 bytes).
+Output written on template.dvi (55 pages, 357268 bytes).
