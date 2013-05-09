@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.7.9)  9 MAY 2013 01:38
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=latex 2012.7.9)  10 MAY 2013 01:09
 entering extended mode
 **template.tex
 (E:\Projects\master\master-paper\grapaper\template.tex
@@ -1471,7 +1471,7 @@ File: figures/gray_result5.eps Graphic file (type eps)
 
 ]
 
-Package xcolor Warning: Incompatible color definition on input line 1501.
+Package xcolor Warning: Incompatible color definition on input line 1505.
 
 [43] (E:\Projects\master\master-paper\grapaper\template.bbl [44
 
@@ -1480,21 +1480,21 @@ Package xcolor Warning: Incompatible color definition on input line 1501.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 12.05pt
-(hyperref)                replaced by space on input line 1575.
+(hyperref)                replaced by space on input line 1579.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                \hskip 12.05pt
-(hyperref)                replaced by space on input line 1575.
+(hyperref)                replaced by space on input line 1579.
 
 [47
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1590.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1590.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1594.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1594.
  (E:\Projects\master\master-paper\grapaper\template.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1590.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1590.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1594.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1594.
 
 
 
@@ -1503,19 +1503,19 @@ Package rerunfilecheck Warning: File `template.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `template.out':
-(rerunfilecheck)             Before: 3D0A1638C853FC1A5FDB221ACF653D1D;8281
-(rerunfilecheck)             After:  B0E32C67B9315DB62802D7D1FE1C405E;3753.
+(rerunfilecheck)             Before: B679702F80F59D0DC37E8CD608A41F70;8393
+(rerunfilecheck)             After:  DFA8B68BDA24143EBCD13A470C6C89BB;3811.
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 26746 strings out of 495355
- 465512 string characters out of 3183883
- 507615 words of memory out of 3000000
- 29222 multiletter control sequences out of 15000+200000
+ 26748 strings out of 495355
+ 465556 string characters out of 3183883
+ 507613 words of memory out of 3000000
+ 29224 multiletter control sequences out of 15000+200000
  99848 words of font info for 330 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
  56i,14n,55p,26355b,1086s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on template.dvi (55 pages, 357268 bytes).
+Output written on template.dvi (55 pages, 358576 bytes).

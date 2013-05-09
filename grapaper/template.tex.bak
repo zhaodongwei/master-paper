@@ -242,7 +242,7 @@ De Bruijn sequence; Gray code.}
 
 µÚÎåÕÂ£º¶Ô±¾ÎÄËùÊ¹ÓÃµÄ·½·¨¡¢´´ÐÂµã½øÐÐ×Ü½á£¬²¢ÌÖÂÛÁË½øÒ»²½µÄ¿É¸Ä½ø·½ÃæºÍ·½·¨¡£
 \chapter{Í¶Ó°ÒÇ-ÉãÏñ»úÏµÍ³Ð£Õý}
-Í¶Ó°ÒÇ-ÉãÏñ»úÏµÍ³³£ÓÃ×÷ÈýÎ¬ÖØ½¨ÏµÍ³£¬Ê¾ÒâÍ¼¼ûÍ¼~\ref{figure:system}£¬ÆäÓÅµãÊÇÉè±¸¼Û¸ñµÍÁ®£¬ÈÝÒ×»ñÈ¡²¢°²×°¡£
+Í¶Ó°ÒÇ-ÉãÏñ»úÏµÍ³³£ÓÃ×÷ÈýÎ¬ÖØ½¨ÏµÍ³£¬Ê¾ÒâÍ¼¼ûÍ¼~\ref{figure:system}£¬ÆäÓÅµãÊÇÉè±¸¼Û¸ñµÍÁ®£¬ÈÝÒ×»ñÈ¡ºÍ°²×°¡£
 ÔÚÏµÍ³ÖÐ£¬ÎªÁËÊµÏÖ²âÁ¿£¬ÐèÒªÊÂÏÈ¶ÔÉãÏñ»úºÍÍ¶Ó°ÒÇ½øÐÐ¶¨±ê¡£
 \begin{figure}[!ht]
   % Requires \usepackage{graphicx}
@@ -254,7 +254,7 @@ De Bruijn sequence; Gray code.}
 \subsection{×ø±êÏµµÄ¶¨Òå}
 ¶ÔÓÚÏà»úÄ£ÐÍµÄÃèÊöÒ»°ãÐèÒªÈý¸ö×ø±êÏµ£ºÊÀ½ç×ø±êÏµ¡¢Ïà»ú×ø±êÏµºÍ³ÉÏñÆ½Ãæ²Î¿¼Ïµ¡£ÆäÖÐÊÀ½ç
 ×ø±êÏµÊÇÔÚÕæÊµµÄ»·¾³ÖÐÑ¡È¡µÄ×ø±êÏµ£¬¿ÉÒÔÈÎÒâÉèÖÃ¡£ÊÀ½ç×ø±êÏµÑ¡¶¨ºó£¬ÎïÌåºÍÉãÏñ»ú¾ÍÓµÓÐÊÀ½ç×ø±êÏµµÄ×ø±ê¡£
-ÔÚ½ÓÏÂÀ´¶Ô×ø±êµÄÃèÊöºÍ×ª»»ÖÐ£¬±¾ÎÄÓÃ~$Q_w=[X_w\quad{}Y_w\quad{}Z_w]^T$~À´±íÊ¾ÊÀ½ç×ø±êÏµµÄÒ»µã¡£
+ÔÚ½ÓÏÂÀ´¶Ô×ø±êµÄÃèÊöºÍ×ª»»ÖÐ£¬±¾ÎÄÓÃ~$Q_w=[X_w\quad{}Y_w\quad{}Z_w]^T$~À´±íÊ¾ÊÀ½ç×ø±êÏµÖÐµÄÒ»µã¡£
 
 ÉãÏñ»úÊÇÒ»¸ö¶ÀÁ¢µÄ³ÉÏñÏµÍ³£¬Æä³ÉÏñµÄÄ£ÐÍÔòÐèÒªÓÃÏà»ú×ø±êÏµÀ´ÃèÊö¡£ÔÚÏà»ú×ø±êÏµÖÐ£¬×ø±êÔ­µãÊÇ
 ÉãÏñ»úµÄ¹âÐÄ£¬~$Z$~Öá´¹Ö±ÓÚ½¹Æ½ÃæÏòÍâ£¬~$X$~ÖáºÍ~$Y$~ÖáÆ½ÐÐÓÚ½¹Æ½Ãæ¡£¶ÔÓÚÏà»ú×ø±êÏµÖÐµÄÒ»µã£¬±¾ÎÄÓÃ
@@ -264,10 +264,10 @@ De Bruijn sequence; Gray code.}
 ÉãÏñ»úµÄÖ÷µã¡£ÀíÏëÇé¿öÏÂ£¬Ö÷µãÓ¦µ±Î»ÓÚ³ÉÏñÆ½ÃæµÄÖÐÐÄÎ»ÖÃ£¬¶øÊµ¼ÊÉÏ£¬ÓÉÓÚÖÆ×÷¹¤ÒÕµÈÎÊÌâ£¬³ÉÏñÆ½ÃæµÄÖÐÐÄ³£
 Æ«ÀëÓÚÖ÷µã£¬±¾ÎÄÓÃ~$(c_x,c_y)$~À´ÃèÊöÆ«²î³Ì¶È£¬ÓÃ~$q=[x\quad{}y]^T$~ÃèÊö³ÉÏñÆ½Ãæ²Î¿¼ÏµµÄµã¡£
 \subsection{ÊÀ½ç×ø±êÏµµ½Ïà»ú×ø±êÏµµÄ×ª»»}
-½²ÊÀ½ç×ø±êÏµµÄµã~$Q_w=[X_w\quad{}Y_w\quad{}Z_w]^T$~×ª»»ÎªÏà»ú×ø±êÏµ~$Q_c=[X_c\quad{}Y_c\quad{}Z_c]^T$~µÄ¹ý³Ì¿ÉÒÔ·ÖÎªÒÔÏÂÁ½²½£º
+½«ÊÀ½ç×ø±êÏµµÄµã~$Q_w=[X_w\quad{}Y_w\quad{}Z_w]^T$~×ª»»ÎªÏà»ú×ø±êÏµ~$Q_c=[X_c\quad{}Y_c\quad{}Z_c]^T$~µÄ¹ý³Ì¿ÉÒÔ·ÖÎªÒÔÏÂÁ½²½£º
 \begin{enumerate}
-  \item \textbf{Ðý×ª²Ù×÷} Ðý×ªÊÀ½ç×ø±êÏµ£¬Ê¹µÃÈý¸öÖá·Ö±ðÓëÏà»ú²Î¿¼ÏµµÄ~$X$¡¢$Y$¡¢$Z$~ÖáÆ½ÐÐ²¢ÇÒ·´ÏòÒ»ÖÂ
-  \item \textbf{Ðý×ª²Ù×÷} Æ½ÒÆ²Ù×÷ Æ½ÒÆÊÀ½ç×ø±êÏµ£¬Ê¹µÃÊÀ½ç×ø±êÏµµÄÔ­µãÓëÏà»ú×ø±êÏµµÄÔ­µãÏàÖØºÏ
+  \item \textbf{Ðý×ª²Ù×÷} Ðý×ªÊÀ½ç×ø±êÏµ£¬Ê¹µÃÈý¸öÖá·Ö±ðÓëÏà»ú²Î¿¼ÏµµÄ~$X$¡¢$Y$¡¢$Z$~ÖáÆ½ÐÐ²¢ÇÒ·½ÏòÒ»ÖÂ
+  \item \textbf{Æ½ÒÆ²Ù×÷} Æ½ÒÆÊÀ½ç×ø±êÏµ£¬Ê¹µÃÊÀ½ç×ø±êÏµµÄÔ­µãÓëÏà»ú×ø±êÏµµÄÔ­µãÏàÖØºÏ
 \end{enumerate}
 
 ¶¨ÒåÐý×ª¾ØÕó~$R$~À´ÃèÊöÐý×ª²Ù×÷£¬¶¨ÒåÆ½ÒÆ¾ØÕó~$T$~À´ÃèÊöÆ½ÒÆ²Ù×÷£¬ÊÀ½ç×ø±êÏµµÄ×ø±êÓëÏà»ú×ø±êÏµµÄ×ø±ê
@@ -314,7 +314,7 @@ $T$~Îª~$3\times1$~´óÐ¡µÄ¾ØÕó£º
  \end{array}
  \right]
 \end{equation}
-¾ØÕóRºÍT¹¹³ÉÁËÉãÏñ»úµÄÍâ²ÎÊý£¬±íÃæÊÀ½ç×ø±êÏµºÍÏà»ú×ø±êÏµµÄÏà¶ÔÎ»ÖÃ¹ØÏµ¡£
+¾ØÕó~$R$~ºÍ~$T$~¹¹³ÉÁËÉãÏñ»úµÄÍâ²ÎÊý£¬±íÃæÊÀ½ç×ø±êÏµºÍÏà»ú×ø±êÏµµÄÏà¶ÔÎ»ÖÃ¹ØÏµ¡£
 \subsection{Ïà»ú×ø±êÏµµ½³ÉÏñÆ½Ãæ²Î¿¼ÏµµÄ×ª»»}
 ÔÚ¿¼ÂÇ´ÓÏà»ú×ø±êÏµ×ª»»Îª³ÉÏñÆ½Ãæ²Î¿¼ÏµÖ®Ç°£¬ÕâÀïÏÈ½éÉÜÉãÏñ»úµÄÄ£ÐÍ¡£
 ÔÚ¼ÆËã»úÊÓ¾õÖÐ£¬Õë¿×Ä£ÐÍ\cite{hartley2000multiple}±»¹ã·ºÓÃÓÚÏà»úÄ£ÐÍµÄÃèÊö¡£Ä£ÐÍ¼ÙÉè
@@ -418,7 +418,7 @@ f_x & 0 & c_x\\
   x_{corrected}=x(1+k_1r^2+k_2r^4) \nonumber\\
   y_{corrected}=y(1+k_1r^2+k_2r^4)
 \end{eqnarray}
-×¢ÒâÉÏÊ½ÖÐÃ»ÓÐ³öÏÖrµÄÆæ´Î·½Ïî£¬ÕâÊÇÓÉ»û±ä³Ì¶È~$\Delta{}r$~ÊÇ~$r$~ ¼¶ÊýÕ¹¿ªÕâ¸ö¹ØÏµ¾ö¶¨µÄ¡£
+×¢ÒâÉÏÊ½ÖÐÃ»ÓÐ³öÏÖ~$r$~µÄÆæ´Î·½Ïî£¬ÕâÊÇÓÉ»û±ä³Ì¶È~$\Delta{}r$~ÊÇ~$r$~¼¶ÊýÕ¹¿ªÕâ¸ö¹ØÏµ¾ö¶¨µÄ¡£
 \begin{figure}[!ht]
 \centering
 \begin{tikzpicture}
@@ -499,7 +499,7 @@ void cvCalibrateCamera2( const CvMat* object\_points, const CvMat* image\_points
 \mbox{\hspace{5.2cm}}CvMat* translation\_vectors=NULL,\\
 \mbox{\hspace{5.2cm}}int flags=0 );
 
-cvCalibrateCamera2~º¯ÊýÒÀ¾ÝÕÅÕýÓÑÌá³öµÄËã·¨\cite{zhang2000flexible}£¬ÒÔ½ÇµãÔÚÊÀ½ç×ø±êÏµºÍ³ÉÏñÆ½Ãæ²Î¿¼ÏµÖÐµÄ×ø±ê¶ÔÎªÊäÈë£¬Êä³öÔò°üº¬ÄÚ²ÎÊý¾ØÕó~$M$¡¢ »û±äÏµÊý($k_1,k_2,p_1,p_2$) ÒÔ¼°
+cvCalibrateCamera2~º¯ÊýÒÀ¾ÝÕÅÕýÓÑÌá³öµÄÐ£ÕýËã·¨\cite{zhang2000flexible}£¬ÒÔ½ÇµãÔÚÊÀ½ç×ø±êÏµºÍ³ÉÏñÆ½Ãæ²Î¿¼ÏµÖÐµÄ×ø±ê¶ÔÎªÊäÈë£¬Êä³öÔò°üº¬ÄÚ²ÎÊý¾ØÕó~$M$¡¢ »û±äÏµÊý($k_1,k_2,p_1,p_2$) ÒÔ¼°
 Íâ²ÎÊýµÄÐý×ª¾ØÕó~$R$~ºÍÆ½ÒÆ¾ØÕó~$T$~¡£ÄÚ²ÎÊý¾ØÕóºÍ
 Íâ²ÎÊý¾ØÕóÃèÊöÁËÊÀ½ç×ø±êÏµºÍÉãÏñ»ú³ÉÏñÆ½Ãæ²Î¿¼ÏµÖ®¼äµÄ×ª»»¹ØÏµ£¬¶ø»û±äÏµÊý¿ÉÓÃÓÚ¶ÔÉãÏñ»úÅÄÉãÍ¼Ïñ½øÐÐµÄ»û±äÐ£Õý¡£ÔÚ~openCV~¿âÖÐ£¬»û±äÐ£Õý¿ÉÍ¨¹ýµ÷ÓÃº¯Êý~cvUndistort2¡¢º¯Êý~cvInitUndistortMap~ºÍº¯Êý~cvRemap~ÊµÏÖ¡£
 \section{Í¶Ó°ÒÇ¶¨±ê}
@@ -527,7 +527,7 @@ cvCalibrateCamera2~º¯ÊýÒÀ¾ÝÕÅÕýÓÑÌá³öµÄËã·¨\cite{zhang2000flexible}£¬ÒÔ½ÇµãÔÚÊÀ½
   \item ¶¨±ê°å²»¶¯£¬ÔÚÆä±íÃæÆÌÉè°×Ö½£¬Í¶Ó°ÒÇÍ¶ÉäÍ¶Ó°ÒÇ¶¨±êÍ¼Ïñ£¬¼ûÍ¼~\ref{fig:pro-cam}¡£
   \item ÉãÏñ»úÅÄÉãÍ¼Ïñ(¼ÇÎª~$I_p$)ÌáÈ¡Í¶Ó°Í¼ÏñµÄ½Çµã£¬¼ÇÂ¼½ÇµãÔÚËùÅÄÉãÍ¼ÏñÖÐµÄÎ»ÖÃ£¬Èç½ÇµãÎ´±»È«²¿¼ì²â³öÔòÖØÐÂÅÄÉã~$I_p$¡£
   \item ÊÊ¶È¸Ä±ä¶¨±ê°åÎ»ÖÃºÍ½Ç¶È¡£
-  \item ÖØ¸´²½Öè~2-5~¹²~9~´Î£¬µ÷ÓÃ~cvCalibrateCamera2~º¯Êý´¦Àí²½Öè2µÃµ½µÄ½Çµã×ø±ê¶Ô£¬¼ÆËãÉãÏñ»úÄÚÍâ²ÎÊý£¬Íê³ÉÉãÏñ»ú¶¨±ê
+  \item ÖØ¸´²½Öè~2-5~¹²~9~´Î£¬µ÷ÓÃ~cvCalibrateCamera2~º¯Êý´¦Àí²½Öè2~µÃµ½µÄ½Çµã×ø±ê¶Ô£¬¼ÆËãÉãÏñ»úÄÚÍâ²ÎÊý£¬Íê³ÉÉãÏñ»ú¶¨±ê
   \item ¸ù¾ÝÉãÏñ»ú²ÎÊý¼ÆËãÍ¶Ó°Í¼Ïñ½ÇµãµÄÈýÎ¬ÐÅÏ¢£¬
       ½¨Á¢Í¶Ó°Í¼Ïñ½ÇµãÔÚÊÀ½ç×ø±êÏµÏÂºÍÍ¶Ó°Í¼ÏñÏÂµÄ×ø±ê¶Ô£¬Í¬Ñùµ÷ÓÃ~cvCalibrateCamera2~º¯Êý¼ÆËãÍ¶Ó°ÒÇÄÚÍâ²ÎÊý£¬Íê³ÉÍ¶Ó°ÒÇ¶¨±ê¡£
 \end{enumerate}
@@ -617,7 +617,7 @@ cvCalibrateCamera2~º¯ÊýÒÀ¾ÝÕÅÕýÓÑÌá³öµÄËã·¨\cite{zhang2000flexible}£¬ÒÔ½ÇµãÔÚÊÀ½
   \item ¼ÆËã~3D~µãÔÆÐÅÏ¢£¬ ²¢½øÐÐºóÐø´¦Àí
 \end{enumerate}
 \subsection{ÌØÕ÷Í¶Ó°}
-ÎªÁË·½±ãµØ½¨Á¢Í¶Ó°ÌØÕ÷ºÍ¼ì²âÌØÕ÷Ö®¼äµÄ¶ÔÓ¦¹ØÏµ£¬ ±¾ÎÄ¸ù¾Ý~De Bruijn~ÐòÁÐÀ´Éè¶¨ÏßÌõÑÕÉ«¡£
+ÎªÁË·½±ãµØ½¨Á¢Í¶Ó°ÌØÕ÷ºÍ¼ì²âÌØÕ÷Ö®¼äµÄ¶ÔÓ¦¹ØÏµ£¬±¾ÎÄ¸ù¾Ý~De Bruijn~ÐòÁÐÀ´Éè¶¨ÏßÌõÑÕÉ«¡£
 Ò»¸öÓµÓÐ5¸öÔªËØ¡¢3½×µÄ~De Bruijn~ÐòÁÐÎª£º
 4 4 4 3 4 4 2 4 4 1
 4 4 0 4 3 3 4 3 2 4 3 1 4 3
@@ -629,8 +629,8 @@ cvCalibrateCamera2~º¯ÊýÒÀ¾ÝÕÅÕýÓÑÌá³öµÄËã·¨\cite{zhang2000flexible}£¬ÒÔ½ÇµãÔÚÊÀ½
 1 3 0 0 2 2 2 1 2 2 0 2 1 1
 2 1 0 2 0 1 2 0 0 1 1 1 0 1
 0 0 0¡£
-Í¶ÉäµÄÑÕÉ«Ñ¡Ôñ¼û±í~\ref{tabular:colorAssignment}£¬ ×¢ÒâÑ¡È¡µÄÑÕÉ«ÖÐÅÅ³ýÁË°×É«ºÍ»ÆÉ«£¬ÅÅ³ö°×É«ÊÇÒòÎª
-ÏßÌõ¼ì²âºÍÑÕÉ«Ê¶±ðµÄÌØÊâÐèÒª£¬¶øÅÅ³ý»ÆÉ«µÄÔ­ÒòÊÇ£¬ »ÆÉ«ÓëÈËµÄ·ôÉ«Ïà½ü£¬ÔÚ¶ÔÈËÌåÉ¨ÃèÊ±ÈÝÒ×Òý½ø¸ÉÈÅ¡£
+Í¶ÉäµÄÑÕÉ«Ñ¡Ôñ¼û±í~\ref{tabular:colorAssignment}£¬×¢ÒâÑ¡È¡µÄÑÕÉ«ÖÐÅÅ³ýÁË°×É«ºÍ»ÆÉ«£¬ÅÅ³ö°×É«ÊÇÒòÎª
+ÏßÌõ¼ì²âºÍÑÕÉ«Ê¶±ðµÄÌØÊâÐèÒª£¬¶øÅÅ³ý»ÆÉ«µÄÔ­ÒòÊÇ£¬»ÆÉ«ÓëÈËµÄ·ôÉ«Ïà½ü£¬ÔÚ¶ÔÈËÌåÉ¨ÃèÊ±ÈÝÒ×Òý½ø¸ÉÈÅ¡£
 ½áºÏ~De Bruijn~ÐòÁÐºÍ¸÷ÔªËØÑÕÉ«¿ÉÒÔÉú³ÉÍ¶Ó°±³¾°£¬¼ûÍ¼~\ref{figure:project_background}¡£
 \begin{table}[!ht]
 \setbox0\hbox{\verb/\/}%
@@ -664,12 +664,12 @@ cvCalibrateCamera2~º¯ÊýÒÀ¾ÝÕÅÕýÓÑÌá³öµÄËã·¨\cite{zhang2000flexible}£¬ÒÔ½ÇµãÔÚÊÀ½
 \begin{enumerate}
   \item Í¶Ó°ÒÇ¼°ÉãÏñ»ú´æÔÚµÄ~crosstalk~ÏÖÏó
   \item »·¾³¹â
-  \item Í¨³££¬ ÎïÌå±íÃæ¶Ô²»Í¬ÑÕÉ«Í¨µÀ¾ßÓÐ²»Í¬µÄ·´ÉäÂÊ
-  \item ÅÄÉãµ½µÄÍ¼ÏñÖÐ£¬ ÑÕÉ«ÏßÌõµÄ¿í¶ÈºÍÇ¿¶È»áÊÜµ½ÎïÌå±íÃæµÄÆéá«ÌØÐÔµÄÓ°Ïì
+  \item Í¨³££¬ÎïÌå±íÃæ¶Ô²»Í¬ÑÕÉ«Í¨µÀ¾ßÓÐ²»Í¬µÄ·´ÉäÂÊ£¬ÐÎ³ÉÑÕÉ«µÄÅ¤Çú
+  \item ÅÄÉãµ½µÄÍ¼ÏñÖÐ£¬ÑÕÉ«ÏßÌõµÄ¿í¶ÈºÍÇ¿¶È»áÊÜµ½ÎïÌå±íÃæµÄÆéá«ÌØÐÔµÄÓ°Ïì
 \end{enumerate}
 
-ÎªÁËÌá¸ßÏµÍ³µÄÂ³°ôÐÔ£¬ÐèÒª¶ÔÒÔÉÏµÄ¸ÉÈÅÒòËØ²ÉÈ¡´ëÊ©¡£ ÆäÖÐµÄÒ»¸ö·½·¨ÊÇ½øÐÐÑÕÉ«Ð£Õý¡£
-ÑÕÉ«Ð£Õý°üÀ¨Á½²½£ºcrosstalk~Ð£ÕýÏû³ýÑÕÉ«Í¨µÀ¼äµÄ~crosstalk~ÏÖÏó£»·´ÉäÂÊÐ£ÕýÒÔÊ¹¸öÑÕÉ«Í¨µÀµÄ·´ÉäÂÊ³öÔÚÏàÍ¬Ë®Æ½
+ÎªÁËÌá¸ßÏµÍ³µÄÂ³°ôÐÔ£¬ÐèÒª¶ÔÒÔÉÏµÄ¸ÉÈÅÒòËØ²ÉÈ¡´ëÊ©¡£ÆäÖÐµÄÒ»¸ö·½·¨ÊÇ½øÐÐÑÕÉ«Ð£Õý¡£
+ÑÕÉ«Ð£Õý°üÀ¨Á½²½£ºcrosstalk~Ð£ÕýÏû³ýÑÕÉ«Í¨µÀ¼äµÄ~crosstalk~ÏÖÏó£»·´ÉäÂÊÐ£Õý¿ÉÒÔÍ¨¹ýÐ£Õý¸öÑÕÉ«Í¨µÀÊµÏÖ·´ÉäÂÊ´¦ÔÚÏàÍ¬Ë®Æ½¡£
 
 ÈÏÎªÑÕÉ«ÏµÍ³µÄÄ£ÐÍÎª¹«Ê½~\ref{eq:color_model}\cite{caspi1998range}£º
 
@@ -742,7 +742,7 @@ a^r  &  0                  & 0   \\
 \right]}^{-1}{X^{-1}}I_{c}
 \end{eqnarray}
 ¹«Ê½~\ref{eq:calibrated}ÖÐµÄ~$\tilde{A}$~ÓÉ~$\tilde{\alpha}$¡¢$\tilde{\beta}$~×é³É£¬ Ç°ÕßÊÇ~$A$~µÄ½üËÆ¹À¼Æ£¬ ¶øºóÕß·Ö±ðÊÇ~
-G¡¢B~Í¨µÀÏà¶ÔÓÚRÍ¨µÀµÄÏà¶Ô·´ÉäÂÊ¹À¼Æ¡£ÏÂÎÄ½éÉÜ~$\tilde{\alpha}$¡¢$\tilde{\beta}$~µÄ¼ÆËã·½·¨¡£
+G¡¢B~Í¨µÀÏà¶ÔÓÚ~R~Í¨µÀµÄÏà¶Ô·´ÉäÂÊ¹À¼Æ¡£ÏÂÎÄ½éÉÜ~$\tilde{\alpha}$¡¢$\tilde{\beta}$~µÄ¼ÆËã·½·¨¡£
 
 Áî~$I_a$~´ú±í¾­¹ý~crosstalk~Ð£ÕýºÍÏà¶Ô·´ÉäÂÊÐ£ÕýºóµÄÑÕÉ«Öµ£¬¿ÉÒÔµÃµ½£º
 \begin{eqnarray}
@@ -765,7 +765,7 @@ G¡¢B~Í¨µÀÏà¶ÔÓÚRÍ¨µÀµÄÏà¶Ô·´ÉäÂÊ¹À¼Æ¡£ÏÂÎÄ½éÉÜ~$\tilde{\alpha}$¡¢$\tilde{\beta}$
 \end{itemize}
 
 $I_a$~ÖÐËäÈ»ÈÔ±£ÁôÓÐ»·¾³¹âºÍ~R~Í¨µÀµÄ·´ÉäÂÊÕâÁ½¸ö¸ÉÈÅÒòËØ£¬µ«ÒÑ¾­ÅÅ³ýÁË~crosstalk~ÏÖÏóºÍ²»Í¬·´ÉäÂÊµÄÓ°Ïì¡£$I_a$~Ò²ÊÇ×÷ÎªÌØÕ÷¼ì²âµÄÖ±½ÓÊäÈë¡£ÔÚÌØÖÖ¼ì²âÖÐ£¬¸ü¶àµÄ²ßÂÔ±»²ÉÓÃÒÔÏû³ý»·¾³¹âºÍ~$a^r$~¶ÔÏßÌõ¼ì²âºÍÑÕÉ«Ê¶±ðµÄÓ°Ïì¡£
-¶øÎªÁË¼ÆËã~$I_a$£¬²»½öÐèÒª½øÐÐ~crosstalk~Ð£Õý£¬»¹Òª½øÐÐÏà¶ÔµÄ·´ÉäÂÊÐ£Õý¡£Êµ¼ÊÏµÍ³ÖÐ£¬EMD(Earth Mover Distance)\cite{rubner2000earth}·½·¨±»ÓÃÀ´·ÖÎöÑÕÉ«Ö±·½Í¼²¢¹ÀËãÏà¶Ô·´ÉäÂÊ¡£
+¶øÎªÁË¼ÆËã~$I_a$£¬²»½öÐèÒª½øÐÐ~crosstalk~Ð£Õý£¬»¹Òª½øÐÐÏà¶ÔµÄ·´ÉäÂÊÐ£Õý¡£Êµ¼ÊÏµÍ³ÖÐ£¬EMD(Earth Mover Distance)\cite{rubner2000earth}~·½·¨±»ÓÃÀ´·ÖÎöÑÕÉ«Ö±·½Í¼²¢¹ÀËãÏà¶Ô·´ÉäÂÊ¡£
 
 \subsection{Ïà¶Ô·´ÉäÂÊµÄ¼ÆËã}
 ÎïÌå±íÃæÉÏ~G~Í¨µÀÏà¶ÔÓÚ~R~Í¨µÀµÄÏà¶Ô·´ÉäÂÊ~$\tilde{\alpha}$~µÄ¼ÆËã·½·¨ÊÇ£¬Ê×ÏÈ½¨Á¢~R~Í¨µÀºÍ~G~Í¨µÀ¸÷×ÔµÄÖ±·½Í¼£¬½ø¶øÔÚÖ±·½Í¼Ö®¼ä½¨Á¢Á÷¶¯¾ØÕó£¬Í¨¹ý·ÖÎöÁ÷¶¯¾ØÕóµÄÖµ
@@ -805,7 +805,7 @@ f_{ij}\ge{0} \textrm{ for } 1\le{}i\le{}n,1\le{}j\le{}n
 B~Í¨µÀµÄÏà¶Ô·´ÉäÂÊ¿ÉÍ¨¹ýÏàËÆµÄ¹ý³ÌÇóµÃ£¬ÕâÀï²»ÔÙÐðÊö¡£
 \subsection{·´ÉäÂÊÐ£ÕýµÄ½á¹û}
 ·´ÉäÂÊÐ£ÕýµÄÄ¿µÄÊÇÍ¨¹ýÐ£ÕýÊ¹µÃ~RGB~Í¨µÀµÄ·´ÉäÂÊ´¦ÓÚÏàÍ¬Ë®Æ½¡£Í¼~\ref{FIG_AC}ÖÐ£¬(a)(b)·Ö±ðÊÇ·´ÉäÂÊÇ°ºóµÄÍ¼Æ¬£¬
-(c)(d)ÊÇ¶ÔÓ¦µÄ¸÷Í¨µÀÖ±·½Í¼¡£¿ÉÒÔÇåÎú¿´µ½£¬(a)ÖÐÑÕÉ«²»ÏÊÑÞ¡¢²»Ã÷ÀÊ£¬¶ÔÓ¦µÄÖ±·½Í¼ÖÐ£¬R~Í¨µÀ¾ßÓÐ±È~G£¬B~Í¨µÀ¸ü¸ßµÄ
+(c)(d)ÊÇ¶ÔÓ¦µÄ¸÷Í¨µÀÖ±·½Í¼¡£¿ÉÒÔÇåÎú¿´µ½£¬(a)ÖÐÑÕÉ«²»ÏÊÑÞ¡¢²»Ã÷ÀÊ£¬À¶É«¡¢ÂÌÉ«¹â¾ùÃ»ÓÐºìÉ«¹âÇ¿ÁÒ£¬¶ÔÓ¦µÄÖ±·½Í¼ÖÐ£¬R~Í¨µÀ¾ßÓÐ±È~G£¬B~Í¨µÀ¸ü¸ßµÄ
 ÁÁ¶È¡£¶ø¾­¹ý·´ÉäÂÊÐ£Õýºó£¬(d)ÖÐµÄ~RGB~Í¨µÀµÄÁÁ¶È·Ö²¼»ù±¾ÏàËÆ¡£
 \begin{figure}[!ht]
   \centering
@@ -922,7 +922,7 @@ p^b_{ij}
 \subfloat[]{
     \includegraphics[width=0.4\textwidth]{de_m.eps}
 }
-\caption{(a) ¼ÓÕÕÁË¹âÕ¤µÄÊÖ\quad()(b)½«(a)×ª»»ºóµÃµ½µÄMÍ¨µÀÍ¼}\label{fig:de_m}
+\caption{(a) ¼ÓÕÕÁË¹âÕ¤µÄÊÖ\quad(b)½«(a)×ª»»ºóµÃµ½µÄMÍ¨µÀÍ¼}\label{fig:de_m}
 \end{figure}
 ´ÓÒÔÉÏµÄÍÆÑÝ¿É¼û£¬$M$~Í¨µÀÖ»ºÍÁ½¸öÒòËØÏà¹Ø£º
 \begin{itemize}
@@ -1468,7 +1468,7 @@ h & = & \frac{C^g-C^b}{C^r-C^b}\cdot \frac{\pi}{3} \nonumber \\
   \caption{ÖØ½¨½á¹û£¬×ó²àÍ¼Îª³¡¾°Í¼£¬ÓÒ²àÎªÖØ½¨µÄµãÔÆ}\label{fig:gray_result}
 \end{figure}
 \section{±¾ÕÂ×Ü½á}
-±¾ÕÂ½éÉÜÁË»ùÓÚ¸ñÀ×Âë¹âÕ¤µÄ~3D~ÖØ½¨·½·¨¡£ÏµÍ³½áºÏ¸ñÀ×Âë¹âÕ¤ºÍÏàÒÆÏßÌõ£¬²¢ÔÚ¸ñÀ×Âë¹âÕ¤µÄ±ßÔµÊ¶±ðµÈ·½·¨½øÐÐÁË´´ÐÂ£¬Ìá³öÁË
+±¾ÕÂ½éÉÜÁË»ùÓÚ¸ñÀ×Âë¹âÕ¤µÄ~3D~ÖØ½¨·½·¨¡£ÏµÍ³½áºÏ¸ñÀ×Âë¹âÕ¤ºÍÏàÒÆÏßÌõ£¬²¢ÔÚ¸ñÀ×Âë¹âÕ¤µÄ±ßÔµ¶¨Î»µÈ·½·¨½øÐÐÁË´´ÐÂ£¬Ìá³öÁË
 »ùÓÚ¸ÅÂÊµÄ±ßÔµÊ¶±ð·½·¨£¬È¡µÃÁËÀíÏëµÄÖØ½¨Ð§¹û¡£
 \chapter{×Ü½áºÍÕ¹Íû}
 ±¾ÎÄÊ×ÏÈ¶Ô~3D~ÖØ½¨µÄÔ­ÀíºÍ½á¹¹¹â¼¼Êõ½øÐÐÁËÑÐ¾¿·ÖÎöºÍ×Ü½á£¬ÔÚ×ÛºÏ¿¼ÂÇÖØ½¨ËùÐèÊ±¼äºÍÖØ½¨¾«¶ÈµÈÒòËØºóÑ¡Ôñ»ùÓÚ¸ñÀ×Âë¹âÕ¤µÄÖØ½¨·½·¨ºÍ»ùÓÚ~De Bruijn~ÐòÁÐ±àÂëÌõÎÆµÄ½á¹¹¹â·½·¨ÊµÏÖÁË~3D~ÖØ½¨Ç°ÕßÊôÓÚÊ±¼ä±àÂë¶øºóÕßÊôÓÚ¿Õ¼ä±àÂë¡£ÔÚÊµ¼ÊÊ¹ÓÃÖÐ¿É×ÛºÏ¿¼ÂÇ£¬Áé»îÑ¡ÔñÊ¹ÓÃ·½·¨¡£
