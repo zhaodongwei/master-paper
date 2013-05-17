@@ -54,14 +54,4 @@ Stereo
     \end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{本文方法}
-    \begin{itemize}
-      \item<1-> de bruijn序列编码的颜色线条
-      \begin{figure}
-        \includegraphics[width=.5\textwidth]{project_background.eps}\\
-      \end{figure}
-      \item<1-> 格雷码光栅+相移码
-    \end{itemize}
-\end{frame}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

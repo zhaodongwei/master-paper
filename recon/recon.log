@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.7.9)  5 MAY 2013 19:05
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.7.9)  14 MAY 2013 01:00
 entering extended mode
 **recon.tex
-(E:\Projects\master\AR_PPT_TEX\recon.tex
+(E:\Projects\master\master-paper\recon\recon.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(E:\Projects\master\AR_PPT_TEX\Section/Setup.tex
+(E:\Projects\master\master-paper\recon\Section/Setup.tex
 (C:\CTEX\MiKTeX\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count79
@@ -897,7 +897,7 @@ Grid set 16 x 16 = 22.7622pt x 17.07166pt
 TextBlockOrigin set to 0pt x 0pt
 )
 \c@dfn=\count172
-) (E:\Projects\master\AR_PPT_TEX\recon.aux)
+) (E:\Projects\master\master-paper\recon\recon.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -1044,8 +1044,8 @@ LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
 
-(E:\Projects\master\AR_PPT_TEX\recon.out)
-(E:\Projects\master\AR_PPT_TEX\recon.out)
+(E:\Projects\master\master-paper\recon\recon.out)
+(E:\Projects\master\master-paper\recon\recon.out)
 \@outlinefile=\write6
 
 (C:\CTEX\UserData\tex\latex\beamer\base\translator\dicts\translator-basic-dicti
@@ -1074,7 +1074,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 3.
 
-(E:\Projects\master\AR_PPT_TEX\recon.nav)
+(E:\Projects\master\master-paper\recon\recon.nav)
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <6> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 3.
 
@@ -1101,7 +1101,7 @@ Package epstopdf Info: Source file: <Figures/Logo.eps>
 to.pdf Figures/Logo.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/Logo-eps-converted-to.pdf, id=26, 469.755pt x 593.21625pt>
+<Figures/Logo-eps-converted-to.pdf, id=30, 469.755pt x 593.21625pt>
 File: Figures/Logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/Logo-eps-converted-to.pdf>
@@ -1157,8 +1157,8 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <4> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 34.
  [1{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
 
- <E:/Projects/master/AR_PPT_TEX/Figures/Logo-eps-converted-to.pdf>] (E:\Project
-s\master\AR_PPT_TEX\Section/00Intro.tex
+ <E:/Projects/master/master-paper/recon/Figures/Logo-eps-converted-to.pdf>]
+(E:\Projects\master\master-paper\recon\Section/00Intro.tex
 Package epstopdf Info: Source file: <Figures/Logo.eps>
 (epstopdf)                    date: 2013-05-05 05:05:44
 (epstopdf)                    size: 9064 bytes
@@ -1176,7 +1176,7 @@ Package pdftex.def Info: Figures/Logo-eps-converted-to.pdf used on input line 3
 .
 (pdftex.def)             Requested size: 27.03722pt x 34.14322pt.
 
-(E:\Projects\master\AR_PPT_TEX\recon.toc
+(E:\Projects\master\master-paper\recon\recon.toc
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 2.
 ) [2
@@ -1208,7 +1208,7 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 
 ] [11
 
-] <Figures/triangulation.jpg, id=404, 442.65375pt x 431.36156pt>
+] <Figures/triangulation.jpg, id=410, 442.65375pt x 431.36156pt>
 File: Figures/triangulation.jpg Graphic file (type jpg)
 
 <use Figures/triangulation.jpg>
@@ -1216,8 +1216,8 @@ Package pdftex.def Info: Figures/triangulation.jpg used on input line 31.
 (pdftex.def)             Requested size: 153.64493pt x 149.72821pt.
  [12
 
- <E:/Projects/master/AR_PPT_TEX/Figures/triangulation.jpg>] <Figures/active.jpg
-, id=436, 578.16pt x 461.725pt>
+ <E:/Projects/master/master-paper/recon/Figures/triangulation.jpg>] <Figures/ac
+tive.jpg, id=442, 578.16pt x 461.725pt>
 File: Figures/active.jpg Graphic file (type jpg)
 
 <use Figures/active.jpg>
@@ -1229,8 +1229,8 @@ Overfull \vbox (4.81313pt too high) detected at line 38
 
 [13
 
- <E:/Projects/master/AR_PPT_TEX/Figures/active.jpg>]
-<Figures/passive.jpg, id=470, 578.16pt x 461.725pt>
+ <E:/Projects/master/master-paper/recon/Figures/active.jpg>]
+<Figures/passive.jpg, id=476, 578.16pt x 461.725pt>
 File: Figures/passive.jpg Graphic file (type jpg)
  <use Figures/passive.jpg>
 Package pdftex.def Info: Figures/passive.jpg used on input line 46.
@@ -1238,29 +1238,109 @@ Package pdftex.def Info: Figures/passive.jpg used on input line 46.
 
 [14
 
- <E:/Projects/master/AR_PPT_TEX/Figures/passive.jpg>] [15
+ <E:/Projects/master/master-paper/recon/Figures/passive.jpg>] [15
 
 ]
-<Figures/sfh.jpg, id=534, 726.46407pt x 447.17062pt>
-File: Figures/sfh.jpg Graphic file (type jpg)
- <use Figures/sfh.jpg>
-Package pdftex.def Info: Figures/sfh.jpg used on input line 61.
-(pdftex.def)             Requested size: 245.83282pt x 151.31955pt.
+Package epstopdf Info: Source file: <Figures/project_background.eps>
+(epstopdf)                    date: 2013-05-04 11:11:41
+(epstopdf)                    size: 342582 bytes
+(epstopdf)             Output file: <Figures/project_background-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2013-05-14 00:49:53
+(epstopdf)                    size: 7242 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/project_background-
+eps-converted-to.pdf Figures/project_background.eps>
+(epstopdf)             \includegraphics on input line 65.
+Package epstopdf Info: Output file is already uptodate.
 
-[16
+<Figures/project_background-eps-converted-to.pdf, id=541, 538.01pt x 109.40875p
+t>
+File: Figures/project_background-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/project_background-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/project_background-eps-converted-to.pdf used o
+n input line 65.
+(pdftex.def)             Requested size: 153.64493pt x 31.24524pt.
+ [16
 
- <E:/Projects/master/AR_PPT_TEX/Figures/sfh.jpg>])
-(E:\Projects\master\AR_PPT_TEX\Section/01Cali.tex)
-(E:\Projects\master\AR_PPT_TEX\Section/02Stripe.tex)
-(E:\Projects\master\AR_PPT_TEX\Section/03Gray.tex)
-(E:\Projects\master\AR_PPT_TEX\Section/04Con.tex)
+ <E:/Projects/master/master-paper/recon/Figures/project_background-eps-converte
+d-to.pdf>])
+(E:\Projects\master\master-paper\recon\Section/01Cali.tex
+Package epstopdf Info: Source file: <Figures/Logo.eps>
+(epstopdf)                    date: 2013-05-05 05:05:44
+(epstopdf)                    size: 9064 bytes
+(epstopdf)             Output file: <Figures/Logo-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-05 05:05:44
+(epstopdf)                    size: 21377 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/Logo-eps-converted-
+to.pdf Figures/Logo.eps>
+(epstopdf)             \includegraphics on input line 1.
+Package epstopdf Info: Output file is already uptodate.
+File: Figures/Logo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/Logo-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/Logo-eps-converted-to.pdf used on input line 1
+.
+(pdftex.def)             Requested size: 27.03722pt x 34.14322pt.
+
+(E:\Projects\master\master-paper\recon\recon.toc) [17
+
+] [18
+
+]
+Package epstopdf Info: Source file: <Figures/6.eps>
+(epstopdf)                    date: 2013-05-04 11:11:31
+(epstopdf)                    size: 2859883 bytes
+(epstopdf)             Output file: <Figures/6-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-14 00:58:13
+(epstopdf)                    size: 41528 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/6-eps-converted-to.
+pdf Figures/6.eps>
+(epstopdf)             \includegraphics on input line 13.
+Package epstopdf Info: Output file is already uptodate.
+
+<Figures/6-eps-converted-to.pdf, id=639, 907.39pt x 610.28pt>
+File: Figures/6-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/6-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/6-eps-converted-to.pdf used on input line 13.
+(pdftex.def)             Requested size: 153.64493pt x 103.33649pt.
+ [19
+
+ <E:/Projects/master/master-paper/recon/Figures/6-eps-converted-to.pdf>]
+Package epstopdf Info: Source file: <Figures/pro.eps>
+(epstopdf)                    date: 2013-05-04 11:11:41
+(epstopdf)                    size: 2156657 bytes
+(epstopdf)             Output file: <Figures/pro-eps-converted-to.pdf>
+(epstopdf)             Command: <epstopdf --outfile=Figures/pro-eps-converted-t
+o.pdf Figures/pro.eps>
+(epstopdf)             \includegraphics on input line 20.
+runsystem(epstopdf --outfile=Figures/pro-eps-converted-to.pdf Figures/pro.eps).
+..executed.
+
+Package epstopdf Info: Result file: <Figures/pro-eps-converted-to.pdf>
+(epstopdf)                    date: 2013-05-14 01:00:58
+(epstopdf)                    size: 29134 bytes.
+
+<Figures/pro-eps-converted-to.pdf, id=674, 606.265pt x 383.4325pt>
+File: Figures/pro-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/pro-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/pro-eps-converted-to.pdf used on input line 20
+.
+(pdftex.def)             Requested size: 153.64493pt x 97.17429pt.
+ [20
+
+ <E:/Projects/master/master-paper/recon/Figures/pro-eps-converted-to.pdf>])
+(E:\Projects\master\master-paper\recon\Section/02Stripe.tex)
+(E:\Projects\master\master-paper\recon\Section/03Gray.tex)
+(E:\Projects\master\master-paper\recon\Section/04Con.tex)
 \tf@nav=\write7
 \tf@toc=\write8
 \tf@snm=\write9
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
 
-(E:\Projects\master\AR_PPT_TEX\recon.aux)
+(E:\Projects\master\master-paper\recon\recon.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 
@@ -1270,17 +1350,17 @@ Package rerunfilecheck Warning: File `recon.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `recon.out':
-(rerunfilecheck)             Before: 1A28CBCBFCFE1F277F1451320D91CB52;256
-(rerunfilecheck)             After:  CF82A6284A70936DC37605923796BFE5;160.
+(rerunfilecheck)             Before: 8709123D6078556B2AF06DF0C4E3EA5E;388
+(rerunfilecheck)             After:  1682E79E323CF45191295A56FB8410A0;217.
  ) 
 Here is how much of TeX's memory you used:
- 20925 strings out of 495354
- 379135 string characters out of 3183860
- 478452 words of memory out of 3000000
- 23471 multiletter control sequences out of 15000+200000
- 43342 words of font info for 129 fonts, out of 3000000 for 9000
+ 21022 strings out of 495354
+ 381395 string characters out of 3183860
+ 478659 words of memory out of 3000000
+ 23554 multiletter control sequences out of 15000+200000
+ 48369 words of font info for 143 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 58i,15n,56p,433b,1005s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 58i,15n,56p,433b,1041s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/
 chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTe
 X/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun
@@ -1303,9 +1383,9 @@ tf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype
 eX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/CTEX/Mi
 KTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on recon.pdf (16 pages, 359396 bytes).
+Output written on recon.pdf (20 pages, 419035 bytes).
 PDF statistics:
- 679 PDF objects out of 1000 (max. 8388607)
- 36 named destinations out of 1000 (max. 500000)
- 92 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 827 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
