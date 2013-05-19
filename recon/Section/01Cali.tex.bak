@@ -5,15 +5,16 @@
   \item <1-> 摄像机与投影仪均会产生畸变
 \end{itemize}
 \end{frame}
+
 \begin{frame} \frametitle{摄像机定标}
-棋盘格
+棋盘格 : 棋盘格边长确定
    \begin{figure}
       \includegraphics[width=.5\textwidth]{6.eps}\\
    \end{figure}
 \end{frame}
 
 \begin{frame} \frametitle{投影仪定标}
-棋盘格
+棋盘格 ：投影图像中像素长度确定
    \begin{figure}
       \includegraphics[width=.5\textwidth]{pro.eps}\\
    \end{figure}

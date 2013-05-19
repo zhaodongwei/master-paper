@@ -1,38 +1,17 @@
 \section{基于格雷码光栅的3D重建}
-\subsection{特征投影} 
+\subsection{特征投影}
 \begin{frame} \frametitle{格雷码光栅}
 \begin{figure}[!ht]
-\centering
-  \subfloat[]{
   \includegraphics[width=0.3\textwidth]{gray_1.eps}
-  }
-  \subfloat[]{
   \includegraphics[width=0.3\textwidth]{gray_2.eps}
-  }
-  \subfloat[]{
   \includegraphics[width=0.3\textwidth]{gray_3.eps}
-  } \\
-  \subfloat[]{
-  \includegraphics[width=0.3\textwidth]{gray_4.eps}
-  }
-  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_4.eps}\\
   \includegraphics[width=0.3\textwidth]{gray_5.eps}
-  }
-  \subfloat[]{
   \includegraphics[width=0.3\textwidth]{gray_6.eps}
-  } \\
-    \subfloat[]{
   \includegraphics[width=0.3\textwidth]{gray_7.eps}
-  }
-  \subfloat[]{
-  \includegraphics[width=0.3\textwidth]{gray_8.eps}
-  }
-  \subfloat[]{
+  \includegraphics[width=0.3\textwidth]{gray_8.eps}\\
   \includegraphics[width=0.3\textwidth]{gray_9.eps}
-  }\\
-    \subfloat[]{
   \includegraphics[width=0.3\textwidth]{gray_10.eps}
-  }
-  \caption{投射了格雷码光栅的物体}\label{fig:gray_project}
 \end{figure}
-\end{frame} 
+最后3幅的亮区暗区交替频率 太高，无法处理
+\end{frame}

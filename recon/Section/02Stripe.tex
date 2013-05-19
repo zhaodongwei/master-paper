@@ -7,7 +7,7 @@
   \tikz \draw[->, very thick ,blue](2cm,0cm)--(2cm,0.5cm);\\
   \hspace{1cm}
   \includegraphics[width=0.17\textwidth]{h7531.jpg} \hspace{4.3cm}
-  \includegraphics[width=0.17\textwidth]{d200.png} \\ 
+  \includegraphics[width=0.17\textwidth]{d200.png} \\
     \hspace{3cm}\tikz \draw[<-, very thick ,blue](2.2cm,0cm)--(2cm,0.5cm); \hspace{4cm}
   \tikz \draw[->, very thick ,blue](2cm,0cm)--(2.2cm,0.5cm);\\
   \hspace{3.5cm}
@@ -25,10 +25,10 @@
 \begin{frame}\frametitle{挑战和难点}
 \begin{enumerate}
   \item<1,4> 物体表面也有颜色（如肤色）
-  
+
   怎么对颜色原来颜色准确判断？
   \item<2,4> 环境光的亮度引入干扰
-  
+
   怎么设计检测线条的算法，找得全，找得准？
   \item<3,4> 选什么位置代表线条位置？
 \end{enumerate}
@@ -39,7 +39,7 @@
 \begin{itemize}
 \item {颜色校正之前} \\
   \hspace{1cm}\visible<1-|handout:0>{\includegraphics[width=0.3\textwidth]{fig1a.eps} \hspace{1cm}
-\includegraphics[width=0.3\textwidth]{fig1c.eps}} 
+\includegraphics[width=0.3\textwidth]{fig1c.eps}}
 \item<2-> {颜色校正之后} \\
   \hspace{1cm}\visible<2->{\includegraphics[width=0.3\textwidth]{fig1b.eps} \hspace{1cm}
 \includegraphics[width=0.3\textwidth]{fig1d.eps}}
@@ -94,7 +94,7 @@ o^b\\
 计算步骤：
 \begin{enumerate}
   \item<1-> 保持~$R$~通道不变，计算~$G$~通道和~$B$~通道对~$R$~通道的反射率
-  \item<2-> 利用 Earther Mover's Distance，计算~$G$~通道灰度级~$i$~到~$R$~通道灰度~$j$~的流~$f_{ij}$~ 
+  \item<2-> 利用 Earther Mover's Distance，计算~$G$~通道灰度级~$i$~到~$R$~通道灰度~$j$~的流~$f_{ij}$~
   \item<3-> $G$~通道灰度级~$i$~的新灰度为：
   \begin{equation} \label{eq:ratio}
      new(i)=\frac{\sum_{j=1}^{255}{(f_{ij}j)}}{\sum_{j=1}^{255}{f_{ij}}}
@@ -188,8 +188,8 @@ M_i=\max(R_i,G_i,B_i)-\min(R_i,G_i,B_i)
 \subsection{其他问题}
 \begin{frame}\frametitle{其他的处理}
 \begin{itemize}
-  \item<1-> 颜色识别放在 HSV 空间进行 
-  
+  \item<1-> 颜色识别放在 HSV 空间进行
+
   好处是能够防止环境光对颜色识别的影响
   \item<2-> 线条的匹配使用动态规划
 

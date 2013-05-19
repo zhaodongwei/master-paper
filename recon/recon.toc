@@ -12,4 +12,7 @@
 \beamer@subsectionintoc {2}{6}{重建结果}{54}{0}{2}
 \beamer@sectionintoc {3}{基于格雷码光栅的3D重建}{55}{0}{3}
 \beamer@subsectionintoc {3}{1}{特征投影}{56}{0}{3}
-\beamer@sectionintoc {4}{摄像机-投影仪系统定标}{66}{0}{4}
+\beamer@subsectionintoc {3}{2}{特征提取}{65}{0}{3}
+\beamer@subsectionintoc {3}{3}{重建结果}{71}{0}{3}
+\beamer@sectionintoc {4}{摄像机-投影仪系统定标}{72}{0}{4}
+\beamer@sectionintoc {5}{结论}{76}{0}{5}
