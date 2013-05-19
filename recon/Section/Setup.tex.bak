@@ -14,8 +14,6 @@
 \usepackage{amssymb}
 \usepackage{setspace}%
 \usepackage{graphicx}
-\usepackage{float}
-\usepackage{epsfig}
 %\usepackage{algorithm}
 %\usepackage{algorithmic}
 \usepackage{amsthm, amssymb}
@@ -24,6 +22,7 @@
 \usepackage[boxed,linesnumbered]{algorithm2e}  % 算法的宏包，注意宏包兼容性，先后顺序为float、hyperref、algorithm(2e)，否则无法生成算法列表
 %\usepackage[font=Times,timeinterval=10, timeduration=2.0, timedeath=0, fillcolorwarningsecond=white!60!yellow, timewarningfirst=50,timewarningsecond=80]{tdclock}
 \usepackage{tikz}
+\usepackage{subfig}
 \usepackage{indentfirst} %设置首段首行缩进
 
 \mode<presentation> {

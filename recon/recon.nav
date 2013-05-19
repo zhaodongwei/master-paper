@@ -6,35 +6,95 @@
 \headcommand {\beamer@subsectionpages {1}{1}}
 \headcommand {\slideentry {1}{0}{2}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{技术挑战}}\headcommand {\beamer@subsectionpages {2}{2}}
-\headcommand {\slideentry {1}{1}{1}{3/7}{技术挑战}{0}}
-\headcommand {\beamer@framepages {3}{7}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{8}{方法分类}}\headcommand {\beamer@subsectionpages {3}{7}}
-\headcommand {\slideentry {1}{2}{1}{8/11}{方法分类}{0}}
-\headcommand {\beamer@framepages {8}{11}}
-\headcommand {\slideentry {1}{2}{2}{12/12}{方法分类}{0}}
-\headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {1}{2}{3}{13/13}{方法分类}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{概念与应用}}\headcommand {\beamer@subsectionpages {2}{2}}
+\headcommand {\slideentry {1}{1}{1}{3/3}{概念与应用}{0}}
+\headcommand {\beamer@framepages {3}{3}}
+\headcommand {\slideentry {1}{1}{2}{4/4}{概念与应用}{0}}
+\headcommand {\beamer@framepages {4}{4}}
+\headcommand {\slideentry {1}{1}{3}{5/5}{概念与应用}{0}}
+\headcommand {\beamer@framepages {5}{5}}
+\headcommand {\slideentry {1}{1}{4}{6/6}{概念与应用}{0}}
+\headcommand {\beamer@framepages {6}{6}}
+\headcommand {\slideentry {1}{1}{5}{7/7}{概念与应用}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\slideentry {1}{1}{6}{8/8}{概念与应用}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{9}{方法分类}}\headcommand {\beamer@subsectionpages {3}{8}}
+\headcommand {\slideentry {1}{2}{1}{9/12}{方法分类}{0}}
+\headcommand {\beamer@framepages {9}{12}}
+\headcommand {\slideentry {1}{2}{2}{13/13}{方法分类}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\slideentry {1}{2}{4}{14/14}{方法分类}{0}}
+\headcommand {\slideentry {1}{2}{3}{14/14}{方法分类}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {1}{2}{5}{15/15}{方法分类}{0}}
+\headcommand {\slideentry {1}{2}{4}{15/15}{方法分类}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {1}{2}{6}{16/16}{方法分类}{0}}
-\headcommand {\beamer@framepages {16}{16}}
-\headcommand {\sectionentry {2}{摄像机-投影仪系统定标}{17}{摄像机-投影仪系统定标}{0}}
-\headcommand {\beamer@sectionpages {2}{16}}
-\headcommand {\beamer@subsectionpages {8}{16}}
-\headcommand {\slideentry {2}{0}{7}{17/17}{}{0}}
-\headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {2}{0}{8}{18/18}{}{0}}
-\headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {2}{0}{9}{19/19}{}{0}}
-\headcommand {\beamer@framepages {19}{19}}
-\headcommand {\slideentry {2}{0}{10}{20/20}{}{0}}
-\headcommand {\beamer@framepages {20}{20}}
-\headcommand {\beamer@partpages {1}{20}}
-\headcommand {\beamer@subsectionpages {1}{20}}
-\headcommand {\beamer@sectionpages {1}{20}}
-\headcommand {\beamer@documentpages {20}}
-\headcommand {\def \inserttotalframenumber {13}}
+\headcommand {\beamer@subsectionentry {0}{1}{3}{16}{技术挑战}}\headcommand {\beamer@subsectionpages {9}{15}}
+\headcommand {\slideentry {1}{3}{1}{16/20}{技术挑战}{0}}
+\headcommand {\beamer@framepages {16}{20}}
+\headcommand {\slideentry {1}{3}{2}{21/22}{技术挑战}{0}}
+\headcommand {\beamer@framepages {21}{22}}
+\headcommand {\sectionentry {2}{结构光为颜色条纹}{23}{结构光为颜色条纹}{0}}
+\headcommand {\beamer@sectionpages {2}{22}}
+\headcommand {\beamer@subsectionpages {16}{22}}
+\headcommand {\slideentry {2}{0}{3}{23/23}{}{0}}
+\headcommand {\beamer@framepages {23}{23}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{24}{系统架构和流程}}\headcommand {\beamer@subsectionpages {23}{23}}
+\headcommand {\slideentry {2}{1}{1}{24/24}{系统架构和流程}{0}}
+\headcommand {\beamer@framepages {24}{24}}
+\headcommand {\slideentry {2}{1}{2}{25/28}{系统架构和流程}{0}}
+\headcommand {\beamer@framepages {25}{28}}
+\headcommand {\slideentry {2}{1}{3}{29/32}{系统架构和流程}{0}}
+\headcommand {\beamer@framepages {29}{32}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{33}{颜色校正}}\headcommand {\beamer@subsectionpages {24}{32}}
+\headcommand {\slideentry {2}{2}{1}{33/34}{颜色校正}{0}}
+\headcommand {\beamer@framepages {33}{34}}
+\headcommand {\slideentry {2}{2}{2}{35/40}{颜色校正}{0}}
+\headcommand {\beamer@framepages {35}{40}}
+\headcommand {\slideentry {2}{2}{3}{41/43}{颜色校正}{0}}
+\headcommand {\beamer@framepages {41}{43}}
+\headcommand {\beamer@subsectionentry {0}{2}{3}{44}{线条提取}}\headcommand {\beamer@subsectionpages {33}{43}}
+\headcommand {\slideentry {2}{3}{1}{44/44}{线条提取}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {2}{3}{2}{45/47}{线条提取}{0}}
+\headcommand {\beamer@framepages {45}{47}}
+\headcommand {\slideentry {2}{3}{3}{48/48}{线条提取}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\slideentry {2}{3}{4}{49/49}{线条提取}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\beamer@subsectionentry {0}{2}{4}{50}{峰值定位}}\headcommand {\beamer@subsectionpages {44}{49}}
+\headcommand {\slideentry {2}{4}{1}{50/50}{峰值定位}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\slideentry {2}{4}{2}{51/51}{峰值定位}{0}}
+\headcommand {\beamer@framepages {51}{51}}
+\headcommand {\beamer@subsectionentry {0}{2}{5}{52}{其他问题}}\headcommand {\beamer@subsectionpages {50}{51}}
+\headcommand {\slideentry {2}{5}{1}{52/53}{其他问题}{0}}
+\headcommand {\beamer@framepages {52}{53}}
+\headcommand {\beamer@subsectionentry {0}{2}{6}{54}{重建结果}}\headcommand {\beamer@subsectionpages {52}{53}}
+\headcommand {\slideentry {2}{6}{1}{54/54}{重建结果}{0}}
+\headcommand {\beamer@framepages {54}{54}}
+\headcommand {\sectionentry {3}{基于格雷码光栅的3D重建}{55}{基于格雷码光栅的3D重建}{0}}
+\headcommand {\beamer@sectionpages {23}{54}}
+\headcommand {\beamer@subsectionpages {54}{54}}
+\headcommand {\slideentry {3}{0}{2}{55/55}{}{0}}
+\headcommand {\beamer@framepages {55}{55}}
+\headcommand {\beamer@subsectionentry {0}{3}{1}{56}{特征投影}}\headcommand {\beamer@subsectionpages {55}{55}}
+\headcommand {\slideentry {3}{1}{1}{56/65}{特征投影}{0}}
+\headcommand {\beamer@framepages {56}{65}}
+\headcommand {\sectionentry {4}{摄像机-投影仪系统定标}{66}{摄像机-投影仪系统定标}{0}}
+\headcommand {\beamer@sectionpages {55}{65}}
+\headcommand {\beamer@subsectionpages {56}{65}}
+\headcommand {\slideentry {4}{0}{2}{66/66}{}{0}}
+\headcommand {\beamer@framepages {66}{66}}
+\headcommand {\slideentry {4}{0}{3}{67/67}{}{0}}
+\headcommand {\beamer@framepages {67}{67}}
+\headcommand {\slideentry {4}{0}{4}{68/68}{}{0}}
+\headcommand {\beamer@framepages {68}{68}}
+\headcommand {\slideentry {4}{0}{5}{69/69}{}{0}}
+\headcommand {\beamer@framepages {69}{69}}
+\headcommand {\slideentry {4}{0}{6}{70/70}{}{0}}
+\headcommand {\beamer@framepages {70}{70}}
+\headcommand {\beamer@partpages {1}{70}}
+\headcommand {\beamer@subsectionpages {1}{70}}
+\headcommand {\beamer@sectionpages {1}{70}}
+\headcommand {\beamer@documentpages {70}}
+\headcommand {\def \inserttotalframenumber {36}}

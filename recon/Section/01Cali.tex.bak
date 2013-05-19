@@ -1,3 +1,20 @@
 \section{摄像机-投影仪系统定标}
-\begin{frame} \frametitle{摄像机-投影仪系统定标}
+\begin{frame} \frametitle{为什么定标}
+\begin{itemize}
+  \item <1-> 计算摄像机坐标系与投影仪坐标系间的几何转换关系
+  \item <1-> 摄像机与投影仪均会产生畸变
+\end{itemize}
+\end{frame}
+\begin{frame} \frametitle{摄像机定标}
+棋盘格
+   \begin{figure}
+      \includegraphics[width=.5\textwidth]{6.eps}\\
+   \end{figure}
+\end{frame}
+
+\begin{frame} \frametitle{投影仪定标}
+棋盘格
+   \begin{figure}
+      \includegraphics[width=.5\textwidth]{pro.eps}\\
+   \end{figure}
 \end{frame}

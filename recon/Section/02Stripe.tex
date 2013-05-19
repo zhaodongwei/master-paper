@@ -1,34 +1,210 @@
-\section{颜色条纹结构光}
-\begin{frame}\frametitle{流程}
+\section{结构光为颜色条纹}
+\subsection{系统架构和流程}
+\begin{frame}\frametitle{系统组成}
+
+  \includegraphics[width=0.4\textwidth]{project_background.eps} \hspace{3cm} \text{后续的处理}\vspace{0.2cm}\\
+  \hspace{2cm}\tikz \draw[<-, very thick ,blue](2.2cm,0cm)--(2cm,0.5cm); \hspace{6cm}
+  \tikz \draw[->, very thick ,blue](2cm,0cm)--(2cm,0.5cm);\\
+  \hspace{1cm}
+  \includegraphics[width=0.17\textwidth]{h7531.jpg} \hspace{4.3cm}
+  \includegraphics[width=0.17\textwidth]{d200.png} \\ 
+    \hspace{3cm}\tikz \draw[<-, very thick ,blue](2.2cm,0cm)--(2cm,0.5cm); \hspace{4cm}
+  \tikz \draw[->, very thick ,blue](2cm,0cm)--(2.2cm,0.5cm);\\
+  \hspace{3.5cm}
+  \includegraphics[width=0.3\textwidth]{faceLight4.eps}
+\end{frame}
+
+\begin{frame}\frametitle{后续的处理}
 \begin{enumerate}
-  \item 投射颜色序列， 并在环境光下抓取图像
-  \item 摄像机及投影仪畸变校正
-  \item 颜色校正， 包括~crosstalk~校正和反射率校正
-  \item 分离线条并进行峰值定位
-  \item 颜色识别并找出识别出的特征与所投射特征的对应关系
-  \item 计算~3D~点云信息， 并进行后续处理
+  \item<1-> 检测线条
+  \item<2-> 确定线条的峰值位置
+  \item<3-> 确定线条的颜色
+  \item<4-> 线条匹配、计算3D坐标
+\end{enumerate}
+\end{frame}
+\begin{frame}\frametitle{挑战和难点}
+\begin{enumerate}
+  \item<1,4> 物体表面也有颜色（如肤色）
+  
+  怎么对颜色原来颜色准确判断？
+  \item<2,4> 环境光的亮度引入干扰
+  
+  怎么设计检测线条的算法，找得全，找得准？
+  \item<3,4> 选什么位置代表线条位置？
 \end{enumerate}
 \end{frame}
 
-\begin{frame}\frametitle{加照结构光}
-\includegraphics{faceLight4.eps}
+\subsection{颜色校正}
+\begin{frame}\frametitle{颜色畸变}
+\begin{itemize}
+\item {颜色校正之前} \\
+  \hspace{1cm}\visible<1-|handout:0>{\includegraphics[width=0.3\textwidth]{fig1a.eps} \hspace{1cm}
+\includegraphics[width=0.3\textwidth]{fig1c.eps}} 
+\item<2-> {颜色校正之后} \\
+  \hspace{1cm}\visible<2->{\includegraphics[width=0.3\textwidth]{fig1b.eps} \hspace{1cm}
+\includegraphics[width=0.3\textwidth]{fig1d.eps}}
+\end{itemize}
 \end{frame}
 
-\begin{frame}\frametitle{颜色校正}
-\includegraphics{faceLight4.eps}
-\end{frame}
-\begin{frame}\frametitle{颜色校正}
-\includegraphics{fig1a.eps}
-\includegraphics{fig1b.eps}
+\begin{frame}\frametitle{颜色畸变模型}
+\visible<6->{\tikz \draw[->, thick, blue](0,0) node[above]{\text{拍摄图像}} -- (0,-1);}
+\visible<5->{\tikz \draw[->, thick, blue](0,0) node[above]{\text{crosstalk矩阵}} -- (0,-1);} \hspace{0.5cm}
+\visible<4->{\tikz \draw[->, thick, blue](0,0) node[above]{\text{反射率矩阵}} -- (0,-1);}
+\visible<2->{\tikz \draw[->, thick, blue](0,0) node[above]{\text{投射图像}} -- (0,-1);}
+\visible<3->{\tikz \draw[->, thick, blue](0,0) node[above]{\text{环境光}} -- (0,-1);}
+\visible<1->{
+\begin{equation}
+\underbrace{\left[
+  \begin{array}{c}
+    c^{r} \\
+    c^{g} \\
+    c^{b} \\
+  \end{array}
+\right]}_{I_c} = \underbrace{\left[
+  \begin{array}{ccc}
+x_{rr} & x_{rg} & x_{rb} \\
+x_{gr} & x_{gg} & x_{gb} \\
+x_{br} & x_{bg} & x_{bb} \\
+  \end{array}
+\right]}_{X} \underbrace{\left[
+  \begin{array}{ccc}
+a^{r} & 0     & 0\\
+0     & a^{g} & 0\\
+0     & 0     & a^{b} \\
+  \end{array}
+\right]}_{A} ( \underbrace{\left[
+  \begin{array}{c}
+p^r\\
+p^g\\
+p^b \\
+  \end{array}
+\right]}_{I_p} + \underbrace{ \left[
+  \begin{array}{c}
+o^r\\
+o^g\\
+o^b\\
+  \end{array}
+\right]}_{O} ) \label{eq:color_model}
+\nonumber
+\end{equation}
+}
 \end{frame}
 
+\begin{frame}\frametitle{相对反射率校正}
+计算步骤：
+\begin{enumerate}
+  \item<1-> 保持~$R$~通道不变，计算~$G$~通道和~$B$~通道对~$R$~通道的反射率
+  \item<2-> 利用 Earther Mover's Distance，计算~$G$~通道灰度级~$i$~到~$R$~通道灰度~$j$~的流~$f_{ij}$~ 
+  \item<3-> $G$~通道灰度级~$i$~的新灰度为：
+  \begin{equation} \label{eq:ratio}
+     new(i)=\frac{\sum_{j=1}^{255}{(f_{ij}j)}}{\sum_{j=1}^{255}{f_{ij}}}
+     \nonumber
+  \end{equation}
+\end{enumerate}
+\end{frame}
+\subsection{线条提取}
 \begin{frame}\frametitle{线条检测}
-\begin{enumerate}
-  \item 投射颜色序列， 并在环境光下抓取图像
-  \item 摄像机及投影仪畸变校正
-  \item 颜色校正， 包括~crosstalk~校正和反射率校正
-  \item 分离线条并进行峰值定位
-  \item 颜色识别并找出识别出的特征与所投射特征的对应关系
-  \item 计算~3D~点云信息， 并进行后续处理
-\end{enumerate}
+\includegraphics[width=0.9\textwidth]{m.png}\\
+强线条和弱线条强度相差太大 \\
+阈值分割效果很差
+\end{frame}
+\begin{frame}\frametitle{离散趋势变换}
+思想： \\
+\begin{itemize}
+\item<1-> 不关心具体的数值，只关心数值变大或变小的趋势
+\item<2-> 设定窗口，定量趋势变化
+\end{itemize}
+\visible<3->{
+\begin{equation}\label{eq:LTM}
+T_{j}=\sum_{k=h+1}^{j+N}{\sum_{h=j}^{j+N-1}{sign(M_{k}-M_{h})}}
+\nonumber
+\end{equation}
+
+\renewcommand{\arraystretch}{1}
+\begin{equation}
+\label{eq:sign} sign(a)= \left\{
+\begin{array}{lc}
+1  & a > 0 \\
+0  & a = 0 \\
+-1 & a < 0
+\end{array}
+\right. \nonumber
+\end{equation}
+}
+
+\end{frame}
+
+\begin{frame}\frametitle{离散趋势变换~~continue}
+转换效果
+\begin{figure}[!ht]
+  % Requires \usepackage{graphicx}
+  \centering
+  \includegraphics[width=0.6\textwidth]{retrend2.eps}
+\end{figure}
+\end{frame}
+
+\begin{frame}\frametitle{线条识别效果}
+\begin{figure}[!ht]
+  \centering
+    \includegraphics[width=0.3\textwidth]{handLightLocal.eps} \\ \vspace{0.5cm}
+    \includegraphics[height=0.2\textwidth]{centerOLD.eps}\hspace{0.5cm}
+    \includegraphics[height=0.2\textwidth]{centerNEW.eps}
+\end{figure}
+\begin{center}阈值法和离散趋势变换提取的结果对比\end{center}
+\end{frame}
+
+\subsection{峰值定位}
+\begin{frame}\frametitle{亚像素峰值定位方法}
+定义~$M$~通道：
+\begin{equation}
+M_i=\max(R_i,G_i,B_i)-\min(R_i,G_i,B_i)
+\nonumber
+\end{equation}
+
+加权平均，但只取峰值附近的点：
+\begin{equation}
+\label{eq:Iestimated} I_{estimated}=
+\frac{\sum{i\cdot{}M_{i}}}{\sum{i}},\textrm{ for } M_i \ge
+\alpha{}M_{max}
+\nonumber
+\end{equation}
+\end{frame}
+
+\begin{frame}\frametitle{定位效果和其他方法的对比}
+\begin{figure}[!ht]
+  % Requires \usepackage{graphicx}
+  \centering
+  \includegraphics[width=0.24\textwidth]{IMG_SOURCE.eps} \\ \vspace{0.005\textwidth}
+  \includegraphics[width=0.18\textwidth]{MMWA.eps} \hspace{0.015\textwidth}
+  \includegraphics[width=0.18\textwidth]{PM.eps} \hspace{0.015\textwidth}
+  \includegraphics[width=0.18\textwidth]{MID.eps}\hspace{0.015\textwidth}
+  \includegraphics[width=0.18\textwidth]{MAX.eps}
+ % \end{center}
+\end{figure}
+下一：本文方法 \quad
+下二：概率法 \quad 下三：中点 \quad 下四：最大值点
+\end{frame}
+
+\subsection{其他问题}
+\begin{frame}\frametitle{其他的处理}
+\begin{itemize}
+  \item<1-> 颜色识别放在 HSV 空间进行 
+  
+  好处是能够防止环境光对颜色识别的影响
+  \item<2-> 线条的匹配使用动态规划
+
+  score函数为连续 3 根线条的联合匹配程度，鼓励连续匹配
+  \end{itemize}
+\end{frame}
+
+\subsection{重建结果}
+\begin{frame}\frametitle{重建效果}
+\begin{figure}[!ht]
+\includegraphics[width=0.24\textwidth]{handLight.eps}
+\includegraphics[width=0.24\textwidth]{hand.eps}\\
+\includegraphics[width=0.24\textwidth]{faceLight4.eps}
+\includegraphics[width=0.24\textwidth]{result_face_pc.eps}\\
+\includegraphics[width=0.24\textwidth]{HandPolyLight.eps}
+\includegraphics[width=0.24\textwidth]{handpoly.eps}
+\end{figure}
 \end{frame}
