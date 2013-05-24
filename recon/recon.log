@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.7.9)  19 MAY 2013 11:37
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.5.25)  25 MAY 2013 01:07
 entering extended mode
 **recon.tex
-(E:\Projects\master\master-paper\recon\recon.tex
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\recon.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for loaded.
-(E:\Projects\master\master-paper\recon\Section/Setup.tex
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\Section/Setup.tex
 (C:\CTEX\MiKTeX\tex\latex\float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count79
@@ -15,10 +15,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamer.cls
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbasercs.sty
-Package: beamerbasercs 2012/06/01 (rcs-revision 352157baec3a)
+Package: beamerbasercs 2013/01/04 (rcs-revision 9a97a4eee358)
 )
-Document Class: beamer 2011/09/12 development version 3.20 A class for typesett
-ing presentations (rcs-revision 70f9d8411e54)
+Document Class: beamer 2013/01/04 3.26 A class for typesetting presentations (r
+cs-revision e81e0c94bcc6)
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbasemodes.sty
 Package: beamerbasemodes 2012/04/15 (rcs-revision cc6557182d97)
 \beamer@tempbox=\box28
@@ -433,7 +433,7 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 ))
-Package hyperref Info: Option `CJKbookmarks' set `true' on input line 365.
+Package hyperref Info: Option `CJKbookmarks' set `true' on input line 367.
 
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbaserequires.sty
 Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
@@ -442,7 +442,7 @@ Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
 Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbasefont.sty
-Package: beamerbasefont 2012/05/10  (rcs-revision a0b4f9f91ee9)
+Package: beamerbasefont 2012/09/19  (rcs-revision 733629cd0c6c)
 
 (C:\CTEX\MiKTeX\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2009/06/22 v3.00
@@ -454,12 +454,6 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
-))
-(C:\CTEX\UserData\tex\latex\sansmathaccent\sansmathaccent.sty
-Package: sansmathaccent 2013/03/28
-
-(C:\CTEX\UserData\tex\latex\filehook\filehook.sty
-Package: filehook 2011/10/12 v0.5d Hooks for input files
 )))
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbasetranslator.sty
 Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
@@ -475,7 +469,7 @@ Package: beamerbasemisc 2012/02/24  (rcs-revision 2ff5461be705)
 Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbaseoverlay.sty
-Package: beamerbaseoverlay 2012/04/03  (rcs-revision 45744d9ae88b)
+Package: beamerbaseoverlay 2012/11/11  (rcs-revision 6afbc49b1109)
 \beamer@argscount=\count127
 \beamer@lastskipcover=\skip44
 \beamer@trivlistdepth=\count128
@@ -484,7 +478,7 @@ Package: beamerbaseoverlay 2012/04/03  (rcs-revision 45744d9ae88b)
 Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbasesection.sty
-Package: beamerbasesection 2012/05/30  (rcs-revision 22ff49def670)
+Package: beamerbasesection 2013/01/04  (rcs-revision 54309ceef997)
 \c@lecture=\count129
 \c@part=\count130
 \c@section=\count131
@@ -492,7 +486,7 @@ Package: beamerbasesection 2012/05/30  (rcs-revision 22ff49def670)
 \c@subsubsection=\count133
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbaseframe.sty
-Package: beamerbaseframe 2012/05/31  (rcs-revision 5fc3b3dbfeba)
+Package: beamerbaseframe 2012/12/26  (rcs-revision 1443917db2cf)
 \beamer@framebox=\box42
 \beamer@frametitlebox=\box43
 \beamer@zoombox=\box44
@@ -505,33 +499,34 @@ Package: beamerbaseframe 2012/05/31  (rcs-revision 5fc3b3dbfeba)
 \beamer@frametopskipautobreak=\skip47
 \beamer@framebottomskipautobreak=\skip48
 \beamer@envbody=\toks26
+\framewidth=\dimen165
 \c@framenumber=\count137
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbaseverbatim.sty
-Package: beamerbaseverbatim 2011/09/12  (rcs-revision 70f9d8411e54)
+Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
 \beamer@verbatimfileout=\write4
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbaseframesize.sty
 Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
 \beamer@splitbox=\box45
 \beamer@autobreakcount=\count138
-\beamer@autobreaklastheight=\dimen165
+\beamer@autobreaklastheight=\dimen166
 \beamer@frametitletoks=\toks27
 \beamer@framesubtitletoks=\toks28
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbaseframecomponents.sty
-Package: beamerbaseframecomponents 2012/03/07  (rcs-revision 9f094699ce15)
+Package: beamerbaseframecomponents 2012/09/13  (rcs-revision dcd846607320)
 \beamer@footins=\box46
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbasecolor.sty
 Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbasenotes.sty
-Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
+Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
 \beamer@frameboxcopy=\box47
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbasetoc.sty
-Package: beamerbasetoc 2012/02/28  (rcs-revision 138681b92320)
+Package: beamerbasetoc 2012/10/02  (rcs-revision 5ed0f4010e8a)
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbasetemplates.sty
 Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
@@ -547,15 +542,15 @@ Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
 \bmb@boxshadow=\box50
 \bmb@boxshadowball=\box51
 \bmb@boxshadowballlarge=\box52
-\bmb@temp=\dimen166
-\bmb@dima=\dimen167
-\bmb@dimb=\dimen168
-\bmb@prevheight=\dimen169
+\bmb@temp=\dimen167
+\bmb@dima=\dimen168
+\bmb@dimb=\dimen169
+\bmb@prevheight=\dimen170
 )
-\beamer@blockheadheight=\dimen170
+\beamer@blockheadheight=\dimen171
 ))
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbaselocalstructure.sty
-Package: beamerbaselocalstructure 2012/05/25  (rcs-revision 5ff5e8ed7c0e)
+Package: beamerbaselocalstructure 2012/11/13  (rcs-revision ddfba79dac19)
 
 (C:\CTEX\MiKTeX\tex\latex\tools\enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
@@ -568,7 +563,7 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbasenavigation.sty
 Package: beamerbasenavigation 2012/04/03  (rcs-revision 42a0f21a412d)
-\beamer@section@min@dim=\dimen171
+\beamer@section@min@dim=\dimen172
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\beamerbasetheorems.sty
 Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
@@ -584,11 +579,11 @@ Package: amstext 2000/06/29 v2.01
 (C:\CTEX\MiKTeX\tex\latex\ams\math\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks31
-\ex@=\dimen172
+\ex@=\dimen173
 ))
 (C:\CTEX\MiKTeX\tex\latex\ams\math\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen173
+\pmbraise@=\dimen174
 )
 (C:\CTEX\MiKTeX\tex\latex\ams\math\amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
@@ -605,7 +600,7 @@ LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box53
 \strutbox@=\box54
-\big@size=\dimen174
+\big@size=\dimen175
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \macc@depth=\count146
@@ -618,12 +613,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \column@=\count151
 \maxfields@=\count152
 \andhelp@=\toks33
-\eqnshift@=\dimen175
-\alignsep@=\dimen176
-\tagshift@=\dimen177
-\tagwidth@=\dimen178
-\totwidth@=\dimen179
-\lineht@=\dimen180
+\eqnshift@=\dimen176
+\alignsep@=\dimen177
+\tagshift@=\dimen178
+\tagwidth@=\dimen179
+\totwidth@=\dimen180
+\lineht@=\dimen181
 \@envbody=\toks34
 \multlinegap=\skip52
 \multlinetaggap=\skip53
@@ -652,21 +647,21 @@ Package: beamerbasethemes 2010/05/01  (rcs-revision efa082c6111d)
 Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
 (C:\CTEX\UserData\tex\latex\beamer\base\themes\font\beamerfontthemedefault.sty
-Package: beamerfontthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+Package: beamerfontthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\themes\color\beamercolorthemedefault.st
 y
-Package: beamercolorthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\themes\inner\beamerinnerthemedefault.st
 y
 Package: beamerinnerthemedefault 2012/05/01  (rcs-revision 67c48b3b652d)
-\beamer@dima=\dimen181
-\beamer@dimb=\dimen182
+\beamer@dima=\dimen182
+\beamer@dimb=\dimen183
 )
 (C:\CTEX\UserData\tex\latex\beamer\base\themes\outer\beamerouterthemedefault.st
 y
-Package: beamerouterthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 ))) (C:\CTEX\MiKTeX\tex\latex\cjk\CJK.sty
 Package: CJK 2008/12/29 4.8.2
 
@@ -700,9 +695,9 @@ Package: cite 2010/09/10  v 5.3
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip57
 \subfigcapskip=\skip58
-\subfigcaptopadj=\dimen183
+\subfigcaptopadj=\dimen184
 \subfigbottomskip=\skip59
-\subfigcapmargin=\dimen184
+\subfigcapmargin=\dimen185
 \subfiglabelskip=\skip60
 \c@subfigure=\count154
 \c@lofdepth=\count155
@@ -734,7 +729,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 ))
 (C:\CTEX\UserData\tex\latex\algorithm2e\algorithm2e.sty
-Package: algorithm2e 2008/00/00 v3.10 algorithms environments
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 \c@AlgoLine=\count158
 
 (C:\CTEX\MiKTeX\tex\latex\base\ifthen.sty
@@ -747,11 +742,11 @@ Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 Package: relsize 2003/07/04 ver 3.1
 )
 ********************************************************
-Package `algorithm2e' Release 4.01 -- december 14 2009 --
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
 - algorithm2e-announce@lirmm.fr mailing list for announcement about releases
 - algorithm2e-discussion@lirmm.fr mailing list for discussion about package
 subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
-- Author: Christophe Fiorio (fiorio@lirmm.fr)
+- Author: Christophe Fiorio (cfiorio@um2.fr)
 ********************************************************
 \skiptotal=\skip63
 \skiplinenumber=\skip64
@@ -761,43 +756,46 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \skiplength=\skip68
 \algomargin=\skip69
 \skipalgocfslide=\skip70
-\algowidth=\dimen185
-\inoutsize=\dimen186
-\inoutline=\dimen187
-\interspacetitleruled=\dimen188
-\interspacealgoruled=\dimen189
-\interspacetitleboxruled=\dimen190
+\algowidth=\dimen186
+\inoutsize=\dimen187
+\inoutindent=\dimen188
+\interspacetitleruled=\dimen189
+\interspacealgoruled=\dimen190
+\interspacetitleboxruled=\dimen191
 \algocf@inoutbox=\box56
 \algocf@inputbox=\box57
 \AlCapSkip=\skip71
 \AlCapHSkip=\skip72
+\algoskipindent=\skip73
 \algocf@nlbox=\box58
 \algocf@hangingbox=\box59
-\algocf@capbox=\box60
-\algoheightruledefault=\skip73
-\algoheightrule=\skip74
-\algotitleheightruledefault=\skip75
-\algotitleheightrule=\skip76
+\algocf@untilbox=\box60
+\algocf@skipuntil=\skip74
+\algocf@capbox=\box61
+\algoheightruledefault=\skip75
+\algoheightrule=\skip76
+\algotitleheightruledefault=\skip77
+\algotitleheightrule=\skip78
 \c@algocfline=\count159
 \c@algocfproc=\count160
 \c@algocf=\count161
-\algocf@algoframe=\box61
-\algocf@algobox=\box62
+\algocf@algoframe=\box62
+\algocf@algobox=\box63
 ) (C:\CTEX\UserData\tex\latex\pgf\frontendlayer\tikz.sty
 (C:\CTEX\UserData\tex\latex\pgf\basiclayer\pgf.sty
 Package: pgf 2008/01/15 v2.10 (rcs-revision 1.12)
 
 (C:\CTEX\UserData\tex\generic\pgf\modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2010/09/09  (rcs-revision 1.13)
-\pgfnodeparttextbox=\box63
+\pgfnodeparttextbox=\box64
 )
 (C:\CTEX\UserData\tex\generic\pgf\modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2010/10/22  (rcs-revision 1.8)
 )
 (C:\CTEX\UserData\tex\latex\pgf\compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v2.10 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen191
-\pgf@nodesepend=\dimen192
+\pgf@nodesepstart=\dimen192
+\pgf@nodesepend=\dimen193
 )
 (C:\CTEX\UserData\tex\latex\pgf\compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
@@ -807,8 +805,8 @@ Package: pgfcomp-version-1-18 2007/07/23 v2.10 (rcs-revision 1.1)
 (C:\CTEX\UserData\tex\generic\pgf\utilities\pgfkeys.code.tex))
 (C:\CTEX\UserData\tex\generic\pgf\utilities\pgffor.code.tex
 Package: pgffor 2010/03/23 v2.10 (rcs-revision 1.18)
-\pgffor@iter=\dimen193
-\pgffor@skip=\dimen194
+\pgffor@iter=\dimen194
+\pgffor@skip=\dimen195
 \pgffor@stack=\toks42
 \pgffor@toks=\toks43
 ))
@@ -818,16 +816,16 @@ Package: tikz 2010/10/13 v2.10 (rcs-revision 1.76)
 (C:\CTEX\UserData\tex\generic\pgf\libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2010/05/31 v2.10 (rcs-revision 1.15)
 \pgf@plot@mark@count=\count162
-\pgfplotmarksize=\dimen195
+\pgfplotmarksize=\dimen196
 )
-\tikz@lastx=\dimen196
-\tikz@lasty=\dimen197
-\tikz@lastxsaved=\dimen198
-\tikz@lastysaved=\dimen199
-\tikzleveldistance=\dimen200
-\tikzsiblingdistance=\dimen201
-\tikz@figbox=\box64
-\tikz@tempbox=\box65
+\tikz@lastx=\dimen197
+\tikz@lasty=\dimen198
+\tikz@lastxsaved=\dimen199
+\tikz@lastysaved=\dimen200
+\tikzleveldistance=\dimen201
+\tikzsiblingdistance=\dimen202
+\tikz@figbox=\box65
+\tikz@tempbox=\box66
 \tikztreelevel=\count163
 \tikznumberofchildren=\count164
 \tikznumberofcurrentchild=\count165
@@ -879,25 +877,25 @@ Package: beamerfontthemeserif 2010/06/17  (rcs-revision d02a7cf4d8ae)
 \c@prf=\count171
 
 (C:\CTEX\UserData\tex\latex\textpos\textpos.sty
-Package: textpos 2012/06/01 v1.7h
+Package: textpos 2012/11/13 v1.7i
 
-Package: textpos 2012/06/01 1.7h, absolute positioning of text on the page
-\TP@textbox=\box66
-\TP@holdbox=\box67
-\TPHorizModule=\dimen202
-\TPVertModule=\dimen203
-\TP@margin=\dimen204
-\TP@absmargin=\dimen205
+Package: textpos 2012/11/13 1.7i, absolute positioning of text on the page
+\TP@textbox=\box67
+\TP@holdbox=\box68
+\TPHorizModule=\dimen203
+\TPVertModule=\dimen204
+\TP@margin=\dimen205
+\TP@absmargin=\dimen206
 Grid set 16 x 16 = 22.7622pt x 17.07166pt
-\TPboxrulesize=\dimen206
-\TP@ox=\dimen207
-\TP@oy=\dimen208
+\TPboxrulesize=\dimen207
+\TP@ox=\dimen208
+\TP@oy=\dimen209
 \TP@tbargs=\toks44
-\TP@prevdepth=\dimen209
+\TP@prevdepth=\dimen210
 TextBlockOrigin set to 0pt x 0pt
 )
 \c@dfn=\count172
-) (E:\Projects\master\master-paper\recon\recon.aux)
+) (C:\Users\T_BACK\Documents\GitHub\master-paper\recon\recon.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
@@ -1018,18 +1016,18 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 (C:\CTEX\MiKTeX\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count173
-\scratchdimen=\dimen210
-\scratchbox=\box68
+\scratchdimen=\dimen211
+\scratchbox=\box69
 \nofMPsegments=\count174
 \nofMParguments=\count175
 \everyMPshowfont=\toks45
 \MPscratchCnt=\count176
-\MPscratchDim=\dimen211
+\MPscratchDim=\dimen212
 \MPnumerator=\count177
 \makeMPintoPDFobject=\count178
 \everyMPtoPDFconversion=\toks46
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box69
+\AtBeginShipoutBox=\box70
 Package hyperref Info: Link coloring OFF on input line 3.
 
 (C:\CTEX\MiKTeX\tex\latex\hyperref\nameref.sty
@@ -1044,8 +1042,8 @@ LaTeX Info: Redefining \ref on input line 3.
 LaTeX Info: Redefining \pageref on input line 3.
 LaTeX Info: Redefining \nameref on input line 3.
 
-(E:\Projects\master\master-paper\recon\recon.out)
-(E:\Projects\master\master-paper\recon\recon.out)
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\recon.out)
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\recon.out)
 \@outlinefile=\write6
 
 (C:\CTEX\UserData\tex\latex\beamer\base\translator\dicts\translator-basic-dicti
@@ -1074,7 +1072,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 LaTeX Info: Redefining \includegraphics on input line 3.
 
-(E:\Projects\master\master-paper\recon\recon.nav)
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\recon.nav)
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <6> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 3.
 
@@ -1092,16 +1090,16 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 18.
 
 Package epstopdf Info: Source file: <Figures/Logo.eps>
-(epstopdf)                    date: 2013-05-05 05:05:44
-(epstopdf)                    size: 9064 bytes
+(epstopdf)                    date: 2013-05-09 10:32:37
+(epstopdf)                    size: 9196 bytes
 (epstopdf)             Output file: <Figures/Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-05 05:05:44
+(epstopdf)                    date: 2013-05-09 10:32:37
 (epstopdf)                    size: 21377 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/Logo-eps-converted-
 to.pdf Figures/Logo.eps>
 (epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/Logo-eps-converted-to.pdf, id=78, 469.755pt x 593.21625pt>
+<Figures/Logo-eps-converted-to.pdf, id=82, 469.755pt x 593.21625pt>
 File: Figures/Logo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/Logo-eps-converted-to.pdf>
@@ -1114,10 +1112,10 @@ Overfull \hbox (95.35246pt too wide) in paragraph at lines 34--34
  []
 
 Package epstopdf Info: Source file: <Figures/Logo.eps>
-(epstopdf)                    date: 2013-05-05 05:05:44
-(epstopdf)                    size: 9064 bytes
+(epstopdf)                    date: 2013-05-09 10:32:37
+(epstopdf)                    size: 9196 bytes
 (epstopdf)             Output file: <Figures/Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-05 05:05:44
+(epstopdf)                    date: 2013-05-09 10:32:37
 (epstopdf)                    size: 21377 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/Logo-eps-converted-
 to.pdf Figures/Logo.eps>
@@ -1157,13 +1155,14 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <4> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 34.
  [1{C:/CTEX/UserData/pdftex/config/pdftex.map{Unicode.sfd}{UGBK.sfd}}
 
- <E:/Projects/master/master-paper/recon/Figures/Logo-eps-converted-to.pdf>]
-(E:\Projects\master\master-paper\recon\Section/00Intro.tex
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/Logo-eps-converte
+d-to.pdf>]
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\Section/00Intro.tex
 Package epstopdf Info: Source file: <Figures/Logo.eps>
-(epstopdf)                    date: 2013-05-05 05:05:44
-(epstopdf)                    size: 9064 bytes
+(epstopdf)                    date: 2013-05-09 10:32:37
+(epstopdf)                    size: 9196 bytes
 (epstopdf)             Output file: <Figures/Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-05 05:05:44
+(epstopdf)                    date: 2013-05-09 10:32:37
 (epstopdf)                    size: 21377 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/Logo-eps-converted-
 to.pdf Figures/Logo.eps>
@@ -1176,13 +1175,16 @@ Package pdftex.def Info: Figures/Logo-eps-converted-to.pdf used on input line 3
 .
 (pdftex.def)             Requested size: 27.03722pt x 34.14322pt.
 
-(E:\Projects\master\master-paper\recon\recon.toc
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\recon.toc
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 2.
-) [2
+)
+Overfull \vbox (3.85362pt too high) detected at line 3
+ []
 
-]
-<Figures/apply0.png, id=200, 464.4853pt x 268.75406pt>
+[2
+
+] <Figures/apply0.png, id=206, 464.4853pt x 268.75406pt>
 File: Figures/apply0.png Graphic file (type png)
 
 <use Figures/apply0.png>
@@ -1190,8 +1192,8 @@ Package pdftex.def Info: Figures/apply0.png used on input line 12.
 (pdftex.def)             Requested size: 153.64493pt x 88.90236pt.
  [3
 
- <E:/Projects/master/master-paper/recon/Figures/apply0.png>] <Figures/apply1.pn
-g, id=236, 465.99094pt x 270.25969pt>
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/apply0.png>] <Fig
+ures/apply1.png, id=242, 465.99094pt x 270.25969pt>
 File: Figures/apply1.png Graphic file (type png)
 
 <use Figures/apply1.png>
@@ -1199,8 +1201,8 @@ Package pdftex.def Info: Figures/apply1.png used on input line 19.
 (pdftex.def)             Requested size: 153.64493pt x 89.1076pt.
  [4
 
- <E:/Projects/master/master-paper/recon/Figures/apply1.png>] <Figures/apply2.pn
-g, id=269, 465.99094pt x 269.50688pt>
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/apply1.png>] <Fig
+ures/apply2.png, id=275, 465.99094pt x 269.50688pt>
 File: Figures/apply2.png Graphic file (type png)
 
 <use Figures/apply2.png>
@@ -1208,8 +1210,8 @@ Package pdftex.def Info: Figures/apply2.png used on input line 26.
 (pdftex.def)             Requested size: 153.64493pt x 88.8594pt.
  [5
 
- <E:/Projects/master/master-paper/recon/Figures/apply2.png>] <Figures/apply3.pn
-g, id=302, 465.99094pt x 269.50688pt>
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/apply2.png>] <Fig
+ures/apply3.png, id=308, 465.99094pt x 269.50688pt>
 File: Figures/apply3.png Graphic file (type png)
 
 <use Figures/apply3.png>
@@ -1217,8 +1219,8 @@ Package pdftex.def Info: Figures/apply3.png used on input line 33.
 (pdftex.def)             Requested size: 153.64493pt x 88.8594pt.
  [6
 
- <E:/Projects/master/master-paper/recon/Figures/apply3.png>] <Figures/apply4.pn
-g, id=335, 463.7325pt x 268.75406pt>
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/apply3.png>] <Fig
+ures/apply4.png, id=341, 463.7325pt x 268.75406pt>
 File: Figures/apply4.png Graphic file (type png)
 
 <use Figures/apply4.png>
@@ -1226,7 +1228,7 @@ Package pdftex.def Info: Figures/apply4.png used on input line 40.
 (pdftex.def)             Requested size: 153.64493pt x 89.04588pt.
  [7
 
- <E:/Projects/master/master-paper/recon/Figures/apply4.png>] [8
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/apply4.png>] [8
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+phv on input line 54.
@@ -1237,16 +1239,17 @@ LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 54.
  [9
 
-] [10
+]
+[10
 
 ] [11
 
 ] [12
 
-]
-<Figures/active.jpg, id=527, 578.16pt x 461.725pt>
+] <Figures/active.jpg, id=533, 578.16pt x 461.725pt>
 File: Figures/active.jpg Graphic file (type jpg)
- <use Figures/active.jpg>
+
+<use Figures/active.jpg>
 Package pdftex.def Info: Figures/active.jpg used on input line 61.
 (pdftex.def)             Requested size: 215.10196pt x 171.77965pt.
 
@@ -1255,8 +1258,8 @@ Overfull \vbox (4.81313pt too high) detected at line 61
 
 [13
 
- <E:/Projects/master/master-paper/recon/Figures/active.jpg>]
-<Figures/passive.jpg, id=561, 578.16pt x 461.725pt>
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/active.jpg>]
+<Figures/passive.jpg, id=567, 578.16pt x 461.725pt>
 File: Figures/passive.jpg Graphic file (type jpg)
  <use Figures/passive.jpg>
 Package pdftex.def Info: Figures/passive.jpg used on input line 69.
@@ -1264,12 +1267,12 @@ Package pdftex.def Info: Figures/passive.jpg used on input line 69.
 
 [14
 
- <E:/Projects/master/master-paper/recon/Figures/passive.jpg>] [15
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/passive.jpg>]
+[15
 
 ] [16
 
-]
-[17
+] [17
 
 ] [18
 
@@ -1279,54 +1282,73 @@ Package pdftex.def Info: Figures/passive.jpg used on input line 69.
 
 ]
 Package epstopdf Info: Source file: <Figures/project_background.eps>
-(epstopdf)                    date: 2013-05-04 11:11:41
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 342582 bytes
 (epstopdf)             Output file: <Figures/project_background-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2013-05-14 00:49:53
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 7242 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/project_background-
 eps-converted-to.pdf Figures/project_background.eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/project_background-eps-converted-to.pdf, id=779, 538.01pt x 109.40875p
+<Figures/project_background-eps-converted-to.pdf, id=785, 538.01pt x 109.40875p
 t>
 File: Figures/project_background-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/project_background-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/project_background-eps-converted-to.pdf used o
-n input line 120.
+n input line 121.
 (pdftex.def)             Requested size: 215.10196pt x 43.74268pt.
  [21
 
- <E:/Projects/master/master-paper/recon/Figures/project_background-eps-converte
-d-to.pdf>]
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/project_backgroun
+d-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/project_background.eps>
-(epstopdf)                    date: 2013-05-04 11:11:41
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 342582 bytes
 (epstopdf)             Output file: <Figures/project_background-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2013-05-14 00:49:53
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 7242 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/project_background-
 eps-converted-to.pdf Figures/project_background.eps>
-(epstopdf)             \includegraphics on input line 120.
+(epstopdf)             \includegraphics on input line 121.
+Package epstopdf Info: Output file is already uptodate.
+File: Figures/project_background-eps-converted-to.pdf Graphic file (type pdf)
+ <use Figures/project_background-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/project_background-eps-converted-to.pdf used o
+n input line 121.
+(pdftex.def)             Requested size: 215.10196pt x 43.74268pt.
+ [22
+
+]
+Package epstopdf Info: Source file: <Figures/project_background.eps>
+(epstopdf)                    date: 2013-05-24 03:46:36
+(epstopdf)                    size: 342582 bytes
+(epstopdf)             Output file: <Figures/project_background-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2013-05-24 03:46:36
+(epstopdf)                    size: 7242 bytes
+(epstopdf)             Command: <epstopdf --outfile=Figures/project_background-
+eps-converted-to.pdf Figures/project_background.eps>
+(epstopdf)             \includegraphics on input line 121.
 Package epstopdf Info: Output file is already uptodate.
 File: Figures/project_background-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/project_background-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/project_background-eps-converted-to.pdf used o
-n input line 120.
+n input line 121.
 (pdftex.def)             Requested size: 215.10196pt x 43.74268pt.
- [22
+ [23
 
 ])
-(E:\Projects\master\master-paper\recon\Section/02Stripe.tex
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\Section/02Stripe.tex
 Package epstopdf Info: Source file: <Figures/Logo.eps>
-(epstopdf)                    date: 2013-05-05 05:05:44
-(epstopdf)                    size: 9064 bytes
+(epstopdf)                    date: 2013-05-09 10:32:37
+(epstopdf)                    size: 9196 bytes
 (epstopdf)             Output file: <Figures/Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-05 05:05:44
+(epstopdf)                    date: 2013-05-09 10:32:37
 (epstopdf)                    size: 21377 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/Logo-eps-converted-
 to.pdf Figures/Logo.eps>
@@ -1339,66 +1361,68 @@ Package pdftex.def Info: Figures/Logo-eps-converted-to.pdf used on input line 1
 .
 (pdftex.def)             Requested size: 27.03722pt x 34.14322pt.
 
-(E:\Projects\master\master-paper\recon\recon.toc) [23
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\recon.toc)
+Overfull \vbox (3.85362pt too high) detected at line 1
+ []
+
+[24
 
 ]
 Package epstopdf Info: Source file: <Figures/project_background.eps>
-(epstopdf)                    date: 2013-05-04 11:11:41
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 342582 bytes
 (epstopdf)             Output file: <Figures/project_background-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2013-05-14 00:49:53
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 7242 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/project_background-
 eps-converted-to.pdf Figures/project_background.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 File: Figures/project_background-eps-converted-to.pdf Graphic file (type pdf)
-
-<use Figures/project_background-eps-converted-to.pdf>
+ <use Figures/project_background-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/project_background-eps-converted-to.pdf used o
 n input line 15.
 (pdftex.def)             Requested size: 122.91406pt x 24.99486pt.
 
-<Figures/h7531.jpg, id=892, 301.125pt x 215.80624pt>
+<Figures/h7531.jpg, id=931, 301.125pt x 215.80624pt>
 File: Figures/h7531.jpg Graphic file (type jpg)
  <use Figures/h7531.jpg>
 Package pdftex.def Info: Figures/h7531.jpg used on input line 15.
 (pdftex.def)             Requested size: 52.23871pt x 37.43736pt.
 
-<Figures/d200.png, id=893, 702.625pt x 597.23125pt>
+<Figures/d200.png, id=932, 702.625pt x 597.23125pt>
 File: Figures/d200.png Graphic file (type png)
  <use Figures/d200.png>
 Package pdftex.def Info: Figures/d200.png used on input line 15.
 (pdftex.def)             Requested size: 52.23871pt x 44.39854pt.
 Package epstopdf Info: Source file: <Figures/faceLight4.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 1469092 bytes
 (epstopdf)             Output file: <Figures/faceLight4-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-18 15:00:57
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 26500 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/faceLight4-eps-conv
 erted-to.pdf Figures/faceLight4.eps>
 (epstopdf)             \includegraphics on input line 15.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/faceLight4-eps-converted-to.pdf, id=894, 438.63875pt x 356.33125pt>
+<Figures/faceLight4-eps-converted-to.pdf, id=933, 438.63875pt x 356.33125pt>
 File: Figures/faceLight4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/faceLight4-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/faceLight4-eps-converted-to.pdf used on input 
 line 15.
 (pdftex.def)             Requested size: 92.1879pt x 74.88614pt.
- [24
-
- <E:/Projects/master/master-paper/recon/Figures/h7531.jpg> <E:/Projects/master/
-master-paper/recon/Figures/d200.png> <E:/Projects/master/master-paper/recon/Fig
-ures/faceLight4-eps-converted-to.pdf>]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 24.
  [25
 
-] [26
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/h7531.jpg> <C:/Us
+ers/T_BACK/Documents/GitHub/master-paper/recon/Figures/d200.png> <C:/Users/T_BA
+CK/Documents/GitHub/master-paper/recon/Figures/faceLight4-eps-converted-to.pdf>
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 24.
+ [26
 
 ] [27
 
@@ -1408,23 +1432,26 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <8> not available
 
 ] [30
 
-] [31
+]
+[31
 
 ] [32
 
+] [33
+
 ]
 Package epstopdf Info: Source file: <Figures/fig1a.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 6627 bytes
 (epstopdf)             Output file: <Figures/fig1a-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-18 15:00:59
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 6566 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/fig1a-eps-converted
 -to.pdf Figures/fig1a.eps>
 (epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/fig1a-eps-converted-to.pdf, id=1181, 557.08125pt x 418.56375pt>
+<Figures/fig1a-eps-converted-to.pdf, id=1220, 557.08125pt x 418.56375pt>
 File: Figures/fig1a-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/fig1a-eps-converted-to.pdf>
@@ -1432,17 +1459,17 @@ Package pdftex.def Info: Figures/fig1a-eps-converted-to.pdf used on input line
 47.
 (pdftex.def)             Requested size: 92.1879pt x 69.2644pt.
 Package epstopdf Info: Source file: <Figures/fig1c.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 10173 bytes
 (epstopdf)             Output file: <Figures/fig1c-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-18 23:08:02
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 3774 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/fig1c-eps-converted
 -to.pdf Figures/fig1c.eps>
 (epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/fig1c-eps-converted-to.pdf, id=1182, 216.81pt x 163.61125pt>
+<Figures/fig1c-eps-converted-to.pdf, id=1221, 216.81pt x 163.61125pt>
 File: Figures/fig1c-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/fig1c-eps-converted-to.pdf>
@@ -1450,17 +1477,17 @@ Package pdftex.def Info: Figures/fig1c-eps-converted-to.pdf used on input line
 47.
 (pdftex.def)             Requested size: 92.1879pt x 69.56755pt.
 Package epstopdf Info: Source file: <Figures/fig1b.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 8403 bytes
 (epstopdf)             Output file: <Figures/fig1b-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-18 15:01:00
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 7394 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/fig1b-eps-converted
 -to.pdf Figures/fig1b.eps>
 (epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/fig1b-eps-converted-to.pdf, id=1183, 557.08125pt x 418.56375pt>
+<Figures/fig1b-eps-converted-to.pdf, id=1222, 557.08125pt x 418.56375pt>
 File: Figures/fig1b-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/fig1b-eps-converted-to.pdf>
@@ -1468,34 +1495,35 @@ Package pdftex.def Info: Figures/fig1b-eps-converted-to.pdf used on input line
 47.
 (pdftex.def)             Requested size: 92.1879pt x 69.2644pt.
 Package epstopdf Info: Source file: <Figures/fig1d.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 10425 bytes
 (epstopdf)             Output file: <Figures/fig1d-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-18 23:08:03
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 3894 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/fig1d-eps-converted
 -to.pdf Figures/fig1d.eps>
 (epstopdf)             \includegraphics on input line 47.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/fig1d-eps-converted-to.pdf, id=1184, 216.81pt x 163.61125pt>
+<Figures/fig1d-eps-converted-to.pdf, id=1223, 216.81pt x 163.61125pt>
 File: Figures/fig1d-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/fig1d-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/fig1d-eps-converted-to.pdf used on input line 
 47.
 (pdftex.def)             Requested size: 92.1879pt x 69.56755pt.
- [33
+ [34
 
- <E:/Projects/master/master-paper/recon/Figures/fig1a-eps-converted-to.pdf> <E:
-/Projects/master/master-paper/recon/Figures/fig1c-eps-converted-to.pdf> <E:/Pro
-jects/master/master-paper/recon/Figures/fig1b-eps-converted-to.pdf> <E:/Project
-s/master/master-paper/recon/Figures/fig1d-eps-converted-to.pdf>]
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/fig1a-eps-convert
+ed-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/fig1c-e
+ps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figur
+es/fig1b-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/r
+econ/Figures/fig1d-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/fig1a.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 6627 bytes
 (epstopdf)             Output file: <Figures/fig1a-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-18 15:00:59
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 6566 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/fig1a-eps-converted
 -to.pdf Figures/fig1a.eps>
@@ -1507,10 +1535,10 @@ Package pdftex.def Info: Figures/fig1a-eps-converted-to.pdf used on input line
 47.
 (pdftex.def)             Requested size: 92.1879pt x 69.2644pt.
 Package epstopdf Info: Source file: <Figures/fig1c.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 10173 bytes
 (epstopdf)             Output file: <Figures/fig1c-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-18 23:08:02
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 3774 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/fig1c-eps-converted
 -to.pdf Figures/fig1c.eps>
@@ -1523,10 +1551,10 @@ Package pdftex.def Info: Figures/fig1c-eps-converted-to.pdf used on input line
 47.
 (pdftex.def)             Requested size: 92.1879pt x 69.56755pt.
 Package epstopdf Info: Source file: <Figures/fig1b.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 8403 bytes
 (epstopdf)             Output file: <Figures/fig1b-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-18 15:01:00
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 7394 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/fig1b-eps-converted
 -to.pdf Figures/fig1b.eps>
@@ -1539,10 +1567,10 @@ Package pdftex.def Info: Figures/fig1b-eps-converted-to.pdf used on input line
 47.
 (pdftex.def)             Requested size: 92.1879pt x 69.2644pt.
 Package epstopdf Info: Source file: <Figures/fig1d.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 10425 bytes
 (epstopdf)             Output file: <Figures/fig1d-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-18 23:08:03
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 3894 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/fig1d-eps-converted
 -to.pdf Figures/fig1d.eps>
@@ -1554,9 +1582,7 @@ File: Figures/fig1d-eps-converted-to.pdf Graphic file (type pdf)
 Package pdftex.def Info: Figures/fig1d-eps-converted-to.pdf used on input line 
 47.
 (pdftex.def)             Requested size: 92.1879pt x 69.56755pt.
- [34
-
-] [35
+ [35
 
 ] [36
 
@@ -1568,341 +1594,352 @@ Package pdftex.def Info: Figures/fig1d-eps-converted-to.pdf used on input line
 
 ] [40
 
-]
-[41
+] [41
 
-] [42
+]
+[42
 
 ] [43
 
-] <Figures/m.png, id=1549, 619.6768pt x 163.76074pt>
+] [44
+
+] [45
+
+] <Figures/m.png, id=1619, 619.6768pt x 163.76074pt>
 File: Figures/m.png Graphic file (type png)
 
 <use Figures/m.png>
-Package pdftex.def Info: Figures/m.png used on input line 110.
+Package pdftex.def Info: Figures/m.png used on input line 116.
 (pdftex.def)             Requested size: 276.559pt x 73.08693pt.
- [44
+ [46
 
- <E:/Projects/master/master-paper/recon/Figures/m.png>]
-[45
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/m.png>]
+File: Figures/m.png Graphic file (type png)
+ <use Figures/m.png>
+Package pdftex.def Info: Figures/m.png used on input line 116.
+(pdftex.def)             Requested size: 276.559pt x 73.08693pt.
+ [47
 
-] [46
+] [48
 
-] [47
+] [49
+
+] [50
 
 ]
 Package epstopdf Info: Source file: <Figures/retrend2.eps>
-(epstopdf)                    date: 2013-05-04 11:11:41
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 700079 bytes
 (epstopdf)             Output file: <Figures/retrend2-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 00:45:21
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 29647 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/retrend2-eps-conver
 ted-to.pdf Figures/retrend2.eps>
-(epstopdf)             \includegraphics on input line 144.
+(epstopdf)             \includegraphics on input line 150.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/retrend2-eps-converted-to.pdf, id=1679, 495.8525pt x 353.32pt>
+<Figures/retrend2-eps-converted-to.pdf, id=1781, 495.8525pt x 353.32pt>
 File: Figures/retrend2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/retrend2-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/retrend2-eps-converted-to.pdf used on input li
-ne 144.
+ne 150.
 (pdftex.def)             Requested size: 184.3758pt x 131.3787pt.
- [48
+ [51
 
- <E:/Projects/master/master-paper/recon/Figures/retrend2-eps-converted-to.pdf>]
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/retrend2-eps-conv
+erted-to.pdf>]
 Package epstopdf Info: Source file: <Figures/handLightLocal.eps>
-(epstopdf)                    date: 2013-05-04 11:11:40
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 36795 bytes
 (epstopdf)             Output file: <Figures/handLightLocal-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2013-05-19 01:07:45
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 9866 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/handLightLocal-eps-
 converted-to.pdf Figures/handLightLocal.eps>
-(epstopdf)             \includegraphics on input line 154.
+(epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/handLightLocal-eps-converted-to.pdf, id=1724, 574.145pt x 437.635pt>
+<Figures/handLightLocal-eps-converted-to.pdf, id=1826, 574.145pt x 437.635pt>
 File: Figures/handLightLocal-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/handLightLocal-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/handLightLocal-eps-converted-to.pdf used on in
-put line 154.
+put line 160.
 (pdftex.def)             Requested size: 92.1879pt x 70.26343pt.
 Package epstopdf Info: Source file: <Figures/centerOLD.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 15500 bytes
 (epstopdf)             Output file: <Figures/centerOLD-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 01:07:46
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 7846 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/centerOLD-eps-conve
 rted-to.pdf Figures/centerOLD.eps>
-(epstopdf)             \includegraphics on input line 154.
+(epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/centerOLD-eps-converted-to.pdf, id=1725, 574.145pt x 426.59375pt>
+<Figures/centerOLD-eps-converted-to.pdf, id=1827, 574.145pt x 426.59375pt>
 File: Figures/centerOLD-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/centerOLD-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/centerOLD-eps-converted-to.pdf used on input l
-ine 154.
+ine 160.
 (pdftex.def)             Requested size: 82.7101pt x 61.45703pt.
 Package epstopdf Info: Source file: <Figures/centerNEW.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 16372 bytes
 (epstopdf)             Output file: <Figures/centerNEW-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 01:07:47
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 8327 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/centerNEW-eps-conve
 rted-to.pdf Figures/centerNEW.eps>
-(epstopdf)             \includegraphics on input line 154.
+(epstopdf)             \includegraphics on input line 160.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/centerNEW-eps-converted-to.pdf, id=1726, 574.145pt x 440.64626pt>
+<Figures/centerNEW-eps-converted-to.pdf, id=1828, 574.145pt x 440.64626pt>
 File: Figures/centerNEW-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/centerNEW-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/centerNEW-eps-converted-to.pdf used on input l
-ine 154.
+ine 160.
 (pdftex.def)             Requested size: 80.07312pt x 61.45703pt.
- [49
+ [52
 
- <E:/Projects/master/master-paper/recon/Figures/handLightLocal-eps-converted-to
-.pdf> <E:/Projects/master/master-paper/recon/Figures/centerOLD-eps-converted-to
-.pdf> <E:/Projects/master/master-paper/recon/Figures/centerNEW-eps-converted-to
-.pdf>]
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 171.
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/handLightLocal-ep
+s-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figure
+s/centerOLD-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-pape
+r/recon/Figures/centerNEW-eps-converted-to.pdf>]
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 177.
 
-
-(C:\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+ (C:\CTEX\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) [50
+) [53
 
 ]
 Package epstopdf Info: Source file: <Figures/IMG_SOURCE.eps>
-(epstopdf)                    date: 2013-05-04 11:11:31
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 1430030 bytes
 (epstopdf)             Output file: <Figures/IMG_SOURCE-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 01:47:28
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 91683 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/IMG_SOURCE-eps-conv
 erted-to.pdf Figures/IMG_SOURCE.eps>
-(epstopdf)             \includegraphics on input line 186.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/IMG_SOURCE-eps-converted-to.pdf, id=1801, 435.6275pt x 326.21875pt>
+<Figures/IMG_SOURCE-eps-converted-to.pdf, id=1902, 435.6275pt x 326.21875pt>
 File: Figures/IMG_SOURCE-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/IMG_SOURCE-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/IMG_SOURCE-eps-converted-to.pdf used on input 
-line 186.
+line 194.
 (pdftex.def)             Requested size: 73.75125pt x 55.22748pt.
 Package epstopdf Info: Source file: <Figures/MMWA.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 95036 bytes
 (epstopdf)             Output file: <Figures/MMWA-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 01:47:29
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 4831 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/MMWA-eps-converted-
 to.pdf Figures/MMWA.eps>
-(epstopdf)             \includegraphics on input line 186.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/MMWA-eps-converted-to.pdf, id=1802, 90.3375pt x 135.50626pt>
+<Figures/MMWA-eps-converted-to.pdf, id=1903, 90.3375pt x 135.50626pt>
 File: Figures/MMWA-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/MMWA-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/MMWA-eps-converted-to.pdf used on input line 1
-86.
+94.
 (pdftex.def)             Requested size: 55.30992pt x 82.96469pt.
 Package epstopdf Info: Source file: <Figures/PM.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 96004 bytes
 (epstopdf)             Output file: <Figures/PM-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 01:47:30
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 5037 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/PM-eps-converted-to
 .pdf Figures/PM.eps>
-(epstopdf)             \includegraphics on input line 186.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/PM-eps-converted-to.pdf, id=1803, 89.33376pt x 136.51pt>
+<Figures/PM-eps-converted-to.pdf, id=1904, 89.33376pt x 136.51pt>
 File: Figures/PM-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/PM-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/PM-eps-converted-to.pdf used on input line 186
+Package pdftex.def Info: Figures/PM-eps-converted-to.pdf used on input line 194
 .
 (pdftex.def)             Requested size: 55.30992pt x 84.51866pt.
 Package epstopdf Info: Source file: <Figures/MID.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 94526 bytes
 (epstopdf)             Output file: <Figures/MID-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 01:47:31
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 4849 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/MID-eps-converted-t
 o.pdf Figures/MID.eps>
-(epstopdf)             \includegraphics on input line 186.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/MID-eps-converted-to.pdf, id=1804, 90.3375pt x 135.50626pt>
+<Figures/MID-eps-converted-to.pdf, id=1905, 90.3375pt x 135.50626pt>
 File: Figures/MID-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/MID-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/MID-eps-converted-to.pdf used on input line 18
-6.
+Package pdftex.def Info: Figures/MID-eps-converted-to.pdf used on input line 19
+4.
 (pdftex.def)             Requested size: 55.30992pt x 82.96469pt.
 Package epstopdf Info: Source file: <Figures/MAX.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 95896 bytes
 (epstopdf)             Output file: <Figures/MAX-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 01:47:32
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 5014 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/MAX-eps-converted-t
 o.pdf Figures/MAX.eps>
-(epstopdf)             \includegraphics on input line 186.
+(epstopdf)             \includegraphics on input line 194.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/MAX-eps-converted-to.pdf, id=1805, 89.33376pt x 135.50626pt>
+<Figures/MAX-eps-converted-to.pdf, id=1906, 89.33376pt x 135.50626pt>
 File: Figures/MAX-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/MAX-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/MAX-eps-converted-to.pdf used on input line 18
-6.
+Package pdftex.def Info: Figures/MAX-eps-converted-to.pdf used on input line 19
+4.
 (pdftex.def)             Requested size: 55.30992pt x 83.8972pt.
- [51
+ [54
 
- <E:/Projects/master/master-paper/recon/Figures/IMG_SOURCE-eps-converted-to.pdf
-> <E:/Projects/master/master-paper/recon/Figures/MMWA-eps-converted-to.pdf> <E:
-/Projects/master/master-paper/recon/Figures/PM-eps-converted-to.pdf> <E:/Projec
-ts/master/master-paper/recon/Figures/MID-eps-converted-to.pdf> <E:/Projects/mas
-ter/master-paper/recon/Figures/MAX-eps-converted-to.pdf>] [52
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/IMG_SOURCE-eps-co
+nverted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/MM
+WA-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/F
+igures/PM-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/
+recon/Figures/MID-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/maste
+r-paper/recon/Figures/MAX-eps-converted-to.pdf>] [55
 
-] [53
+] [56
 
 ]
 Package epstopdf Info: Source file: <Figures/handLight.eps>
-(epstopdf)                    date: 2013-05-04 11:11:40
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 23713 bytes
 (epstopdf)             Output file: <Figures/handLight-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:07:03
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 8274 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/handLight-eps-conve
 rted-to.pdf Figures/handLight.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/handLight-eps-converted-to.pdf, id=1920, 574.145pt x 386.44376pt>
+<Figures/handLight-eps-converted-to.pdf, id=2022, 574.145pt x 386.44376pt>
 File: Figures/handLight-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/handLight-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/handLight-eps-converted-to.pdf used on input l
-ine 210.
+ine 218.
 (pdftex.def)             Requested size: 73.75125pt x 49.63799pt.
 Package epstopdf Info: Source file: <Figures/hand.eps>
-(epstopdf)                    date: 2013-05-04 11:11:40
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 20012 bytes
 (epstopdf)             Output file: <Figures/hand-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:07:04
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 10286 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/hand-eps-converted-
 to.pdf Figures/hand.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/hand-eps-converted-to.pdf, id=1921, 574.145pt x 386.44376pt>
+<Figures/hand-eps-converted-to.pdf, id=2023, 574.145pt x 386.44376pt>
 File: Figures/hand-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/hand-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/hand-eps-converted-to.pdf used on input line 2
-10.
+18.
 (pdftex.def)             Requested size: 73.75125pt x 49.63799pt.
 Package epstopdf Info: Source file: <Figures/faceLight4.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 1469092 bytes
 (epstopdf)             Output file: <Figures/faceLight4-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-18 15:00:57
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 26500 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/faceLight4-eps-conv
 erted-to.pdf Figures/faceLight4.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 File: Figures/faceLight4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/faceLight4-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/faceLight4-eps-converted-to.pdf used on input 
-line 210.
+line 218.
 (pdftex.def)             Requested size: 73.75125pt x 59.91217pt.
 Package epstopdf Info: Source file: <Figures/result_face_pc.eps>
-(epstopdf)                    date: 2013-05-04 11:11:41
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 944351 bytes
 (epstopdf)             Output file: <Figures/result_face_pc-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2013-05-19 02:07:06
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 10974 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/result_face_pc-eps-
 converted-to.pdf Figures/result_face_pc.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/result_face_pc-eps-converted-to.pdf, id=1922, 350.30875pt x 285.065pt>
+<Figures/result_face_pc-eps-converted-to.pdf, id=2024, 350.30875pt x 285.065pt>
 File: Figures/result_face_pc-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/result_face_pc-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/result_face_pc-eps-converted-to.pdf used on in
-put line 210.
+put line 218.
 (pdftex.def)             Requested size: 73.75125pt x 60.0133pt.
 Package epstopdf Info: Source file: <Figures/HandPolyLight.eps>
-(epstopdf)                    date: 2013-05-04 11:11:40
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 40199 bytes
 (epstopdf)             Output file: <Figures/HandPolyLight-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2013-05-19 02:07:07
+(epstopdf)                    date: 2013-05-25 00:48:23
 (epstopdf)                    size: 11865 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/HandPolyLight-eps-c
 onverted-to.pdf Figures/HandPolyLight.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/HandPolyLight-eps-converted-to.pdf, id=1923, 574.145pt x 364.36125pt>
+<Figures/HandPolyLight-eps-converted-to.pdf, id=2025, 574.145pt x 364.36125pt>
 File: Figures/HandPolyLight-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/HandPolyLight-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/HandPolyLight-eps-converted-to.pdf used on inp
-ut line 210.
+ut line 218.
 (pdftex.def)             Requested size: 73.75125pt x 46.80153pt.
 Package epstopdf Info: Source file: <Figures/handpoly.eps>
-(epstopdf)                    date: 2013-05-04 11:11:40
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 22806 bytes
 (epstopdf)             Output file: <Figures/handpoly-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:07:08
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 11622 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/handpoly-eps-conver
 ted-to.pdf Figures/handpoly.eps>
-(epstopdf)             \includegraphics on input line 210.
+(epstopdf)             \includegraphics on input line 218.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/handpoly-eps-converted-to.pdf, id=1924, 574.145pt x 364.36125pt>
+<Figures/handpoly-eps-converted-to.pdf, id=2026, 574.145pt x 364.36125pt>
 File: Figures/handpoly-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/handpoly-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/handpoly-eps-converted-to.pdf used on input li
-ne 210.
+ne 218.
 (pdftex.def)             Requested size: 73.75125pt x 46.80153pt.
- [54
+ [57
 
- <E:/Projects/master/master-paper/recon/Figures/handLight-eps-converted-to.pdf>
- <E:/Projects/master/master-paper/recon/Figures/hand-eps-converted-to.pdf> <E:/
-Projects/master/master-paper/recon/Figures/result_face_pc-eps-converted-to.pdf>
- <E:/Projects/master/master-paper/recon/Figures/HandPolyLight-eps-converted-to.
-pdf> <E:/Projects/master/master-paper/recon/Figures/handpoly-eps-converted-to.p
-df>])
-(E:\Projects\master\master-paper\recon\Section/03Gray.tex
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/handLight-eps-con
+verted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/han
+d-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Fi
+gures/result_face_pc-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/ma
+ster-paper/recon/Figures/HandPolyLight-eps-converted-to.pdf> <C:/Users/T_BACK/D
+ocuments/GitHub/master-paper/recon/Figures/handpoly-eps-converted-to.pdf>])
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\Section/03Gray.tex
 Package epstopdf Info: Source file: <Figures/Logo.eps>
-(epstopdf)                    date: 2013-05-05 05:05:44
-(epstopdf)                    size: 9064 bytes
+(epstopdf)                    date: 2013-05-09 10:32:37
+(epstopdf)                    size: 9196 bytes
 (epstopdf)             Output file: <Figures/Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-05 05:05:44
+(epstopdf)                    date: 2013-05-09 10:32:37
 (epstopdf)                    size: 21377 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/Logo-eps-converted-
 to.pdf Figures/Logo.eps>
@@ -1915,21 +1952,24 @@ Package pdftex.def Info: Figures/Logo-eps-converted-to.pdf used on input line 1
 .
 (pdftex.def)             Requested size: 27.03722pt x 34.14322pt.
 
-(E:\Projects\master\master-paper\recon\recon.toc) [55
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\recon.toc)
+Overfull \vbox (3.85362pt too high) detected at line 1
+ []
+
+[58
 
 ]
 Package epstopdf Info: Source file: <Figures/gray_1.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 2546517 bytes
 (epstopdf)             Output file: <Figures/gray_1-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:19:37
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 17175 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_1-eps-converte
 d-to.pdf Figures/gray_1.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/gray_1-eps-converted-to.pdf, id=2018, 608.2725pt x 456.70625pt>
+ <Figures/gray_1-eps-converted-to.pdf, id=2120, 608.2725pt x 456.70625pt>
 File: Figures/gray_1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_1-eps-converted-to.pdf>
@@ -1937,17 +1977,17 @@ Package pdftex.def Info: Figures/gray_1-eps-converted-to.pdf used on input line
  17.
 (pdftex.def)             Requested size: 61.45703pt x 46.1402pt.
 Package epstopdf Info: Source file: <Figures/gray_2.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 2547699 bytes
 (epstopdf)             Output file: <Figures/gray_2-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:19:41
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 15913 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_2-eps-converte
 d-to.pdf Figures/gray_2.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_2-eps-converted-to.pdf, id=2019, 609.27625pt x 456.70625pt>
+<Figures/gray_2-eps-converted-to.pdf, id=2121, 609.27625pt x 456.70625pt>
 File: Figures/gray_2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_2-eps-converted-to.pdf>
@@ -1955,17 +1995,17 @@ Package pdftex.def Info: Figures/gray_2-eps-converted-to.pdf used on input line
  17.
 (pdftex.def)             Requested size: 61.45703pt x 46.06354pt.
 Package epstopdf Info: Source file: <Figures/gray_3.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 2550837 bytes
 (epstopdf)             Output file: <Figures/gray_3-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:19:46
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 18565 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_3-eps-converte
 d-to.pdf Figures/gray_3.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_3-eps-converted-to.pdf, id=2020, 608.2725pt x 456.70625pt>
+<Figures/gray_3-eps-converted-to.pdf, id=2122, 608.2725pt x 456.70625pt>
 File: Figures/gray_3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_3-eps-converted-to.pdf>
@@ -1973,17 +2013,17 @@ Package pdftex.def Info: Figures/gray_3-eps-converted-to.pdf used on input line
  17.
 (pdftex.def)             Requested size: 61.45703pt x 46.1402pt.
 Package epstopdf Info: Source file: <Figures/gray_4.eps>
-(epstopdf)                    date: 2013-05-04 11:11:33
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 2554769 bytes
 (epstopdf)             Output file: <Figures/gray_4-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:19:50
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 19932 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_4-eps-converte
 d-to.pdf Figures/gray_4.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_4-eps-converted-to.pdf, id=2021, 609.27625pt x 456.70625pt>
+<Figures/gray_4-eps-converted-to.pdf, id=2123, 609.27625pt x 456.70625pt>
 File: Figures/gray_4-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_4-eps-converted-to.pdf>
@@ -1991,17 +2031,17 @@ Package pdftex.def Info: Figures/gray_4-eps-converted-to.pdf used on input line
  17.
 (pdftex.def)             Requested size: 61.45703pt x 46.06354pt.
 Package epstopdf Info: Source file: <Figures/gray_5.eps>
-(epstopdf)                    date: 2013-05-04 11:11:33
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 2556645 bytes
 (epstopdf)             Output file: <Figures/gray_5-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:19:54
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 20940 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_5-eps-converte
 d-to.pdf Figures/gray_5.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_5-eps-converted-to.pdf, id=2022, 608.2725pt x 457.71pt>
+<Figures/gray_5-eps-converted-to.pdf, id=2124, 608.2725pt x 457.71pt>
 File: Figures/gray_5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_5-eps-converted-to.pdf>
@@ -2009,17 +2049,17 @@ Package pdftex.def Info: Figures/gray_5-eps-converted-to.pdf used on input line
  17.
 (pdftex.def)             Requested size: 61.45703pt x 46.24161pt.
 Package epstopdf Info: Source file: <Figures/gray_6.eps>
-(epstopdf)                    date: 2013-05-04 11:11:33
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 2552015 bytes
 (epstopdf)             Output file: <Figures/gray_6-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:19:59
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 23106 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_6-eps-converte
 d-to.pdf Figures/gray_6.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_6-eps-converted-to.pdf, id=2023, 609.27625pt x 456.70625pt>
+<Figures/gray_6-eps-converted-to.pdf, id=2125, 609.27625pt x 456.70625pt>
 File: Figures/gray_6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_6-eps-converted-to.pdf>
@@ -2027,17 +2067,17 @@ Package pdftex.def Info: Figures/gray_6-eps-converted-to.pdf used on input line
  17.
 (pdftex.def)             Requested size: 61.45703pt x 46.06354pt.
 Package epstopdf Info: Source file: <Figures/gray_7.eps>
-(epstopdf)                    date: 2013-05-04 11:11:33
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 2552247 bytes
 (epstopdf)             Output file: <Figures/gray_7-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:20:03
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 25024 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_7-eps-converte
 d-to.pdf Figures/gray_7.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_7-eps-converted-to.pdf, id=2024, 609.27625pt x 456.70625pt>
+<Figures/gray_7-eps-converted-to.pdf, id=2126, 609.27625pt x 456.70625pt>
 File: Figures/gray_7-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_7-eps-converted-to.pdf>
@@ -2045,17 +2085,17 @@ Package pdftex.def Info: Figures/gray_7-eps-converted-to.pdf used on input line
  17.
 (pdftex.def)             Requested size: 61.45703pt x 46.06354pt.
 Package epstopdf Info: Source file: <Figures/gray_8.eps>
-(epstopdf)                    date: 2013-05-04 11:11:33
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 2547477 bytes
 (epstopdf)             Output file: <Figures/gray_8-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:20:07
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 25057 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_8-eps-converte
 d-to.pdf Figures/gray_8.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_8-eps-converted-to.pdf, id=2025, 608.2725pt x 456.70625pt>
+<Figures/gray_8-eps-converted-to.pdf, id=2127, 608.2725pt x 456.70625pt>
 File: Figures/gray_8-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_8-eps-converted-to.pdf>
@@ -2063,17 +2103,17 @@ Package pdftex.def Info: Figures/gray_8-eps-converted-to.pdf used on input line
  17.
 (pdftex.def)             Requested size: 61.45703pt x 46.1402pt.
 Package epstopdf Info: Source file: <Figures/gray_9.eps>
-(epstopdf)                    date: 2013-05-04 11:11:33
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 2549211 bytes
 (epstopdf)             Output file: <Figures/gray_9-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:20:11
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 24716 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_9-eps-converte
 d-to.pdf Figures/gray_9.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_9-eps-converted-to.pdf, id=2026, 609.27625pt x 456.70625pt>
+<Figures/gray_9-eps-converted-to.pdf, id=2128, 609.27625pt x 456.70625pt>
 File: Figures/gray_9-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_9-eps-converted-to.pdf>
@@ -2081,41 +2121,37 @@ Package pdftex.def Info: Figures/gray_9-eps-converted-to.pdf used on input line
  17.
 (pdftex.def)             Requested size: 61.45703pt x 46.06354pt.
 Package epstopdf Info: Source file: <Figures/gray_10.eps>
-(epstopdf)                    date: 2013-05-04 11:11:32
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 2545406 bytes
 (epstopdf)             Output file: <Figures/gray_10-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 02:20:16
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 18524 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_10-eps-convert
 ed-to.pdf Figures/gray_10.eps>
 (epstopdf)             \includegraphics on input line 17.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_10-eps-converted-to.pdf, id=2027, 608.2725pt x 456.70625pt>
+<Figures/gray_10-eps-converted-to.pdf, id=2129, 608.2725pt x 456.70625pt>
 File: Figures/gray_10-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_10-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/gray_10-eps-converted-to.pdf used on input lin
 e 17.
 (pdftex.def)             Requested size: 61.45703pt x 46.1402pt.
- [56
+ [59
 
- <E:/Projects/master/master-paper/recon/Figures/gray_1-eps-converted-to.pdf> <E
-:/Projects/master/master-paper/recon/Figures/gray_2-eps-converted-to.pdf> <E:/P
-rojects/master/master-paper/recon/Figures/gray_3-eps-converted-to.pdf> <E:/Proj
-ects/master/master-paper/recon/Figures/gray_4-eps-converted-to.pdf> <E:/Project
-s/master/master-paper/recon/Figures/gray_5-eps-converted-to.pdf> <E:/Projects/m
-aster/master-paper/recon/Figures/gray_6-eps-converted-to.pdf> <E:/Projects/mast
-er/master-paper/recon/Figures/gray_7-eps-converted-to.pdf> <E:/Projects/master/
-master-paper/recon/Figures/gray_8-eps-converted-to.pdf> <E:/Projects/master/mas
-ter-paper/recon/Figures/gray_9-eps-converted-to.pdf> <E:/Projects/master/master
--paper/recon/Figures/gray_10-eps-converted-to.pdf>] [57
-
-] [58
-
-] [59
-
-] [60
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/gray_1-eps-conver
+ted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/gray_2
+-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Fig
+ures/gray_3-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-pape
+r/recon/Figures/gray_4-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/
+master-paper/recon/Figures/gray_5-eps-converted-to.pdf> <C:/Users/T_BACK/Docume
+nts/GitHub/master-paper/recon/Figures/gray_6-eps-converted-to.pdf> <C:/Users/T_
+BACK/Documents/GitHub/master-paper/recon/Figures/gray_7-eps-converted-to.pdf> <
+C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/gray_8-eps-converte
+d-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/gray_9-e
+ps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figur
+es/gray_10-eps-converted-to.pdf>] [60
 
 ] [61
 
@@ -2131,27 +2167,32 @@ ter-paper/recon/Figures/gray_9-eps-converted-to.pdf> <E:/Projects/master/master
 
 ] [67
 
-]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 95.
-
-[68
+] [68
 
 ] [69
 
+] [70
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 95.
+ [71
+
+] [72
+
 ]
 Package epstopdf Info: Source file: <Figures/edge2.eps>
-(epstopdf)                    date: 2013-05-05 01:22:46
-(epstopdf)                    size: 258771 bytes
+(epstopdf)                    date: 2013-05-24 03:46:35
+(epstopdf)                    size: 258787 bytes
 (epstopdf)             Output file: <Figures/edge2-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 10:59:34
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 12632 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/edge2-eps-converted
 -to.pdf Figures/edge2.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/edge2-eps-converted-to.pdf, id=2504, 181.67876pt x 122.4575pt>
+<Figures/edge2-eps-converted-to.pdf, id=2606, 181.67876pt x 122.4575pt>
 File: Figures/edge2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/edge2-eps-converted-to.pdf>
@@ -2159,17 +2200,17 @@ Package pdftex.def Info: Figures/edge2-eps-converted-to.pdf used on input line
 109.
 (pdftex.def)             Requested size: 76.82246pt x 51.7812pt.
 Package epstopdf Info: Source file: <Figures/edge.eps>
-(epstopdf)                    date: 2013-05-05 04:11:36
-(epstopdf)                    size: 260425 bytes
+(epstopdf)                    date: 2013-05-24 03:46:35
+(epstopdf)                    size: 260441 bytes
 (epstopdf)             Output file: <Figures/edge-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 10:59:35
+(epstopdf)                    date: 2013-05-25 00:48:26
 (epstopdf)                    size: 7468 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/edge-eps-converted-
 to.pdf Figures/edge.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/edge-eps-converted-to.pdf, id=2505, 182.6825pt x 121.45375pt>
+<Figures/edge-eps-converted-to.pdf, id=2607, 182.6825pt x 121.45375pt>
 File: Figures/edge-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/edge-eps-converted-to.pdf>
@@ -2177,17 +2218,17 @@ Package pdftex.def Info: Figures/edge-eps-converted-to.pdf used on input line 1
 09.
 (pdftex.def)             Requested size: 76.82246pt x 51.07323pt.
 Package epstopdf Info: Source file: <Figures/edge3.eps>
-(epstopdf)                    date: 2013-05-05 04:11:57
-(epstopdf)                    size: 262776 bytes
+(epstopdf)                    date: 2013-05-24 03:46:35
+(epstopdf)                    size: 262792 bytes
 (epstopdf)             Output file: <Figures/edge3-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 11:00:50
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 8184 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/edge3-eps-converted
 -to.pdf Figures/edge3.eps>
 (epstopdf)             \includegraphics on input line 109.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/edge3-eps-converted-to.pdf, id=2506, 182.6825pt x 121.45375pt>
+<Figures/edge3-eps-converted-to.pdf, id=2608, 182.6825pt x 121.45375pt>
 File: Figures/edge3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/edge3-eps-converted-to.pdf>
@@ -2196,34 +2237,35 @@ Package pdftex.def Info: Figures/edge3-eps-converted-to.pdf used on input line
 (pdftex.def)             Requested size: 76.82246pt x 51.07323pt.
 
 
-pdfTeX warning: pdflatex.exe (file E:/Projects/master/master-paper/recon/Figure
-s/fig.pdf): PDF inclusion: found PDF version <1.6>, but at most version <1.5> a
-llowed
-<Figures/fig.pdf, id=2507, 196.33752pt x 236.74648pt>
+pdfTeX warning: pdflatex.exe (file C:/Users/T_BACK/Documents/GitHub/master-pape
+r/recon/Figures/fig.pdf): PDF inclusion: found PDF version <1.6>, but at most v
+ersion <1.5> allowed
+<Figures/fig.pdf, id=2609, 196.33752pt x 236.74648pt>
 File: Figures/fig.pdf Graphic file (type pdf)
  <use Figures/fig.pdf>
 Package pdftex.def Info: Figures/fig.pdf used on input line 109.
 (pdftex.def)             Requested size: 138.2795pt x 166.74373pt.
 
-[70
+[73
 
- <E:/Projects/master/master-paper/recon/Figures/edge2-eps-converted-to.pdf> <E:
-/Projects/master/master-paper/recon/Figures/edge-eps-converted-to.pdf> <E:/Proj
-ects/master/master-paper/recon/Figures/edge3-eps-converted-to.pdf> <E:/Projects
-/master/master-paper/recon/Figures/fig.pdf>]
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/edge2-eps-convert
+ed-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/edge-ep
+s-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figure
+s/edge3-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/re
+con/Figures/fig.pdf>]
 Package epstopdf Info: Source file: <Figures/gray_project.eps>
-(epstopdf)                    date: 2013-05-04 11:11:40
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 2553242 bytes
 (epstopdf)             Output file: <Figures/gray_project-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2013-05-19 11:21:55
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 21557 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_project-eps-co
 nverted-to.pdf Figures/gray_project.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_project-eps-converted-to.pdf, id=2586, 607.26875pt x 457.71pt>
+<Figures/gray_project-eps-converted-to.pdf, id=2689, 607.26875pt x 457.71pt>
 File: Figures/gray_project-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_project-eps-converted-to.pdf>
@@ -2231,18 +2273,18 @@ Package pdftex.def Info: Figures/gray_project-eps-converted-to.pdf used on inpu
 t line 122.
 (pdftex.def)             Requested size: 61.45703pt x 46.31844pt.
 Package epstopdf Info: Source file: <Figures/gray_result3.eps>
-(epstopdf)                    date: 2013-05-04 11:11:40
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 1109352 bytes
 (epstopdf)             Output file: <Figures/gray_result3-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2013-05-19 11:21:57
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 28037 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_result3-eps-co
 nverted-to.pdf Figures/gray_result3.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_result3-eps-converted-to.pdf, id=2587, 401.5pt x 292.09125pt>
+<Figures/gray_result3-eps-converted-to.pdf, id=2690, 401.5pt x 292.09125pt>
 File: Figures/gray_result3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_result3-eps-converted-to.pdf>
@@ -2250,17 +2292,17 @@ Package pdftex.def Info: Figures/gray_result3-eps-converted-to.pdf used on inpu
 t line 122.
 (pdftex.def)             Requested size: 61.45703pt x 44.70763pt.
 Package epstopdf Info: Source file: <Figures/gray_white.eps>
-(epstopdf)                    date: 2013-05-04 11:11:40
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 2551543 bytes
 (epstopdf)             Output file: <Figures/gray_white-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 11:23:04
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 20540 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_white-eps-conv
 erted-to.pdf Figures/gray_white.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_white-eps-converted-to.pdf, id=2588, 609.27625pt x 456.70625pt>
+<Figures/gray_white-eps-converted-to.pdf, id=2691, 609.27625pt x 456.70625pt>
 File: Figures/gray_white-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_white-eps-converted-to.pdf>
@@ -2268,17 +2310,17 @@ Package pdftex.def Info: Figures/gray_white-eps-converted-to.pdf used on input
 line 122.
 (pdftex.def)             Requested size: 61.45703pt x 46.06354pt.
 Package epstopdf Info: Source file: <Figures/gray_result.eps>
-(epstopdf)                    date: 2013-05-04 11:11:40
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 1173875 bytes
 (epstopdf)             Output file: <Figures/gray_result-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-19 11:23:06
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 96908 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_result-eps-con
 verted-to.pdf Figures/gray_result.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_result-eps-converted-to.pdf, id=2589, 401.5pt x 309.155pt>
+<Figures/gray_result-eps-converted-to.pdf, id=2692, 401.5pt x 309.155pt>
 File: Figures/gray_result-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_result-eps-converted-to.pdf>
@@ -2286,57 +2328,58 @@ Package pdftex.def Info: Figures/gray_result-eps-converted-to.pdf used on input
  line 122.
 (pdftex.def)             Requested size: 61.45703pt x 47.31943pt.
 Package epstopdf Info: Source file: <Figures/gray_project4.eps>
-(epstopdf)                    date: 2013-05-04 11:11:40
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 2547436 bytes
 (epstopdf)             Output file: <Figures/gray_project4-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2013-05-19 11:24:28
+(epstopdf)                    date: 2013-05-24 03:46:35
 (epstopdf)                    size: 19850 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_project4-eps-c
 onverted-to.pdf Figures/gray_project4.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_project4-eps-converted-to.pdf, id=2590, 608.2725pt x 456.70625pt>
+<Figures/gray_project4-eps-converted-to.pdf, id=2693, 608.2725pt x 456.70625pt>
 File: Figures/gray_project4-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/gray_project4-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/gray_project4-eps-converted-to.pdf used on inp
 ut line 122.
 (pdftex.def)             Requested size: 61.45703pt x 46.1402pt.
 Package epstopdf Info: Source file: <Figures/gray_result5.eps>
-(epstopdf)                    date: 2013-05-04 11:11:40
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 1466425 bytes
 (epstopdf)             Output file: <Figures/gray_result5-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2013-05-19 11:24:31
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 94971 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/gray_result5-eps-co
 nverted-to.pdf Figures/gray_result5.eps>
 (epstopdf)             \includegraphics on input line 122.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/gray_result5-eps-converted-to.pdf, id=2591, 467.7475pt x 335.2525pt>
+<Figures/gray_result5-eps-converted-to.pdf, id=2694, 467.7475pt x 335.2525pt>
 File: Figures/gray_result5-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/gray_result5-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/gray_result5-eps-converted-to.pdf used on inpu
 t line 122.
 (pdftex.def)             Requested size: 61.45703pt x 44.04474pt.
- [71
+ [74
 
- <E:/Projects/master/master-paper/recon/Figures/gray_project-eps-converted-to.p
-df> <E:/Projects/master/master-paper/recon/Figures/gray_result3-eps-converted-t
-o.pdf> <E:/Projects/master/master-paper/recon/Figures/gray_white-eps-converted-
-to.pdf> <E:/Projects/master/master-paper/recon/Figures/gray_result-eps-converte
-d-to.pdf> <E:/Projects/master/master-paper/recon/Figures/gray_project4-eps-conv
-erted-to.pdf> <E:/Projects/master/master-paper/recon/Figures/gray_result5-eps-c
-onverted-to.pdf>])
-(E:\Projects\master\master-paper\recon\Section/01Cali.tex
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/gray_project-eps-
+converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/
+gray_result3-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/GitHub/master-pap
+er/recon/Figures/gray_white-eps-converted-to.pdf> <C:/Users/T_BACK/Documents/Gi
+tHub/master-paper/recon/Figures/gray_result-eps-converted-to.pdf> <C:/Users/T_B
+ACK/Documents/GitHub/master-paper/recon/Figures/gray_project4-eps-converted-to.
+pdf> <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/gray_result5-
+eps-converted-to.pdf>])
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\Section/01Cali.tex
 Package epstopdf Info: Source file: <Figures/Logo.eps>
-(epstopdf)                    date: 2013-05-05 05:05:44
-(epstopdf)                    size: 9064 bytes
+(epstopdf)                    date: 2013-05-09 10:32:37
+(epstopdf)                    size: 9196 bytes
 (epstopdf)             Output file: <Figures/Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-05 05:05:44
+(epstopdf)                    date: 2013-05-09 10:32:37
 (epstopdf)                    size: 21377 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/Logo-eps-converted-
 to.pdf Figures/Logo.eps>
@@ -2349,58 +2392,63 @@ Package pdftex.def Info: Figures/Logo-eps-converted-to.pdf used on input line 1
 .
 (pdftex.def)             Requested size: 27.03722pt x 34.14322pt.
 
-(E:\Projects\master\master-paper\recon\recon.toc) [72
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\recon.toc)
+Overfull \vbox (3.85362pt too high) detected at line 1
+ []
 
-] [73
+[75
+
+] [76
 
 ]
 Package epstopdf Info: Source file: <Figures/6.eps>
-(epstopdf)                    date: 2013-05-04 11:11:31
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 2859883 bytes
 (epstopdf)             Output file: <Figures/6-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-14 00:58:13
+(epstopdf)                    date: 2013-05-24 03:46:34
 (epstopdf)                    size: 41528 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/6-eps-converted-to.
 pdf Figures/6.eps>
 (epstopdf)             \includegraphics on input line 14.
 Package epstopdf Info: Output file is already uptodate.
-
-<Figures/6-eps-converted-to.pdf, id=2723, 907.39pt x 610.28pt>
+ <Figures/6-eps-converted-to.pdf, id=2826, 907.39pt x 610.28pt>
 File: Figures/6-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/6-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/6-eps-converted-to.pdf used on input line 14.
 (pdftex.def)             Requested size: 153.64493pt x 103.33649pt.
- [74
+ [77
 
- <E:/Projects/master/master-paper/recon/Figures/6-eps-converted-to.pdf>]
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/6-eps-converted-t
+o.pdf>]
 Package epstopdf Info: Source file: <Figures/pro.eps>
-(epstopdf)                    date: 2013-05-04 11:11:41
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 2156657 bytes
 (epstopdf)             Output file: <Figures/pro-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-14 01:00:58
+(epstopdf)                    date: 2013-05-24 03:46:36
 (epstopdf)                    size: 29134 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/pro-eps-converted-t
 o.pdf Figures/pro.eps>
 (epstopdf)             \includegraphics on input line 21.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/pro-eps-converted-to.pdf, id=2758, 606.265pt x 383.4325pt>
+<Figures/pro-eps-converted-to.pdf, id=2861, 606.265pt x 383.4325pt>
 File: Figures/pro-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/pro-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/pro-eps-converted-to.pdf used on input line 21
 .
 (pdftex.def)             Requested size: 153.64493pt x 97.17429pt.
- [75
+ [78
 
- <E:/Projects/master/master-paper/recon/Figures/pro-eps-converted-to.pdf>])
-(E:\Projects\master\master-paper\recon\Section/04Con.tex
+ <C:/Users/T_BACK/Documents/GitHub/master-paper/recon/Figures/pro-eps-converted
+-to.pdf>])
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\Section/04Con.tex
 Package epstopdf Info: Source file: <Figures/Logo.eps>
-(epstopdf)                    date: 2013-05-05 05:05:44
-(epstopdf)                    size: 9064 bytes
+(epstopdf)                    date: 2013-05-09 10:32:37
+(epstopdf)                    size: 9196 bytes
 (epstopdf)             Output file: <Figures/Logo-eps-converted-to.pdf>
-(epstopdf)                    date: 2013-05-05 05:05:44
+(epstopdf)                    date: 2013-05-09 10:32:37
 (epstopdf)                    size: 21377 bytes
 (epstopdf)             Command: <epstopdf --outfile=Figures/Logo-eps-converted-
 to.pdf Figures/Logo.eps>
@@ -2413,15 +2461,19 @@ Package pdftex.def Info: Figures/Logo-eps-converted-to.pdf used on input line 1
 .
 (pdftex.def)             Requested size: 27.03722pt x 34.14322pt.
 
-(E:\Projects\master\master-paper\recon\recon.toc) [76
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\recon.toc)
+Overfull \vbox (3.85362pt too high) detected at line 1
+ []
 
-] [77
-
-] [78
-
-] [79
+[79
 
 ] [80
+
+] [81
+
+] [82
+
+] [83
 
 ])
 \tf@nav=\write7
@@ -2430,7 +2482,7 @@ Package pdftex.def Info: Figures/Logo-eps-converted-to.pdf used on input line 1
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
 
-(E:\Projects\master\master-paper\recon\recon.aux)
+(C:\Users\T_BACK\Documents\GitHub\master-paper\recon\recon.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 
@@ -2440,20 +2492,20 @@ Package rerunfilecheck Warning: File `recon.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `recon.out':
-(rerunfilecheck)             Before: 5484C689147D3B960E9603A364EA122C;1585
-(rerunfilecheck)             After:  549FA0F846A66F597E9DCCBE289DBEF2;973.
+(rerunfilecheck)             Before: C1A0ABC556F259DEB2F496793CE38F75;1646
+(rerunfilecheck)             After:  E5C20C5E4DE5EE0A8AA481F0EE4148AE;973.
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 21935 strings out of 495354
- 400196 string characters out of 3183860
- 510490 words of memory out of 3000000
- 24269 multiletter control sequences out of 15000+200000
+ 22102 strings out of 495354
+ 403588 string characters out of 3183859
+ 518679 words of memory out of 3000000
+ 24438 multiletter control sequences out of 15000+200000
  61743 words of font info for 179 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 58i,15n,56p,433b,1455s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 51i,15n,53p,433b,1467s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/CTEX/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/CTEX/CTeX/fonts/truetype/
 chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTe
 X/fonts/truetype/chinese/simsun.ttf><C:/CTEX/CTeX/fonts/truetype/chinese/simsun
@@ -2484,9 +2536,9 @@ ts/type1/public/amsfonts/cm/cmsy10.pfb><C:/CTEX/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmsy8.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/CTEX/M
 iKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times
 /utmb8a.pfb><C:/CTEX/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on recon.pdf (80 pages, 4889925 bytes).
+Output written on recon.pdf (83 pages, 4904860 bytes).
 PDF statistics:
- 3133 PDF objects out of 3580 (max. 8388607)
- 183 named destinations out of 1000 (max. 500000)
- 436 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 3236 PDF objects out of 3580 (max. 8388607)
+ 189 named destinations out of 1000 (max. 500000)
+ 444 words of extra memory for PDF output out of 10000 (max. 10000000)
 

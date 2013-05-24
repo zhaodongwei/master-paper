@@ -88,6 +88,7 @@ o^b\\
 \nonumber
 \end{equation}
 }
+\visible<7->{crosstalk校正可以事先静态进行}
 \end{frame}
 
 \begin{frame}\frametitle{相对反射率校正}
@@ -200,11 +201,11 @@ M_i=\max(R_i,G_i,B_i)-\min(R_i,G_i,B_i)
 \subsection{重建结果}
 \begin{frame}\frametitle{重建效果}
 \begin{figure}[!ht]
-\includegraphics[width=0.24\textwidth]{handLight.eps} \hspace{0.5cm}
-\includegraphics[width=0.24\textwidth]{hand.eps}\\ \vspace{0.3cm}
-\includegraphics[width=0.24\textwidth]{faceLight4.eps} \hspace{0.5cm}
-\includegraphics[width=0.24\textwidth]{result_face_pc.eps}\\ \vspace{0.3cm}
-\includegraphics[width=0.24\textwidth]{HandPolyLight.eps} \hspace{0.5cm}
+\includegraphics[width=0.24\textwidth]{handLight.eps}
+\includegraphics[width=0.24\textwidth]{hand.eps}\\
+\includegraphics[width=0.24\textwidth]{faceLight4.eps}
+\includegraphics[width=0.24\textwidth]{result_face_pc.eps}\\
+\includegraphics[width=0.24\textwidth]{HandPolyLight.eps}
 \includegraphics[width=0.24\textwidth]{handpoly.eps}
 \end{figure}
 \end{frame}
