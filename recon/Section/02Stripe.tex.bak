@@ -94,7 +94,7 @@ o^b\\
 \begin{frame}\frametitle{相对反射率校正}
 计算步骤：
 \begin{enumerate}
-  \item<1-> 保持~$R$~通道不变，计算~$G$~通道和~$B$~通道对~$R$~通道的反射率
+  \item<1-> 计算~$G$~、~$B$~通道对~$R$~通道的相对反射率
   \item<2-> 利用 Earther Mover's Distance，计算~$G$~通道灰度级~$i$~到~$R$~通道灰度~$j$~的流~$f_{ij}$~
   \item<3-> $G$~通道灰度级~$i$~的新灰度为：
   \begin{equation} \label{eq:ratio}
@@ -105,9 +105,17 @@ o^b\\
 \end{frame}
 \subsection{线条提取}
 \begin{frame}\frametitle{线条检测}
-\includegraphics[width=0.9\textwidth]{m.png}\\
-强线条和弱线条强度相差太大 \\
-阈值分割效果很差
+$m$ 通道：
+\begin{figure}
+\centering
+\includegraphics[width=0.9\textwidth]{m.png}
+\end{figure}
+\begin{itemize}
+\item<1->
+强线条和弱线条强度相差太大
+\item<2->
+很难找到合适阈值用于分割
+\end{itemize}
 \end{frame}
 \begin{frame}\frametitle{离散趋势变换}
 思想： \\
@@ -182,8 +190,10 @@ M_i=\max(R_i,G_i,B_i)-\min(R_i,G_i,B_i)
   \includegraphics[width=0.18\textwidth]{MAX.eps}
  % \end{center}
 \end{figure}
-下一：本文方法 \quad
-下二：概率法 \quad 下三：中点 \quad 下四：最大值点
+\begin{center}
+本文方法 \quad \quad \quad
+概率法 \quad \quad \quad 中点 \quad \quad \quad 最大值点
+\end{center}
 \end{frame}
 
 \subsection{其他问题}

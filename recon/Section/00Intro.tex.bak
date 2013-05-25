@@ -46,7 +46,7 @@
 \subsection{方法分类}
 \begin{frame}   \frametitle{方法分类}
     \begin{itemize}
-      \item<1-> 主动方法：光源受特别控制，帮助获取3维信息
+      \item<1-> 主动方法：光源受特别控制，自主设计
       \item<2-> 被动方法：光源没有特别控制，只是影响图像质量
       \item<3-> 单观察点：只有一个视角
       \item<4-> 多观察点：多视角
@@ -116,7 +116,7 @@ Stereo
         \draw[fill=green,color=green] (6.025,0) rectangle (6.275,1);
       \end{tikzpicture}
       \end{figure}
-      \item<3-> 时间编码和空间编码
+      \item<3-> 空间编码和时间编码
     \end{itemize}
 \end{frame}
 

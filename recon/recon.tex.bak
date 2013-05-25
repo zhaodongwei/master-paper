@@ -19,7 +19,7 @@
 
 \institute[NERD]{南京大学 电子学院\\ 电路与系统}
 
-\date{\tiny 2013年5月20日}
+\date{\tiny 2013年5月27日}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{frame}
@@ -38,12 +38,12 @@
 
 \def\showsection{1}
 \input{Section/00Intro}
-\def\showsection{2}
-\input{Section/01Cali}
 \def\showsection{3}
 \input{Section/02Stripe}
 \def\showsection{4}
 \input{Section/03Gray}
+\def\showsection{2}
+\input{Section/01Cali}
 \def\showsection{5}
 \input{Section/04Con}
 

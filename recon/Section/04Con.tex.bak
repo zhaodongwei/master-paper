@@ -1,6 +1,9 @@
 \section{结论}
 \begin{frame} \frametitle{创新点}
 \begin{itemize}
-  \item<1-> 
+  \item<1-> EMC 用于相对反射率校正
+  \item<2-> 提出离散趋势变化，用于线条检测
+  \item<3-> 使用~$M$~通道，对线条进行亚像素定位
+  \item<4-> 格雷码光栅边缘定位方法
 \end{itemize}
 \end{frame}
