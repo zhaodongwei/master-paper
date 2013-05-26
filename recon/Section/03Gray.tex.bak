@@ -28,7 +28,7 @@
 \centering
 \begin{tikzpicture}
     \draw[fill=black] (0,0) rectangle (6,1);
-    \draw[fill=black!50!gray,color=black!50!gray] (2,0) rectangle (4,1);
+    \draw[fill=gray,color=blue!50!gray] (2,0) rectangle (4,1);
     \visible<3>{
     \draw[fill=green,color=green] (0.12,0) rectangle (0.24,1);
     \draw[fill=green,color=green] (2.12,0) rectangle (2.24,1);
@@ -95,7 +95,7 @@
 \centering
 \begin{tikzpicture}
     \draw[fill=black] (0,0) rectangle (6,1);
-    \draw[fill=black!50!gray,color=black!50!gray] (2,0) rectangle (4,1);
+    \draw[fill=gray,color=black!50!gray] (2,0) rectangle (4,1);
     \draw[fill=green,color=green] (2.12,0) rectangle (2.24,1);
     \draw[fill=green,color=green] (4.12,0) rectangle (4.24,1);
     \draw[fill=green,color=green] (1.82,0) rectangle (1.94,1);

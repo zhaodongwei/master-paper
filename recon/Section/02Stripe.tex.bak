@@ -124,7 +124,7 @@ o^b\\
 
 \subsection{线条提取}
 \begin{frame}\frametitle{线条检测}
-$m$ 通道：
+$M$~通道：
 \begin{figure}
 \centering
 \includegraphics[width=0.9\textwidth]{m.png}
@@ -186,7 +186,7 @@ $N$~是窗口宽度
     \includegraphics[height=0.2\textwidth]{centerOLD.eps}\hspace{0.5cm}
     \includegraphics[height=0.2\textwidth]{centerNEW.eps}
 \end{figure}
-\begin{center}阈值法 \quad \quad \quad 离散趋势变换\end{center}
+\begin{center}\quad 阈值法 \quad \quad \quad \quad \quad 离散趋势变换\end{center}
 \end{frame}
 
 \subsection{峰值定位}
