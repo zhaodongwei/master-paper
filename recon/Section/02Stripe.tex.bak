@@ -24,26 +24,32 @@
 \end{frame}
 \begin{frame}\frametitle{挑战和难点}
 \begin{enumerate}
-  \item<1,4> 物体表面也有颜色（如肤色）
+  \item<1,4-> 物体表面也有颜色（如肤色）
 
   怎么对颜色原来颜色准确判断？
-  \item<2,4> 环境光的亮度引入干扰
+  \item<2,4-> 环境光的亮度引入干扰
 
   怎么设计检测线条的算法，找得全，找得准？
-  \item<3,4> 选什么位置代表线条位置？
+  \item<3,4-> 选什么位置代表线条位置？
 \end{enumerate}
+\visible<4->{\color{blue}{创新点，解决以上问题}}
 \end{frame}
 
 \subsection{颜色校正}
 \begin{frame}\frametitle{颜色畸变}
-\begin{itemize}
-\item {颜色校正之前} \\
-  \hspace{1cm}\visible<1-|handout:0>{\includegraphics[width=0.3\textwidth]{fig1a.eps} \hspace{1cm}
-\includegraphics[width=0.3\textwidth]{fig1c.eps}}
-\item<2-> {颜色校正之后} \\
-  \hspace{1cm}\visible<2->{\includegraphics[width=0.3\textwidth]{fig1b.eps} \hspace{1cm}
-\includegraphics[width=0.3\textwidth]{fig1d.eps}}
-\end{itemize}
+\begin{columns}
+\column{0.7\textwidth}
+\centering
+\includegraphics[width=0.6\textwidth]{source.jpg}
+\vspace{0.2cm}
+\centering
+\includegraphics[width=0.6\textwidth]{IMG_CT.jpg}
+\column{0.3\textwidth}
+颜色校正之前 \\
+\vspace{3cm}
+颜色校正之后
+\end{columns}
+
 \end{frame}
 
 \begin{frame}\frametitle{颜色畸变模型}
@@ -95,7 +101,7 @@ o^b\\
 计算步骤：
 \begin{enumerate}
   \item<1-> 计算~$G$~、~$B$~通道对~$R$~通道的相对反射率
-  \item<2-> 利用 Earther Mover's Distance，计算~$G$~通道灰度级~$i$~到~$R$~通道灰度~$j$~的流~$f_{ij}$~
+  \item<2-> 利用 Earther Mover's Distance \\ 计算~$G$~$\rightarrow$~$R$~的流~$f_{}$~
   \item<3-> $G$~通道灰度级~$i$~的新灰度为：
   \begin{equation} \label{eq:ratio}
      new(i)=\frac{\sum_{j=1}^{255}{(f_{ij}j)}}{\sum_{j=1}^{255}{f_{ij}}}
@@ -103,6 +109,18 @@ o^b\\
   \end{equation}
 \end{enumerate}
 \end{frame}
+
+\begin{frame}\frametitle{颜色校正结果}
+\begin{itemize}
+\item {颜色校正之前} \\
+  \hspace{1cm}\visible<1-|handout:0>{\includegraphics[width=0.3\textwidth]{fig1a.eps} \hspace{1cm}
+\includegraphics[width=0.3\textwidth]{fig1c.eps}}
+\item<2-> {颜色校正之后} \\
+  \hspace{1cm}\visible<2->{\includegraphics[width=0.3\textwidth]{fig1b.eps} \hspace{1cm}
+\includegraphics[width=0.3\textwidth]{fig1d.eps}}
+\end{itemize}
+\end{frame}
+
 \subsection{线条提取}
 \begin{frame}\frametitle{线条检测}
 $m$ 通道：
@@ -120,8 +138,8 @@ $m$ 通道：
 \begin{frame}\frametitle{离散趋势变换}
 思想： \\
 \begin{itemize}
-\item<1-> 不关心具体的数值，只关心数值变大或变小的趋势
-\item<2-> 设定窗口，定量趋势变化
+\item<1-> 不关心具体的强度大小，只关心强度变化的趋势
+\item<2-> 设定窗口，将趋势变化定量化
 \end{itemize}
 \visible<3->{
 \begin{equation}\label{eq:LTM}
@@ -139,17 +157,25 @@ T_{j}=\sum_{k=h+1}^{j+N}{\sum_{h=j}^{j+N-1}{sign(M_{k}-M_{h})}}
 \end{array}
 \right. \nonumber
 \end{equation}
+$N$~是窗口宽度
 }
 
 \end{frame}
 
 \begin{frame}\frametitle{离散趋势变换~~continue}
-转换效果
 \begin{figure}[!ht]
   % Requires \usepackage{graphicx}
   \centering
   \includegraphics[width=0.6\textwidth]{retrend2.eps}
 \end{figure}
+\begin{itemize}
+  \item
+  上升沿~$\rightarrow$~MAX
+  \item
+  下降沿~$\rightarrow$~MIN
+  \item<2->
+  线条~$=$~{\color{blue}MAX-MIN}~的变化模式
+\end{itemize}
 \end{frame}
 
 \begin{frame}\frametitle{线条识别效果}
@@ -211,11 +237,11 @@ M_i=\max(R_i,G_i,B_i)-\min(R_i,G_i,B_i)
 \subsection{重建结果}
 \begin{frame}\frametitle{重建效果}
 \begin{figure}[!ht]
-\includegraphics[width=0.24\textwidth]{handLight.eps}
-\includegraphics[width=0.24\textwidth]{hand.eps}\\
-\includegraphics[width=0.24\textwidth]{faceLight4.eps}
-\includegraphics[width=0.24\textwidth]{result_face_pc.eps}\\
-\includegraphics[width=0.24\textwidth]{HandPolyLight.eps}
+\includegraphics[width=0.24\textwidth]{handLight.eps} \hspace{0.5cm}
+\includegraphics[width=0.24\textwidth]{hand.eps}\\ \vspace{0.3cm}
+\includegraphics[width=0.24\textwidth]{faceLight4.eps} \hspace{0.5cm}
+\includegraphics[width=0.24\textwidth]{result_face_pc.eps}\\ \vspace{0.3cm}
+\includegraphics[width=0.24\textwidth]{HandPolyLight.eps} \hspace{0.5cm}
 \includegraphics[width=0.24\textwidth]{handpoly.eps}
 \end{figure}
 \end{frame}
