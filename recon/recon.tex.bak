@@ -9,15 +9,15 @@
     \frametitle{3D重建}
         \AppendLogo
         \small
-        \tableofcontents
-        %\tableofcontents[currentsection,currentsubsection]
+        %\tableofcontents
+        \tableofcontents[currentsection,currentsubsection]
     \end{frame}
 }
 
-\title{基于结构光的3D重建}
-\author{赵东威}
+\title{基于结构光的3D重建系统}
+\author{答辩人：赵东威 \\ 导师：都思丹 教授}
 
-\institute[NERD]{南京大学 电子学院\\ 电路与系统}
+\institute[电路与系统]{南京大学 电子学院\\ 电路与系统}
 
 \date{\tiny 2013年5月27日}
 

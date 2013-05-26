@@ -28,7 +28,7 @@
 \centering
 \begin{tikzpicture}
     \draw[fill=black] (0,0) rectangle (6,1);
-    \draw[fill=black!70!gray,color=black!50!gray] (2,0) rectangle (4,1);
+    \draw[fill=black!50!gray,color=black!50!gray] (2,0) rectangle (4,1);
     \visible<3>{
     \draw[fill=green,color=green] (0.12,0) rectangle (0.24,1);
     \draw[fill=green,color=green] (2.12,0) rectangle (2.24,1);
@@ -78,7 +78,7 @@
   \begin{itemize}
     \item<1-> 特征提取相对颜色序列结构光简单，不含颜色
     \item<2-> 位移码峰值提取采用与前述相同算法
-    \item<3-> 格雷码光栅的边缘确定
+    \item<3-> 格雷码光栅的边缘确定 \quad {\color{red}$\leftarrow$~重点考虑}
   \end{itemize}
 \end{frame}
 
@@ -95,7 +95,7 @@
 \centering
 \begin{tikzpicture}
     \draw[fill=black] (0,0) rectangle (6,1);
-    \draw[fill=black!70!gray,color=black!50!gray] (2,0) rectangle (4,1);
+    \draw[fill=black!50!gray,color=black!50!gray] (2,0) rectangle (4,1);
     \draw[fill=green,color=green] (2.12,0) rectangle (2.24,1);
     \draw[fill=green,color=green] (4.12,0) rectangle (4.24,1);
     \draw[fill=green,color=green] (1.82,0) rectangle (1.94,1);

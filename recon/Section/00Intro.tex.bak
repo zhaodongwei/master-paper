@@ -6,8 +6,10 @@
 \begin{frame}   \frametitle{3D重建的应用}
 美国Smithsonian博物馆对藏品3D重建：\\
 \begin{figure}
-\centering
 \includegraphics[width=0.5\textwidth]{apply0.png}
+\includegraphics[width=0.4\textwidth]{anti.jpg}\\
+\includegraphics[width=0.3\textwidth]{space1.png}
+\includegraphics[width=0.3\textwidth]{space2.jpg}
 \end{figure}
 \end{frame}
 \begin{frame}   \frametitle{3D重建的应用}
@@ -46,10 +48,10 @@
 \subsection{方法分类}
 \begin{frame}   \frametitle{方法分类}
     \begin{itemize}
-      \item<1-> 主动方法：光源受特别控制，自主设计
-      \item<2-> 被动方法：光源没有特别控制，需要纹理
-      \item<3-> 单观察点：只有一个视角
-      \item<4-> 多观察点：多视角
+      \item<1> 主动方法：光源受特别控制，自主设计
+      \item<1> 被动方法：光源没有特别控制，需要纹理
+      \item<2> 单观察点：只有一个视角
+      \item<2> 多观察点：多视角
     \end{itemize}
 \end{frame}
 
@@ -87,6 +89,7 @@ Stereo
 \end{itemize}
 \end{frame}
 \end{comment}
+
 \begin{frame}\frametitle{本文方法}
     \begin{itemize}
       \item<1-> de bruijn序列编码的颜色线条

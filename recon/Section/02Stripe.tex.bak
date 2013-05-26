@@ -17,9 +17,9 @@
 \begin{frame}\frametitle{后续的处理}
 \begin{enumerate}
   \item<1-> 检测线条
-  \item<2-> 确定线条的峰值位置
-  \item<3-> 确定线条的颜色
-  \item<4-> 线条匹配、计算3D坐标
+  \item<1-> 确定线条的峰值位置
+  \item<1-> 确定线条的颜色
+  \item<1-> 线条匹配、计算3D坐标
 \end{enumerate}
 \end{frame}
 \begin{frame}\frametitle{挑战和难点}
@@ -54,8 +54,8 @@
 
 \begin{frame}\frametitle{颜色畸变模型}
 \visible<6->{\tikz \draw[->, thick, blue](0,0) node[above]{\text{拍摄图像}} -- (0,-1);}
-\visible<5->{\tikz \draw[->, thick, blue](0,0) node[above]{\text{crosstalk矩阵}} -- (0,-1);} \hspace{0.5cm}
-\visible<4->{\tikz \draw[->, thick, blue](0,0) node[above]{\text{反射率矩阵}} -- (0,-1);}
+\visible<5->{\tikz \draw[->, thick, blue](0,0) node[above]{\text{crosstalk矩阵}} -- (0,-1);} \hspace{0.9cm}
+\visible<4->{\tikz \draw[->, thick, blue](0,0) node[above]{\text{反射率}} -- (0,-1);} \hspace{0.2cm}
 \visible<2->{\tikz \draw[->, thick, blue](0,0) node[above]{\text{投射图像}} -- (0,-1);}
 \visible<3->{\tikz \draw[->, thick, blue](0,0) node[above]{\text{环境光}} -- (0,-1);}
 \visible<1->{
@@ -107,6 +107,7 @@ o^b\\
      new(i)=\frac{\sum_{j=1}^{255}{(f_{ij}j)}}{\sum_{j=1}^{255}{f_{ij}}}
      \nonumber
   \end{equation}
+  \item<4-> $i\rightarrow new(i)$
 \end{enumerate}
 \end{frame}
 
@@ -185,7 +186,7 @@ $N$~是窗口宽度
     \includegraphics[height=0.2\textwidth]{centerOLD.eps}\hspace{0.5cm}
     \includegraphics[height=0.2\textwidth]{centerNEW.eps}
 \end{figure}
-\begin{center}阈值法\quad \quad 离散趋势变换\end{center}
+\begin{center}阈值法 \quad \quad \quad 离散趋势变换\end{center}
 \end{frame}
 
 \subsection{峰值定位}
